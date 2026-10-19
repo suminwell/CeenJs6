@@ -19,6 +19,7 @@ desktop.ini
 .git/
 .gradle/
 .hprof/
+.vscode/
 
 !.run
 
