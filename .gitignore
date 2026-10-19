@@ -41,6 +41,7 @@ desktop.ini
 
 /local.properties
 /sign.properties
+/.signing/
 /*dependecies_tree.txt
 
 **/assets-app/declarations/
