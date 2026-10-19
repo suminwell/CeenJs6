@@ -60,7 +60,7 @@ jobs:
           path = Path('version.properties')
           lines = path.read_text().splitlines()
           props = dict(line.split('=', 1) for line in lines if '=' in line and not line.startswith('#'))
-          version = f"{props['VERSION_NAME']}-ceen.{os.environ['GITHUB_RUN_NUMBER']}"
+          version = f"{props['VERSION_NAME']}.{os.environ['GITHUB_RUN_NUMBER']}"
           values = {'VERSION_NAME': version, 'VERSION_BUILD': str(1000000 + int(os.environ['GITHUB_RUN_NUMBER']))}
           path.write_text('\n'.join(f'{key}={values[key]}' if (key := line.split('=', 1)[0]) in values else line for line in lines) + '\n')
           with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
