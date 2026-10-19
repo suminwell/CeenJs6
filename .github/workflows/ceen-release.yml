@@ -20,8 +20,18 @@ jobs:
     outputs:
       version: ${{ steps.version.outputs.version }}
       tag: ${{ steps.version.outputs.tag }}
+      upstream_version: ${{ steps.version.outputs.upstream_version }}
     steps:
       - uses: actions/checkout@v5
+
+      - name: Test CEEN version rules
+        run: python3 -m unittest discover -s .github/scripts -p 'test_*.py'
+
+      - name: Set CEEN build version
+        id: version
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/ceen_version.py
 
       - name: Set up JDK 21
         uses: actions/setup-java@v5
@@ -49,23 +59,6 @@ jobs:
           PY
           )
           sdkmanager "${packages[@]}"
-
-      - name: Set CEEN build version
-        id: version
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          import os
-          from pathlib import Path
-          path = Path('version.properties')
-          lines = path.read_text().splitlines()
-          props = dict(line.split('=', 1) for line in lines if '=' in line and not line.startswith('#'))
-          version = f"{props['VERSION_NAME']}.{os.environ['GITHUB_RUN_NUMBER']}"
-          values = {'VERSION_NAME': version, 'VERSION_BUILD': str(1000000 + int(os.environ['GITHUB_RUN_NUMBER']))}
-          path.write_text('\n'.join(f'{key}={values[key]}' if (key := line.split('=', 1)[0]) in values else line for line in lines) + '\n')
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
-              output.write(f'version={version}\ntag=ceen-v{version}\n')
-          PY
 
       - name: Restore CEEN release signing key
         env:
@@ -142,6 +135,7 @@ jobs:
           GH_REPO: ${{ github.repository }}
           RELEASE_TAG: ${{ needs.build.outputs.tag }}
           RELEASE_VERSION: ${{ needs.build.outputs.version }}
+          UPSTREAM_VERSION: ${{ needs.build.outputs.upstream_version }}
         shell: bash
         run: |
           set -euo pipefail
@@ -149,6 +143,8 @@ jobs:
           CEEN maintenance build from the ceen branch.
 
           - Version: ${RELEASE_VERSION}
+          - Upstream version: ${UPSTREAM_VERSION}
+          - Build number: ${GITHUB_RUN_NUMBER}
           - Commit: ${GITHUB_SHA}
           - Build: https://github.com/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}
           - APKs: arm64-v8a, armeabi-v7a, x86, x86_64, universal

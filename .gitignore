@@ -18,6 +18,7 @@ desktop.ini
 .bak/
 .git/
 .gradle/
+__pycache__/
 .hprof/
 .vscode/
 
