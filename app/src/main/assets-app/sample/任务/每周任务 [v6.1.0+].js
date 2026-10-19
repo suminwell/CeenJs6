@@ -8,7 +8,7 @@ tasks.addWeeklyTask({
         console.log(`运行时间: ${new Date(task.nextTime).toLocaleString()}`);
         console.log(`脚本路径: ${task.scriptPath}`);
         console.log(`周内日期: [ ${tasks.timeFlagToDays(task.timeFlag).join(', ')} ]`);
-        console.info('可在 AutoJs6 任务面板查看或管理任务');
+        console.info('可在 CeenJs6 任务面板查看或管理任务');
     },
 });
 

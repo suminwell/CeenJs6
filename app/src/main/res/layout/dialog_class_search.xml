@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
         android:layout_width="match_parent"
         android:hint="@string/text_class_or_package_name"
         android:layout_height="wrap_content"
@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
     <FrameLayout
         android:layout_width="match_parent"

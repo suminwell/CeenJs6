@@ -6,7 +6,7 @@ tasks.addIntentTask({
         console.log(`ID: ${task.id}`);
         console.log(`意图动作: ${task.action}`);
         console.log(`脚本路径: ${task.scriptPath}`);
-        console.info('可在 AutoJs6 任务面板查看或管理任务');
+        console.info('可在 CeenJs6 任务面板查看或管理任务');
     },
 });
 

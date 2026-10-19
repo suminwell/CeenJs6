@@ -11,7 +11,7 @@
         android:fitsSystemWindows="true"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbar
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
             android:id="@+id/toolbar"
             android:theme="@style/ToolBarStyle"
             android:layout_width="match_parent"

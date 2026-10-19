@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>控制台 (Console) | AutoJs6 文档 - 6.6.4</title>
+    <title>控制台 (Console) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="console" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -374,11 +374,11 @@
 
         <div id="apicontent">
             <h1>控制台 (Console)<span><a class="mark" href="#console_console" id="console_console">#</a></span></h1>
-<p>AutoJs6 的控制台类似 Web 浏览器的调试控制台, 用于信息输出或辅助代码调试.</p>
+<p>CeenJs6 的控制台类似 Web 浏览器的调试控制台, 用于信息输出或辅助代码调试.</p>
 <h2>显示控制台<span><a class="mark" href="#console" id="console">#</a></span></h2>
-<p>AutoJs6 支持以下几种方式显示控制台:</p>
+<p>CeenJs6 支持以下几种方式显示控制台:</p>
 <ul>
-<li>点击 AutoJs6 应用主页右上区域 &quot;日志&quot; 图标 - 显示控制台 Activity 活动页面.</li>
+<li>点击 CeenJs6 应用主页右上区域 &quot;日志&quot; 图标 - 显示控制台 Activity 活动页面.</li>
 <li>使用代码 <code>console.launch()</code> - 显示控制台 Activity 活动页面.</li>
 <li>使用代码 <code>console.show()</code> - 显示控制台 <code>浮动窗口 (Floating Window)</code>.</li>
 </ul>
@@ -593,7 +593,7 @@ setTimeout(console.reset, 2e3); /* 2 秒钟后重置. */
 <li><ins><strong>returns</strong></ins> { <span class="type"><a href="dataTypes.html#datatypes_void">void</a></span> }</li>
 </ul>
 <p>启动控制台 Activity 活动窗口.</p>
-<p>此方法相当于是 AutoJs6 首页右上区域点击 &quot;日志&quot; 图标的代码实现.</p>
+<p>此方法相当于是 CeenJs6 首页右上区域点击 &quot;日志&quot; 图标的代码实现.</p>
 <h2>[m] build<span><a class="mark" href="#console_m_build" id="console_m_build">#</a></span></h2>
 <h3>build(options)<span><a class="mark" href="#console_build_options" id="console_build_options">#</a></span></h3>
 <p><strong><code>6.3.0</code></strong></p>
@@ -1193,7 +1193,7 @@ console.setBackgroundAlpha(-1).show(); /* 同上. */
 </ul>
 <p>等效于 <a href="#console_m_log">console.log</a>.</p>
 <blockquote>
-<p>注: AutoJs6 的 <code>print</code> 方法在功能上更接近其他语言的 <code>printLn</code>, 而且在浏览器中, 全局方法 <code>print</code> 用于打印当前页面. 因此 <code>print</code> 全局方法被弃用, 不推荐使用.</p>
+<p>注: CeenJs6 的 <code>print</code> 方法在功能上更接近其他语言的 <code>printLn</code>, 而且在浏览器中, 全局方法 <code>print</code> 用于打印当前页面. 因此 <code>print</code> 全局方法被弃用, 不推荐使用.</p>
 </blockquote>
 <h2>[m] printAllStackTrace<span><a class="mark" href="#console_m_printallstacktrace" id="console_m_printallstacktrace">#</a></span></h2>
 <h3>printAllStackTrace(e)<span><a class="mark" href="#console_printallstacktrace_e" id="console_printallstacktrace_e">#</a></span></h3>

@@ -22,7 +22,7 @@
             android:padding="8dp"
             android:src="@drawable/ic_add_smaller_48dp" />
 
-        <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
@@ -34,11 +34,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+        </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
     </LinearLayout>
 
-    <org.autojs.autojs.theme.widget.ThemeColorCheckBox
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorCheckBox
         android:id="@+id/use_android_n_shortcut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

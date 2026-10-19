@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>控件节点 (UiObject) | AutoJs6 文档 - 6.6.4</title>
+    <title>控件节点 (UiObject) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="uiObjectType" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -712,7 +712,7 @@
 不同的布局方式形成了 <a href="glossaries.html#glossaries_控件层级">控件层级</a>.</p>
 <p>控件拥有特定的属性, 可分为两种类型, 状态型及行为型.<br>行为型属性可参阅章节 <a href="uiObjectActionsType.html">控件节点行为 (UiObjectActions)</a>.<br>状态型属性访问均被封装为方法调用的形式, 如访问控件的类名, 需使用 <code>w.className()</code> 而非 <code>w.className</code>.</p>
 <blockquote>
-<p>注: 在 AutoJs6 中, 由 <a href="uiObjectType.html">UiObject</a> 代表一个控件节点, 它继承自 <a href="https://developer.android.com/reference/androidx/core/view/accessibility/AccessibilityNodeInfoCompat">AccessibilityNodeInfoCompat</a>, 而并非一个 <a href="https://developer.android.com/reference/android/view/View">View</a>.</p>
+<p>注: 在 CeenJs6 中, 由 <a href="uiObjectType.html">UiObject</a> 代表一个控件节点, 它继承自 <a href="https://developer.android.com/reference/androidx/core/view/accessibility/AccessibilityNodeInfoCompat">AccessibilityNodeInfoCompat</a>, 而并非一个 <a href="https://developer.android.com/reference/android/view/View">View</a>.</p>
 </blockquote>
 <hr>
 <p style="font: bold 2em sans-serif; color: #FF7043">UiObject</p>
@@ -1377,7 +1377,7 @@ w.clickBounds(0.2, -0.05); /* X 与 Y 坐标偏移量为 20% 屏幕宽度和 -5%
 <p>返回节点的 ID 资源全称 (Fully-Qualified ID Resource Name).</p>
 <p>若 ID 不存在, 返回 null.</p>
 <p>安卓资源全称格式为 <code>package:type/entry</code>, 即 <code>包名:类型/资源项</code>.<br>ID 资源全称的 <code>类型</code> 为 <code>id</code>.<br>一个有效的 ID 资源全称: <code>com.test:id/some_entry</code>.</p>
-<pre><code class="lang-js">console.log(idMatch(/.+/).findOnce().id()); // e.g. org.autojs.autojs6:id/action_bar_root
+<pre><code class="lang-js">console.log(idMatch(/.+/).findOnce().id()); // e.g. org.ceenjs.ceenjs6:id/action_bar_root
 console.log(idMatch(/.+/).findOnce().fullId()); /* 同上. */
 console.log(idMatch(/.+/).findOnce().getViewIdResourceName()); /* 同上. */
 </code></pre>
@@ -1411,7 +1411,7 @@ let peculiarId = &quot;hello_world&quot;; /* 仅含资源项, 无包名及类型
 <p>返回节点的 ID 资源项名称 (ID Resource Entry Name).</p>
 <p>安卓资源全称格式为 <code>package:type/entry</code>, 即 <code>包名:类型/资源项</code>.<br>例如对于 ID 资源全称 <code>com.test:id/some_entry</code>, 其 ID 资源项名称为 <code>some_entry</code>.</p>
 <pre><code class="lang-js">/* ID 资源全称. */
-console.log(idMatch(/.+/).findOnce().id()); // e.g. org.autojs.autojs6:id/action_bar_root
+console.log(idMatch(/.+/).findOnce().id()); // e.g. org.ceenjs.ceenjs6:id/action_bar_root
 
 /* ID 资源项名称. */
 console.log(idMatch(/.+/).findOnce().idEntry()); // action_bar_root
@@ -1523,7 +1523,7 @@ console.log(idMatch(/.+/).findOnce().simpleId()); /* 同上. */
 </ul>
 <p>返回控件的包名.</p>
 <p>若如包名, 返回 null.</p>
-<pre><code class="lang-js">console.log(packageNameMatch(/.+/).findOnce().packageName()); /* e.g. org.autojs.autojs6 */
+<pre><code class="lang-js">console.log(packageNameMatch(/.+/).findOnce().packageName()); /* e.g. org.ceenjs.ceenjs6 */
 </code></pre>
 <p>别名属性或方法:</p>
 <ul>

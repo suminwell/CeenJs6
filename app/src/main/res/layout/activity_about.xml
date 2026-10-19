@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             app:theme="@style/AppTheme.AppBarOverlay">
 
-            <org.autojs.autojs.theme.widget.ThemeColorToolbar
+            <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -82,7 +82,7 @@
                             android:layout_width="91dp"
                             android:layout_height="91dp"
                             android:layout_margin="10dp"
-                            android:src="@drawable/autojs6_material"
+                            android:src="@drawable/ceenjs6_material"
                             tools:ignore="ContentDescription,ImageContrastCheck" />
 
                     </FrameLayout>
@@ -351,7 +351,7 @@
 
             </LinearLayout>
 
-            <org.autojs.autojs.ui.widget.CopyrightTextView
+            <org.ceenjs.ceenjs.ui.widget.CopyrightTextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"

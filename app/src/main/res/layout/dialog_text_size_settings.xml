@@ -10,7 +10,7 @@
     android:paddingEnd="16dp"
     android:paddingTop="8dp">
 
-    <org.autojs.autojs.theme.widget.ThemeColorSeekBar
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorSeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

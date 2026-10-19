@@ -54,7 +54,7 @@
             <van-tab title="关于">
                 <van-cell
                     value="运行环境"
-                    :title="appVersionName ? `AutoJs6 ${appVersionName}` : `AutoJs6`"
+                    :title="appVersionName ? `CeenJs6 ${appVersionName}` : `CeenJs6`"
                     label="WebView + Android"
                     @click="showDeviceInfoDialog"
                 />
@@ -88,39 +88,39 @@ export default {
         };
     },
     created() {
-        $autojs.invoke('get-accessibility-enabled').then((value) => {
+        $ceenjs.invoke('get-accessibility-enabled').then((value) => {
             this.accessibilityServiceEnabled = value;
         });
-        $autojs.invoke('get-app-version-name').then((value) => {
+        $ceenjs.invoke('get-app-version-name').then((value) => {
             this.appVersionName = value;
         });
     },
     methods: {
         onAccessibilityServiceCheckChanged(checked) {
-            $autojs.invoke('set-accessibility-enabled', checked);
+            $ceenjs.invoke('set-accessibility-enabled', checked);
         },
         onSampleSwitchChanged(checked) {
-            $autojs.invoke('toast-log', `样本开关已${checked ? '开启' : '关闭'}`);
+            $ceenjs.invoke('toast-log', `样本开关已${checked ? '开启' : '关闭'}`);
         },
         showLog() {
-            $autojs.invoke('show-log');
+            $ceenjs.invoke('show-log');
         },
         openVantWebsite() {
-            $autojs.send('open-url', 'https://vant-ui.github.io/vant/v2/#/zh-CN/');
+            $ceenjs.send('open-url', 'https://vant-ui.github.io/vant/v2/#/zh-CN/');
         },
         openVueWebsite() {
-            $autojs.send('open-url', 'https://cn.vuejs.org/');
+            $ceenjs.send('open-url', 'https://cn.vuejs.org/');
         },
         run() {
-            $autojs.invoke('toast-log', `greeting: "${this.greeting}"\ncount: ${this.count}`);
+            $ceenjs.invoke('toast-log', `greeting: "${this.greeting}"\ncount: ${this.count}`);
         },
         selectFile() {
-            $autojs.invoke('select-file', '*/*').then((path) => {
+            $ceenjs.invoke('select-file', '*/*').then((path) => {
                 this.selectedFilePath = path || '';
             });
         },
         showDeviceInfoDialog() {
-            $autojs.invoke('show-device-info-dialog');
+            $ceenjs.invoke('show-device-info-dialog');
         },
     },
 };

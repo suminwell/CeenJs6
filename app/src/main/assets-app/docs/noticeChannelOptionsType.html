@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>NoticeChannelOptions | AutoJs6 文档 - 6.6.4</title>
+    <title>NoticeChannelOptions | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="noticeChannelOptionsType" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -193,7 +193,7 @@
 
         <div id="apicontent">
             <h1>NoticeChannelOptions<span><a class="mark" href="#noticechanneloptionstype_noticechanneloptions" id="noticechanneloptionstype_noticechanneloptions">#</a></span></h1>
-<p>NoticeChannelOptions 是一个发送 AutoJs6 通知时用于设置 <a href="notice.html#notice_通知渠道">渠道</a> 的接口.<br>这些设置将一次性作为初始值应用到指定的渠道上.</p>
+<p>NoticeChannelOptions 是一个发送 CeenJs6 通知时用于设置 <a href="notice.html#notice_通知渠道">渠道</a> 的接口.<br>这些设置将一次性作为初始值应用到指定的渠道上.</p>
 <p>常见相关方法或属性:</p>
 <ul>
 <li><a href="notice.html#notice_m_create">notice.channel.create</a>(channelId, <strong>options</strong>)</li>
@@ -209,7 +209,7 @@
 </ul>
 </div><p>通知渠道使用 <code>渠道 ID (Channel ID)</code> 作为唯一标识, <code>id</code> 属性可指定当前发送通知的渠道 ID.</p>
 <p>相同渠道 ID 的所有通知, 都共享同一个渠道配置.</p>
-<p>渠道 ID 不会在通知消息中体现, 也不会在 AutoJs6 的通知设置页面体现, 它仅用于在编写程序时关联唯一的通知渠道.</p>
+<p>渠道 ID 不会在通知消息中体现, 也不会在 CeenJs6 的通知设置页面体现, 它仅用于在编写程序时关联唯一的通知渠道.</p>
 <p>当 <code>id</code> 不指定时, 其默认值的情况取决于 <a href="noticePresetConfigurationType.html#noticepresetconfigurationtype_p_usescriptnameasdefaultchannelid">config.useScriptNameAsDefaultChannelId</a> 配置值.<br>配置值为 <code>true</code> 时, 渠道将以脚本文件全名进行创建和管理, 否则渠道将不作区分进行全局统一创建和管理.</p>
 <pre><code class="lang-js">/* 指定渠道 ID. */
 
@@ -231,21 +231,21 @@ notice(&#39;message&#39;); /* 在 ID 为内置固定值 &quot;script_channel&quo
 <li>{ <span class="type"><a href="dataTypes.html#datatypes_string">string</a></span> } - 渠道名称</li>
 </ul>
 </div><p>设置通知渠道的名称, 用于辅助用户识别不同的渠道.</p>
-<p>渠道名称不会出现在通知消息中, 而是出现在 AutoJs6 的通知设置中:</p>
+<p>渠道名称不会出现在通知消息中, 而是出现在 CeenJs6 的通知设置中:</p>
 <picture>
-  <source srcset="images/autojs6-notification-list-dark.png" media="(prefers-color-scheme: dark) and (max-width: 1024px)" width="822px">
-    <source srcset="images/autojs6-notification-list-dark.png" media="(prefers-color-scheme: dark) and (min-width: 1024px)" width="411px">
-    <source srcset="images/autojs6-notification-list.png" media="(min-width: 1024px)" width="411px">
-    <img src="images/autojs6-notification-list.png" alt="autojs6-notification-list" width="822">
+  <source srcset="images/ceenjs6-notification-list-dark.png" media="(prefers-color-scheme: dark) and (max-width: 1024px)" width="822px">
+    <source srcset="images/ceenjs6-notification-list-dark.png" media="(prefers-color-scheme: dark) and (min-width: 1024px)" width="411px">
+    <source srcset="images/ceenjs6-notification-list.png" media="(min-width: 1024px)" width="411px">
+    <img src="images/ceenjs6-notification-list.png" alt="ceenjs6-notification-list" width="822">
 </picture>
 
 <p>上述示例图片中, [ &quot;互联网&quot;, &quot;脚本通知&quot;, &quot;屏幕捕获器前台服务&quot; ] 等作为渠道名称, 便于用户区分不同的通知渠道.</p>
 <p>渠道 ID 是唯一的, 但渠道名称可能重复:</p>
 <picture>
-  <source srcset="images/autojs6-notification-list-with-same-names-dark.png" media="(prefers-color-scheme: dark) and (max-width: 1024px)" width="822px">
-    <source srcset="images/autojs6-notification-list-with-same-names-dark.png" media="(prefers-color-scheme: dark) and (min-width: 1024px)" width="411px">
-    <source srcset="images/autojs6-notification-list-with-same-names.png" media="(min-width: 1024px)" width="411px">
-    <img src="images/autojs6-notification-list-with-same-names.png" alt="autojs6-notification-list-with-same-names" width="822">
+  <source srcset="images/ceenjs6-notification-list-with-same-names-dark.png" media="(prefers-color-scheme: dark) and (max-width: 1024px)" width="822px">
+    <source srcset="images/ceenjs6-notification-list-with-same-names-dark.png" media="(prefers-color-scheme: dark) and (min-width: 1024px)" width="411px">
+    <source srcset="images/ceenjs6-notification-list-with-same-names.png" media="(min-width: 1024px)" width="411px">
+    <img src="images/ceenjs6-notification-list-with-same-names.png" alt="ceenjs6-notification-list-with-same-names" width="822">
 </picture>
 
 <p>上述示例图片中出现了名称相同的通知渠道 (&quot;互联网&quot;), 但它们拥有不同的渠道 ID.</p>
@@ -258,12 +258,12 @@ notice.channel.create({ name: &#39;Network&#39; });
 <li>{ <span class="type"><a href="dataTypes.html#datatypes_string">string</a></span> } - 渠道描述</li>
 </ul>
 </div><p>设置通知渠道的描述, 用于辅助用户了解渠道的用途等信息.</p>
-<p>渠道描述不会出现在通知消息中, 而是出现在 AutoJs6 通知设置的渠道条目中:</p>
+<p>渠道描述不会出现在通知消息中, 而是出现在 CeenJs6 通知设置的渠道条目中:</p>
 <picture>
-  <source srcset="images/autojs6-notification-item-details-dark.png" media="(prefers-color-scheme: dark) and (max-width: 1024px)" width="801px">
-    <source srcset="images/autojs6-notification-item-details-dark.png" media="(prefers-color-scheme: dark) and (min-width: 1024px)" width="411px">
-    <source srcset="images/autojs6-notification-item-details.png" media="(min-width: 1024px)" width="411px">
-    <img src="images/autojs6-notification-item-details.png" alt="autojs6-notification-item-details" width="801">
+  <source srcset="images/ceenjs6-notification-item-details-dark.png" media="(prefers-color-scheme: dark) and (max-width: 1024px)" width="801px">
+    <source srcset="images/ceenjs6-notification-item-details-dark.png" media="(prefers-color-scheme: dark) and (min-width: 1024px)" width="411px">
+    <source srcset="images/ceenjs6-notification-item-details.png" media="(min-width: 1024px)" width="411px">
+    <img src="images/ceenjs6-notification-item-details.png" alt="ceenjs6-notification-item-details" width="801">
 </picture>
 
 <p>上述示例图片中, &quot;所有来自互联网的文本消息&quot; 作为渠道描述, 便于用户了解渠道用途.</p>

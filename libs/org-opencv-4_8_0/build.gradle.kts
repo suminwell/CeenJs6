@@ -1,8 +1,8 @@
 // @Reference
-//  ! Current library (OpenCV) was referred to TonyJiangWJ/Auto.js (https://github.com/TonyJiangWJ/Auto.js) on Oct 18, 2022.
+//  ! Current library (OpenCV) was referred to TonyJiangWJ/Ceen.js (https://github.com/TonyJiangWJ/Ceen.js) on Oct 18, 2022.
 
 plugins {
-    id("org.autojs.build.local-arr-register-convention")
+    id("org.ceenjs.build.local-arr-register-convention")
 }
 
 localAars {

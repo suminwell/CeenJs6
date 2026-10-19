@@ -1,0 +1,97 @@
+package org.ceenjs.ceenjs.util
+
+import org.ceenjs.ceenjs.annotation.MinSize
+import org.ceenjs.ceenjs.core.pref.Language
+import org.ceenjs.ceenjs.core.pref.Pref
+import org.ceenjs.ceenjs.util.EnvironmentUtils.externalStorageDirectory
+import org.ceenjs.ceenjs.util.EnvironmentUtils.externalStoragePath
+import org.ceenjs.ceenjs.util.StringUtils.key
+import org.ceenjs.ceenjs.util.StringUtils.str
+import org.ceenjs.ceenjs6.R
+import java.io.File
+
+object WorkingDirectoryUtils {
+
+    var history: LinkedHashSet<String>
+        get() = Pref.getLinkedHashSet(R.string.key_working_directory_history)
+        private set(value) = Pref.putLinkedHashSet(R.string.key_working_directory_history, value)
+
+    @JvmStatic
+    var path: String
+        get() = Pref.getString(R.string.key_working_directory, str(R.string.default_value_working_directory)).let {
+            File(externalStorageDirectory, it).path
+        }
+        set(path) {
+            var scriptDirPath = path
+            if (path.startsWith(externalStoragePath)) {
+                scriptDirPath = toRelativePath(path)
+            }
+            val dirKey = key(R.string.key_working_directory)
+            Pref.putString(dirKey, scriptDirPath)
+        }
+
+    @JvmStatic
+    val relativePath
+        get() = path.let {
+            when (it.startsWith(externalStoragePath)) {
+                true -> toRelativePath(it)
+                else -> it
+            }
+        }
+
+    @MinSize(1)
+    fun getRecommendedDefaultPaths() = getDefaultPathCandidates().map { getDir(it) }.toSet()
+
+    @MinSize(1)
+    private fun getDefaultPathCandidates() = mutableSetOf(
+        Language.getPrefLanguage(),
+        Language.AUTO,
+    ).plus(Language.values().filter { File(externalStorageDirectory, getDir(it)).exists() })
+
+    private fun getDir(language: Language) = LocaleUtils.getResources(language.locale).getString(R.string.default_value_working_directory)
+
+    @JvmStatic
+    fun determineIfNeeded() {
+        val initKey = key(R.string.key_working_directory_initialized)
+        if (Pref.containsKey(initKey)) {
+            return
+        }
+        Pref.putBoolean(initKey, true)
+        val dirKey = key(R.string.key_working_directory)
+        if (Pref.containsKey(dirKey)) {
+            return
+        }
+        // @Hint by SuperMonster003 on Oct 14, 2022.
+        //  ! Get the newest last modified and non-empty directory from default paths.
+        //  ! If null, the first path of default paths will be used.
+        //  ! zh-CN:
+        //  ! 从默认路径中获取一个最新修改过的非空目录.
+        //  ! 如果为空, 则使用默认路径的第一个.
+        val newestNonEmptyDir = getRecommendedDefaultPaths()
+            .map { File(externalStorageDirectory, it) }
+            .filter { it.listFiles()?.isNotEmpty() ?: false }
+            .maxByOrNull { it.lastModified() }
+        val selectedDir = newestNonEmptyDir?.let {
+            toRelativePath(it.path)
+        } ?: getRecommendedDefaultPaths().firstOrNull()
+        selectedDir?.let { Pref.putString(dirKey, it) }
+    }
+
+    @JvmStatic
+    fun toRelativePath(scriptDirPath: String) = when {
+        scriptDirPath.startsWith(externalStoragePath) -> {
+            scriptDirPath.substring(externalStoragePath.length)
+        }
+        else -> scriptDirPath
+    }
+
+    @JvmStatic
+    fun addIntoHistory(item: CharSequence) {
+        history = linkedSetOf(toRelativePath(item.toString())).apply { addAll(history) }
+    }
+
+    fun removeFromHistory(item: CharSequence) {
+        history = history.apply { remove(toRelativePath(item.toString())) }
+    }
+
+}

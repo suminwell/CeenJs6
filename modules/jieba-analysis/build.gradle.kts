@@ -1,13 +1,13 @@
 plugins {
-    id("org.autojs.build.versions")
-    id("org.autojs.build.jvm-convention")
+    id("org.ceenjs.build.versions")
+    id("org.ceenjs.build.jvm-convention")
     id("com.android.library")
 }
 
 android {
     group = "com.huaban"
     namespace = "com.huaban.jieba"
-    version = "1.0.3-SNAPSHOT [Optimized for AutoJs6]"
+    version = "1.0.3-SNAPSHOT [Optimized for CeenJs6]"
     description = "结巴分词工具 (jieba for java)"
 
     compileSdk = versions.sdkVersionCompile

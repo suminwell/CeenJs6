@@ -127,7 +127,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center">
 
-                    <org.autojs.autojs.theme.widget.ThemeColorSwitch
+                    <org.ceenjs.ceenjs.theme.widget.ThemeColorSwitch
                         android:id="@+id/sw"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

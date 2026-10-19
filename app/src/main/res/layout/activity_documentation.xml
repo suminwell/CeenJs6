@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <org.autojs.autojs.ui.widget.EWebView
+    <org.ceenjs.ceenjs.ui.widget.EWebView
         android:id="@+id/eweb_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -13,7 +13,7 @@
         android:fitsSystemWindows="true"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbar
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
             android:id="@+id/toolbar"
             android:theme="@style/ToolBarStyle"
             android:layout_width="match_parent"
@@ -26,7 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <org.autojs.autojs.theme.widget.ThemeColorSwipeRefreshLayout
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorSwipeRefreshLayout
             android:id="@+id/swipe_refresh_layout"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -39,7 +39,7 @@
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
-        </org.autojs.autojs.theme.widget.ThemeColorSwipeRefreshLayout>
+        </org.ceenjs.ceenjs.theme.widget.ThemeColorSwipeRefreshLayout>
 
         <TextView
             android:id="@+id/empty_hint"

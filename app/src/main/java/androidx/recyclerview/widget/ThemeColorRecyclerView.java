@@ -5,9 +5,9 @@ import android.util.AttributeSet;
 import android.widget.EdgeEffect;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import org.autojs.autojs.theme.ThemeColor;
-import org.autojs.autojs.theme.ThemeColorManager;
-import org.autojs.autojs.theme.ThemeColorMutable;
+import org.ceenjs.ceenjs.theme.ThemeColor;
+import org.ceenjs.ceenjs.theme.ThemeColorManager;
+import org.ceenjs.ceenjs.theme.ThemeColorMutable;
 
 /**
  * Created by Stardust on Aug 14, 2016.

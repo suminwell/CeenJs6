@@ -24,8 +24,8 @@ import android.net.Uri;
 import android.os.Binder;
 import android.provider.Settings;
 import android.util.Log;
-import org.autojs.autojs.util.IntentUtils;
-import org.autojs.autojs.util.RomUtils;
+import org.ceenjs.ceenjs.util.IntentUtils;
+import org.ceenjs.ceenjs.util.RomUtils;
 
 import java.lang.reflect.Method;
 

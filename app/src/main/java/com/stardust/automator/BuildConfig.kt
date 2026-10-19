@@ -1,3 +1,3 @@
 package com.stardust.automator
 
-typealias BuildConfig = org.autojs.autojs6.BuildConfig
+typealias BuildConfig = org.ceenjs.ceenjs6.BuildConfig

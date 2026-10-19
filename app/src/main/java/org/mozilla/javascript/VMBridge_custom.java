@@ -1,7 +1,7 @@
 package org.mozilla.javascript;
 
 import android.util.Log;
-import org.autojs.autojs.rhino.AutoJsContext;
+import org.ceenjs.ceenjs.rhino.CeenJsContext;
 import org.mozilla.javascript.jdk18.VMBridge_jdk18;
 
 import java.lang.reflect.Constructor;
@@ -9,7 +9,7 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import static org.autojs.autojs.util.RhinoUtils.isUiThread;
+import static org.ceenjs.ceenjs.util.RhinoUtils.isUiThread;
 
 @SuppressWarnings("unused")
 public class VMBridge_custom extends VMBridge_jdk18 {
@@ -61,9 +61,9 @@ public class VMBridge_custom extends VMBridge_jdk18 {
                     e.printStackTrace();
                     // @Reference to aiselp (https://github.com/aiselp) by SuperMonster003 on Nov 7, 2023.
                     //  ! https://github.com/kkevsekk1/AutoX/commit/9cfeb00280447ef2807bdc5e195095d5a83afb39#diff-18d5934044cd3d259e52c3b1053ecd57e653ae70d14a7c0f31700029e97da239
-                    if (context instanceof AutoJsContext) {
+                    if (context instanceof CeenJsContext) {
                         // notify the script thread to exit
-                        var engine = ((AutoJsContext) context).getRhinoJavaScriptEngine();
+                        var engine = ((CeenJsContext) context).getRhinoJavaScriptEngine();
                         if (engine != null) {
                             var runtime = engine.getRuntime();
                             Log.d(LOG_TAG, "runtime = " + runtime);

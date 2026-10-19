@@ -77,8 +77,9 @@ export async function getRemoteFileSizeBytes(url, { timeout = 30000 } = {}) {
  * @param {string} repo
  * @returns {Promise<string>}
  */
-export async function getLatestCommitDate(owner, repo) {
-    const url = `https://api.github.com/repos/${owner}/${repo}/commits?per_page=1`;
+export async function getLatestCommitDate(owner, repo, repositoryId = null) {
+    const repositoryPath = repositoryId == null ? `repos/${owner}/${repo}` : `repositories/${repositoryId}`;
+    const url = `https://api.github.com/${repositoryPath}/commits?per_page=1`;
 
     const token = process.env.GITHUB_TOKEN;
     /** @type {import('node-fetch').HeadersInit} */

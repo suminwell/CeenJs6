@@ -11,7 +11,7 @@
   "android_studio_latest_recommended_download_address_of_tar": "https://edgedl.me.gvt1.com/android/studio/ide-zips/2025.3.2.6/android-studio-panda2-linux.tar.gz",
   "android_studio_latest_recommended_file_size_of_tar": "1.32 GiB",
   "var_date_contribution_table_data_updated": "2026/03/04",
-  "latest_rhino_engine_name_with_github_lineno_address": "[v2.0.0-SNAPSHOT](http://rhino.autojs6.com/blob/master/gradle.properties#L3)",
+  "latest_rhino_engine_name_with_github_lineno_address": "[v2.0.0-SNAPSHOT](https://api.github.com/repositories/435309133/contents/gradle.properties?ref=master#L3)",
   "var_date_rhino_engine_latest_committed": "2025/12/25",
   "var_date_jdk_max_supported": "%CURRENT_DATE%",
   "var_date_active_maintenance_phase_statistics_since_when": "%CURRENT_DATE%"

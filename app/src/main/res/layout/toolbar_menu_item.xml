@@ -15,7 +15,7 @@
         android:layout_height="?android:attr/actionBarSize"
         android:paddingBottom="23dp"
         android:paddingTop="5dp"
-        tools:src="@drawable/autojs6_material" />
+        tools:src="@drawable/ceenjs6_material" />
 
     <TextView
         android:id="@+id/text"

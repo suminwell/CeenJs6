@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.autojs.autojs.theme.widget.ThemeColorSwipeRefreshLayout
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorSwipeRefreshLayout
         android:id="@+id/plugin_center_swipe_refresh"
         tools:visibility="gone"
         android:layout_width="match_parent"
@@ -20,7 +20,7 @@
             android:scrollbarDefaultDelayBeforeFade="600"
             android:scrollbarFadeDuration="500"
             android:scrollbars="vertical" />
-    </org.autojs.autojs.theme.widget.ThemeColorSwipeRefreshLayout>
+    </org.ceenjs.ceenjs.theme.widget.ThemeColorSwipeRefreshLayout>
 
     <TextView
         android:id="@+id/plugin_center_empty_hint"

@@ -28,10 +28,10 @@
     <!--  ! Target API >= 30: WRT + [ MSV<29> ] + LGC  + MAN -->
 
     <permission
-        android:name="org.autojs.permission.PLUGIN"
+        android:name="org.ceenjs.permission.PLUGIN"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="org.autojs.permission.PLUGIN" />
+    <uses-permission android:name="org.ceenjs.permission.PLUGIN" />
 
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
@@ -138,7 +138,7 @@
         android:protectionLevel="signature"
         tools:ignore="ProtectedPermissions" />
 
-    <!-- 非 AutoJs6 运行必需, 不会主动申请, 脚本可自行申请 -->
+    <!-- 非 CeenJs6 运行必需, 不会主动申请, 脚本可自行申请 -->
 
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
@@ -201,7 +201,7 @@
     <!-- https://stackoverflow.com/questions/27396892/what-are-advantages-of-setting-largeheap-to-true -->
     <!-- However, "largeHeap" may be helpful for prevent LeakCanary from OOM when analyzing detected memory leaks. -->
     <application
-        android:name="org.autojs.autojs.App"
+        android:name="org.ceenjs.ceenjs.App"
         android:allowBackup="false"
         android:hardwareAccelerated="true"
         android:icon="${icon}"
@@ -224,7 +224,7 @@
             android:value="${CHANNEL}" />
 
         <activity
-            android:name="org.autojs.autojs.ui.splash.SplashActivity"
+            android:name="org.ceenjs.ceenjs.ui.splash.SplashActivity"
             android:exported="true"
             android:theme="@style/AppTheme.Splash">
 
@@ -234,11 +234,11 @@
         </activity>
 
         <activity-alias
-            android:name="org.autojs.autojs.launcher.AdaptiveIconAlias"
+            android:name="org.ceenjs.ceenjs.launcher.AdaptiveIconAlias"
             android:enabled="true"
             android:exported="true"
             android:icon="${icon}"
-            android:targetActivity="org.autojs.autojs.ui.splash.SplashActivity">
+            android:targetActivity="org.ceenjs.ceenjs.ui.splash.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -251,11 +251,11 @@
         </activity-alias>
 
         <activity-alias
-            android:name="org.autojs.autojs.launcher.TransparentBackgroundIconAlias"
+            android:name="org.ceenjs.ceenjs.launcher.TransparentBackgroundIconAlias"
             android:enabled="false"
             android:exported="true"
-            android:icon="@drawable/autojs6_material"
-            android:targetActivity="org.autojs.autojs.ui.splash.SplashActivity">
+            android:icon="@drawable/ceenjs6_material"
+            android:targetActivity="org.ceenjs.ceenjs.ui.splash.SplashActivity">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -268,27 +268,27 @@
         </activity-alias>
 
         <activity
-            android:name="org.autojs.autojs.ui.main.MainActivity"
+            android:name="org.ceenjs.ceenjs.ui.main.MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.FullScreen" />
 
         <activity
-            android:name="org.autojs.autojs.ui.main.scripts.DisplayManifestActivity"
+            android:name="org.ceenjs.ceenjs.ui.main.scripts.DisplayManifestActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.main.scripts.DisplayMediaInfoActivity"
+            android:name="org.ceenjs.ceenjs.ui.main.scripts.DisplayMediaInfoActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.settings.DisplayReleaseHistoryActivity"
+            android:name="org.ceenjs.ceenjs.ui.settings.DisplayReleaseHistoryActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.external.shortcut.ShortcutActivity"
+            android:name="org.ceenjs.ceenjs.external.shortcut.ShortcutActivity"
             android:exported="true"
-            android:taskAffinity="org.autojs.autojs.external.shortcut.ShortcutActivity"
+            android:taskAffinity="org.ceenjs.ceenjs.external.shortcut.ShortcutActivity"
             android:theme="@android:style/Theme.NoDisplay">
 
             <intent-filter>
@@ -309,33 +309,33 @@
         </provider>
 
         <activity
-            android:name="org.autojs.autojs.ui.edit.EditActivity"
+            android:name="org.ceenjs.ceenjs.ui.edit.EditActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale"
             android:launchMode="standard"
             android:multiprocess="true"
-            android:taskAffinity="org.autojs.autojs.edit"
+            android:taskAffinity="org.ceenjs.ceenjs.edit"
             android:theme="@style/EditorTheme" />
 
         <activity
-            android:name="org.autojs.autojs.ui.edit.keyboard.SymbolsSettingsActivity"
+            android:name="org.ceenjs.ceenjs.ui.edit.keyboard.SymbolsSettingsActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.settings.AboutActivity"
+            android:name="org.ceenjs.ceenjs.ui.settings.AboutActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.settings.PreferencesActivity"
+            android:name="org.ceenjs.ceenjs.ui.settings.PreferencesActivity"
             android:exported="true"
             android:label="@string/text_app_shortcut_settings_long_label"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.settings.DeveloperOptionsActivity"
+            android:name="org.ceenjs.ceenjs.ui.settings.DeveloperOptionsActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.error.CrashReportActivity"
+            android:name="org.ceenjs.ceenjs.ui.error.CrashReportActivity"
             android:process=":crash_report"
             android:exported="false"
             android:launchMode="singleTask"
@@ -343,60 +343,60 @@
             android:excludeFromRecents="true" />
 
         <activity
-            android:name="org.autojs.autojs.external.tasker.TaskerScriptEditActivity"
+            android:name="org.ceenjs.ceenjs.external.tasker.TaskerScriptEditActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale" />
 
         <activity
-            android:name="org.autojs.autojs.ui.project.BuildActivity"
+            android:name="org.ceenjs.ceenjs.ui.project.BuildActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale" />
 
         <activity
-            android:name="org.autojs.autojs.ui.error.ErrorDialogActivity"
+            android:name="org.ceenjs.ceenjs.ui.error.ErrorDialogActivity"
             android:theme="@style/AppTheme.Transparent"
             android:exported="false" />
 
-        <activity android:name="org.autojs.autojs.ui.project.ProjectConfigActivity" />
+        <activity android:name="org.ceenjs.ceenjs.ui.project.ProjectConfigActivity" />
 
-        <activity android:name="org.autojs.autojs.ui.keystore.ManageKeyStoreActivity" />
+        <activity android:name="org.ceenjs.ceenjs.ui.keystore.ManageKeyStoreActivity" />
 
         <activity
-            android:name="org.autojs.autojs.ui.storage.TrashActivity"
+            android:name="org.ceenjs.ceenjs.ui.storage.TrashActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.storage.VersionHistoryActivity"
+            android:name="org.ceenjs.ceenjs.ui.storage.VersionHistoryActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.ui.log.LogActivity"
+            android:name="org.ceenjs.ceenjs.ui.log.LogActivity"
             android:exported="true"
             android:label="@string/text_app_shortcut_log_long_label"
-            android:taskAffinity="org.autojs.autojs.ui.log.LogActivity"
+            android:taskAffinity="org.ceenjs.ceenjs.ui.log.LogActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.FullScreen" />
 
         <activity
-            android:name="org.autojs.autojs.ui.doc.DocumentationActivity"
+            android:name="org.ceenjs.ceenjs.ui.doc.DocumentationActivity"
             android:exported="true"
             android:label="@string/text_app_shortcut_docs_long_label"
-            android:taskAffinity="org.autojs.autojs.ui.doc.DocumentationActivity"
+            android:taskAffinity="org.ceenjs.ceenjs.ui.doc.DocumentationActivity"
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.FullScreen" />
 
         <activity
-            android:name="org.autojs.autojs.theme.app.ColorSearchHelpActivity"
+            android:name="org.ceenjs.ceenjs.theme.app.ColorSearchHelpActivity"
             android:theme="@style/AppTheme.FullScreen" />
 
-        <activity android:name="org.autojs.autojs.ui.shortcut.AppsIconSelectActivity" />
+        <activity android:name="org.ceenjs.ceenjs.ui.shortcut.AppsIconSelectActivity" />
 
-        <activity android:name="org.autojs.autojs.ui.timing.TimedTaskSettingActivity" />
+        <activity android:name="org.ceenjs.ceenjs.ui.timing.TimedTaskSettingActivity" />
 
         <activity
-            android:name="org.autojs.autojs.ui.shortcut.ShortcutCreateActivity"
+            android:name="org.ceenjs.ceenjs.ui.shortcut.ShortcutCreateActivity"
             android:theme="@style/AppTheme.Transparent" />
 
         <activity
-            android:name="org.autojs.autojs.external.widget.ScriptWidgetSettingsActivity"
+            android:name="org.ceenjs.ceenjs.external.widget.ScriptWidgetSettingsActivity"
             android:exported="false">
 
             <intent-filter>
@@ -409,10 +409,10 @@
             </intent-filter>
         </activity>
 
-        <service android:name="org.autojs.autojs.ui.enhancedfloaty.FloatyService" />
+        <service android:name="org.ceenjs.ceenjs.ui.enhancedfloaty.FloatyService" />
 
         <service
-            android:name="org.autojs.autojs.external.foreground.AppForegroundService"
+            android:name="org.ceenjs.ceenjs.external.foreground.AppForegroundService"
             android:foregroundServiceType="specialUse">
 
             <property
@@ -420,12 +420,12 @@
                 android:value="To ensure the app can smoothly complete automation workflow even when running in the background" />
         </service>
 
-        <service android:name="org.autojs.autojs.external.ScriptExecutionIntentService" />
+        <service android:name="org.ceenjs.ceenjs.external.ScriptExecutionIntentService" />
 
-        <activity android:name="org.autojs.autojs.external.tasker.TaskPrefEditActivity" />
+        <activity android:name="org.ceenjs.ceenjs.external.tasker.TaskPrefEditActivity" />
 
         <service
-            android:name="org.autojs.autojs.external.tile.LayoutBoundsTile"
+            android:name="org.ceenjs.ceenjs.external.tile.LayoutBoundsTile"
             android:exported="true"
             android:icon="@drawable/ic_circular_menu_bounds"
             android:label="@string/text_inspect_layout_bounds"
@@ -441,7 +441,7 @@
         </service>
 
         <service
-            android:name="org.autojs.autojs.external.tile.LayoutHierarchyTile"
+            android:name="org.ceenjs.ceenjs.external.tile.LayoutHierarchyTile"
             android:exported="true"
             android:icon="@drawable/ic_circular_menu_hierarchy"
             android:label="@string/text_inspect_layout_hierarchy"
@@ -457,10 +457,10 @@
         </service>
 
         <activity-alias
-            android:name="org.autojs.autojs.external.tasker.PluginActivity"
+            android:name="org.ceenjs.ceenjs.external.tasker.PluginActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:targetActivity="org.autojs.autojs.external.tasker.TaskPrefEditActivity"
+            android:targetActivity="org.ceenjs.ceenjs.external.tasker.TaskPrefEditActivity"
             tools:ignore="ExportedActivity">
 
             <intent-filter>
@@ -469,7 +469,7 @@
         </activity-alias>
 
         <receiver
-            android:name="org.autojs.autojs.external.receiver.StaticBroadcastReceiver"
+            android:name="org.ceenjs.ceenjs.external.receiver.StaticBroadcastReceiver"
             android:exported="false">
 
             <intent-filter>
@@ -513,7 +513,7 @@
         </receiver>
 
         <receiver
-            android:name="org.autojs.autojs.external.tasker.FireSettingReceiver"
+            android:name="org.ceenjs.ceenjs.external.tasker.FireSettingReceiver"
             android:exported="true"
             android:process=":background"
             tools:ignore="ExportedReceiver">
@@ -526,7 +526,7 @@
         </receiver>
 
         <activity
-            android:name="org.autojs.autojs.external.open.EditIntentActivity"
+            android:name="org.ceenjs.ceenjs.external.open.EditIntentActivity"
             android:exported="true"
             android:label="@string/text_edit_script">
 
@@ -545,10 +545,10 @@
         </activity>
 
         <activity
-            android:name="org.autojs.autojs.external.open.RunIntentActivity"
+            android:name="org.ceenjs.ceenjs.external.open.RunIntentActivity"
             android:exported="true"
             android:label="@string/text_run_script"
-            android:taskAffinity="org.autojs.autojs.external.open.RunIntentActivity"
+            android:taskAffinity="org.ceenjs.ceenjs.external.open.RunIntentActivity"
             android:theme="@android:style/Theme.NoDisplay">
 
             <intent-filter>
@@ -566,7 +566,7 @@
         </activity>
 
         <activity
-            android:name="org.autojs.autojs.external.open.ImportIntentActivity"
+            android:name="org.ceenjs.ceenjs.external.open.ImportIntentActivity"
             android:exported="true"
             android:label="@string/text_import_script"
             android:theme="@style/AppTheme.Transparent">
@@ -586,7 +586,7 @@
         </activity>
 
         <service
-            android:name="org.autojs.autojs.core.notification.NotificationListenerService"
+            android:name="org.ceenjs.ceenjs.core.notification.NotificationListenerService"
             android:exported="false"
             android:label="@string/app_name"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
@@ -597,7 +597,7 @@
         </service>
 
         <receiver
-            android:name="org.autojs.autojs.external.widget.ScriptWidget"
+            android:name="org.ceenjs.ceenjs.external.widget.ScriptWidget"
             android:exported="false">
 
             <intent-filter>
@@ -610,16 +610,16 @@
         </receiver>
 
         <receiver
-            android:name="org.autojs.autojs.timing.TaskReceiver"
+            android:name="org.ceenjs.ceenjs.timing.TaskReceiver"
             android:exported="false">
 
             <intent-filter>
-                <action android:name="org.autojs.autojs.action.task" />
+                <action android:name="org.ceenjs.ceenjs.action.task" />
             </intent-filter>
         </receiver>
 
         <!--<receiver-->
-        <!--        android:name="org.autojs.autojs.ui.main.drawer.DrawerFragment.BatteryChangedReceiver"-->
+        <!--        android:name="org.ceenjs.ceenjs.ui.main.drawer.DrawerFragment.BatteryChangedReceiver"-->
         <!--        android:exported="true">-->
         <!--    <intent-filter>-->
         <!--        <action android:name="android.intent.action.ACTION_BATTERY_CHANGED" />-->
@@ -629,11 +629,11 @@
         <!--</receiver>-->
 
         <receiver
-            android:name="org.autojs.autojs.timing.TimedTaskAlarmReceiver"
+            android:name="org.ceenjs.ceenjs.timing.TimedTaskAlarmReceiver"
             android:exported="false" />
 
         <receiver
-            android:name="org.autojs.autojs.timing.BootCompletedReceiver"
+            android:name="org.ceenjs.ceenjs.timing.BootCompletedReceiver"
             android:enabled="true"
             android:exported="true">
 
@@ -644,7 +644,7 @@
         </receiver>
 
         <receiver
-            android:name="org.autojs.autojs.inrt.InrtBootCompletedReceiver"
+            android:name="org.ceenjs.ceenjs.inrt.InrtBootCompletedReceiver"
             android:enabled="true"
             android:exported="true">
 
@@ -656,7 +656,7 @@
         </receiver>
 
         <receiver
-            android:name="org.autojs.autojs.inrt.InrtPackageReplacedReceiver"
+            android:name="org.ceenjs.ceenjs.inrt.InrtPackageReplacedReceiver"
             android:exported="false">
 
             <intent-filter>
@@ -665,40 +665,40 @@
         </receiver>
 
         <activity
-            android:name="org.autojs.autojs.theme.app.ColorSelectActivity"
+            android:name="org.ceenjs.ceenjs.theme.app.ColorSelectActivity"
             android:theme="@style/MtAppTheme.FullScreen" />
 
         <activity
-            android:name="org.autojs.autojs.theme.app.ColorLibrariesActivity"
+            android:name="org.ceenjs.ceenjs.theme.app.ColorLibrariesActivity"
             android:theme="@style/MtAppTheme.FullScreen" />
 
         <activity
-            android:name="org.autojs.autojs.theme.app.ColorItemsActivity"
+            android:name="org.ceenjs.ceenjs.theme.app.ColorItemsActivity"
             android:theme="@style/MtAppTheme.FullScreen" />
 
         <activity
-            android:name="org.autojs.autojs.core.plugin.center.PluginCenterActivity"
+            android:name="org.ceenjs.ceenjs.core.plugin.center.PluginCenterActivity"
             android:theme="@style/AppTheme.Settings" />
 
         <activity
-            android:name="org.autojs.autojs.execution.ScriptExecuteActivity"
+            android:name="org.ceenjs.ceenjs.execution.ScriptExecuteActivity"
             android:configChanges="orientation|keyboardHidden|screenSize|locale"
             android:theme="@style/ScriptTheme" />
 
         <activity
-            android:name="org.autojs.autojs.core.permission.PermissionRequestActivity"
+            android:name="org.ceenjs.ceenjs.core.permission.PermissionRequestActivity"
             android:excludeFromRecents="true"
-            android:taskAffinity="org.autojs.autojs.core.permission.PermissionRequestActivity"
+            android:taskAffinity="org.ceenjs.ceenjs.core.permission.PermissionRequestActivity"
             android:theme="@style/ScriptTheme.Transparent" />
 
         <activity
-            android:name="org.autojs.autojs.core.activity.StartForResultActivity"
+            android:name="org.ceenjs.ceenjs.core.activity.StartForResultActivity"
             android:excludeFromRecents="true"
-            android:taskAffinity="org.autojs.autojs.core.activity.StartForResultActivity"
+            android:taskAffinity="org.ceenjs.ceenjs.core.activity.StartForResultActivity"
             android:theme="@style/ScriptTheme.Transparent" />
 
         <service
-            android:name="org.autojs.autojs.core.accessibility.AccessibilityServiceUsher"
+            android:name="org.ceenjs.ceenjs.core.accessibility.AccessibilityServiceUsher"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE"
             android:exported="true">
 
@@ -712,7 +712,7 @@
         </service>
 
         <service
-            android:name="org.autojs.autojs.core.image.capture.ScreenCapturerForegroundService"
+            android:name="org.ceenjs.ceenjs.core.image.capture.ScreenCapturerForegroundService"
             android:foregroundServiceType="mediaProjection" />
 
         <service
@@ -728,7 +728,7 @@
         <service android:name="org.eclipse.paho.android.service.MqttService" />
 
         <activity
-            android:name="org.autojs.autojs.inrt.SplashActivity"
+            android:name="org.ceenjs.ceenjs.inrt.SplashActivity"
             android:exported="true"
             android:theme="@style/AppTheme.Splash">
 
@@ -743,12 +743,12 @@
         </activity>
 
         <activity
-            android:name="org.autojs.autojs.inrt.LogActivity"
+            android:name="org.ceenjs.ceenjs.inrt.LogActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBarInrt" />
 
         <activity
-            android:name="org.autojs.autojs.inrt.SettingsActivity"
+            android:name="org.ceenjs.ceenjs.inrt.SettingsActivity"
             android:exported="true"
             android:theme="@style/AppTheme.NoActionBarInrt" />
 
@@ -767,15 +767,15 @@
 
         <!-- @Hint by SuperMonster003 on Jul 25, 2025. -->
         <!--  ! -->
-        <!--  ! This provider is explicitly excluded and manually initialized in org.autojs.autojs.App. -->
-        <!--  ! zh-CN: 此 provider 被显式排除, 并在 org.autojs.autojs.App 手动初始化. -->
+        <!--  ! This provider is explicitly excluded and manually initialized in org.ceenjs.ceenjs.App. -->
+        <!--  ! zh-CN: 此 provider 被显式排除, 并在 org.ceenjs.ceenjs.App 手动初始化. -->
         <provider
             android:name="com.google.mlkit.common.internal.MlKitInitProvider"
             android:authorities="${applicationId}.mlkitinitprovider"
             tools:node="remove" />
 
         <provider
-            android:name="org.autojs.autojs.deviceid.DeviceIdProvider"
+            android:name="org.ceenjs.ceenjs.deviceid.DeviceIdProvider"
             android:authorities="${applicationId}.deviceid.provider"
             android:exported="true" />
     </application>

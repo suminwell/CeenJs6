@@ -7,7 +7,7 @@
     <string name="legacy_apk_builder_package">打包中</string>
     <string name="legacy_apk_builder_plugin_version_too_low">打包插件版本过低，打包的应用可能无法正常运行。是否立即下载对应版本的打包插件？</string>
     <string name="legacy_apk_builder_prepare">准备文件</string>
-    <string name="legacy_app_name">Auto.js</string>
+    <string name="legacy_app_name">Ceen.js</string>
     <string name="legacy_cancel">取消</string>
     <string name="legacy_confirm_overwrite_file">文件已存在，要覆盖吗？</string>
     <string name="legacy_copyright">Copyright©2018-2019 All right reserves.</string>
@@ -29,17 +29,17 @@
     <string name="legacy_error_pattern_syntax">正则表达式错误</string>
     <string name="legacy_error_regex_find_prev">正则表达式不能向前查找</string>
     <string name="legacy_exception_notification_service_disabled">通知服务未运行，请重新启用通知权限</string>
-    <string name="legacy_explain_accessibility_permission">软件需要打开\"无障碍服务\"才能运行，请在随后的设置中选择\"Auto.js\"并开启服务。\n您也可以稍后在侧拉菜单中设置。</string>
+    <string name="legacy_explain_accessibility_permission">软件需要打开\"无障碍服务\"才能运行，请在随后的设置中选择\"Ceen.js\"并开启服务。\n您也可以稍后在侧拉菜单中设置。</string>
     <string name="legacy_foreground_notification_channel_name">前台服务通知</string>
     <string name="legacy_foreground_notification_text">点击进入主界面</string>
-    <string name="legacy_foreground_notification_title">Auto.js保持运行中</string>
+    <string name="legacy_foreground_notification_title">Ceen.js保持运行中</string>
     <string name="legacy_format_build_successfully" formatted="true">apk文件已保存到 %s</string>
     <string name="legacy_format_debug_bar_title">调试 [%s]</string>
     <string name="legacy_format_default_package_name" formatted="true">com.example.script%d</string>
     <string name="legacy_format_editor_info" formatted="false">字符数: %d\n行数: %d\n大小: %s</string>
     <string name="legacy_format_file_downloaded" formatted="true">文件已保存到 %s</string>
     <string name="legacy_github">软件源代码</string>
-    <string name="legacy_go_to_accessibility_settings"><![CDATA[请打开设置->无障碍服务->Auto.js并开启]]></string>
+    <string name="legacy_go_to_accessibility_settings"><![CDATA[请打开设置->无障碍服务->Ceen.js并开启]]></string>
     <string name="legacy_hint_long_click_run_to_debug">长按\"运行\"图标也可以启动调试</string>
     <string name="legacy_hint_loop_delay">延迟多少秒后开始循环</string>
     <string name="legacy_hint_loop_times">0为无限循环</string>
@@ -71,7 +71,7 @@
     <string name="legacy_ok">确定</string>
     <string name="legacy_prompt_device_not_rooted">监测到您的设备没有root, 录制脚本需要root权限, 是否继续?</string>
     <string name="legacy_qq" translatable="false">2732014414</string>
-    <string name="legacy_share_app">[Auto.js]下载地址：http://www.coolapk.com/apk/org.autojs.autojs </string>
+    <string name="legacy_share_app">[Ceen.js]下载地址：http://www.coolapk.com/apk/org.ceenjs.ceenjs </string>
     <string name="legacy_summary_enable_accessibility_service_by_root">开启后运行脚本会使用Root权限自动开启无障碍服务</string>
     <string name="legacy_summary_guard_mode">在本软件界面无法运行自动操作命令以免误触</string>
     <string name="legacy_summary_pre_execute_script">将在脚本文件执行前执行</string>
@@ -316,7 +316,7 @@
     <string name="legacy_text_replace_all">全部替换</string>
     <string name="legacy_text_report_fail">提交失败</string>
     <string name="legacy_text_report_succeed">提交成功</string>
-    <string name="legacy_text_requires_app_version_to_run_the_script" formatted="true">本脚本需要Auto.js版本号%d以上才能运行</string>
+    <string name="legacy_text_requires_app_version_to_run_the_script" formatted="true">本脚本需要Ceen.js版本号%d以上才能运行</string>
     <string name="legacy_text_requires_sdk_version_to_run_the_script">本脚本需要此安卓版本以上才能运行:</string>
     <string name="legacy_text_reset_password">重置密码</string>
     <string name="legacy_text_reset_succeed">重置成功</string>
@@ -341,7 +341,7 @@
     <string name="legacy_text_run_on_screen_off">息屏时</string>
     <string name="legacy_text_run_on_screen_on">亮屏时</string>
     <string name="legacy_text_run_on_screen_unlock">屏幕解锁时</string>
-    <string name="legacy_text_run_on_startup">Auto.js启动时</string>
+    <string name="legacy_text_run_on_startup">Ceen.js启动时</string>
     <string name="legacy_text_run_on_time_tick">每分钟一次</string>
     <string name="legacy_text_run_repeatedly">循环运行</string>
     <string name="legacy_text_run_script">运行脚本</string>

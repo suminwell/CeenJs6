@@ -12,7 +12,7 @@
         android:fitsSystemWindows="true"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbar
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="?android:textColorSecondary" />
 
-                    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+                    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/text_app_name"
@@ -62,9 +62,9 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+                    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
-                    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+                    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -75,14 +75,14 @@
                         <!--  ! Input limitation will be handled in Java/Kotlin class. -->
                         <!--  ! zh-CN: 将于 Java/Kotlin 类中处理输入限制. -->
                         <!--  # android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890_." -->
-                        <org.autojs.autojs.ui.widget.PackageNameEditTextView
+                        <org.ceenjs.ceenjs.ui.widget.PackageNameEditTextView
                             android:id="@+id/package_name"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:inputType="text"
                             android:imeOptions="actionNext" />
 
-                    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+                    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -96,7 +96,7 @@
                             android:layout_weight="1"
                             android:orientation="vertical">
 
-                            <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+                            <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -110,9 +110,9 @@
                                     android:inputType="text"
                                     android:text="1.0.0" />
 
-                            </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+                            </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
-                            <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+                            <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="8dp"
@@ -126,7 +126,7 @@
                                     android:inputType="number"
                                     android:text="1" />
 
-                            </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+                            </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
                         </LinearLayout>
 
@@ -160,7 +160,7 @@
 
                     </LinearLayout>
 
-                    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+                    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                         android:id="@+id/project_location_wrapper"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -176,7 +176,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content" />
 
-                    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+                    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
                 </LinearLayout>
 
@@ -195,7 +195,7 @@
                         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
                         android:textColor="?android:textColorSecondary" />
 
-                    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+                    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/text_main_file_name"
@@ -208,9 +208,9 @@
                             android:layout_height="wrap_content"
                             android:text="@string/default_main_file_name" />
 
-                    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+                    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
-                    <org.autojs.autojs.core.ui.widget.JsCheckBox
+                    <org.ceenjs.ceenjs.core.ui.widget.JsCheckBox
                         android:id="@+id/default_stable_mode"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -222,7 +222,7 @@
 
         </ScrollView>
 
-        <org.autojs.autojs.theme.widget.ThemeColorFloatingActionButton
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorFloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -14,7 +14,7 @@
         android:fitsSystemWindows="true"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbarEditor
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbarEditor
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_gravity="end" />
-        </org.autojs.autojs.theme.widget.ThemeColorToolbarEditor>
+        </org.ceenjs.ceenjs.theme.widget.ThemeColorToolbarEditor>
     </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout

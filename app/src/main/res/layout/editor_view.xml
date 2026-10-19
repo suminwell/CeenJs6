@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbarEditor
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbarEditor
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -30,7 +30,7 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="end" />
 
-        </org.autojs.autojs.theme.widget.ThemeColorToolbarEditor>
+        </org.ceenjs.ceenjs.theme.widget.ThemeColorToolbarEditor>
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -44,7 +44,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <org.autojs.autojs.ui.edit.editor.CodeEditor
+            <org.ceenjs.ceenjs.ui.edit.editor.CodeEditor
                 android:id="@+id/editor"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -80,7 +80,7 @@
                             app:layout_constraintTop_toTopOf="parent"
                             app:tint="#222329" />
 
-                        <org.autojs.autojs.ui.edit.completion.CodeCompletionBar
+                        <org.ceenjs.ceenjs.ui.edit.completion.CodeCompletionBar
                             android:id="@+id/code_completion_bar"
                             android:layout_width="0dp"
                             android:layout_height="35dp"
@@ -91,7 +91,7 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <org.autojs.autojs.ui.edit.completion.CodeCompletionBar
+                    <org.ceenjs.ceenjs.ui.edit.completion.CodeCompletionBar
                         android:id="@+id/symbol_bar"
                         android:layout_width="match_parent"
                         android:layout_height="35dp" />
@@ -124,13 +124,13 @@
 
             </FrameLayout>
 
-            <org.autojs.autojs.ui.edit.keyboard.FunctionsKeyboardView
+            <org.ceenjs.ceenjs.ui.edit.keyboard.FunctionsKeyboardView
                 android:id="@+id/functions_keyboard"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:visibility="gone" />
 
-            <org.autojs.autojs.ui.edit.debug.DebugBar
+            <org.ceenjs.ceenjs.ui.edit.debug.DebugBar
                 android:id="@+id/debug_bar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -138,7 +138,7 @@
 
         </LinearLayout>
 
-        <org.autojs.autojs.ui.widget.EWebView
+        <org.ceenjs.ceenjs.ui.widget.EWebView
             android:id="@+id/docs"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

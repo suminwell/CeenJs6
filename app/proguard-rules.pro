@@ -48,21 +48,21 @@
 -dontwarn java.lang.invoke.*
 -dontwarn **$$Lambda$*
 
-# autojs
+# ceenjs
 
 -keep class org.mozilla.javascript.** { *; }
--keep class org.autojs.autojs.core.automator.** { *; }
--keep class org.autojs.autojs.** { *; }
+-keep class org.ceenjs.ceenjs.core.automator.** { *; }
+-keep class org.ceenjs.ceenjs.** { *; }
 
 -keep class com.stardust.automator.** { *; }
--keep class com.stardust.autojs.** { *; }
+-keep class com.stardust.ceenjs.** { *; }
 -dontwarn com.stardust.**
 
 -keepattributes *Annotation*,SourceFile,LineNumberTable
 
 -keepclassmembers class ** {
-    @org.autojs.autojs.annotation.ScriptInterface <methods>;
-    @com.stardust.autojs.annotation.ScriptInterface <methods>;
+    @org.ceenjs.ceenjs.annotation.ScriptInterface <methods>;
+    @com.stardust.ceenjs.annotation.ScriptInterface <methods>;
 }
 
 # Event bus

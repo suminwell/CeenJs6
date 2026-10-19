@@ -2,7 +2,7 @@
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-rootProject.name = "AutoJs6"
+rootProject.name = "CeenJs6"
 
 includeBuild("build-logic")
 

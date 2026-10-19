@@ -12,67 +12,67 @@
 * `新增` 版本歷史功能, 支援檢視/恢復可編輯檔案的歷史版本 (入口: 主頁抽屜按鈕/檔案管理器選單/程式碼編輯器選單)
 * `新增` 回收站功能, 支援檢視/恢復已刪除的檔案/資料夾 (入口: 主頁抽屜按鈕)
 * `新增` Paddle OCR (PP-OCRv5) 外掛, 用於光學字元識別
-* `新增` cvt 模組, 用於資料單位轉換 (參閱 專案文件 > [單位轉換](https://docs.autojs6.com/#/cvt))
-* `新增` fmt 模組, 用於資料格式化 (參閱 專案文件 > [格式化](https://docs.autojs6.com/#/fmt))
-* `新增` zip 模組, 用於檔案壓縮與解壓縮操作 (Ref to [Auto.js Pro](https://g.pro.autojs.org/)) (參閱 專案文件 > [Zip](https://docs.autojs6.com/#/zip))
-* `新增` mediainfo 模組, 用於檢視媒體檔案的詳細資訊 (參閱 專案文件 > [媒體資訊](https://docs.autojs6.com/#/mediainfo))
-* `新增` cvt.bytes 方法, 用於位元組資料單位轉換 (參閱 專案文件 > [單位轉換](https://docs.autojs6.com/#/cvt))
-* `新增` fmt.bytes 方法, 用於位元組資料格式化 (參閱 專案文件 > [格式化](https://docs.autojs6.com/#/fmt))
-* `新增` s13n.bytes 方法, 用於標準化位元組資料 (參閱 專案文件 > [標準化](https://docs.autojs6.com/#/s13n))
-* `新增` app.isDualInstalled 方法, 用於檢測雙開應用是否已安裝 (需要 Shizuku 或 Root 許可權) _[`issue #450`](http://issues.autojs6.com/450)_
-* `新增` device.getSharedDeviceId 方法, 用於跨應用獲取統一共享裝置 ID _[`issue #455`](http://issues.autojs6.com/455)_
-* `新增` device.setPointerLocation 等 Toggleable 系列方法, 用於設定或獲取指標位置系統設定項 _[`issue #381`](http://issues.autojs6.com/381)_
+* `新增` cvt 模組, 用於資料單位轉換 (參閱 專案文件 > [單位轉換](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/cvt))
+* `新增` fmt 模組, 用於資料格式化 (參閱 專案文件 > [格式化](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/fmt))
+* `新增` zip 模組, 用於檔案壓縮與解壓縮操作 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) (參閱 專案文件 > [Zip](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/zip))
+* `新增` mediainfo 模組, 用於檢視媒體檔案的詳細資訊 (參閱 專案文件 > [媒體資訊](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/mediainfo))
+* `新增` cvt.bytes 方法, 用於位元組資料單位轉換 (參閱 專案文件 > [單位轉換](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/cvt))
+* `新增` fmt.bytes 方法, 用於位元組資料格式化 (參閱 專案文件 > [格式化](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/fmt))
+* `新增` s13n.bytes 方法, 用於標準化位元組資料 (參閱 專案文件 > [標準化](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/s13n))
+* `新增` app.isDualInstalled 方法, 用於檢測雙開應用是否已安裝 (需要 Shizuku 或 Root 許可權) _[`issue #450`](https://github.com/suminwell/CeenJs6/issues/450)_
+* `新增` device.getSharedDeviceId 方法, 用於跨應用獲取統一共享裝置 ID _[`issue #455`](https://github.com/suminwell/CeenJs6/issues/455)_
+* `新增` device.setPointerLocation 等 Toggleable 系列方法, 用於設定或獲取指標位置系統設定項 _[`issue #381`](https://github.com/suminwell/CeenJs6/issues/381)_
 * `新增` dialogs.build 方法支援 textAllCaps/(positive/negative/neutral)TextAllCaps 選項引數, 用於控制按鈕文字是否全部大寫
-* `新增` images.loadAsync 方法, 用於非同步獲取網路影像資源 _[`issue #327`](http://issues.autojs6.com/327)_
-* `新增` ui.getNavigationBarHeight 方法/navigationBarHeight 屬性 (getter), 用於獲取導航欄高度 _[`issue #456`](http://issues.autojs6.com/456)_
-* `新增` ui.getVisible(Status/Navigation)BarHeight 方法/visible(Status/Navigation)BarHeight 屬性 (getter), 用於快捷獲取狀態列或導航欄可見高度 _[`issue #456`](http://issues.autojs6.com/456)_
+* `新增` images.loadAsync 方法, 用於非同步獲取網路影像資源 _[`issue #327`](https://github.com/suminwell/CeenJs6/issues/327)_
+* `新增` ui.getNavigationBarHeight 方法/navigationBarHeight 屬性 (getter), 用於獲取導航欄高度 _[`issue #456`](https://github.com/suminwell/CeenJs6/issues/456)_
+* `新增` ui.getVisible(Status/Navigation)BarHeight 方法/visible(Status/Navigation)BarHeight 屬性 (getter), 用於快捷獲取狀態列或導航欄可見高度 _[`issue #456`](https://github.com/suminwell/CeenJs6/issues/456)_
 * `新增` http.put/del(ete)/head 方法, 用於使用不同的 HTTP 請求方法傳送網路請求
-* `新增` http.getAsync/postAsync/requestAsync 等方法, 用於非同步傳送網路請求 _[`issue #423`](http://issues.autojs6.com/423)_
-* `新增` http 模組請求相關方法獲取的 body 物件增加 stream/saveToFile/close 等方法 _[`issue #452`](http://issues.autojs6.com/452)_
+* `新增` http.getAsync/postAsync/requestAsync 等方法, 用於非同步傳送網路請求 _[`issue #423`](https://github.com/suminwell/CeenJs6/issues/423)_
+* `新增` http 模組請求相關方法獲取的 body 物件增加 stream/saveToFile/close 等方法 _[`issue #452`](https://github.com/suminwell/CeenJs6/issues/452)_
 * `新增` http 模組請求相關方法支援快取控制選項引數 (cacheBody/bodyCacheThresholdBytes)
-* `新增` http 模組請求相關方法支援不安全選項引數 (isInsecure/insecure), 用於忽略證書相關異常 _[`issue #417`](http://issues.autojs6.com/417)_
-* `新增` http 模組請求相關方法支援 options.client 選項, 用於配置 OkHttpClient.Builder (如 followRedirects 等) _[`issue #454`](http://issues.autojs6.com/454)_
+* `新增` http 模組請求相關方法支援不安全選項引數 (isInsecure/insecure), 用於忽略證書相關異常 _[`issue #417`](https://github.com/suminwell/CeenJs6/issues/417)_
+* `新增` http 模組請求相關方法支援 options.client 選項, 用於配置 OkHttpClient.Builder (如 followRedirects 等) _[`issue #454`](https://github.com/suminwell/CeenJs6/issues/454)_
 * `新增` auto.state 屬性 (getter) 及 shizuku.state 屬性 (getter), 用於獲取無障礙服務狀態及 Shizuku 服務狀態
-* `新增` runtime.(set/is)JavaPrimitiveWrap 方法, 用於設定或獲取 Java 原始型別包裝策略 _[`issue #435`](http://issues.autojs6.com/435)_
-* `新增` autojs.(restart/exit) 方法, 用於重啟或退出 AutoJs6 應用, 並支援應用重啟時自動執行其引數指定的指令碼 _[`issue #460`](http://issues.autojs6.com/460)_
-* `新增` UiObject#isShifted 方法, 用於檢測控制元件位置變化 _[`issue #469`](http://issues.autojs6.com/469)_
-* `新增` UiObject#snapshot 方法, 用於捕獲控制元件當前狀態 _[`issue #469`](http://issues.autojs6.com/469)_
-* `新增` engines.myEngine().getStartTime() 方法, 用於獲取指令碼引擎啟動時間戳 _[`issue #449`](http://issues.autojs6.com/449)_
+* `新增` runtime.(set/is)JavaPrimitiveWrap 方法, 用於設定或獲取 Java 原始型別包裝策略 _[`issue #435`](https://github.com/suminwell/CeenJs6/issues/435)_
+* `新增` ceenjs.(restart/exit) 方法, 用於重啟或退出 CeenJs6 應用, 並支援應用重啟時自動執行其引數指定的指令碼 _[`issue #460`](https://github.com/suminwell/CeenJs6/issues/460)_
+* `新增` UiObject#isShifted 方法, 用於檢測控制元件位置變化 _[`issue #469`](https://github.com/suminwell/CeenJs6/issues/469)_
+* `新增` UiObject#snapshot 方法, 用於捕獲控制元件當前狀態 _[`issue #469`](https://github.com/suminwell/CeenJs6/issues/469)_
+* `新增` engines.myEngine().getStartTime() 方法, 用於獲取指令碼引擎啟動時間戳 _[`issue #449`](https://github.com/suminwell/CeenJs6/issues/449)_
 * `新增` crash 全域性方法, 用於測試崩潰報告頁面
 * `新增` structuredClone 全域性方法, 用於深複製 JavaScript 物件 (參閱 [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/structuredClone))
 * `新增` 等價系列選擇器 (UiSelector#id/text/...) 及包含系列選擇器 (UiSelector#xxxContains) 支援正則表示式引數
 * `新增` 選擇器的正則表示式引數支援使用標誌 (i, m, s, u)
-* `新增` 正則表示式支援後瞻斷言語法 _[`issue #464`](http://issues.autojs6.com/464)_
+* `新增` 正則表示式支援後瞻斷言語法 _[`issue #464`](https://github.com/suminwell/CeenJs6/issues/464)_
 * `新增` 檔案管理器增加 "移動到" 及 "複製到" 選單項, 支援操作中止及進度狀態顯示
 * `新增` 程式碼編輯器增加 "多功能鍵盤" - "符號設定" 選單項, 支援符號編輯及按配置級別進行符號的建立/匯入/匯出等
 * `新增` 主頁抽屜增加 "指標位置" 工具
 * `新增` 主頁抽屜增加 "所有檔案管理許可權" 開關
 * `新增` 主頁抽屜增加 "後臺彈出介面" 開關 (針對 [小米/Vivo] 裝置)
-* `新增` 設定頁面增加 "Java 原始型別包裝" 設定選項 _[`issue #435`](http://issues.autojs6.com/435)_
-* `新增` 設定頁面增加 "定時任務排程引擎" 設定選項, 支援 AlarmManager/WorkManager/JobScheduler _[`issue #457`](http://issues.autojs6.com/457)_ _[`issue #434`](http://issues.autojs6.com/434)_ _[`issue #449`](http://issues.autojs6.com/449)_ _[`issue #388`](http://issues.autojs6.com/388)_ _[`issue #378`](http://issues.autojs6.com/378)_ _[`issue #163`](http://issues.autojs6.com/163)_ _[`issue #53`](http://issues.autojs6.com/53)_ _[`issue #21`](http://issues.autojs6.com/21)_
-* `新增` 設定頁面增加 "應用啟動器圖示" 設定選項, 支援自適應圖示/透明背景圖示 _[`issue #405`](http://issues.autojs6.com/405)_
+* `新增` 設定頁面增加 "Java 原始型別包裝" 設定選項 _[`issue #435`](https://github.com/suminwell/CeenJs6/issues/435)_
+* `新增` 設定頁面增加 "定時任務排程引擎" 設定選項, 支援 AlarmManager/WorkManager/JobScheduler _[`issue #457`](https://github.com/suminwell/CeenJs6/issues/457)_ _[`issue #434`](https://github.com/suminwell/CeenJs6/issues/434)_ _[`issue #449`](https://github.com/suminwell/CeenJs6/issues/449)_ _[`issue #388`](https://github.com/suminwell/CeenJs6/issues/388)_ _[`issue #378`](https://github.com/suminwell/CeenJs6/issues/378)_ _[`issue #163`](https://github.com/suminwell/CeenJs6/issues/163)_ _[`issue #53`](https://github.com/suminwell/CeenJs6/issues/53)_ _[`issue #21`](https://github.com/suminwell/CeenJs6/issues/21)_
+* `新增` 設定頁面增加 "應用啟動器圖示" 設定選項, 支援自適應圖示/透明背景圖示 _[`issue #405`](https://github.com/suminwell/CeenJs6/issues/405)_
 * `新增` 設定頁面增加 "重啟策略" 設定選項, 用於設定主頁抽屜欄重啟按鈕是否使用快速重啟策略
 * `新增` 設定頁面增加 "螢幕捕獲許可權申請延遲" 設定選項, 用於避免許可權申請視窗遮擋螢幕
 * `新增` 設定頁面啟動器快捷方式增加 "外掛" 選項, 用於透過快捷方式跳轉到外掛中心頁面
 * `新增` 打包應用支援開機自啟動並在配置頁面增加開關配置
 * `新增` 打包應用支援應用快捷方式 (日誌頁面/設定頁面)
 * `新增` 打包應用配置頁面增加撤銷/重做/儲存按鈕
-* `新增` 打包應用配置頁面增加配置機制, 支援配置的建立/修改/刪除/匯入/匯出 _[`issue #483`](http://issues.autojs6.com/483)_
+* `新增` 打包應用配置頁面增加配置機制, 支援配置的建立/修改/刪除/匯入/匯出 _[`issue #483`](https://github.com/suminwell/CeenJs6/issues/483)_
 * `新增` Scrapers 工具 (run-scrapers.mjs) 用於自動更新 Gradle 構建指令碼結構化資料/README 通用資料/README 模板資料等
 * `新增` Gradle Wrapper 切換工具 (gradle-wrapper-switcher), 用於切換本地 Gradle 主版本 (如 Gradle 8.x 與 Gradle 9.x)
-* `修復` notice 方法引數數量及型別限制錯誤 _[`issue #462`](http://issues.autojs6.com/462)_
+* `修復` notice 方法引數數量及型別限制錯誤 _[`issue #462`](https://github.com/suminwell/CeenJs6/issues/462)_
 * `修復` ui.R 屬性 (getter) 無法正常使用的問題
 * `修復` ui.post 方法回撥引數中產生異常時可能靜默失敗的問題
 * `修復` isJavaClass/isJavaPackage 等全域性方法無效的問題
 * `修復` timers.keepAlive 方法 timeout 引數功能無效的問題
-* `修復` floaty.window/rawWindow 方法無法接受字串引數的問題 _[`issue #467`](http://issues.autojs6.com/467)_
+* `修復` floaty.window/rawWindow 方法無法接受字串引數的問題 _[`issue #467`](https://github.com/suminwell/CeenJs6/issues/467)_
 * `修復` floaty.rawWindow 因傳入錯誤的上下文導致部分控制元件顯示異常的問題
 * `修復` util.isString 方法無效的問題
 * `修復` util.class[Name]/getClass[Name] 可能返回錯誤結果的問題
 * `修復` util.java.array 無法正常使用 Boolean 等型別引數的問題
-* `修復` threads.disposable() 返回的物件在存取資料時可能被意外裝箱的問題 _[`issue #435`](http://issues.autojs6.com/435)_
+* `修復` threads.disposable() 返回的物件在存取資料時可能被意外裝箱的問題 _[`issue #435`](https://github.com/suminwell/CeenJs6/issues/435)_
 * `修復` console.build 方法多次呼叫時, 日誌浮動視窗樣式選項未能正常重置的問題
-* `修復` console.build 方法的 (title/content)BackgroundColor 選項導致透明度或著色選項被覆蓋的問題 _[`issue #458`](http://issues.autojs6.com/458)_
+* `修復` console.build 方法的 (title/content)BackgroundColor 選項導致透明度或著色選項被覆蓋的問題 _[`issue #458`](https://github.com/suminwell/CeenJs6/issues/458)_
 * `修復` console/toast 等方法顯示 Java Double 時可能丟失末尾零的問題
 * `修復` 無法使用 console/toast 等方法顯示 BigInt 資料型別的問題
 * `修復` toast 方法因持有 Toast 例項強引用而導致可能得記憶體洩露問題
@@ -83,32 +83,32 @@
 * `修復` canvas 元素控制元件 setMaxFps 方法內部幀率計算錯誤
 * `修復` images.concat 方法縱向拼接時寬度值計算錯誤
 * `修復` images.requestScreenCapture 方法呼叫時使用者取消授權可能導致應用崩潰的問題
-* `修復` images.captureScreen 方法獲取的截圖可能存在方向錯誤或黑邊填充的問題 _[`issue #337`](http://issues.autojs6.com/337)_
+* `修復` images.captureScreen 方法獲取的截圖可能存在方向錯誤或黑邊填充的問題 _[`issue #337`](https://github.com/suminwell/CeenJs6/issues/337)_
 * `修復` images 部分方法使用區域引數時 1 被誤解析為百分比的問題
-* `修復` images 部分相關方法出現異常時 oneShot 標記功能失效的問題 _[`issue #372`](http://issues.autojs6.com/372)_
-* `修復` images 部分相關方法可能引發記憶體洩露的問題 _[`issue #372`](http://issues.autojs6.com/372)_
+* `修復` images 部分相關方法出現異常時 oneShot 標記功能失效的問題 _[`issue #372`](https://github.com/suminwell/CeenJs6/issues/372)_
+* `修復` images 部分相關方法可能引發記憶體洩露的問題 _[`issue #372`](https://github.com/suminwell/CeenJs6/issues/372)_
 * `修復` images.save 及 ImageWrapper#saveTo 方法傳入路徑不存在時無法正常寫入檔案的問題
 * `修復` ImageWrapper#recycle 方法回收影像資源功能失效的問題
 * `修復` ocr 部分過載方法可能無法正常使用的問題
-* `修復` ocr.detect 方法獲得的結果可能與 ocr.mode 不匹配的問題 _[`issue #468`](http://issues.autojs6.com/468)_
-* `修復` auto.registerEvent 註冊的無障礙服務事件會被其他指令碼誤清理的問題 _[`issue #466`](http://issues.autojs6.com/466)_ _[`issue #343`](http://issues.autojs6.com/343#issuecomment-3263953918)_
-* `修復` Android 10 UiObject#child 方法可能出現 ArrayIndexOutOfBoundsException 異常的問題 _[`issue #416`](http://issues.autojs6.com/416)_
+* `修復` ocr.detect 方法獲得的結果可能與 ocr.mode 不匹配的問題 _[`issue #468`](https://github.com/suminwell/CeenJs6/issues/468)_
+* `修復` auto.registerEvent 註冊的無障礙服務事件會被其他指令碼誤清理的問題 _[`issue #466`](https://github.com/suminwell/CeenJs6/issues/466)_ _[`issue #343`](https://github.com/suminwell/CeenJs6/issues/343#issuecomment-3263953918)_
+* `修復` Android 10 UiObject#child 方法可能出現 ArrayIndexOutOfBoundsException 異常的問題 _[`issue #416`](https://github.com/suminwell/CeenJs6/issues/416)_
 * `修復` 內建模組方法呼叫可能出現 Rhino 上下文可能不一致的問題
 * `修復` 指令碼建立大量浮動視窗後, 指令碼退出時可能出現視窗殘留的問題
 * `修復` 執行專案時 project.json 配置引數可能無法正常解析的問題
-* `修復` 專案打包時 project.json 的 excludedDirs 配置引數將導致配置檔案解析失敗的問題 _[`issue #428`](http://issues.autojs6.com/428)_
+* `修復` 專案打包時 project.json 的 excludedDirs 配置引數將導致配置檔案解析失敗的問題 _[`issue #428`](https://github.com/suminwell/CeenJs6/issues/428)_
 * `修復` Android 7.x 可能無法正常使用打包功能的問題
 * `修復` 指令碼專案配置檔案儲存時原始鍵名可能會被修改的問題
 * `修復` 指令碼專案配置檔案中構建版本號或構建時間出現較大數字時可能導致應用崩潰的問題
 * `修復` 頻繁獲取或重建 ImageReader 時可能因緩衝區暫無可用幀導致應用崩潰的問題
 * `修復` 輸入事件觀察器 InputEventObserver 可能導致應用啟動時明顯示卡頓的問題
-* `修復` Shizuku 使用者服務程序未能正常結束導致程序堆積的問題 _[`issue #474`](http://issues.autojs6.com/474)_
+* `修復` Shizuku 使用者服務程序未能正常結束導致程序堆積的問題 _[`issue #474`](https://github.com/suminwell/CeenJs6/issues/474)_
 * `修復` 打包應用無法正常使用 Paddle OCR 與 Rapid OCR 功能的問題
 * `修復` 打包應用配置檔案 project.json 中的 key 值可能被意外修改的問題
 * `修復` 打包應用配置頁面滑動 "需要的許可權" 列表時可能出現核取方塊圖示閃爍的問題
 * `修復` 發行歷史頁面部分系統因字型差別導致統計資料顯示不完整的問題
-* `修復` 部分裝置無法正常初始化 MLKit Google OCR 的問題 (試修) _[`issue #8`](http://issues.autojs6.com/8#issuecomment-3117061768)_
-* `修復` 部分裝置無法正常觸發檔案管理器功能按鈕點選事件的問題 (試修) _[`issue #465`](http://issues.autojs6.com/465)_
+* `修復` 部分裝置無法正常初始化 MLKit Google OCR 的問題 (試修) _[`issue #8`](https://github.com/suminwell/CeenJs6/issues/8#issuecomment-3117061768)_
+* `修復` 部分裝置無法正常觸發檔案管理器功能按鈕點選事件的問題 (試修) _[`issue #465`](https://github.com/suminwell/CeenJs6/issues/465)_
 * `修復` 部分裝置程式碼編輯器空行顯示方框字元的問題 (試修)
 * `修復` 程式碼編輯器軟鍵盤可能遮擋文字內容的問題
 * `修復` 程式碼編輯器在只讀模式下依然可以編輯程式碼內容的問題
@@ -117,8 +117,8 @@
 * `修復` 程式碼編輯器自動開啟新建檔案時功能按鈕狀態初始化異常
 * `修復` 程式碼編輯器編輯檔案時置於後臺可能導致應用崩潰的問題
 * `修復` Android 15+ 程式碼編輯器點選 fx 按鈕無法顯示模組函式快捷面板的問題 (試修)
-* `修復` ErrorDialogActivity 可能無法正常啟動或短時間自動消失的問題 _[`issue #479`](http://issues.autojs6.com/479)_ _[`issue #471`](http://issues.autojs6.com/471)_ _[`issue #414`](http://issues.autojs6.com/414)_ _[`issue #340`](http://issues.autojs6.com/340#issuecomment-2973485826)_
-* `修復` Canvas 建構函式可接受的引數型別錯誤 _[`issue #402`](http://issues.autojs6.com/402)_
+* `修復` ErrorDialogActivity 可能無法正常啟動或短時間自動消失的問題 _[`issue #479`](https://github.com/suminwell/CeenJs6/issues/479)_ _[`issue #471`](https://github.com/suminwell/CeenJs6/issues/471)_ _[`issue #414`](https://github.com/suminwell/CeenJs6/issues/414)_ _[`issue #340`](https://github.com/suminwell/CeenJs6/issues/340#issuecomment-2973485826)_
+* `修復` Canvas 建構函式可接受的引數型別錯誤 _[`issue #402`](https://github.com/suminwell/CeenJs6/issues/402)_
 * `修復` 崩潰報告頁面複製詳細資訊功能失效的問題
 * `修復` Android 16+ 自定義返回邏輯失效導致返回功能異常的問題
 * `修復` 檔案管理器搜尋結果展示後點擊返回按鈕或切換標籤頁面時可能導致應用崩潰的問題
@@ -127,20 +127,20 @@
 * `修復` 使用 "三按鈕" 手勢導航時導航欄前景色可能與夜間模式關聯異常的問題
 * `修復` APK 檔案型別資訊對話方塊可能無法獲取應用名稱及 SDK 資訊的問題
 * `修復` 客戶端模式連線後, 短時間斷開連線並再次連線時, 出現握手超時且難以再次建立連線的問題
-* `修復` 客戶端模式連線時, 旋轉螢幕及切換語言等觸發 Activity 重建的操作導致 AutoJs6 總是重建連線的問題
-* `修復` 服務端模式連線時, 旋轉螢幕及切換語言等觸發 Activity 重建的操作導致 VSCode 控制檯無法輸出日誌的問題 _[`issue #385`](http://issues.autojs6.com/385)_
+* `修復` 客戶端模式連線時, 旋轉螢幕及切換語言等觸發 Activity 重建的操作導致 CeenJs6 總是重建連線的問題
+* `修復` 服務端模式連線時, 旋轉螢幕及切換語言等觸發 Activity 重建的操作導致 VSCode 控制檯無法輸出日誌的問題 _[`issue #385`](https://github.com/suminwell/CeenJs6/issues/385)_
 * `修復` 連線 VSCode 外掛時, 多種方式同時連線可能導致日誌列印數量成倍增加的問題
-* `修復` 佈局分析頁面生成程式碼時對於集合控制元件可能生成失敗的問題 (試修) _[`issue #328`](http://issues.autojs6.com/328)_
-* `修復` 設定頁面 "使用 '音量減' 鍵控制錄製" 開關功能失效的問題 _[`issue #480`](http://issues.autojs6.com/480)_
-* `修復` 錄製指令碼生成的程式碼檔案可能出現座標數值與螢幕實際畫素值不匹配的問題 _[`issue #480`](http://issues.autojs6.com/480)_
+* `修復` 佈局分析頁面生成程式碼時對於集合控制元件可能生成失敗的問題 (試修) _[`issue #328`](https://github.com/suminwell/CeenJs6/issues/328)_
+* `修復` 設定頁面 "使用 '音量減' 鍵控制錄製" 開關功能失效的問題 _[`issue #480`](https://github.com/suminwell/CeenJs6/issues/480)_
+* `修復` 錄製指令碼生成的程式碼檔案可能出現座標數值與螢幕實際畫素值不匹配的問題 _[`issue #480`](https://github.com/suminwell/CeenJs6/issues/480)_
 * `修復` 錄製指令碼生成的程式碼檔案首個行為 (如點選或滑動等) 總是被忽略的問題
 * `修復` 浮動按鈕 "執行指令碼" 對話方塊後臺操作檔案時可能導致應用崩潰的問題
 * `修復` 主頁活動頁面生命週期結束後重新進入主頁時, 浮動按鈕狀態可能被重置的問題
 * `修復` 小米裝置 "顯示在其他應用上層" 開關可能跳轉到錯誤設定頁面的問題
 * `修復` 檢查更新中止下載過程後, 網路資料包依然持續後臺獲取的問題 (試修)
 * `修復` 構建工具啟用 isCleanup[Paddle/Rapid]Ocr 配置選項時無法正常完成 Rebuild Project 任務的問題
-* `最佳化` 外掛化 Paddle OCR (PP-OCRv3) 相關功能 _[`issue #334`](http://issues.autojs6.com/334)_ _[`issue #331`](http://issues.autojs6.com/331)_ _[`issue #325`](http://issues.autojs6.com/325)_
-* `最佳化` runtime.loadJar 方法增強相容性 (by [LYS86](https://github.com/LYS86)) _[`pr #475`](http://pr.autojs6.com/475)_
+* `最佳化` 外掛化 Paddle OCR (PP-OCRv3) 相關功能 _[`issue #334`](https://github.com/suminwell/CeenJs6/issues/334)_ _[`issue #331`](https://github.com/suminwell/CeenJs6/issues/331)_ _[`issue #325`](https://github.com/suminwell/CeenJs6/issues/325)_
+* `最佳化` runtime.loadJar 方法增強相容性 (by [LYS86](https://github.com/LYS86)) _[`pr #475`](https://github.com/suminwell/CeenJs6/pull/475)_
 * `最佳化` ui.getStatusBarHeight 方法/statusBarHeight 屬性 (getter) 增強一定程度的相容性
 * `最佳化` console.log 等方法列印全域性物件 (images, app, ocr 等) 時支援顯示詳細資訊
 * `最佳化` dialogs.build 方法支援使用 MaterialDialog.Builder 原生選項引數
@@ -153,7 +153,7 @@
 * `最佳化` 控制檯相關方法列印巨型資料時根據上限適當省略部分內容以降低列印耗時
 * `最佳化` 控制檯浮動視窗倒計時起始值由 6 秒增加到 9 秒
 * `最佳化` 控制檯浮動視窗內部實現進行無鎖化及佇列化處理以提升其引數設定效率與成功率
-* `最佳化` 控制檯浮動視窗背景色彩行為相關 API (透明度/著色/基色) 更符合安卓設計規範 _[`issue #458`](http://issues.autojs6.com/458)_
+* `最佳化` 控制檯浮動視窗背景色彩行為相關 API (透明度/著色/基色) 更符合安卓設計規範 _[`issue #458`](https://github.com/suminwell/CeenJs6/issues/458)_
 * `最佳化` 檔案管理器浮動按鈕展開後點擊選單項時最佳化選單收起時機
 * `最佳化` 檔案管理器/任務面板支援顯示檔案/任務數量統計資訊
 * `最佳化` 程式碼編輯器儲存檔案失敗時自動存為草稿並支援另存為新檔案
@@ -165,15 +165,15 @@
 * `最佳化` 打包應用打包過程對話方塊增加 "中止" 按鈕
 * `最佳化` 打包應用打包過程對話方塊的顯示方式並增加耗時統計
 * `最佳化` 打包應用使用新配置安裝時將覆蓋舊應用的相關配置
-* `最佳化` 打包應用配置頁面預設勾選必要許可權 (WAKE_LOCK/INTERNET/WRITE_EXTERNAL_STORAGE/...) _[`issue #397`](http://issues.autojs6.com/397)_
+* `最佳化` 打包應用配置頁面預設勾選必要許可權 (WAKE_LOCK/INTERNET/WRITE_EXTERNAL_STORAGE/...) _[`issue #397`](https://github.com/suminwell/CeenJs6/issues/397)_
 * `最佳化` 打包應用配置頁面支援更多選項的讀取及配置 (啟動時顯示日誌/啟動時顯示啟動頁/啟動頁標語文字/...)
-* `最佳化` 打包應用設定頁面增加前臺服務開關 _[`issue #406`](http://issues.autojs6.com/406)_
+* `最佳化` 打包應用設定頁面增加前臺服務開關 _[`issue #406`](https://github.com/suminwell/CeenJs6/issues/406)_
 * `最佳化` 指令碼專案配置檔案儲存時增加鍵名衝突檢測機制防止鍵名歧義
 * `最佳化` 崩潰報告頁面支援雙指縮放調整字型大小並新增常用功能按鈕
-* `最佳化` 應用啟動器圖示支援自適應圖示特性 _[`issue #405`](http://issues.autojs6.com/405)_
+* `最佳化` 應用啟動器圖示支援自適應圖示特性 _[`issue #405`](https://github.com/suminwell/CeenJs6/issues/405)_
 * `最佳化` Rhino 引擎在泛型簽名解析失敗時回退為原始反射型別以增強低版本安卓系統的反射方法可用性
 * `最佳化` 主頁抽屜開關類條目新增分隔線, 支援點選標題文字區域顯示詳情對話方塊並按需支援快捷跳轉系統設定
-* `最佳化` 啟動或重啟 AutoJs6 時支援點選主頁抽屜 "客戶端模式" 標題文字區域中止正在嘗試建立的連線
+* `最佳化` 啟動或重啟 CeenJs6 時支援點選主頁抽屜 "客戶端模式" 標題文字區域中止正在嘗試建立的連線
 * `最佳化` 客戶端模式連線時支援使用 IPv6 地址及域名地址建立連線
 * `最佳化` 客戶端模式連線時支援特殊用途 IPv4 地址 (迴環/廣播/多播/保留/...) 檢測提示
 * `最佳化` 客戶端模式連線時支援連線狀態顯示及管理 (修正地址/中止連線)
@@ -183,7 +183,7 @@
 * `最佳化` 浮動按鈕 "更多" 對話方塊使用非同步載入資料方式提升顯示流暢度
 * `最佳化` 浮動按鈕 "執行指令碼" 對話方塊增加 "主頁" 選單項
 * `最佳化` 浮動按鈕 "執行指令碼" 對話方塊支援最小化及狀態恢復並盡最大努力保持視窗常駐或自動恢復
-* `最佳化` 支援使用 Shizuku 許可權錄製指令碼及錄製回放 (回放流暢度受一定影響) _[`issue #320`](http://issues.autojs6.com/320)_
+* `最佳化` 支援使用 Shizuku 許可權錄製指令碼及錄製回放 (回放流暢度受一定影響) _[`issue #320`](https://github.com/suminwell/CeenJs6/issues/320)_
 * `最佳化` 主題色設定頁面定位主題色時使用快速定位方式以提升定位效率
 * `最佳化` 使用 [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) 及 [SharedFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow) 替代已棄用的 [LocalBroadcastManager](https://developer.android.com/jetpack/androidx/releases/localbroadcastmanager)
 * `最佳化` Gradle 構建指令碼提升 7z 格式檔案的解壓效率
@@ -235,10 +235,10 @@
 * `新增` util.dpToPx/spToPx/pxToDp/pxToSp 方法, 用於畫素單位轉換
 * `修復` 螢幕旋轉至橫向時子標題可能顯示不完整的問題
 * `修復` 螢幕旋轉至橫向時部分頁面內容被側邊導航欄遮擋的問題
-* `修復` Android 15 部分頁面狀態列背景著色區域不完整的問題 _[`issue #398`](http://issues.autojs6.com/398)_
+* `修復` Android 15 部分頁面狀態列背景著色區域不完整的問題 _[`issue #398`](https://github.com/suminwell/CeenJs6/issues/398)_
 * `修復` 程式碼編輯器可能使用置信度不足的編碼寫入檔案導致內容解碼異常的問題 (試修)
 * `最佳化` 關於應用與開發者頁面增加布局適配通用性並去除不必要的佈局分類
-* `最佳化` README.md 專案編譯構建小節新增多種方式便於定位目標設定頁面 _[`issue #404`](http://issues.autojs6.com/404)_
+* `最佳化` README.md 專案編譯構建小節新增多種方式便於定位目標設定頁面 _[`issue #404`](https://github.com/suminwell/CeenJs6/issues/404)_
 * `依賴` 附加 AndroidX ConstraintLayout 版本 2.2.1
 
 # v6.6.3
@@ -248,14 +248,14 @@
 * `新增` 發行歷史功能, 可檢視發行版本的發行歷史記錄 (多語言) 與統計資料
 * `新增` timers.keepAlive 方法 (已全域性化), 用於保持指令碼活躍狀態
 * `新增` engines.on('start/stop/error', callback) 等事件監聽方法, 用於監聽指令碼引擎全域性事件
-* `新增` images.detectMultiColors 方法, 用於多點顏色校驗 _[`issue #374`](http://issues.autojs6.com/374)_
-* `新增` images.matchFeatures/detectAndComputeFeatures 方法, 支援全解析度找圖 (Ref to [Auto.js Pro](https://g.pro.autojs.org/)) _[`issue #366`](http://issues.autojs6.com/366)_
+* `新增` images.detectMultiColors 方法, 用於多點顏色校驗 _[`issue #374`](https://github.com/suminwell/CeenJs6/issues/374)_
+* `新增` images.matchFeatures/detectAndComputeFeatures 方法, 支援全解析度找圖 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) _[`issue #366`](https://github.com/suminwell/CeenJs6/issues/366)_
 * `新增` images.compressToBytes 方法, 用於壓縮影象並生成位元組陣列
 * `新增` images.downsample 方法, 用於畫素降取樣並生成新的 ImageWrapper
 * `新增` ui.keepScreenOn 方法, 用於 UI 頁面獲取焦點時保持裝置螢幕常亮
 * `新增` ui.root 屬性 (getter), 用於獲取 UI 頁面佈局的 "視窗內容根容器" 節點
-* `新增` webview 元素支援基於 JsBridge 的 Web 頁面佈局 (Ref to [Auto.js Pro](https://g.pro.autojs.org/)) [參閱 示例程式碼 > 佈局 > 可互動 HTML / Vue2 + Vant (SFC)] _[`issue #281`](http://issues.autojs6.com/281)_
-* `新增` 佈局分析支援控制元件隱藏 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #371`](http://pr.autojs6.com/371)_ _[`issue #355`](http://issues.autojs6.com/355)_
+* `新增` webview 元素支援基於 JsBridge 的 Web 頁面佈局 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) [參閱 示例程式碼 > 佈局 > 可互動 HTML / Vue2 + Vant (SFC)] _[`issue #281`](https://github.com/suminwell/CeenJs6/issues/281)_
+* `新增` 佈局分析支援控制元件隱藏 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #371`](https://github.com/suminwell/CeenJs6/pull/371)_ _[`issue #355`](https://github.com/suminwell/CeenJs6/issues/355)_
 * `修復` 主頁文件標籤及文件活動頁面顯示線上文件時部分內容被系統導航欄遮擋的問題
 * `修復` 部分頁面 Toolbar 點選按鈕時可能導致標題點選事件誤觸發的問題
 * `修復` 部分裝置程式碼編輯器空行顯示方框字元的問題 (試修)
@@ -267,19 +267,19 @@
 * `修復` 檔案管理器示例程式碼進入專案目錄時可能無法自動載入子目錄檔案內容的問題
 * `修復` Android 15 UI 模式頂部內容被狀態列覆蓋的問題
 * `修復` Android 15 部分頁面狀態列背景顏色可能無法動態跟隨主題色的問題
-* `修復` dialogs 模組無法正常使用 customView 屬性的問題 _[`issue #364`](http://issues.autojs6.com/364)_
+* `修復` dialogs 模組無法正常使用 customView 屬性的問題 _[`issue #364`](https://github.com/suminwell/CeenJs6/issues/364)_
 * `修復` dialogs.input 方法的表示式引數可能無法獲得執行結果的問題
-* `修復` 使用 JavaAdapter 時導致 ClassLoader 呼叫棧溢位的問題 _[`issue #376`](http://issues.autojs6.com/376)_
-* `修復` console.setContentTextColor 方法導致日誌字型顏色丟失預設值的問題 _[`issue #346`](http://issues.autojs6.com/346)_
-* `修復` console.setContentBackgroundColor 方法無法接受顏色名稱引數的問題 _[`issue #384`](http://issues.autojs6.com/384)_
+* `修復` 使用 JavaAdapter 時導致 ClassLoader 呼叫棧溢位的問題 _[`issue #376`](https://github.com/suminwell/CeenJs6/issues/376)_
+* `修復` console.setContentTextColor 方法導致日誌字型顏色丟失預設值的問題 _[`issue #346`](https://github.com/suminwell/CeenJs6/issues/346)_
+* `修復` console.setContentBackgroundColor 方法無法接受顏色名稱引數的問題 _[`issue #384`](https://github.com/suminwell/CeenJs6/issues/384)_
 * `修復` images.compress 方法實現原理由畫素降取樣修正為編碼質量變化
 * `修復` images.resize 方法無法正常使用的問題
-* `修復` engines.all 方法可能觸發 ConcurrentModificationException 的問題 _[`issue #394`](http://issues.autojs6.com/394)_
+* `修復` engines.all 方法可能觸發 ConcurrentModificationException 的問題 _[`issue #394`](https://github.com/suminwell/CeenJs6/issues/394)_
 * `修復` README.md 中部分語言日期格式不正確的問題
-* `修復` Gradle 構建指令碼可能因獲取到無效庫檔案檔案長度而導致構建失敗的問題 _[`issue #389`](http://issues.autojs6.com/389)_
+* `修復` Gradle 構建指令碼可能因獲取到無效庫檔案檔案長度而導致構建失敗的問題 _[`issue #389`](https://github.com/suminwell/CeenJs6/issues/389)_
 * `最佳化` 佈局分析選單新增漸變分隔線實現一定程度的功能分組
-* `最佳化` 指令碼專案配置檔案 project.json 支援 permissions 選項 (by [wirsnow](https://github.com/wirsnow)) _[`pr #391`](http://pr.autojs6.com/391)_ _[`issue #362`](http://issues.autojs6.com/362)_
-* `最佳化` 打包單檔案時自動讀取並勾選已安裝應用的宣告許可權 _[`issue #362`](http://issues.autojs6.com/362)_
+* `最佳化` 指令碼專案配置檔案 project.json 支援 permissions 選項 (by [wirsnow](https://github.com/wirsnow)) _[`pr #391`](https://github.com/suminwell/CeenJs6/pull/391)_ _[`issue #362`](https://github.com/suminwell/CeenJs6/issues/362)_
+* `最佳化` 打包單檔案時自動讀取並勾選已安裝應用的宣告許可權 _[`issue #362`](https://github.com/suminwell/CeenJs6/issues/362)_
 * `最佳化` 主題色擴充適配範圍並支援更多控制元件型別
 * `最佳化` 主頁抽屜在橫向螢幕或超寬螢幕的寬度適應性
 * `最佳化` 關於應用與開發者頁面增加水平佈局及小屏佈局適配
@@ -287,11 +287,11 @@
 * `最佳化` 檔案管理器浮動按鈕展開後點擊其他區域可自動隱藏
 * `最佳化` 程式碼編輯器格式化程式碼支援 `??`, `?.`, `??=` 等運算子
 * `最佳化` 程式碼編輯器支援 GB18030 / UTF-16 (LE/BE) / Shift_JIS 等編碼的檔案讀寫
-* `最佳化` 程式碼編輯器支援顯示檔案詳細資訊 (路徑/編碼/換行符/位元組及字元總數等) _[`issue #395`](http://issues.autojs6.com/395)_
+* `最佳化` 程式碼編輯器支援顯示檔案詳細資訊 (路徑/編碼/換行符/位元組及字元總數等) _[`issue #395`](https://github.com/suminwell/CeenJs6/issues/395)_
 * `最佳化` 意圖相關操作 (編輯/檢視/安裝/傳送/播放等) 增加操作異常提示
 * `最佳化` webview 元素的 url 屬性支援相對路徑
 * `最佳化` ImageWrapper#saveTo 方法的路徑引數支援相對路徑
-* `最佳化` images.save 方法使用 quality 引數時支援 png 格式的檔案體積壓縮 _[`issue #367`](http://issues.autojs6.com/367)_
+* `最佳化` images.save 方法使用 quality 引數時支援 png 格式的檔案體積壓縮 _[`issue #367`](https://github.com/suminwell/CeenJs6/issues/367)_
 * `最佳化` 已忽略更新記錄及客戶端模式連線地址記錄支援清空操作
 * `最佳化` 版本更新資訊支援多語言顯示 (與當前顯示語言同步)
 * `最佳化` 使用非同步載入方式一定程度提升檔案管理器列表滑動流暢性
@@ -299,7 +299,7 @@
 * `最佳化` 示例程式碼支援將資料夾重置為初始內容
 * `最佳化` APK 檔案簽名信息提升檢測效率
 * `最佳化` APK 檔案型別資訊及媒體檔案型別資訊最佳化對話方塊顯示效率及資訊展示邏輯
-* `最佳化` Gradle 構建指令碼提升版本自適應能力 _[`discussion #369`](http://discussions.autojs6.com/369)_
+* `最佳化` Gradle 構建指令碼提升版本自適應能力 _[`discussion #369`](https://github.com/suminwell/CeenJs6/discussions/369)_
 * `依賴` 模組化 Material Dialogs 版本 0.9.6.0
 * `依賴` 模組化 Material Date Time Picker 版本 4.2.3
 * `依賴` 本地化 libimagequant 版本 2.17.0
@@ -316,32 +316,32 @@
 ###### 2025/04/16
 
 * `新增` ui.statusBarAppearanceLight/statusBarAppearanceLightBy/navigationBarColor 等方法
-* `新增` ui.statusBarHeight 屬性 (getter), 用於獲取狀態列高度 _[`issue #357`](http://issues.autojs6.com/357)_
-* `新增` images.flip 方法, 用於影象翻轉 _[`issue #349`](http://issues.autojs6.com/349)_
+* `新增` ui.statusBarHeight 屬性 (getter), 用於獲取狀態列高度 _[`issue #357`](https://github.com/suminwell/CeenJs6/issues/357)_
+* `新增` images.flip 方法, 用於影象翻轉 _[`issue #349`](https://github.com/suminwell/CeenJs6/issues/349)_
 * `新增` 設定頁面增加 "副檔名" 設定選項
 * `新增` 主題色設定頁面增加新佈局支援 (分組/定位/搜尋/歷史記錄/調色盤增強等)
 * `修復` Android 15 狀態列背景顏色與主題色不一致的問題
-* `修復` plugins.load 方法無法正常載入外掛的問題 _[`issue #290`](http://issues.autojs6.com/290)_
-* `修復` dx 庫在 Android 7.x 無法正常使用的問題 _[`issue #293`](http://issues.autojs6.com/293)_
-* `修復` ScriptRuntime 使用 require 引用內建模組時可能出現的同步狀態異常 (試修) _[`issue #298`](http://issues.autojs6.com/298)_
-* `修復` notice 模組缺失 getBuilder 等擴充套件方法的問題 _[`issue #301`](http://issues.autojs6.com/301)_
-* `修復` shizuku/shell 等方法無法接受字串引數的問題 _[`issue #310`](http://issues.autojs6.com/310)_
-* `修復` colors.pixel 方法無法接受單通道影象引數的問題 _[`issue #350`](http://issues.autojs6.com/350)_
-* `修復` engines.execScript/execScriptFile 等方法執行指令碼時預設工作路徑異常 _[`issue #358`](http://issues.autojs6.com/358)_ _[`issue #340`](http://issues.autojs6.com/340)_ _[`issue #339`](http://issues.autojs6.com/339)_
+* `修復` plugins.load 方法無法正常載入外掛的問題 _[`issue #290`](https://github.com/suminwell/CeenJs6/issues/290)_
+* `修復` dx 庫在 Android 7.x 無法正常使用的問題 _[`issue #293`](https://github.com/suminwell/CeenJs6/issues/293)_
+* `修復` ScriptRuntime 使用 require 引用內建模組時可能出現的同步狀態異常 (試修) _[`issue #298`](https://github.com/suminwell/CeenJs6/issues/298)_
+* `修復` notice 模組缺失 getBuilder 等擴充套件方法的問題 _[`issue #301`](https://github.com/suminwell/CeenJs6/issues/301)_
+* `修復` shizuku/shell 等方法無法接受字串引數的問題 _[`issue #310`](https://github.com/suminwell/CeenJs6/issues/310)_
+* `修復` colors.pixel 方法無法接受單通道影象引數的問題 _[`issue #350`](https://github.com/suminwell/CeenJs6/issues/350)_
+* `修復` engines.execScript/execScriptFile 等方法執行指令碼時預設工作路徑異常 _[`issue #358`](https://github.com/suminwell/CeenJs6/issues/358)_ _[`issue #340`](https://github.com/suminwell/CeenJs6/issues/340)_ _[`issue #339`](https://github.com/suminwell/CeenJs6/issues/339)_
 * `修復` floaty.window/floaty.rawWindow 無法在子執行緒執行的問題
-* `修復` floaty.getClip 可能無法正常獲取剪下板內容的問題 _[`issue #341`](http://issues.autojs6.com/341)_
+* `修復` floaty.getClip 可能無法正常獲取剪下板內容的問題 _[`issue #341`](https://github.com/suminwell/CeenJs6/issues/341)_
 * `修復` ui.inflate 返回值丟失 attr/on/click 等原型方法的問題
-* `修復` 使用 XML 語法將 JavaScript 表示式作為屬性值時, 其作用域上下文繫結錯誤的問題 _[`issue #319`](http://issues.autojs6.com/319)_
-* `修復` 部分方法調用出現異常時無法被 try..catch 塊捕獲的問題 _[`issue #345`](http://issues.autojs6.com/345)_
-* `修復` 佈局分析頁面生成程式碼時可能導致應用崩潰的問題 _[`issue #288`](http://issues.autojs6.com/288)_
-* `修復` 打包應用無法正常使用 shizuku 模組的問題 _[`issue #227`](http://issues.autojs6.com/227)_ _[`issue #231`](http://issues.autojs6.com/231)_ _[`issue #284`](http://issues.autojs6.com/284)_ _[`issue #287`](http://issues.autojs6.com/287)_ _[`issue #304`](http://issues.autojs6.com/304)_
+* `修復` 使用 XML 語法將 JavaScript 表示式作為屬性值時, 其作用域上下文繫結錯誤的問題 _[`issue #319`](https://github.com/suminwell/CeenJs6/issues/319)_
+* `修復` 部分方法調用出現異常時無法被 try..catch 塊捕獲的問題 _[`issue #345`](https://github.com/suminwell/CeenJs6/issues/345)_
+* `修復` 佈局分析頁面生成程式碼時可能導致應用崩潰的問題 _[`issue #288`](https://github.com/suminwell/CeenJs6/issues/288)_
+* `修復` 打包應用無法正常使用 shizuku 模組的問題 _[`issue #227`](https://github.com/suminwell/CeenJs6/issues/227)_ _[`issue #231`](https://github.com/suminwell/CeenJs6/issues/231)_ _[`issue #284`](https://github.com/suminwell/CeenJs6/issues/284)_ _[`issue #287`](https://github.com/suminwell/CeenJs6/issues/287)_ _[`issue #304`](https://github.com/suminwell/CeenJs6/issues/304)_
 * `修復` 程式碼編輯器跳轉到行尾時可能跳轉到下一行起始位置的問題
 * `修復` 設定頁面連續快速點選對話方塊型別專案時可能導致應用崩潰的問題
 * `最佳化` 精簡打包應用模板 APK 檔案大小
-* `最佳化` 應用 (以及打包應用) 支援更多許可權 _[`issue #338`](http://issues.autojs6.com/338)_
+* `最佳化` 應用 (以及打包應用) 支援更多許可權 _[`issue #338`](https://github.com/suminwell/CeenJs6/issues/338)_
 * `最佳化` 打包應用配置頁面支援 Pinyin 庫選項
 * `最佳化` 打包應用主活動頁面最佳化狀態列背景及文字顏色
-* `最佳化` 打包應用設定頁面增加訪問所有檔案和傳送通知等特殊許可權開關 _[`issue #354`](http://issues.autojs6.com/354)_
+* `最佳化` 打包應用設定頁面增加訪問所有檔案和傳送通知等特殊許可權開關 _[`issue #354`](https://github.com/suminwell/CeenJs6/issues/354)_
 * `最佳化` 控制元件的文字及圖示根據主題色亮度值自動切換合適的顏色
 * `最佳化` 部分控制元件主題色與背景色對比度過低時的視覺體驗
 * `最佳化` 調色盤 HEX 輸入控制元件增強剪貼簿貼上色值時的相容性
@@ -352,17 +352,17 @@
 * `最佳化` 主頁 "檔案" 標籤支援透過長按切換浮動按鈕可見狀態
 * `最佳化` 程式碼編輯器標題文字支援字型大小自適應
 * `最佳化` 日誌頁面浮動按鈕可見狀態與列表滾動操作聯動
-* `最佳化` 指令碼專案配置檔案 project.json 支援更多打包選項 _[`issue #305`](http://issues.autojs6.com/305)_ _[`issue #306`](http://issues.autojs6.com/306)_
+* `最佳化` 指令碼專案配置檔案 project.json 支援更多打包選項 _[`issue #305`](https://github.com/suminwell/CeenJs6/issues/305)_ _[`issue #306`](https://github.com/suminwell/CeenJs6/issues/306)_
 * `最佳化` 指令碼專案配置檔案 project.json 支援選項名稱寬鬆匹配及別名相容
 * `最佳化` APK 檔案型別資訊對話方塊增加檔案大小與簽名方案資訊
 * `最佳化` APK 檔案型別資訊對話方塊增加點選監聽器支援文字複製與應用詳情跳轉
-* `最佳化` 嘗試恢復 com.stardust 字首包以便提升程式碼相容性 _[`issue #290`](http://issues.autojs6.com/290)_
+* `最佳化` 嘗試恢復 com.stardust 字首包以便提升程式碼相容性 _[`issue #290`](https://github.com/suminwell/CeenJs6/issues/290)_
 * `最佳化` floaty.window/floaty.rawWindow 同時支援主執行緒和子執行緒執行
 * `最佳化` getClip 全域性方法適時藉助 floaty.getClip 方法以提升相容性
 * `最佳化` files.path 及相關方法傳入空值路徑引數時的相容性
 * `最佳化` 同步最新的 Rhino 引擎官方上游程式碼並進行必要的程式碼適配
-* `最佳化` README.md 完善專案構建與執行相關內容 _[`issue #344`](http://issues.autojs6.com/344)_
-* `依賴` 附加 Eclipse Paho Client Mqtt V3 版本 1.1.0 _[`issue #330`](http://issues.autojs6.com/330)_
+* `最佳化` README.md 完善專案構建與執行相關內容 _[`issue #344`](https://github.com/suminwell/CeenJs6/issues/344)_
+* `依賴` 附加 Eclipse Paho Client Mqtt V3 版本 1.1.0 _[`issue #330`](https://github.com/suminwell/CeenJs6/issues/330)_
 * `依賴` 升級 Android SDK 版本 34 -> 35
 * `依賴` 升級 Gradle 版本 8.12 -> 8.14-rc-1
 * `依賴` 升級 Rhino 版本 1.8.0-SNAPSHOT -> 1.8.1-SNAPSHOT
@@ -375,20 +375,20 @@
 
 ###### 2025/01/01
 
-* `新增` pinyin 模組, 用於漢語拼音轉換 (參閱 專案文件 > [漢語拼音](https://docs.autojs6.com/#/pinyin))
-* `新增` pinyin4j 模組, 用於漢語拼音轉換 (參閱 專案文件 > [漢語拼音](https://docs.autojs6.com/#/pinyin4j))
+* `新增` pinyin 模組, 用於漢語拼音轉換 (參閱 專案文件 > [漢語拼音](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/pinyin))
+* `新增` pinyin4j 模組, 用於漢語拼音轉換 (參閱 專案文件 > [漢語拼音](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/pinyin4j))
 * `新增` UiObject#isSimilar 及 UiObjectCollection#isSimilar 方法, 用於確定控制元件或控制元件集合是否相似
 * `新增` currentComponent 全域性方法, 用於獲取當前活動的元件名稱資訊
 * `修復` 部分環境因回退版本過低而無法正常編譯專案的問題
 * `修復` 呼叫不存在的方法時可能出現的 "非原始型別值" 異常
-* `修復` 部分裝置無法正常新增指令碼快捷方式的問題 (試修) _[`issue #221`](http://issues.autojs6.com/221)_
-* `修復` automator.click/longClick 方法引數型別限制錯誤 _[`issue #275`](http://issues.autojs6.com/275)_
-* `修復` 選擇器不支援 ConsString 型別引數的問題 _[`issue #277`](http://issues.autojs6.com/277)_
+* `修復` 部分裝置無法正常新增指令碼快捷方式的問題 (試修) _[`issue #221`](https://github.com/suminwell/CeenJs6/issues/221)_
+* `修復` automator.click/longClick 方法引數型別限制錯誤 _[`issue #275`](https://github.com/suminwell/CeenJs6/issues/275)_
+* `修復` 選擇器不支援 ConsString 型別引數的問題 _[`issue #277`](https://github.com/suminwell/CeenJs6/issues/277)_
 * `修復` UiObjectCollection 例項缺失自身方法及屬性的問題
-* `最佳化` 打包應用配置頁面支援簽名配置/金鑰庫管理/許可權設定 (by [luckyloogn](https://github.com/luckyloogn)) _[`pr #286`](http://pr.autojs6.com/286)_
+* `最佳化` 打包應用配置頁面支援簽名配置/金鑰庫管理/許可權設定 (by [luckyloogn](https://github.com/luckyloogn)) _[`pr #286`](https://github.com/suminwell/CeenJs6/pull/286)_
 * `最佳化` 提升浮動視窗當前包名及當前活動名的識別準確性 (優先順序: Shizuku > Root > A11Y)
 * `最佳化` 提升 currentPackage/currentActivity 識別準確性 (優先順序: Shizuku > Root > A11Y)
-* `最佳化` 恢復日誌活動視窗單個條目文字內容的雙擊或長按選擇功能 _[`issue #280`](http://issues.autojs6.com/280)_
+* `最佳化` 恢復日誌活動視窗單個條目文字內容的雙擊或長按選擇功能 _[`issue #280`](https://github.com/suminwell/CeenJs6/issues/280)_
 * `最佳化` 指令碼專案識別在 project.json 損壞情況下儘可能還原關鍵資訊
 * `最佳化` 打包單檔案時自動生成的包名字尾支援將簡體中文轉換為拼音 (支援多音字)
 * `最佳化` UiSelector#findOnce 及 UiSelector#find 方法支援負數引數
@@ -406,39 +406,39 @@
 * `提示` 內建模組使用 Kotlin 重新編寫以提升指令碼執行效率但可能需要多次迭代逐步完善
 * `提示` 內建 init.js 檔案預設為空但支援開發者自行擴充套件內建模組或掛載外部模組
 * `新增` axios 模組 / cheerio 模組 (Ref to [AutoX](https://github.com/kkevsekk1/AutoX))
-* `新增` sqlite 模組, 用於 SQLite 資料庫簡單操作 (Ref to [Auto.js Pro](https://g.pro.autojs.org/)) (參閱 專案文件 > [SQLite](https://docs.autojs6.com/#/sqlite))
-* `新增` mime 模組, 用於處理和解析 MIME 型別字串 (參閱 專案文件 > [MIME](https://docs.autojs6.com/#/mime))
+* `新增` sqlite 模組, 用於 SQLite 資料庫簡單操作 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) (參閱 專案文件 > [SQLite](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/sqlite))
+* `新增` mime 模組, 用於處理和解析 MIME 型別字串 (參閱 專案文件 > [MIME](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/mime))
 * `新增` nanoid 模組, 可作為字串 ID 生成器 (Ref to [ai/nanoid](https://github.com/ai/nanoid))
-* `新增` sysprops 模組, 用於獲取執行時環境配置資料 (參閱 專案文件 > [系統屬性](https://docs.autojs6.com/#/sysprops))
+* `新增` sysprops 模組, 用於獲取執行時環境配置資料 (參閱 專案文件 > [系統屬性](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/sysprops))
 * `新增` ocr 模組支援 [Rapid OCR](https://github.com/RapidAI/RapidOCR) 引擎
-* `新增` 佈局分析支援切換視窗 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` auto.clearCache 方法, 支援清除控制元件快取 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` threads.pool 方法, 支援執行緒池簡單應用 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` images.matchTemplate 方法支援 useTransparentMask 選項引數, 支援透明找圖 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` images.requestScreenCaptureAsync 方法, 用於 UI 模式非同步方式申請截圖許可權 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` images.requestScreenCapture 方法支援 isAsync 選項引數, 支援非同步方式獲取螢幕截圖 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` images.on('screen_capture', callback) 等事件監聽方法, 支援監聽螢幕截圖可用事件 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` images.stopScreenCapture 方法, 支援主動釋放截圖申請的相關資源 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
+* `新增` 佈局分析支援切換視窗 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` auto.clearCache 方法, 支援清除控制元件快取 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` threads.pool 方法, 支援執行緒池簡單應用 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` images.matchTemplate 方法支援 useTransparentMask 選項引數, 支援透明找圖 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` images.requestScreenCaptureAsync 方法, 用於 UI 模式非同步方式申請截圖許可權 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` images.requestScreenCapture 方法支援 isAsync 選項引數, 支援非同步方式獲取螢幕截圖 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` images.on('screen_capture', callback) 等事件監聽方法, 支援監聽螢幕截圖可用事件 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` images.stopScreenCapture 方法, 支援主動釋放截圖申請的相關資源 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
 * `新增` images.psnr/mse/ssim/mssim/hist/ncc 及 images.getSimilarity 方法, 用於獲取影象相似性度量值
 * `新增` images.isGrayscale 方法, 用於判斷影象是否為灰度影象
 * `新增` images.invert 方法, 用於反色影象轉換
-* `新增` s13n.point/time 方法, 用於標準化點物件及時長物件 (參閱 專案文件 > [標準化](https://docs.autojs6.com/#/s13n))
-* `新增` console 模組 gravity (重力), touchThrough (穿透點選), backgroundTint (背景著色) 等相關方法 (參閱 專案文件 > [控制檯](https://docs.autojs6.com/#/console))
+* `新增` s13n.point/time 方法, 用於標準化點物件及時長物件 (參閱 專案文件 > [標準化](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/s13n))
+* `新增` console 模組 gravity (重力), touchThrough (穿透點選), backgroundTint (背景著色) 等相關方法 (參閱 專案文件 > [控制檯](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/console))
 * `新增` Mathx.randomInt/Mathx.randomFloat 方法, 用於返回指定範圍內的隨機整數或隨機浮點數
 * `新增` app.launchDual/startDualActivity 等方法, 用於處理雙開應用 (需要 Shizuku 或 Root 許可權) (實驗性)
 * `新增` app.kill 方法, 用於強制停止應用 (需要 Shizuku 或 Root 許可權)
 * `新增` floaty.getClip 方法, 用於藉助浮動視窗聚焦間接獲取剪下板內容
-* `修復` Fragment 子類 (如 [DrawerFragment](https://github.com/SuperMonster003/AutoJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/autojs/autojs/ui/main/drawer/DrawerFragment.kt#L369) / [ExplorerFragment](https://github.com/SuperMonster003/AutoJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/autojs/autojs/ui/main/scripts/ExplorerFragment.kt#L48) 等) 中存在的 View Binding 記憶體洩漏
-* `修復` [ScreenCapture](https://github.com/SuperMonster003/AutoJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/autojs/autojs/core/image/capture/ScreenCapturer.java#L70) / [ThemeColorPreference](https://github.com/SuperMonster003/AutoJs6/blob/10960ddbee71f75ef80907ad5b6ab42f3e1bf31e/app/src/main/java/org/autojs/autojs/ui/settings/ThemeColorPreference.kt#L21) 等類中存在的例項記憶體洩漏
-* `修復` Android 14 申請截圖許可權導致應用崩潰的問題 (by [chenguangming](https://github.com/chenguangming)) _[`pr #242`](http://pr.autojs6.com/242)_
+* `修復` Fragment 子類 (如 [DrawerFragment](https://github.com/suminwell/CeenJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/ceenjs/ceenjs/ui/main/drawer/DrawerFragment.kt#L369) / [ExplorerFragment](https://github.com/suminwell/CeenJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/ceenjs/ceenjs/ui/main/scripts/ExplorerFragment.kt#L48) 等) 中存在的 View Binding 記憶體洩漏
+* `修復` [ScreenCapture](https://github.com/suminwell/CeenJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/ceenjs/ceenjs/core/image/capture/ScreenCapturer.java#L70) / [ThemeColorPreference](https://github.com/suminwell/CeenJs6/blob/10960ddbee71f75ef80907ad5b6ab42f3e1bf31e/app/src/main/java/org/ceenjs/ceenjs/ui/settings/ThemeColorPreference.kt#L21) 等類中存在的例項記憶體洩漏
+* `修復` Android 14 申請截圖許可權導致應用崩潰的問題 (by [chenguangming](https://github.com/chenguangming)) _[`pr #242`](https://github.com/suminwell/CeenJs6/pull/242)_
 * `修復` Android 14 開啟前臺服務導致應用崩潰的問題
 * `修復` Android 14 程式碼編輯器執行按鈕點選後無法正常亮起的問題
-* `修復` 專案打包後應用可能因缺少必要庫檔案無法正常執行的問題 _[`issue #202`](http://issues.autojs6.com/202)_ _[`issue #223`](http://issues.autojs6.com/223)_ _[`pr #264`](http://pr.autojs6.com/264)_
-* `修復` 編輯專案時可能因指定圖示資源不存在而導致應用崩潰的問題 _[`issue #203`](http://issues.autojs6.com/203)_
+* `修復` 專案打包後應用可能因缺少必要庫檔案無法正常執行的問題 _[`issue #202`](https://github.com/suminwell/CeenJs6/issues/202)_ _[`issue #223`](https://github.com/suminwell/CeenJs6/issues/223)_ _[`pr #264`](https://github.com/suminwell/CeenJs6/pull/264)_
+* `修復` 編輯專案時可能因指定圖示資源不存在而導致應用崩潰的問題 _[`issue #203`](https://github.com/suminwell/CeenJs6/issues/203)_
 * `修復` 截圖許可權申請時無法正常使用引數獲取指定螢幕方向的截圖資源
-* `修復` 部分裝置無法正常新增指令碼快捷方式的問題 (試修) _[`issue #221`](http://issues.autojs6.com/221)_
-* `修復` 呼叫 http 模組與傳送請求相關的方法將出現累積性請求傳送延遲的問題 _[`issue #192`](http://issues.autojs6.com/192)_
-* `修復` Shizuku 服務在 AutoJs6 進入主活動頁面之前可能無法正常使用的問題 (試修) _[`issue #255`](http://issues.autojs6.com/255)_
+* `修復` 部分裝置無法正常新增指令碼快捷方式的問題 (試修) _[`issue #221`](https://github.com/suminwell/CeenJs6/issues/221)_
+* `修復` 呼叫 http 模組與傳送請求相關的方法將出現累積性請求傳送延遲的問題 _[`issue #192`](https://github.com/suminwell/CeenJs6/issues/192)_
+* `修復` Shizuku 服務在 CeenJs6 進入主活動頁面之前可能無法正常使用的問題 (試修) _[`issue #255`](https://github.com/suminwell/CeenJs6/issues/255)_
 * `修復` random(min, max) 方法可能出現結果越界的問題
 * `修復` pickup 方法結果型別引數無法正常傳入空陣列的問題
 * `修復` UiObject#bounds() 得到的控制元件矩形可能被意外修改而破壞其不變性的問題
@@ -474,7 +474,7 @@
 * `最佳化` importPackage 支援字串引數
 * `最佳化` 客戶端模式 IP 地址支援剪下板匯入智慧識別且支援空格按鍵智慧轉換
 * `最佳化` 檔案管理器新建檔案時支援預設字首選擇並自動生成合適的數字字尾
-* `最佳化` 檔案管理器執行專案時具體化異常訊息提示 _[`issue #268`](http://issues.autojs6.com/268)_
+* `最佳化` 檔案管理器執行專案時具體化異常訊息提示 _[`issue #268`](https://github.com/suminwell/CeenJs6/issues/268)_
 * `最佳化` 檔案管理器支援更多型別並支援顯示對應的圖示符號 (支援 800 多種檔案型別)
 * `最佳化` 檔案管理器可編輯的檔案型別 (jpg/doc/pdf/...) 增加編輯按鈕
 * `最佳化` 檔案管理器 APK 檔案支援檢視基礎資訊, Manifest 資訊及許可權列表
@@ -515,27 +515,27 @@
 
 ###### 2023/12/02
 
-* `新增` opencc 模組 (參閱 專案文件 > [中文轉換](https://docs.autojs6.com/#/opencc)) (Ref to [LZX284](https://github.com/SuperMonster003/AutoJs6/pull/187/files#diff-8cff73265af19c059547b76aca8882cbaa3209291406f52df1dafbbc78e80c46R268))
-* `新增` UiSelector 增加 [plus](https://docs.autojs6.com/#/uiObjectType?id=m-plus) 及 [append](https://docs.autojs6.com/#/uiObjectType?id=m-append) 方法 _[`issue #115`](http://issues.autojs6.com/115)_
-* `新增` 打包應用配置頁面增加 ABI 及庫的篩選支援 (Ref to [AutoX](https://github.com/kkevsekk1/AutoX)) _[`issue #189`](http://issues.autojs6.com/189)_
-* `修復` 打包應用檔案體積異常龐大的問題 (Ref to [AutoX](https://github.com/kkevsekk1/AutoX) / [LZX284](https://github.com/SuperMonster003/AutoJs6/pull/187/files#diff-d932ac49867d4610f8eeb21b59306e8e923d016cbca192b254caebd829198856R61)) _[`issue #176`](http://issues.autojs6.com/176)_
+* `新增` opencc 模組 (參閱 專案文件 > [中文轉換](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/opencc)) (Ref to [LZX284](https://github.com/suminwell/CeenJs6/pull/187/files#diff-8cff73265af19c059547b76aca8882cbaa3209291406f52df1dafbbc78e80c46R268))
+* `新增` UiSelector 增加 [plus](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType?id=m-plus) 及 [append](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType?id=m-append) 方法 _[`issue #115`](https://github.com/suminwell/CeenJs6/issues/115)_
+* `新增` 打包應用配置頁面增加 ABI 及庫的篩選支援 (Ref to [AutoX](https://github.com/kkevsekk1/AutoX)) _[`issue #189`](https://github.com/suminwell/CeenJs6/issues/189)_
+* `修復` 打包應用檔案體積異常龐大的問題 (Ref to [AutoX](https://github.com/kkevsekk1/AutoX) / [LZX284](https://github.com/suminwell/CeenJs6/pull/187/files#diff-d932ac49867d4610f8eeb21b59306e8e923d016cbca192b254caebd829198856R61)) _[`issue #176`](https://github.com/suminwell/CeenJs6/issues/176)_
 * `修復` 打包應用無法顯示並列印部分異常訊息的問題
 * `修復` 打包應用配置頁面選擇應用圖示後可能顯示空圖示的問題
 * `修復` 打包應用包含 MLKit Google OCR 庫時可能出現的上下文未初始化異常
 * `修復` ocr.recognizeText/detect 方法無效的問題
 * `修復` 部分文字 (如日誌頁面) 顯示語言與應用設定語言可能不相符的問題
 * `修復` 部分語言在主頁抽屜開關項可能出現文字溢位的問題
-* `修復` 部分裝置無障礙服務開啟後立即自動關閉且無任何提示訊息的問題 _[`issue #181`](http://issues.autojs6.com/181)_
-* `修復` 部分裝置無障礙服務開啟後設備物理按鍵可能導致應用崩潰的問題 (試修) _[`issue #183`](http://issues.autojs6.com/183)_ _[`issue #186`](http://issues.autojs6.com/186#issuecomment-1817307790)_
-* `修復` 使用 auto(true) 重啟無障礙服務後 pickup 功能異常的問題 (試修) _[`issue #184`](http://issues.autojs6.com/184)_
+* `修復` 部分裝置無障礙服務開啟後立即自動關閉且無任何提示訊息的問題 _[`issue #181`](https://github.com/suminwell/CeenJs6/issues/181)_
+* `修復` 部分裝置無障礙服務開啟後設備物理按鍵可能導致應用崩潰的問題 (試修) _[`issue #183`](https://github.com/suminwell/CeenJs6/issues/183)_ _[`issue #186`](https://github.com/suminwell/CeenJs6/issues/186#issuecomment-1817307790)_
+* `修復` 使用 auto(true) 重啟無障礙服務後 pickup 功能異常的問題 (試修) _[`issue #184`](https://github.com/suminwell/CeenJs6/issues/184)_
 * `修復` floaty 模組建立浮動視窗拖動時可能導致應用崩潰的問題 (試修)
-* `修復` app.startActivity 無法使用簡稱引數的問題 _[`issue #182`](http://issues.autojs6.com/182)_ _[`issue #188`](http://issues.autojs6.com/188)_
-* `修復` importClass 匯入的類名與全域性變數衝突時程式碼丟擲異常的問題 _[`issue #185`](http://issues.autojs6.com/185)_
+* `修復` app.startActivity 無法使用簡稱引數的問題 _[`issue #182`](https://github.com/suminwell/CeenJs6/issues/182)_ _[`issue #188`](https://github.com/suminwell/CeenJs6/issues/188)_
+* `修復` importClass 匯入的類名與全域性變數衝突時程式碼丟擲異常的問題 _[`issue #185`](https://github.com/suminwell/CeenJs6/issues/185)_
 * `修復` Android 7.x 無法使用無障礙服務的問題
 * `修復` Android 14 可能無法正常使用 runtime.loadJar/loadDex 方法的問題 (試修)
-* `修復` 安卓系統快速設定面板中 "佈局範圍分析" 和 "佈局層次分析" 不可用的問題 _[`issue #193`](http://issues.autojs6.com/193)_
-* `修復` 自動檢查更新功能可能導致應用 [ANR](https://developer.android.com/topic/performance/vitals/anr) 的問題 (試修) _[`issue #186`](http://issues.autojs6.com/186)_
-* `修復` 檔案管理器示例程式碼資料夾點選 "向上" 按鈕後無法回到工作路徑頁面的問題 _[`issue #129`](http://issues.autojs6.com/129)_
+* `修復` 安卓系統快速設定面板中 "佈局範圍分析" 和 "佈局層次分析" 不可用的問題 _[`issue #193`](https://github.com/suminwell/CeenJs6/issues/193)_
+* `修復` 自動檢查更新功能可能導致應用 [ANR](https://developer.android.com/topic/performance/vitals/anr) 的問題 (試修) _[`issue #186`](https://github.com/suminwell/CeenJs6/issues/186)_
+* `修復` 檔案管理器示例程式碼資料夾點選 "向上" 按鈕後無法回到工作路徑頁面的問題 _[`issue #129`](https://github.com/suminwell/CeenJs6/issues/129)_
 * `修復` 程式碼編輯器使用替換功能時替換按鈕無法顯示的問題
 * `修復` 程式碼編輯器長按刪除時可能導致應用崩潰的問題 (試修)
 * `修復` 程式碼編輯器點選 fx 按鈕無法顯示模組函式快捷面板的問題
@@ -547,7 +547,7 @@
 * `最佳化` 打包應用配置頁面預設 ABI 智慧選擇並增加不可選擇項的引導提示
 * `最佳化` 檔案管理器根據檔案及資料夾的型別及特徵調整選單項的顯示情況
 * `最佳化` 檔案管理器資料夾右鍵選單增加打包應用選項
-* `最佳化` 無障礙服務啟用但功能異常時在 AutoJs6 主頁抽屜開關處將體現異常狀態
+* `最佳化` 無障礙服務啟用但功能異常時在 CeenJs6 主頁抽屜開關處將體現異常狀態
 * `最佳化` 控制檯列印錯誤訊息時附加詳細的堆疊資訊
 * `依賴` 附加 ARSCLib 版本 1.2.4
 * `依賴` 附加 Flexbox 版本 3.0.0
@@ -559,16 +559,16 @@
 ###### 2023/11/15
 
 * `新增` dialogs.build 方法支援 inputSingleLine 選項引數
-* `新增` console.setTouchable 方法 _[`issue #122`](http://issues.autojs6.com/122)_
-* `修復` ocr 模組部分方法無法識別區域引數的問題 _[`issue #162`](http://issues.autojs6.com/162)_  _[`issue #175`](http://issues.autojs6.com/175)_
+* `新增` console.setTouchable 方法 _[`issue #122`](https://github.com/suminwell/CeenJs6/issues/122)_
+* `修復` ocr 模組部分方法無法識別區域引數的問題 _[`issue #162`](https://github.com/suminwell/CeenJs6/issues/162)_  _[`issue #175`](https://github.com/suminwell/CeenJs6/issues/175)_
 * `修復` Android 7.x 發現新版本時無法獲取版本詳情的問題
 * `修復` Android 14 申請截圖許可權時導致應用崩潰的問題
 * `修復` 主頁抽屜快速切換 "浮動按鈕" 開關時可能導致應用崩潰的問題
 * `修復` 使用選單關閉浮動按鈕時重啟應用後浮動按鈕可能依然顯示的問題
-* `修復` Android 13 及以上系統設定頁面選擇並切換 AutoJs6 語言後無法生效的問題
+* `修復` Android 13 及以上系統設定頁面選擇並切換 CeenJs6 語言後無法生效的問題
 * `修復` 構建工具初次構建時無法自動完成 OpenCV 資源部署的問題
 * `最佳化` 原生化 bridges 模組以提升指令碼執行效率 (Ref to [aiselp](https://github.com/aiselp/AutoX/commit/7c41af6d2b9b36d00440a9c8b7e971d025f98327))
-* `最佳化` 重構無障礙服務相關程式碼以增強無障礙服務的功能穩定性 (實驗性) _[`issue #167`](http://issues.autojs6.com/167)_
+* `最佳化` 重構無障礙服務相關程式碼以增強無障礙服務的功能穩定性 (實驗性) _[`issue #167`](https://github.com/suminwell/CeenJs6/issues/167)_
 * `最佳化` UiObject 和 UiObjectCollection 的列印輸出格式
 * `最佳化` 構建工具在構建環境 Gradle JDK 版本不滿足要求時作出升級提示
 * `依賴` 升級 Gradle 版本 8.4 -> 8.5-rc-1
@@ -579,19 +579,19 @@
 
 ###### 2023/11/02
 
-* `修復` 構建工具無法自適應未知平臺的問題 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](http://pr.autojs6.com/158)_
-* `修復` 指令碼退出時可能導致應用崩潰的問題 _[`issue #159`](http://issues.autojs6.com/159)_
-* `修復` http 模組獲取響應物件的 body.contentType 返回值型別錯誤 _[`issue #142`](http://issues.autojs6.com/142)_
-* `修復` device.width 及 device.height 返回資料不正確的問題 _[`issue #160`](http://issues.autojs6.com/160)_
-* `修復` 程式碼編輯器長按刪除時可能導致應用崩潰的問題 (試修) _[`issue #156`](http://issues.autojs6.com/156)_
+* `修復` 構建工具無法自適應未知平臺的問題 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](https://github.com/suminwell/CeenJs6/pull/158)_
+* `修復` 指令碼退出時可能導致應用崩潰的問題 _[`issue #159`](https://github.com/suminwell/CeenJs6/issues/159)_
+* `修復` http 模組獲取響應物件的 body.contentType 返回值型別錯誤 _[`issue #142`](https://github.com/suminwell/CeenJs6/issues/142)_
+* `修復` device.width 及 device.height 返回資料不正確的問題 _[`issue #160`](https://github.com/suminwell/CeenJs6/issues/160)_
+* `修復` 程式碼編輯器長按刪除時可能導致應用崩潰的問題 (試修) _[`issue #156`](https://github.com/suminwell/CeenJs6/issues/156)_
 * `修復` 程式碼編輯器反向選擇文字後進行常規操作可能導致應用崩潰的問題
-* `修復` 部分裝置長按 AutoJs6 應用圖示無法顯示快捷方式選單的問題
+* `修復` 部分裝置長按 CeenJs6 應用圖示無法顯示快捷方式選單的問題
 * `修復` 部分裝置打包專案時點選確認按鈕無響應的問題
 * `修復` app.sendBroadcast 及 app.startActivity 無法使用簡稱引數的問題
 * `修復` floaty 模組 JsWindow#setPosition 等方法首次呼叫時的功能異常
-* `最佳化` 增加 Termux 相關許可權以支援 Intent 呼叫 Termux 執行 ADB 命令 _[`issue #136`](http://issues.autojs6.com/136)_
+* `最佳化` 增加 Termux 相關許可權以支援 Intent 呼叫 Termux 執行 ADB 命令 _[`issue #136`](https://github.com/suminwell/CeenJs6/issues/136)_
 * `最佳化` http 模組獲取的響應物件可重複使用 body.string() 及 body.bytes() 方法
-* `最佳化` 增加 GitHub Actions 自動打包支援 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](http://pr.autojs6.com/158)_
+* `最佳化` 增加 GitHub Actions 自動打包支援 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](https://github.com/suminwell/CeenJs6/pull/158)_
 * `最佳化` 構建工具自適應 Temurin 平臺
 * `依賴` 升級 Gradle 版本 8.4-rc-3 -> 8.4
 * `依賴` 升級 Android dx 版本 1.11 -> 1.14
@@ -600,35 +600,35 @@
 
 ###### 2023/10/30
 
-* `新增` ocr 模組支援 Paddle Lite 引擎 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #120`](http://pr.autojs6.com/120)_
-* `新增` 打包功能支援內建外掛與外部外掛兩種打包方式 (by [LZX284](https://github.com/LZX284)) _[`pr #151`](http://pr.autojs6.com/151)_
-* `新增` WebSocket 模組 (參閱 專案檔案 > [WebSocket](https://docs.autojs6.com/#/webSocketType))
-* `新增` barcode / qrcode 模組 (參閱 專案檔案 > [條碼](https://docs.autojs6.com/#/barcode) / [二維碼](https://docs.autojs6.com/#/qrcode))
-* `新增` shizuku 模組 (參閱 專案檔案 > [Shizuku](https://docs.autojs6.com/#/shizuku)) 及主頁抽屜許可權開關
+* `新增` ocr 模組支援 Paddle Lite 引擎 (by [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #120`](https://github.com/suminwell/CeenJs6/pull/120)_
+* `新增` 打包功能支援內建外掛與外部外掛兩種打包方式 (by [LZX284](https://github.com/LZX284)) _[`pr #151`](https://github.com/suminwell/CeenJs6/pull/151)_
+* `新增` WebSocket 模組 (參閱 專案檔案 > [WebSocket](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/webSocketType))
+* `新增` barcode / qrcode 模組 (參閱 專案檔案 > [條碼](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/barcode) / [二維碼](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/qrcode))
+* `新增` shizuku 模組 (參閱 專案檔案 > [Shizuku](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/shizuku)) 及主頁抽屜許可權開關
 * `新增` device.rotation / device.orientation 等方法
 * `新增` 內部 Java 類支援 class 靜態屬性訪問
 * `新增` 支援在安卓系統設定頁面選擇並切換應用語言 ( Android 13 及以上)
 * `新增` 支援設定頁面新增或長按應用圖示啟用 [應用快捷方式](https://developer.android.com/guide/topics/ui/shortcuts?hl=zh-cn) , 可啟動檔案和設定等頁面
-* `修復` 重新合併部分 PR (by [aiselp](https://github.com/aiselp)) 以解決部分指令碼無法正常結束執行的問題 _[`pr #75`](http://pr.autojs6.com/75)_ _[`pr #78`](http://pr.autojs6.com/78)_
-* `修復` 打包應用無法使用 AutoJs6 新增 API 的問題 (by [LZX284](https://github.com/LZX284)) _[`pr #151`](http://pr.autojs6.com/151)_ _[`issue #149`](http://issues.autojs6.com/149)_
+* `修復` 重新合併部分 PR (by [aiselp](https://github.com/aiselp)) 以解決部分指令碼無法正常結束執行的問題 _[`pr #75`](https://github.com/suminwell/CeenJs6/pull/75)_ _[`pr #78`](https://github.com/suminwell/CeenJs6/pull/78)_
+* `修復` 打包應用無法使用 CeenJs6 新增 API 的問題 (by [LZX284](https://github.com/LZX284)) _[`pr #151`](https://github.com/suminwell/CeenJs6/pull/151)_ _[`issue #149`](https://github.com/suminwell/CeenJs6/issues/149)_
 * `修復` 打包應用在系統夜間模式下的樣式異常
 * `修復` VSCode 外掛儲存檔案到本地時副檔名資訊丟失的問題
 * `修復` 使用協程特性執行專案產生未捕獲異常致使應用崩潰的問題
 * `修復` 重啟或退出應用時浮動按鈕無法記錄其位置狀態資訊的問題
-* `修復` 裝置螢幕方向改變時無法獲取更新後的裝置配置資訊的問題 _[`issue #153`](http://issues.autojs6.com/153)_
+* `修復` 裝置螢幕方向改變時無法獲取更新後的裝置配置資訊的問題 _[`issue #153`](https://github.com/suminwell/CeenJs6/issues/153)_
 * `修復` 螢幕旋轉至橫向時 Toolbar 標題字型過小的問題
 * `修復` 螢幕旋轉至橫向時應用主頁的頁籤排版過於擁擠的問題
-* `修復` 螢幕旋轉至橫向時浮動按鈕可能溢位螢幕的問題 _[`issue #90`](http://issues.autojs6.com/90)_
+* `修復` 螢幕旋轉至橫向時浮動按鈕可能溢位螢幕的問題 _[`issue #90`](https://github.com/suminwell/CeenJs6/issues/90)_
 * `修復` 螢幕多次旋轉時無法恢復浮動按鈕的座標及螢幕側邊方向的問題
 * `修復` 部分裝置訊息浮動框可能出現遺漏顯示或重複顯示的問題
-* `修復` 訊息浮動框在多個指令碼同時執行時可能存在被遮蔽的問題 _[`issue #67`](http://issues.autojs6.com/67)_
+* `修復` 訊息浮動框在多個指令碼同時執行時可能存在被遮蔽的問題 _[`issue #67`](https://github.com/suminwell/CeenJs6/issues/67)_
 * `修復` 使用廣播分析佈局時點選佈局無法彈出選單且導致應用崩潰的問題
 * `修復` 第二次及以後建立的 WebSocket 例項均無法正常觸發監聽器的問題
-* `修復` 撤銷 importPackage 的全域性重定向方法以避免某些作用域下的包匯入異常 _[`issue #88`](http://issues.autojs6.com/88)_
+* `修復` 撤銷 importPackage 的全域性重定向方法以避免某些作用域下的包匯入異常 _[`issue #88`](https://github.com/suminwell/CeenJs6/issues/88)_
 * `修復` 日誌活動頁面使用複製或匯出功能時可能導致應用崩潰的問題
 * `最佳化` 日誌活動頁面匯出功能重新命名為傳送功能並重新實現符合實際意義的匯出功能
 * `最佳化` 日誌活動頁面傳送功能支援條目數量過大時自動擷取並作出提示
-* `最佳化` ocr 模組同時相容 Google MLKit 及 Paddle Lite 引擎 (參閱 專案檔案 > [光學字元識別](https://docs.autojs6.com/#/ocr?id=p-mode))
+* `最佳化` ocr 模組同時相容 Google MLKit 及 Paddle Lite 引擎 (參閱 專案檔案 > [光學字元識別](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/ocr?id=p-mode))
 * `最佳化` 提升無障礙服務自動啟動的成功機率
 * `最佳化` Kotlin 註解處理由 kapt 遷移至 KSP
 * `最佳化` 構建工具支援 IntelliJ Idea EAP 版本
@@ -657,55 +657,55 @@
 
 ###### 2023/07/21
 
-* `新增` 程式碼編輯器的程式碼註釋功能 (by [little-alei](https://github.com/little-alei)) _[`pr #98`](http://pr.autojs6.com/98)_
-* `新增` auto.stateListener 用於無障礙服務連線狀態監聽 (by [little-alei](https://github.com/little-alei)) _[`pr #98`](http://pr.autojs6.com/98)_
-* `新增` UiObject 型別新增 nextSibling / lastChild / offset 等方法 (參閱 專案文件 > [控制元件節點](https://docs.autojs6.com/#/uiObjectType))
-* `修復` VSCode 外掛在指令碼字元總長度超過四位十進位制數時無法解析資料的問題 _[`issue #91`](http://issues.autojs6.com/91)_ _[`issue #93`](http://issues.autojs6.com/93)_ _[`issue #100`](http://issues.autojs6.com/100)_ _[`issue #109`](http://issues.autojs6.com/109)_
-* `修復` VSCode 外掛無法正常儲存檔案的問題 _[`issue #92`](http://issues.autojs6.com/91)_ _[`issue #94`](http://issues.autojs6.com/93)_
+* `新增` 程式碼編輯器的程式碼註釋功能 (by [little-alei](https://github.com/little-alei)) _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_
+* `新增` auto.stateListener 用於無障礙服務連線狀態監聽 (by [little-alei](https://github.com/little-alei)) _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_
+* `新增` UiObject 型別新增 nextSibling / lastChild / offset 等方法 (參閱 專案文件 > [控制元件節點](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType))
+* `修復` VSCode 外掛在指令碼字元總長度超過四位十進位制數時無法解析資料的問題 _[`issue #91`](https://github.com/suminwell/CeenJs6/issues/91)_ _[`issue #93`](https://github.com/suminwell/CeenJs6/issues/93)_ _[`issue #100`](https://github.com/suminwell/CeenJs6/issues/100)_ _[`issue #109`](https://github.com/suminwell/CeenJs6/issues/109)_
+* `修復` VSCode 外掛無法正常儲存檔案的問題 _[`issue #92`](https://github.com/suminwell/CeenJs6/issues/91)_ _[`issue #94`](https://github.com/suminwell/CeenJs6/issues/93)_
 * `修復` 浮動按鈕選單項 "管理無障礙服務" 點選後可能未發生頁面跳轉的問題
-* `修復` runtime.requestPermissions 方法丟失的問題 _[`issue #104`](http://issues.autojs6.com/104)_
-* `修復` events.emitter 不支援 MainThreadProxy 引數的問題 _[`issue #103`](http://issues.autojs6.com/103)_
-* `修復` 在 _[`pr #78`](http://pr.autojs6.com/78)_ 中存在的程式碼編輯器無法格式化程式碼的問題
-* `修復` 使用 JavaAdapter 時導致 ClassLoader 呼叫棧溢位的問題 _[`issue #99`](http://issues.autojs6.com/99)_ _[`issue #110`](http://issues.autojs6.com/110)_
-* `最佳化` 調整模組作用域 (by [aiselp](https://github.com/aiselp)) _[`pr #75`](http://pr.autojs6.com/75)_ _[`pr #78`](http://pr.autojs6.com/78)_
-* `最佳化` 移除發行版本應用啟動時的簽名校驗 (by [LZX284](https://github.com/LZX284)) _[`pr #81`](http://pr.autojs6.com/81)_
-* `最佳化` 在 _[`pr #98`](http://pr.autojs6.com/98)_ 基礎上的編輯器程式碼註釋功能的行為, 樣式及游標位置處理
-* `最佳化` 在 _[`pr #98`](http://pr.autojs6.com/98)_ 基礎上新增程式碼註釋選單項
+* `修復` runtime.requestPermissions 方法丟失的問題 _[`issue #104`](https://github.com/suminwell/CeenJs6/issues/104)_
+* `修復` events.emitter 不支援 MainThreadProxy 引數的問題 _[`issue #103`](https://github.com/suminwell/CeenJs6/issues/103)_
+* `修復` 在 _[`pr #78`](https://github.com/suminwell/CeenJs6/pull/78)_ 中存在的程式碼編輯器無法格式化程式碼的問題
+* `修復` 使用 JavaAdapter 時導致 ClassLoader 呼叫棧溢位的問題 _[`issue #99`](https://github.com/suminwell/CeenJs6/issues/99)_ _[`issue #110`](https://github.com/suminwell/CeenJs6/issues/110)_
+* `最佳化` 調整模組作用域 (by [aiselp](https://github.com/aiselp)) _[`pr #75`](https://github.com/suminwell/CeenJs6/pull/75)_ _[`pr #78`](https://github.com/suminwell/CeenJs6/pull/78)_
+* `最佳化` 移除發行版本應用啟動時的簽名校驗 (by [LZX284](https://github.com/LZX284)) _[`pr #81`](https://github.com/suminwell/CeenJs6/pull/81)_
+* `最佳化` 在 _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_ 基礎上的編輯器程式碼註釋功能的行為, 樣式及游標位置處理
+* `最佳化` 在 _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_ 基礎上新增程式碼註釋選單項
 * `最佳化` 適配 VSCode 外掛 1.0.6
-* `最佳化` UiObject#parent 方法增加級數引數支援 (參閱 專案文件 > [控制元件節點](https://docs.autojs6.com/#/uiObjectType))
+* `最佳化` UiObject#parent 方法增加級數引數支援 (參閱 專案文件 > [控制元件節點](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType))
 * `依賴` 升級 Gradle 版本 8.2 -> 8.3-rc-1
 
 # v6.3.2
 
 ###### 2023/07/06
 
-* `新增` crypto 模組 (參閱 專案文件 > [密文](https://docs.autojs6.com/#/crypto)) _[`issue #70`](http://issues.autojs6.com/70)_
+* `新增` crypto 模組 (參閱 專案文件 > [密文](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/crypto)) _[`issue #70`](https://github.com/suminwell/CeenJs6/issues/70)_
 * `新增` UI 模式增加 textswitcher / viewswitcher / viewflipper / numberpicker / video / search 等控制元件
-* `新增` 日誌活動頁面增加複製及匯出日誌等功能 _[`issue #76`](http://issues.autojs6.com/76)_
+* `新增` 日誌活動頁面增加複製及匯出日誌等功能 _[`issue #76`](https://github.com/suminwell/CeenJs6/issues/76)_
 * `新增` 客戶端模式增加 IP 地址歷史記錄功能
 * `修復` 客戶端模式自動連線或服務端模式自動開啟後可能無法顯示 IP 地址資訊的問題
 * `修復` 客戶端模式及服務端模式連線後在切換語言或夜間模式時連線斷開且無法再次連線的問題
 * `修復` 客戶端模式輸入目標地址時無法使用自定義埠的問題
-* `修復` 客戶端模式輸入目標地址時某些字元將導致 AutoJs6 崩潰的問題
+* `修復` 客戶端模式輸入目標地址時某些字元將導致 CeenJs6 崩潰的問題
 * `修復` VSCode 外掛遠端命令可能出現解析失敗造成命令無法響應的問題 (試修)
 * `修復` Android 7.x 發現新版本時無法獲取版本詳情的問題
-* `修復` images.pixel 無法獲取無障礙服務截圖的畫素色值的問題 _[`issue #73`](http://issues.autojs6.com/73)_
+* `修復` images.pixel 無法獲取無障礙服務截圖的畫素色值的問題 _[`issue #73`](https://github.com/suminwell/CeenJs6/issues/73)_
 * `修復` UI 模式 Android 原生控制元件 (大寫字母開頭) 無法使用預置控制元件屬性的問題
-* `修復` runtime.loadDex/loadJar 載入多個檔案時僅第一個檔案生效的問題 _[`issue #88`](http://issues.autojs6.com/88)_
-* `修復` 部分裝置安裝應用後啟動器僅顯示文件圖示的問題 (試修) _[`issue #85`](http://issues.autojs6.com/85)_
+* `修復` runtime.loadDex/loadJar 載入多個檔案時僅第一個檔案生效的問題 _[`issue #88`](https://github.com/suminwell/CeenJs6/issues/88)_
+* `修復` 部分裝置安裝應用後啟動器僅顯示文件圖示的問題 (試修) _[`issue #85`](https://github.com/suminwell/CeenJs6/issues/85)_
 * `最佳化` 適配 VSCode 外掛 1.0.5
-* `最佳化` 支援 cheerio 模組 (Ref to [aiselp](https://github.com/aiselp/AutoX/commit/7176f5ad52d6904383024fb700bf19af75e22903)) _[`issue #65`](http://issues.autojs6.com/65)_
-* `最佳化` JsWebSocket 例項支援使用 rebuild 方法重新重建例項並建立連線 _[`issue #69`](http://issues.autojs6.com/69)_
+* `最佳化` 支援 cheerio 模組 (Ref to [aiselp](https://github.com/aiselp/AutoX/commit/7176f5ad52d6904383024fb700bf19af75e22903)) _[`issue #65`](https://github.com/suminwell/CeenJs6/issues/65)_
+* `最佳化` JsWebSocket 例項支援使用 rebuild 方法重新重建例項並建立連線 _[`issue #69`](https://github.com/suminwell/CeenJs6/issues/69)_
 * `最佳化` base64 模組支援 number 陣列及 Java 位元組陣列作為主要引數的編解碼
-* `最佳化` 增加對 JavaMail for Android 的支援 _[`issue #71`](http://issues.autojs6.com/71)_
+* `最佳化` 增加對 JavaMail for Android 的支援 _[`issue #71`](https://github.com/suminwell/CeenJs6/issues/71)_
 * `最佳化` 獲取版本更新資訊時使用 Blob 資料型別以增強無代理網路環境適應性
 * `最佳化` 客戶端模式連線過程中在主頁抽屜副標題顯示目標 IP 地址
 * `最佳化` 客戶端模式輸入目標地址時支援對不合法的輸入進行提示
 * `最佳化` 客戶端模式支援使用軟鍵盤迴車鍵建立連線
-* `最佳化` 服務端模式開啟後保持常開狀態 (除非手動關閉或應用程序結束) _[`issue #64`](http://issues.autojs6.com/64#issuecomment-1596990158)_
-* `最佳化` 實現 AutoJs6 與 VSCode 外掛的雙向版本檢測並提示異常檢測結果 _[`issue #89`](http://issues.autojs6.com/89)_
+* `最佳化` 服務端模式開啟後保持常開狀態 (除非手動關閉或應用程序結束) _[`issue #64`](https://github.com/suminwell/CeenJs6/issues/64#issuecomment-1596990158)_
+* `最佳化` 實現 CeenJs6 與 VSCode 外掛的雙向版本檢測並提示異常檢測結果 _[`issue #89`](https://github.com/suminwell/CeenJs6/issues/89)_
 * `最佳化` 增加簡訊資料讀取許可權 (android.permission.READ_SMS) (預設關閉)
-* `最佳化` findMultiColors 方法內部實現 (by [LYS86](https://github.com/LYS86)) _[`pr #72`](http://pr.autojs6.com/72)_
+* `最佳化` findMultiColors 方法內部實現 (by [LYS86](https://github.com/LYS86)) _[`pr #72`](https://github.com/suminwell/CeenJs6/pull/72)_
 * `最佳化` runtime.loadDex/loadJar/load 支援按目錄級別載入或同時載入多個檔案
 * `依賴` 升級 LeakCanary 版本 2.11 -> 2.12
 * `依賴` 升級 Android Analytics 版本 14.2.0 -> 14.3.0
@@ -715,32 +715,32 @@
 
 ###### 2023/05/26
 
-* `新增` 釋出通知許可權及主頁抽屜開關 _[`issue #55`](http://issues.autojs6.com/55)_
+* `新增` 釋出通知許可權及主頁抽屜開關 _[`issue #55`](https://github.com/suminwell/CeenJs6/issues/55)_
 * `新增` UI 模式支援簡單的 Android 佈局解析 (參閱 示例程式碼 > 佈局 > 簡單安卓佈局)
 * `新增` UI 模式增加 console / imagebutton / ratingbar / switch / textclock / togglebutton 等控制元件
-* `新增` UI 模式控制元件的顏色色值支援 [OmniColor](https://docs.autojs6.com/#/omniTypes?id=omnicolor) 型別 (如 color="orange")
+* `新增` UI 模式控制元件的顏色色值支援 [OmniColor](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/omniTypes?id=omnicolor) 型別 (如 color="orange")
 * `新增` UI 模式的控制元件完全支援 attr 方法設定控制元件屬性 (如 ui.text.attr('color', 'blue'))
 * `新增` UI 模式控制元件支援布林型別屬性值的預設形式 (如 clickable="true" 可簡寫為 clickable 或 isClickable)
 * `新增` button 控制元件支援 isColored 及 isBorderless 布林型別屬性
 * `新增` console.resetGlobalLogConfig 方法用於重置全域性日誌配置
-* `新增` web.newWebSocket 方法用於建立 Web Socket 例項 (參閱 專案文件 > [全球資訊網](https://docs.autojs6.com/#/web?id=m-newwebsocket))
+* `新增` web.newWebSocket 方法用於建立 Web Socket 例項 (參閱 專案文件 > [全球資訊網](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/web?id=m-newwebsocket))
 * `修復` 檔案管理器的資料夾排序異常
-* `修復` floaty 模組構建的浮動視窗無法調節樣式及位置的問題 _[`issue #60`](http://issues.autojs6.com/60)_
+* `修復` floaty 模組構建的浮動視窗無法調節樣式及位置的問題 _[`issue #60`](https://github.com/suminwell/CeenJs6/issues/60)_
 * `修復` floaty 模組構建的浮動視窗與系統狀態列重疊的問題
-* `修復` http.postMultipart 方法功能異常 _[`issue #56`](http://issues.autojs6.com/56)_
-* `修復` Android 7.x 無法執行任何指令碼的問題 _[`issue #61`](http://issues.autojs6.com/61)_
+* `修復` http.postMultipart 方法功能異常 _[`issue #56`](https://github.com/suminwell/CeenJs6/issues/56)_
+* `修復` Android 7.x 無法執行任何指令碼的問題 _[`issue #61`](https://github.com/suminwell/CeenJs6/issues/61)_
 * `修復` sign.property 檔案不存在時無法構建專案的問題
-* `修復` 高版本系統 AutoJs6 置於後臺時可能因無前臺通知許可權而崩潰的問題 (API >= 33)
+* `修復` 高版本系統 CeenJs6 置於後臺時可能因無前臺通知許可權而崩潰的問題 (API >= 33)
 * `修復` 呼叫 console.show 方法後日志視窗點選 FAB 按鈕無法清空日誌的問題
 * `修復` 指令碼編輯器除錯時出現的 prototype 空指標異常
 * `修復` 指令碼編輯器執行指令碼時在快取資料夾執行臨時指令碼而非先儲存再在原始位置執行以避免可能的指令碼內容丟失問題
-* `修復` 調整佈局層次分析的層級色條寬度避免層級過多時控制元件名稱無法顯示的問題 _[`issue #46`](http://issues.autojs6.com/46)_
-* `最佳化` 佈局分析浮動視窗增加退出按鈕以關閉視窗 _[`issue #63`](http://issues.autojs6.com/63)_
+* `修復` 調整佈局層次分析的層級色條寬度避免層級過多時控制元件名稱無法顯示的問題 _[`issue #46`](https://github.com/suminwell/CeenJs6/issues/46)_
+* `最佳化` 佈局分析浮動視窗增加退出按鈕以關閉視窗 _[`issue #63`](https://github.com/suminwell/CeenJs6/issues/63)_
 * `最佳化` 指令碼絕對路徑使用簡稱形式以縮減文字長度並增加可讀性
-* `最佳化` 將 Error 替換為 Exception 避免出現異常時 AutoJs6 應用崩潰
-* `最佳化` 檢視 (View) 繫結方式由 ButterKnife 遷移至 View Binding _[`issue #48`](http://issues.autojs6.com/48)_
-* `最佳化` 服務端模式非正常關閉時將於 AutoJs6 啟動時自動開啟 _[`issue #64`](http://issues.autojs6.com/64)_
-* `最佳化` 客戶端模式非正常關閉時將於 AutoJs6 啟動時按最近一次的歷史地址自動連線
+* `最佳化` 將 Error 替換為 Exception 避免出現異常時 CeenJs6 應用崩潰
+* `最佳化` 檢視 (View) 繫結方式由 ButterKnife 遷移至 View Binding _[`issue #48`](https://github.com/suminwell/CeenJs6/issues/48)_
+* `最佳化` 服務端模式非正常關閉時將於 CeenJs6 啟動時自動開啟 _[`issue #64`](https://github.com/suminwell/CeenJs6/issues/64)_
+* `最佳化` 客戶端模式非正常關閉時將於 CeenJs6 啟動時按最近一次的歷史地址自動連線
 * `依賴` 升級 LeakCanary 版本 2.10 -> 2.11
 * `依賴` 升級 Android Material 版本 1.8.0 -> 1.9.0
 * `依賴` 升級 AndroidX WebKit 版本 1.6.1 -> 1.7.0
@@ -751,11 +751,11 @@
 
 ###### 2023/04/29
 
-* `新增` ocr 模組 (參閱 專案檔案 > [光學字元識別](https://docs.autojs6.com/#/ocr)) _[`issue #8`](http://issues.autojs6.com/8)_
-* `新增` notice 模組 (參閱 專案檔案 > [訊息通知](https://docs.autojs6.com/#/notice))
-* `新增` s13n 模組 (參閱 專案檔案 > [標準化](https://docs.autojs6.com/#/s13n))
-* `新增` Color 模組 (參閱 專案檔案 > [顏色類](https://docs.autojs6.com/#/colorType))
-* `新增` colors.setColorPaint 方法, 用於設定 android.graphics.Paint 畫筆顏色 (參閱 專案文件 > [顏色類](https://docs.autojs6.com/#/colorType?id=m-setpaintcolor))
+* `新增` ocr 模組 (參閱 專案檔案 > [光學字元識別](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/ocr)) _[`issue #8`](https://github.com/suminwell/CeenJs6/issues/8)_
+* `新增` notice 模組 (參閱 專案檔案 > [訊息通知](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/notice))
+* `新增` s13n 模組 (參閱 專案檔案 > [標準化](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/s13n))
+* `新增` Color 模組 (參閱 專案檔案 > [顏色類](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/colorType))
+* `新增` colors.setColorPaint 方法, 用於設定 android.graphics.Paint 畫筆顏色 (參閱 專案文件 > [顏色類](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/colorType?id=m-setpaintcolor))
 * `新增` 前臺時保持螢幕常亮功能及設定選項
 * `新增` 額外的檔案啟動器 (launcher) 便於獨立閱讀應用檔案 (支援在設定中隱藏或顯示)
 * `修復` colors.toString 方法功能異常
@@ -763,29 +763,29 @@
 * `修復` app.viewFile/editFile 在引數對應檔案不存在時的行為異常
 * `修復` pickup 方法的回撥函式無法被呼叫的問題
 * `修復` 佈局分析顯示的控制元件資訊 bounds 屬性值負數符號被替換為逗號的問題
-* `修復` bounds/boundsInside/boundsContains 選擇器無法正常篩選狹義空矩形 (如邊界倒置矩形) _[`issue #49`](http://issues.autojs6.com/49)_
+* `修復` bounds/boundsInside/boundsContains 選擇器無法正常篩選狹義空矩形 (如邊界倒置矩形) _[`issue #49`](https://github.com/suminwell/CeenJs6/issues/49)_
 * `修復` 更換主題或修改語言後點選或長按主頁檔案標籤將導致應用崩潰的問題
 * `修復` 文字編輯器雙指縮放調節字型大小時可能出現抖動的問題
-* `修復` 構建指令碼中部分依賴源無法下載的問題 (已全部整合) _[`issue #40`](http://issues.autojs6.com/40)_
-* `修復` Tasker 無法新增 AutoJs6 操作外掛 (Action Plugin) 的問題 (試修) _[`issue #41`](http://issues.autojs6.com/41)_
-* `修復` 高版本 JDK 編譯專案時 ButterKnife 註解無法解析資源 ID 的問題 _[`issue #48`](http://issues.autojs6.com/48)_
+* `修復` 構建指令碼中部分依賴源無法下載的問題 (已全部整合) _[`issue #40`](https://github.com/suminwell/CeenJs6/issues/40)_
+* `修復` Tasker 無法新增 CeenJs6 操作外掛 (Action Plugin) 的問題 (試修) _[`issue #41`](https://github.com/suminwell/CeenJs6/issues/41)_
+* `修復` 高版本 JDK 編譯專案時 ButterKnife 註解無法解析資源 ID 的問題 _[`issue #48`](https://github.com/suminwell/CeenJs6/issues/48)_
 * `修復` 無障礙服務較大機率出現服務異常的問題 (試修)
 * `修復` images.medianBlur 的 size 引數使用方式與檔案不符的問題
 * `修復` engines 模組顯示指令碼全稱時檔名與副檔名之間句點符號丟失的問題
 * `修復` 加權 RGB 距離檢測演演算法內部實現可能存在的計算失誤 (試修)
 * `修復` console 模組的浮動視窗相關方法無法在 show 方法之前使用的問題
-* `修復` console.setSize 等方法可能無法生效的問題 _[`issue #50`](http://issues.autojs6.com/50)_
+* `修復` console.setSize 等方法可能無法生效的問題 _[`issue #50`](https://github.com/suminwell/CeenJs6/issues/50)_
 * `修復` colors.material 顏色空間的顏色常量賦值錯誤
 * `修復` UI 模式的日期選擇控制元件 minDate 及 maxDate 屬性無法正確解析日期格式的問題
 * `修復` 執行指令碼後快速切換到主頁 "任務" 標籤頁面將出現兩個相同執行中任務的問題
-* `修復` 檔案管理頁面從其他頁面返回時頁面狀態可能被重置的問題 _[`issue #52`](http://issues.autojs6.com/52)_
+* `修復` 檔案管理頁面從其他頁面返回時頁面狀態可能被重置的問題 _[`issue #52`](https://github.com/suminwell/CeenJs6/issues/52)_
 * `修復` 檔案管理頁面排序狀態與圖示顯示狀態不符的問題
 * `最佳化` 檔案管理頁面增加檔案及資料夾修改時間顯示
 * `最佳化` 檔案管理頁面排序型別支援狀態記憶
-* `最佳化` README.md 新增專案編譯構建小節與指令碼開發輔助小節 _[`issue #33`](http://issues.autojs6.com/33)_
-* `最佳化` images 模組相關方法的區域 (region) 選項引數支援更多傳入方式 (參閱 專案檔案 > [全能型別](https://docs.autojs6.com/#/omniTypes?id=omniregion))
+* `最佳化` README.md 新增專案編譯構建小節與指令碼開發輔助小節 _[`issue #33`](https://github.com/suminwell/CeenJs6/issues/33)_
+* `最佳化` images 模組相關方法的區域 (region) 選項引數支援更多傳入方式 (參閱 專案檔案 > [全能型別](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/omniTypes?id=omniregion))
 * `最佳化` app.startActivity 頁面簡寫引數增加 pref/homepage/docs/about 等形式的支援
-* `最佳化` web 模組的全域性方法掛載到模組本身以增強可用性 (參閱 專案檔案 > [全球資訊網](https://docs.autojs6.com/#/web))
+* `最佳化` web 模組的全域性方法掛載到模組本身以增強可用性 (參閱 專案檔案 > [全球資訊網](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/web))
 * `最佳化` web.newInjectableWebView 方法內部預設實現部分常用的 WebView 設定選項
 * `最佳化` colors 模組新增多種轉換方法及工具方法並新增更多靜態常量以及可直接作為引數的顏色名稱
 * `最佳化` console 模組新增多種控制檯浮動視窗的樣式配置方法並支援 build 構建器統一配置視窗樣式
@@ -795,7 +795,7 @@
 * `最佳化` http 模組相關方法支援超時選項引數 (timeout)
 * `最佳化` Gradle 構建指令碼支援 JDK 版本主動降級 (fallback)
 * `最佳化` Gradle 構建指令碼支援根據平臺型別及版本自動選擇合適的構建工具版本 (程度有限)
-* `依賴` 本地化 Auto.js APK Builder 版本 1.0.3
+* `依賴` 本地化 Ceen.js APK Builder 版本 1.0.3
 * `依賴` 本地化 MultiLevelListView 版本 1.1
 * `依賴` 本地化 Settings Compat 版本 1.1.5
 * `依賴` 本地化 Enhanced Floaty 版本 0.31
@@ -824,22 +824,22 @@
 * `新增` 檔案管理器支援將任意目錄快捷設定為工作路徑
 * `新增` 版本更新忽略及管理已忽略更新功能
 * `新增` 文字編輯器支援雙指縮放調節字型大小
-* `新增` idHex 選擇器 (UiSelector#idHex) (參閱 專案文件 > [選擇器](https://docs.autojs6.com/#/uiSelectorType))
-* `新增` action 選擇器 (UiSelector#action) (參閱 專案文件 > [選擇器](https://docs.autojs6.com/#/uiSelectorType))
-* `新增` Match 系列選擇器 (UiSelector#xxxMatch) (參閱 專案文件 > [選擇器](https://docs.autojs6.com/#/uiSelectorType))
-* `新增` 拾取選擇器 (UiSelector#pickup) (參閱 專案文件 > [選擇器](https://docs.autojs6.com/#/uiSelectorType)) _[`issue #22`](http://issues.autojs6.com/22)_
-* `新增` 控制元件探測 (UiObject#detect) (參閱 專案文件 > [控制元件節點](https://docs.autojs6.com/#/uiObjectType))
-* `新增` 控制元件羅盤 (UiObject#compass) (參閱 專案文件 > [控制元件節點](https://docs.autojs6.com/#/uiObjectType)) _[`issue #23`](http://issues.autojs6.com/23)_
-* `新增` 全域性等待方法 wait (參閱 專案文件 > [全域性物件](https://docs.autojs6.com/#/global?id=m-wait))
-* `新增` 全域性縮放方法 cX/cY/cYx (參閱 專案文件 > [全域性物件](https://docs.autojs6.com/#/global?id=m-wait))
-* `新增` 全域性 App 型別 (參閱 專案文件 > [應用列舉類](https://docs.autojs6.com/#/appType))
+* `新增` idHex 選擇器 (UiSelector#idHex) (參閱 專案文件 > [選擇器](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType))
+* `新增` action 選擇器 (UiSelector#action) (參閱 專案文件 > [選擇器](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType))
+* `新增` Match 系列選擇器 (UiSelector#xxxMatch) (參閱 專案文件 > [選擇器](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType))
+* `新增` 拾取選擇器 (UiSelector#pickup) (參閱 專案文件 > [選擇器](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType)) _[`issue #22`](https://github.com/suminwell/CeenJs6/issues/22)_
+* `新增` 控制元件探測 (UiObject#detect) (參閱 專案文件 > [控制元件節點](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType))
+* `新增` 控制元件羅盤 (UiObject#compass) (參閱 專案文件 > [控制元件節點](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType)) _[`issue #23`](https://github.com/suminwell/CeenJs6/issues/23)_
+* `新增` 全域性等待方法 wait (參閱 專案文件 > [全域性物件](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/global?id=m-wait))
+* `新增` 全域性縮放方法 cX/cY/cYx (參閱 專案文件 > [全域性物件](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/global?id=m-wait))
+* `新增` 全域性 App 型別 (參閱 專案文件 > [應用列舉類](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/appType))
 * `新增` i18n 模組 (基於 banana-i18n 的 JavaScript 多語言方案) (參閱 專案文件 > 國際化)
 * `修復` 軟體語言切換後可能導致的頁面文字閃變及部分頁面按鈕功能異常
 * `修復` 工作路徑為一個專案時軟體啟動後不顯示專案工具欄的問題
-* `修復` 工作路徑可能跟隨軟體語言切換而自動改變的問題 _[`issue #19`](http://issues.autojs6.com/19)_
-* `修復` 定時任務啟動延時顯著 (試修) _[`issue #21`](http://issues.autojs6.com/21)_
-* `修復` JavaScript 模組名被覆蓋宣告時導致存在依賴關係的內部模組無法正常使用的問題 _[`issue #29`](http://issues.autojs6.com/29)_
-* `修復` 高版本安卓系統點選快速設定面板中相關圖示後面板可能無法自動收起的問題 (試修) _[`issue #7`](http://issues.autojs6.com/7)_
+* `修復` 工作路徑可能跟隨軟體語言切換而自動改變的問題 _[`issue #19`](https://github.com/suminwell/CeenJs6/issues/19)_
+* `修復` 定時任務啟動延時顯著 (試修) _[`issue #21`](https://github.com/suminwell/CeenJs6/issues/21)_
+* `修復` JavaScript 模組名被覆蓋宣告時導致存在依賴關係的內部模組無法正常使用的問題 _[`issue #29`](https://github.com/suminwell/CeenJs6/issues/29)_
+* `修復` 高版本安卓系統點選快速設定面板中相關圖示後面板可能無法自動收起的問題 (試修) _[`issue #7`](https://github.com/suminwell/CeenJs6/issues/7)_
 * `修復` 高版本安卓系統可能出現部分頁面與通知欄區域重疊的問題
 * `修復` Android 10 及以上系統無法正常執行有關設定畫筆顏色的示例程式碼的問題
 * `修復` 示例程式碼 "音樂管理器" 更正檔名為 "檔案管理器" 並恢復正常功能
@@ -867,7 +867,7 @@
 * `修復` Android 7.x 系統在夜間模式關閉時導航欄按鈕難以辨識的問題
 * `修復` http.post 等方法可能出現的請求未關閉異常
 * `修復` colors.toString 方法在 Alpha 通道為 0 時其通道資訊在結果中丟失的問題
-* `最佳化` 重定向 Auto.js 4.x 版本的公有類以實現儘可能的向下相容 (程度有限)
+* `最佳化` 重定向 Ceen.js 4.x 版本的公有類以實現儘可能的向下相容 (程度有限)
 * `最佳化` 合併全部專案模組避免可能的迴圈引用等問題 (臨時移除 inrt 模組)
 * `最佳化` Gradle 構建配置從 Groovy 遷移到 KTS
 * `最佳化` Rhino 異常訊息增加多語言支援
@@ -900,17 +900,17 @@
 * `最佳化` 使用浮動視窗選擇檔案時按返回鍵可返回至上級目錄而非直接關閉視窗
 * `最佳化` 客戶端模式連線計算機輸入地址時支援數字有效性檢測及點分符號自動轉換
 * `最佳化` 客戶端及服務端建立連線後在主頁抽屜顯示對應裝置的 IP 地址
-* `最佳化` 部分全域性物件及內建模組增加覆防寫 (參閱 專案文件 > 全域性物件 > [覆防寫](https://docs.autojs6.com/#/global?id=%e8%a6%86%e5%86%99%e4%bf%9d%e6%8a%a4))
+* `最佳化` 部分全域性物件及內建模組增加覆防寫 (參閱 專案文件 > 全域性物件 > [覆防寫](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/global?id=%e8%a6%86%e5%86%99%e4%bf%9d%e6%8a%a4))
 * `最佳化` importClass 和 importPackage 支援字串引數及不定長引數
 * `最佳化` ui.run 支援出現異常時列印棧追蹤資訊
-* `最佳化` ui.R 及 auto.R 可便捷獲取 AutoJs6 的資源 ID
+* `最佳化` ui.R 及 auto.R 可便捷獲取 CeenJs6 的資源 ID
 * `最佳化` app 模組中與操作應用相關的方法支援 App 型別引數及應用別名引數
 * `最佳化` dialogs 模組中與非同步回撥相關的方法支援省略預填引數
 * `最佳化` app.startActivity 等支援 url 選項引數 (參閱 示例程式碼 > 應用 > 意圖)
 * `最佳化` device 模組獲取 IMEI 或硬體序列號失敗時返回 null 而非丟擲異常
 * `最佳化` 提升 console.show 顯示的日誌浮動視窗文字亮度以增強內容辨識度
 * `最佳化` ImageWrapper#saveTo 支援相對路徑儲存影象檔案
-* `最佳化` 重新設計 colors 全域性物件並增加 HSV / HSL 等色彩模式支援 (參閱 專案文件 > [顏色](https://docs.autojs6.com/#/color))
+* `最佳化` 重新設計 colors 全域性物件並增加 HSV / HSL 等色彩模式支援 (參閱 專案文件 > [顏色](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/color))
 * `依賴` 本地化 Android Job 版本 1.4.3
 * `依賴` 本地化 Android Plugin Client SDK For Locale 版本 9.0.0
 * `依賴` 本地化 GitHub API 版本 1.306
@@ -943,8 +943,8 @@
 ###### 2022/05/31
 
 * `新增` 檢查更新/下載更新/更新提示功能 (參閱 設定頁面) (暫不支援 Android 7.x 系統)
-* `修復` 應用在 Android 10 系統無法讀寫外部儲存的問題 _[`issue #17`](http://issues.autojs6.com/17)_
-* `修復` 編輯器頁面長按時可能導致應用崩潰的問題 _[`issue #18`](http://issues.autojs6.com/18)_
+* `修復` 應用在 Android 10 系統無法讀寫外部儲存的問題 _[`issue #17`](https://github.com/suminwell/CeenJs6/issues/17)_
+* `修復` 編輯器頁面長按時可能導致應用崩潰的問題 _[`issue #18`](https://github.com/suminwell/CeenJs6/issues/18)_
 * `修復` 編輯器頁面長按選單 "刪除行" 和 "複製行" 功能無效的問題
 * `修復` 編輯器頁面選項選單中 "貼上" 功能缺失的問題
 * `最佳化` 部分異常訊息字串資源化 (en / zh)
@@ -956,11 +956,11 @@
 
 ###### 2022/05/26 - 包名變更, 謹慎升級
 
-* `提示` 修改應用包名為 org.autojs.autojs6 避免與開源 Auto.js 應用包名衝突
+* `提示` 修改應用包名為 org.ceenjs.ceenjs6 避免與開源 Ceen.js 應用包名衝突
 * `新增` 主頁抽屜增加 "投影媒體許可權" 開關 (Root / ADB 方式) (開關狀態檢測為實驗性)
 * `新增` 檔案瀏覽器支援顯示隱藏檔案和資料夾 (參閱 設定頁面)
 * `新增` 強制 Root 檢查功能 (參閱 設定頁面 及 示例程式碼)
-* `新增` autojs 模組 (參閱 示例程式碼 > AutoJs6)
+* `新增` ceenjs 模組 (參閱 示例程式碼 > CeenJs6)
 * `新增` tasks 模組 (參閱 示例程式碼 > 任務)
 * `新增` console.launch() 方法啟動日誌活動頁面
 * `新增` util.morseCode 工具 (參閱 示例程式碼 > 工具 > 摩斯電碼)
@@ -975,9 +975,9 @@
 * `新增` dialogs.build 方法支援 animation, linkify 等選項引數 (參閱 示例程式碼 > 對話方塊 > 個性化對話方塊)
 * `修復` dialogs.build 方法 inputHint, itemsSelectedIndex 等選項引數功能異常
 * `修復` JsDialog#on('multi_choice') 回撥引數功能異常
-* `修復` UiObject#parent().indexInParent() 總是返回 -1 的問題 _[`issue #16`](http://issues.autojs6.com/16)_
+* `修復` UiObject#parent().indexInParent() 總是返回 -1 的問題 _[`issue #16`](https://github.com/suminwell/CeenJs6/issues/16)_
 * `修復` Promise.resolve() 返回的 Thenable 在臨近指令碼結束時可能不被呼叫的問題
-* `修復` 包名或類名中可能的拼寫失誤 (boardcast -> broadcast / auojs -> autojs)
+* `修復` 包名或類名中可能的拼寫失誤 (boardcast -> broadcast / auojs -> ceenjs)
 * `修復` images.requestScreenCapture() 在高版本安卓系統可能導致應用崩潰的問題 (API >= 31)
 * `修復` images.requestScreenCapture() 多個指令碼例項同時申請可能導致應用崩潰的問題
 * `修復` 呼叫 new RootAutomator() 可能出現的假死問題
@@ -1020,10 +1020,10 @@
 * `新增` 多語言切換功能 (尚不完善)
 * `新增` recorder 模組 (參閱 示例程式碼 > 計時器)
 * `新增` 使用 "修改安全設定許可權" 自動啟用無障礙服務及開關設定
-* `修復` 點選快速設定面板中相關圖示後面板未自動收起的問題 (試修) _[`issue #7`](http://issues.autojs6.com/7)_
-* `修復` toast 使用強制顯示引數時可能導致 AutoJs6 崩潰的問題
-* `修復` Socket 傳輸資料頭部資訊不完整時可能導致 AutoJs6 崩潰的問題
-* `最佳化` 啟動或重啟 AutoJs6 時根據選項設定自動開啟無障礙服務
+* `修復` 點選快速設定面板中相關圖示後面板未自動收起的問題 (試修) _[`issue #7`](https://github.com/suminwell/CeenJs6/issues/7)_
+* `修復` toast 使用強制顯示引數時可能導致 CeenJs6 崩潰的問題
+* `修復` Socket 傳輸資料頭部資訊不完整時可能導致 CeenJs6 崩潰的問題
+* `最佳化` 啟動或重啟 CeenJs6 時根據選項設定自動開啟無障礙服務
 * `最佳化` 開啟浮動按鈕開關時嘗試自動開啟無障礙服務
 * `最佳化` 所有資原始檔補全元素對應的英文翻譯
 * `最佳化` 微調主頁抽屜佈局 減小專案排列間距
@@ -1041,7 +1041,7 @@
 * `依賴` 升級 OpenCV 版本 3.4.3 -> 4.5.4 -> 4.5.5 (Ref to [TonyJiangWJ](https://github.com/TonyJiangWJ))
 * `依賴` 升級 OkHttp3 版本 3.10.0 -> 5.0.0-alpha.4 -> 5.0.0-alpha.6
 * `依賴` 升級 Gradle 構建工具版本 7.2.0-beta01 -> 7.3.0-alpha06
-* `依賴` 升級 Auto.js-ApkBuilder 版本 1.0.1 -> 1.0.3
+* `依賴` 升級 Ceen.js-ApkBuilder 版本 1.0.1 -> 1.0.3
 * `依賴` 升級 Glide Compiler 版本 4.12.0 -> 4.13.1
 * `依賴` 升級 Gradle 發行版本 7.4-rc-2 -> 7.4.1
 * `依賴` 升級 Gson 版本 2.8.9 -> 2.9.0
@@ -1055,7 +1055,7 @@
 * `修復` toast.dismiss() 可能無效的問題
 * `修復` 客戶端模式及服務端模式開關可能無法正常工作的問題
 * `修復` 客戶端模式及服務端模式開關狀態不能正常重新整理的問題
-* `修復` Android 7.x 解析 UI 模式 text 元素異常 (Ref to [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`issue #4`](http://issues.autojs6.com/4)_ _[`issue #9`](http://issues.autojs6.com/9)_
+* `修復` Android 7.x 解析 UI 模式 text 元素異常 (Ref to [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`issue #4`](https://github.com/suminwell/CeenJs6/issues/4)_ _[`issue #9`](https://github.com/suminwell/CeenJs6/issues/9)_
 * `最佳化` 忽略 sleep() 的 ScriptInterruptedException 異常
 * `依賴` 附加 AndroidX AppCompat (Legacy) 版本 1.0.2
 * `依賴` 升級 AndroidX AppCompat 版本 1.4.0 -> 1.4.1
@@ -1070,8 +1070,8 @@
 
 ###### 2022/01/01
 
-* `新增` 連線 VSCode 外掛支援客戶端 (LAN) 及服務端 (LAN/ADB) 方式 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `新增` base64 模組 (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
+* `新增` 連線 VSCode 外掛支援客戶端 (LAN) 及服務端 (LAN/ADB) 方式 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `新增` base64 模組 (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
 * `新增` 增加 isInteger/isNullish/isObject/isPrimitive/isReference 全域性方法
 * `新增` 增加 polyfill (Object.getOwnPropertyDescriptors)
 * `新增` 增加 polyfill (Array.prototype.flat)

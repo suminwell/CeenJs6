@@ -1,5 +1,5 @@
 /**
- * <p>Since AutoJs6 6.6.0, the current file (`init.js`) does not contain any code by default,
+ * <p>Since CeenJs6 6.6.0, the current file (`init.js`) does not contain any code by default,
  * but individual developers can still use this file to import and extend modules.</p>
  * <p>For example, if a developer has written a module named "apple.js"
  * and the file is placed in the `\app\src\main\assets\modules\` directory,
@@ -53,7 +53,7 @@
  *
  * zh-CN:
  *
- * <p>自 AutoJs6 6.6.0 起, 当前文件 (`init.js`) 默认情况下不包含任何代码, 但个人开发者仍可在此文件进行模块引入及扩展.</p>
+ * <p>自 CeenJs6 6.6.0 起, 当前文件 (`init.js`) 默认情况下不包含任何代码, 但个人开发者仍可在此文件进行模块引入及扩展.</p>
  * <p>例如个人开发者编写了一个模块, 文件名为 "apple.js", 且文件已放入 `\app\src\main\assets\modules\` 目录,
  * 此时在 `init.js` 中可编写以下代码进行 "apple" 模块的引入及扩展:</p>
  * <pre>"apple.js";</pre>

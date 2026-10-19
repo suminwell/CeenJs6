@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.autojs.autojs.ui.common.NestedOuterScrollView
+    <org.ceenjs.ceenjs.ui.common.NestedOuterScrollView
         android:id="@+id/outerScrollView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,7 +22,7 @@
             android:paddingHorizontal="8sp"
             android:scrollbars="horizontal">
 
-            <org.autojs.autojs.ui.widget.SelectableTextView
+            <org.ceenjs.ceenjs.ui.widget.SelectableTextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
 
         </HorizontalScrollView>
 
-    </org.autojs.autojs.ui.common.NestedOuterScrollView>
+    </org.ceenjs.ceenjs.ui.common.NestedOuterScrollView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"

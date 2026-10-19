@@ -9,7 +9,7 @@
         android:shortcutDisabledMessage="@string/text_app_shortcut_disabled">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.autojs.autojs.inrt.LogActivity" />
+            android:targetClass="org.ceenjs.ceenjs.inrt.LogActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
 
@@ -22,7 +22,7 @@
         android:shortcutDisabledMessage="@string/text_app_shortcut_disabled">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetClass="org.autojs.autojs.inrt.SettingsActivity" />
+            android:targetClass="org.ceenjs.ceenjs.inrt.SettingsActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
 </shortcuts>

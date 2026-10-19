@@ -8,7 +8,7 @@ ui.layout(
         <input id="content" h="*" gravity="top"/>
     </vertical>,
 );
-var storage = storages.create('Auto.js例子:随手记');
+var storage = storages.create('Ceen.js例子:随手记');
 var content = storage.get('content');
 if (!isNullish(content)) {
     ui.content.setText(content);

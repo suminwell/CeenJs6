@@ -1,7 +1,7 @@
 plugins {
-    id("org.autojs.build.utils")
-    id("org.autojs.build.properties")
-    id("org.autojs.build.jvm-convention")
+    id("org.ceenjs.build.utils")
+    id("org.ceenjs.build.properties")
+    id("org.ceenjs.build.jvm-convention")
     id("com.android.library")
 }
 

@@ -66,12 +66,12 @@ let todoList = storage.get('items', [ {
     color: 'orange-500',
     done: false,
 }, {
-    title: '发布 AutoJs6 v6.6.6',
+    title: '发布 CeenJs6 v6.6.6',
     summary: '2066 年 6 月',
     color: 'teal-500',
     done: false,
 }, {
-    title: '完成 AutoJs6 文档撰写',
+    title: '完成 CeenJs6 文档撰写',
     summary: '2031 年 5 月',
     color: '#2196f3',
     done: false,

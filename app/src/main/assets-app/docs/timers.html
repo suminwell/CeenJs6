@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>定时器 (Timers) | AutoJs6 文档 - 6.6.4</title>
+    <title>定时器 (Timers) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="timers" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -196,7 +196,7 @@
 
 <hr>
 <p>timers 模块暴露了一个全局的 API, 用于在某个未来时间段调用调度函数.  因为定时器函数是全局的, 所以使用该 API 无需调用 timers.***</p>
-<p>Auto.js 中的计时器函数实现了与 Web 浏览器提供的定时器类似的 API, 除了它使用了一个不同的内部实现, 它是基于 Android Looper-Handler消息循环机制构建的. 其实现机制与Node.js比较相似.</p>
+<p>Ceen.js 中的计时器函数实现了与 Web 浏览器提供的定时器类似的 API, 除了它使用了一个不同的内部实现, 它是基于 Android Looper-Handler消息循环机制构建的. 其实现机制与Node.js比较相似.</p>
 <p>例如, 要在5秒后发出消息&quot;hello&quot;:</p>
 <pre><code>setTimeout(function(){
     toast(&quot;hello&quot;)
@@ -230,7 +230,7 @@ while(true);
 <li><code>...args</code> { <span class="type">any</span> } 当调用 callback 时要传入的可选参数.</li>
 </ul>
 </div><p>预定在 delay 毫秒之后执行的单次 callback.  返回一个用于 clearTimeout() 的 id.</p>
-<p>callback 可能不会精确地在 delay 毫秒被调用.  Auto.js 不能保证回调被触发的确切时间, 也不能保证它们的顺序.  回调会在尽可能接近所指定的时间上调用.</p>
+<p>callback 可能不会精确地在 delay 毫秒被调用.  Ceen.js 不能保证回调被触发的确切时间, 也不能保证它们的顺序.  回调会在尽可能接近所指定的时间上调用.</p>
 <p>当 delay 小于 0 时, delay 会被设为 0.</p>
 <h2>setImmediate(callback[, ...args])<span><a class="mark" href="#timers_setimmediate_callback_args" id="timers_setimmediate_callback_args">#</a></span></h2>
 <div class="signature"><ul>

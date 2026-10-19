@@ -96,7 +96,7 @@ jobs:
           set -euo pipefail
           mkdir -p release
           for abi in arm64-v8a armeabi-v7a x86 x86_64 universal; do
-            apk="app/build/outputs/apk/app/release/autojs6-v${{ steps.version.outputs.version }}-${abi}.apk"
+            apk="app/build/outputs/apk/app/release/ceenjs6-v${{ steps.version.outputs.version }}-${abi}.apk"
             test -s "$apk"
             "$ANDROID_HOME/build-tools/36.0.0/apksigner" verify --verbose --print-certs "$apk"
             cp "$apk" release/
@@ -150,7 +150,7 @@ jobs:
           - APKs: arm64-v8a, armeabi-v7a, x86, x86_64, universal
           - SHA-256 checksums: SHA256SUMS
 
-          Signed with the persistent CEEN release key. Later CEEN builds can upgrade this app. The official AutoJs6 app uses a different signing key and must be uninstalled before installing this build.
+          Package: org.ceenjs.ceenjs6. Signed with the persistent CEEN release key. Later CeenJs6 builds can upgrade this app.
           EOF
           if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
             gh release upload "$RELEASE_TAG" release/* --clobber

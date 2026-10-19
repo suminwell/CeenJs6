@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbar
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
             android:id="@+id/toolbar"
             android:theme="@style/ToolBarStyle"
             android:layout_width="match_parent"
@@ -33,7 +33,7 @@
             android:layout_height="0dp"
             android:layout_weight="1">
 
-            <org.autojs.autojs.ui.widget.SelectableTextView
+            <org.ceenjs.ceenjs.ui.widget.SelectableTextView
                 android:id="@+id/error_message"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

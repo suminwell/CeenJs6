@@ -7,7 +7,7 @@
 <script src="https://unpkg.com/vue@2.6/dist/vue.min.js"></script>
 <script src="https://unpkg.com/vue3-sfc-loader@0.8.4/dist/vue2-sfc-loader.js"></script>
 <script src="https://unpkg.com/vant@2.12/lib/vant.min.js"></script>
-<script src="autojs://sdk/v1.js"></script>
+<script src="ceenjs://sdk/v1.js"></script>
 <script>
     let { loadModule, vueVersion } = window['vue2-sfc-loader'];
     let options = {
@@ -19,8 +19,8 @@
         },
         async getFile(url) {
             let getContentData;
-            if (typeof $autojs !== 'undefined') {
-                let res = await $autojs.invoke('fetch', { path: url });
+            if (typeof $ceenjs !== 'undefined') {
+                let res = await $ceenjs.invoke('fetch', { path: url });
                 getContentData = (asBinary) => asBinary ? str2ab(res) : res;
             } else {
                 let res = await fetch(url);

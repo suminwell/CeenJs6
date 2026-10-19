@@ -2,7 +2,7 @@
 //  ! Current library (Android Job) was simplified by SuperMonster003 on Jun 30, 2022.
 
 plugins {
-    id("org.autojs.build.local-arr-register-convention")
+    id("org.ceenjs.build.local-arr-register-convention")
 }
 
 localAars {

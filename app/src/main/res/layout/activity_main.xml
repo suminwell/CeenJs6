@@ -6,7 +6,7 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="org.autojs.autojs.ui.main.MainActivity">
+    tools:context="org.ceenjs.ceenjs.ui.main.MainActivity">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             android:fitsSystemWindows="true"
             app:theme="@style/AppTheme.AppBarOverlay">
 
-            <org.autojs.autojs.theme.widget.ThemeColorToolbar
+            <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
@@ -40,14 +40,14 @@
 
         </com.google.android.material.appbar.AppBarLayout>
 
-        <org.autojs.autojs.ui.pager.ScrollControllableViewPager
+        <org.ceenjs.ceenjs.ui.pager.ScrollControllableViewPager
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:clipToPadding="false"
             app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-        <org.autojs.autojs.theme.widget.ThemeColorFloatingActionButton
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorFloatingActionButton
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -56,10 +56,10 @@
             android:src="@drawable/ic_add_white_48dp"
             app:layout_anchor="@id/viewpager"
             app:layout_anchorGravity="bottom|end"
-            app:layout_behavior="org.autojs.autojs.ui.widget.ScrollAwareFABBehavior"
+            app:layout_behavior="org.ceenjs.ceenjs.ui.widget.ScrollAwareFABBehavior"
             android:alpha="0.9" />
 
-        <org.autojs.autojs.ui.main.FloatingActionMenu
+        <org.ceenjs.ceenjs.ui.main.FloatingActionMenu
             android:id="@+id/floating_action_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             app:layout_anchor="@id/viewpager"
             app:layout_anchorGravity="bottom|end"/>
 
-        <org.autojs.autojs.ui.main.plugin.PluginFloatingActionMenu
+        <org.ceenjs.ceenjs.ui.main.plugin.PluginFloatingActionMenu
             android:id="@+id/plugin_floating_action_menu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -87,7 +87,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment_drawer"
-        android:name="org.autojs.autojs.ui.main.drawer.DrawerFragment"
+        android:name="org.ceenjs.ceenjs.ui.main.drawer.DrawerFragment"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"

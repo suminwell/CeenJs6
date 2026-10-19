@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="8dp">
 
-        <org.autojs.autojs.theme.widget.ThemeColorRadioButton
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorRadioButton
             android:id="@+id/option_work_manager"
             android:minHeight="@dimen/md_listitem_height"
             android:layout_width="match_parent"
@@ -31,7 +31,7 @@
             android:textSize="16sp"
             android:hint="@string/entry_timed_task_backend_work" />
 
-        <org.autojs.autojs.theme.widget.ThemeColorRadioButton
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorRadioButton
             android:id="@+id/option_alarm_manager"
             android:minHeight="@dimen/md_listitem_height"
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
         android:textColor="@color/day_night"
         android:textSize="16sp" />
 
-    <org.autojs.autojs.theme.widget.ThemeColorSeekBar
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorSeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

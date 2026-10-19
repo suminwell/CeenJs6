@@ -42,7 +42,7 @@ extern "C"
 JNIEXPORT jbyteArray
 
 JNICALL
-Java_org_autojs_autojs_runtime_api_PngQuantBridge_quantize(
+Java_org_ceenjs_ceenjs_runtime_api_PngQuantBridge_quantize(
         JNIEnv *env, jclass /*cls*/, jobject jbitmap, jint quality) {
 
     /* 参数检查 & Bitmap 信息. */

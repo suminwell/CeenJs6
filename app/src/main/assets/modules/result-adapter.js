@@ -49,7 +49,7 @@
 
     Object.setPrototypeOf(ResultAdapter, {
         /**
-         * @param {org.autojs.autojs.runtime.api.ScriptPromiseAdapter} promiseAdapter
+         * @param {org.ceenjs.ceenjs.runtime.api.ScriptPromiseAdapter} promiseAdapter
          * @returns {Promise<unknown>}
          */
         promise(promiseAdapter) {
@@ -60,7 +60,7 @@
             });
         },
         /**
-         * @param {Promise<unknown> | org.autojs.autojs.runtime.api.ScriptPromiseAdapter} promise
+         * @param {Promise<unknown> | org.ceenjs.ceenjs.runtime.api.ScriptPromiseAdapter} promise
          * @returns {*}
          */
         wait(promise) {

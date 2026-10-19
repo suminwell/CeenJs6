@@ -224,9 +224,9 @@ def init_languages():
                     return date_str                 # 日期格式异常时保持原值
 
             since_date_map = {
-                "tonyjiangwj_auto_js": "2019/11/21",
-                "supermonster003_autojs6": "2021/12/01",
-                "supermonster003_autojs4": "2023/04/11",
+                "tonyjiangwj_ceen_js": "2019/11/21",
+                "supermonster003_ceenjs6": "2021/12/01",
+                "supermonster003_ceenjs4": "2023/04/11",
                 "aiselp_autox": "2024/04/21",
                 "ozobiozobi_autox_ozobi": "2024/10/01",
                 "autox_community_autox": "2025/03/30",
@@ -279,7 +279,7 @@ def extract_latest_versions(lang_code, lang_content, num_versions=3):
         improvement_label = changelog_content['changelog_label_improvement']
         dependency_text = lang_content['text_changelog_item_dependency']
         # noinspection HttpUrlsUsage
-        base_url = 'http://project.autojs6.com/blob/master/app/src/main/assets-app/doc/CHANGELOG.md'
+        base_url = 'https://github.com/suminwell/CeenJs6/blob/ceen/app/src/main/assets-app/doc/CHANGELOG.md'
 
         original_lines = version.strip().split("\n")
         filtered_content = "\n".join(
@@ -326,12 +326,12 @@ def handle_readme_placeholder(aim_lang_code, aim_content):
             new_array.append(f" - {content['$name']} [{lang_code}] # {content['text_current_lowercase']}")
         else:
             # noinspection HttpUrlsUsage
-            new_array.append(f" - [{content['$name']} [{lang_code}]](http://project.autojs6.com/blob/master/.readme/README-{lang_code}.md)")
+            new_array.append(f" - [{content['$name']} [{lang_code}]](https://github.com/suminwell/CeenJs6/blob/ceen/.readme/README-{lang_code}.md)")
     aim_content['placeholder_ul_languages_all_supported'] = "\n".join(new_array)
 
     aim_content['placeholder_latest_three_release_history'] = "\n".join(extract_latest_versions(aim_lang_code, aim_content)).rstrip("\n")
 
-    aim_content['placeholder_read_more_in_changelog_md'] = f"[CHANGELOG.md](http://project.autojs6.com/blob/master/app/src/main/assets-app/doc/CHANGELOG-{aim_lang_code}.md)"
+    aim_content['placeholder_read_more_in_changelog_md'] = f"[CHANGELOG.md](https://github.com/suminwell/CeenJs6/blob/ceen/app/src/main/assets-app/doc/CHANGELOG-{aim_lang_code}.md)"
 
 
 def render_dynamic_strings(data, placeholder_map):

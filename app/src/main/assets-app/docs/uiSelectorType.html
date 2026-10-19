@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>选择器 (UiSelector) | AutoJs6 文档 - 6.6.4</title>
+    <title>选择器 (UiSelector) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="uiSelectorType" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -1023,7 +1023,7 @@ console.log(sel.click()); /* 执行控件行为的动作. */
 console.log(text(&quot;立即开始&quot;).clickable() instanceof UiSelector); // true
 </code></pre>
 <p>如需构建一个 &quot;空&quot; 选择器, 可使用 <code>selector</code> 方法:</p>
-<pre><code class="lang-js">console.log(selector()); // class org.autojs.autojs.core.automator.filter.Selector
+<pre><code class="lang-js">console.log(selector()); // class org.ceenjs.ceenjs.core.automator.filter.Selector
 console.log(selector() instanceof UiSelector); // true
 </code></pre>
 <p>当某个选择器名称与当前作用域中用户已定义的变量名称冲突时, 可利用 <code>selector</code> 方法避免冲突:</p>
@@ -1049,7 +1049,7 @@ console.log(selector().text(&quot;立即开始&quot;).exists()); // e.g. true
 <li>关联控件属性: <a href="uiObjectType.html#uiobjecttype_m_id">id</a></li>
 </ul>
 <p>安卓资源全称格式为 <code>package:type/entry</code>, 即 <code>包名:类型/资源项</code>.<br>ID 资源全称的 <code>类型</code> 为 <code>id</code>.<br>一个有效的 ID 资源全称: <code>com.test:id/some_entry</code>.<br>其中 <code>com.test</code> 为包名, <code>some_entry</code> 为 ID 资源项名称, <code>com.test:id/some_entry</code> 为 ID 资源全称.</p>
-<p>在 AutoJs6 中, ID 资源选择器支持两种方式作为筛选条件:</p>
+<p>在 CeenJs6 中, ID 资源选择器支持两种方式作为筛选条件:</p>
 <ul>
 <li>ID 资源全称 (对应上述示例的 <code>com.test:id/some_entry</code>)</li>
 <li>ID 资源项名称 (对应上述示例的 <code>some_entry</code>)</li>
@@ -1062,7 +1062,7 @@ wD.id(); // com.test.xyz:id/some_entry
 </code></pre>
 <p><code>id(&#39;com.test.abc:id/some_entry&#39;)</code> 是一个 ID 资源全称筛选器, 可以匹配控件 <code>wA</code>.</p>
 <p><code>id(&#39;com.test.xyz:id/some_entry&#39;)</code> 同样是 ID 资源全称筛选器, 可以匹配控件 <code>wD</code>.</p>
-<p><code>id(&#39;some_entry&#39;)</code> 则是一个 ID 资源项名称筛选器.<br>它不包含包名信息, 匹配时只关心资源项名称, 因此 <code>wA</code>, <code>wC</code> 和 <code>wD</code> 均可匹配.<br>需额外留意上述匹配方式与 Auto.js 4.x 版本不同, 4.x 版本筛选时会考虑前台活动应用的包名.<br>如果编写的代码需兼容不同的 Auto.js 版本, 建议使用 <a href="#uiselectortype_m_idendswith">idEndsWith</a> (如 <code>idEndsWith(&#39;some_entry&#39;)</code>) 或 <a href="#uiselectortype_m_idmatches">idMatches</a> (如 <code>idMatches(/.*some_entry/)</code>).</p>
+<p><code>id(&#39;some_entry&#39;)</code> 则是一个 ID 资源项名称筛选器.<br>它不包含包名信息, 匹配时只关心资源项名称, 因此 <code>wA</code>, <code>wC</code> 和 <code>wD</code> 均可匹配.<br>需额外留意上述匹配方式与 Ceen.js 4.x 版本不同, 4.x 版本筛选时会考虑前台活动应用的包名.<br>如果编写的代码需兼容不同的 Ceen.js 版本, 建议使用 <a href="#uiselectortype_m_idendswith">idEndsWith</a> (如 <code>idEndsWith(&#39;some_entry&#39;)</code>) 或 <a href="#uiselectortype_m_idmatches">idMatches</a> (如 <code>idMatches(/.*some_entry/)</code>).</p>
 <p><a href="#uiselectortype_m_pickup">拾取选择器</a> 示例:</p>
 <pre><code class="lang-js">pickup(id(&#39;some_entry&#39;), &#39;@&#39;);
 pickup({ id: &#39;some_entry&#39; }, &#39;@&#39;);
@@ -1086,7 +1086,7 @@ pickup({ id: [ &#39;some_entry&#39; ] }, &#39;@&#39;);
 <li>筛选条件说明: ID 资源全称前缀或 ID 资源项名称前缀匹配指定字符串</li>
 <li>关联控件属性: <a href="uiObjectType.html#uiobjecttype_m_id">id</a></li>
 </ul>
-<p>在 AutoJs6 中, ID 资源前缀匹配筛选器支持两种方式作为筛选条件:</p>
+<p>在 CeenJs6 中, ID 资源前缀匹配筛选器支持两种方式作为筛选条件:</p>
 <ul>
 <li>ID 资源全称 (如 <code>com.test:id/some_entry</code>)</li>
 <li>ID 资源项名称 (如 <code>some_entry</code>)</li>
@@ -1099,7 +1099,7 @@ wD.id(); // com.test.xyz:id/some_entry
 </code></pre>
 <p><code>idStartsWith(&#39;com.test.abc:id/some_&#39;)</code> 是一个包含包名的 ID 前缀匹配筛选器, 可以匹配控件 <code>wA</code> 和 <code>wB</code>.</p>
 <p><code>idStartsWith(&#39;com.test.xyz:id/some_&#39;)</code> 同样是一个包含包名的 ID 前缀匹配筛选器, 可以匹配控件 <code>wD</code>.</p>
-<p><code>idStartsWith(&#39;some_&#39;)</code> 则是一个仅包含 ID 资源项名称的前缀匹配筛选器.<br>它不包含包名信息, 匹配时只关心资源项名称, 因此 <code>wA</code>, <code>wB</code>, <code>wC</code> 和 <code>wD</code> 均可匹配.<br>需额外留意上述匹配方式与 Auto.js 4.x 版本不同, 4.x 版本筛选时会考虑前台活动应用的包名.<br>如果编写的代码需兼容不同的 Auto.js 版本, 建议使用 <a href="#uiselectortype_m_idmatches">idMatches</a> (如 <code>idMatches(/.*some_.*/)</code>).</p>
+<p><code>idStartsWith(&#39;some_&#39;)</code> 则是一个仅包含 ID 资源项名称的前缀匹配筛选器.<br>它不包含包名信息, 匹配时只关心资源项名称, 因此 <code>wA</code>, <code>wB</code>, <code>wC</code> 和 <code>wD</code> 均可匹配.<br>需额外留意上述匹配方式与 Ceen.js 4.x 版本不同, 4.x 版本筛选时会考虑前台活动应用的包名.<br>如果编写的代码需兼容不同的 Ceen.js 版本, 建议使用 <a href="#uiselectortype_m_idmatches">idMatches</a> (如 <code>idMatches(/.*some_.*/)</code>).</p>
 <p><a href="#uiselectortype_m_pickup">拾取选择器</a> 示例:</p>
 <pre><code class="lang-js">pickup(idStartsWith(&#39;some_&#39;), &#39;@&#39;);
 pickup({ idStartsWith: &#39;some_&#39; }, &#39;@&#39;);
@@ -1725,7 +1725,7 @@ pickup({ contentMatch: [ /t\w{0,3}/ ] }, &#39;@&#39;);
 <li>筛选条件说明: 类名或安卓控件类名简称完全匹配指定字符串</li>
 <li>关联控件属性: <a href="uiObjectType.html#uiobjecttype_m_classname">className</a></li>
 </ul>
-<p>在 AutoJs6 中, 类名选择器支持两种方式作为筛选条件:</p>
+<p>在 CeenJs6 中, 类名选择器支持两种方式作为筛选条件:</p>
 <ul>
 <li>类名全称 (如 <code>android.widget.EditText</code>)</li>
 <li>安卓控件类名简称 (如 <code>EditText</code>)</li>
@@ -1755,7 +1755,7 @@ pickup({ className: [ &#39;Button&#39; ] }, &#39;@&#39;);
 <li>筛选条件说明: 类名前缀匹配指定字符串</li>
 <li>关联控件属性: <a href="uiObjectType.html#uiobjecttype_m_classname">className</a></li>
 </ul>
-<p>在 AutoJs6 中, 类名前缀匹配筛选器支持两种方式作为筛选条件:</p>
+<p>在 CeenJs6 中, 类名前缀匹配筛选器支持两种方式作为筛选条件:</p>
 <ul>
 <li>类名全称 (如 <code>android.widget.EditText</code>)</li>
 <li>安卓控件类名简称 (如 <code>EditText</code>)</li>
@@ -1768,7 +1768,7 @@ wD.className(); // androidx.recyclerview.widget.RecyclerView
 </code></pre>
 <p><code>classNameStartsWith(&#39;android.widget.Bu&#39;)</code> 是一个类名前缀选择器, 可以匹配控件 <code>wB</code>.<br><code>classNameStartsWith(&#39;Bu&#39;)</code> 与上述选择器效果相同, 它使用安卓控件类名简称作为筛选条件.</p>
 <p><code>classNameStartsWith(&#39;androidx.recyclerview.widget.Rec&#39;)</code> 同样是一个类名前缀选择器, 可以匹配控件 <code>wD</code>.<br>但 <code>classNameStartsWith(&#39;Rec&#39;)</code> 不能匹配上述任何控件, 因为只有 <code>android.widget.</code> 开头的类名才能使用简称形式进行前缀筛选.</p>
-<p>需额外留意上述匹配方式与 Auto.js 4.x 版本不同, 4.x 版本在做类名前缀筛选时, 不支持简称形式.<br>如果编写的代码需兼容不同的 Auto.js 版本, 建议使用 <a href="#uiselectortype_m_classnameendswith">classNameEndsWith</a> (如 <code>classNameEndsWith(&#39;RecyclerView&#39;)</code>) 或 <a href="#uiselectortype_m_classnamematches">classNameMatches</a> (如 <code>classNameMatches(/.*Rec.*/)</code>).</p>
+<p>需额外留意上述匹配方式与 Ceen.js 4.x 版本不同, 4.x 版本在做类名前缀筛选时, 不支持简称形式.<br>如果编写的代码需兼容不同的 Ceen.js 版本, 建议使用 <a href="#uiselectortype_m_classnameendswith">classNameEndsWith</a> (如 <code>classNameEndsWith(&#39;RecyclerView&#39;)</code>) 或 <a href="#uiselectortype_m_classnamematches">classNameMatches</a> (如 <code>classNameMatches(/.*Rec.*/)</code>).</p>
 <p><a href="#uiselectortype_m_pickup">拾取选择器</a> 示例:</p>
 <pre><code class="lang-js">pickup(classNameStartsWith(&#39;Rec&#39;), &#39;@&#39;);
 pickup({ classNameStartsWith: &#39;Rec&#39; }, &#39;@&#39;);
@@ -5460,7 +5460,7 @@ xxxMatches(/.*word.*/); /* 或 xxxMatches(&#39;.*word.*&#39;) . */
 <pre><code class="lang-js">xxxMatch(/word/);
 </code></pre>
 <p>方法 xxxMatches 的内部实现采用 Java <a href="https://docs.oracle.com/javase/7/docs/api/java/lang/String.html#https://docs.oracle.com/javase/7/docs/api/java/lang/string_matches(java.lang.String">matches</a>), 它与 JavaScript <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/match">match</a> 的不同导致上述使用方式的差异.</p>
-<p>因此在 AutoJs6 中, xxxMatches 的全部方法均已标记为 <code>Deprecated (已弃用)</code>, 除非需要考虑多版本兼容, 否则建议始终使用 xxxMatch 替代 xxxMatches.</p>
+<p>因此在 CeenJs6 中, xxxMatches 的全部方法均已标记为 <code>Deprecated (已弃用)</code>, 除非需要考虑多版本兼容, 否则建议始终使用 xxxMatch 替代 xxxMatches.</p>
 <blockquote>
 <p>参阅: <a href="https://stackoverflow.com/questions/21883629/difference-in-results-between-java-matches-vs-javascript-match">Difference in results between Java matches vs JavaScript match</a></p>
 </blockquote>
@@ -5479,9 +5479,9 @@ descMatch(/.+/); /* 可匹配 w, 与 descMatch(/(?:)/) 效果相同. */
 descMatch(new RegExp(&#39;spl\\.?.+$')); /* 可匹配 w. */
 </code></pre>
 <p>筛选条件为正则表达式类型时, 支持 <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions#%E9%80%9A%E8%BF%87%E6%A0%87%E5%BF%97%E8%BF%9B%E8%A1%8C%E9%AB%98%E7%BA%A7%E6%90%9C%E7%B4%A2">修饰符</a> (又称 <code>标志</code>):</p>
-<pre><code class="lang-js">w.desc(); // AutoJs6
-descMatch(/autojs6/i); /* 可匹配 w. */
-descMatch(new RegExp(&#39;autojs6&#39;, &#39;i&#39;)); /* 可匹配 w. */
+<pre><code class="lang-js">w.desc(); // CeenJs6
+descMatch(/ceenjs6/i); /* 可匹配 w. */
+descMatch(new RegExp(&#39;ceenjs6&#39;, &#39;i&#39;)); /* 可匹配 w. */
 </code></pre>
 <blockquote>
 <p>注: 截至 2022 年 12 月, 支持的修饰符仅包含 &#39;i&#39;.</p>

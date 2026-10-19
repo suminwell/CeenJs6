@@ -3,12 +3,12 @@
  */
 !function originalClassesForPaddleOcr() {
 
-    let hintForAutoJs670AndAbove = '自 AutoJs6 6.7.0 起, Paddle OCR 已进行功能插件化, 因此无法再使用内置原始类.\n\n' +
+    let hintForCeenJs670AndAbove = '自 CeenJs6 6.7.0 起, Paddle OCR 已进行功能插件化, 因此无法再使用内置原始类.\n\n' +
         '如需了解插件 API 使用示例, 可参考 "PaddleOCR (内置 API).js" 示例代码.';
 
     dialogs.build({
         title: R.string.text_prompt,
-        content: hintForAutoJs670AndAbove,
+        content: hintForCeenJs670AndAbove,
         positiveText: R.string.text_exit,
         stubborn: true,
     }).on('positive', (d) => {

@@ -1,5 +1,5 @@
 /**
- * Tests for AutoJs6 (v6.1.0 and above) in "ui" thread.
+ * Tests for CeenJs6 (v6.1.0 and above) in "ui" thread.
  * A toast message should display when all tests passed (or not) within 3 seconds.
  * Created by SuperMonster003 on May 7, 2022.
  */
@@ -32,8 +32,8 @@ Promise.resolve().then(() => {
 // @Test images
 
 // FIXME by SuperMonster003 on May 7, 2022.
-//  ! AutoJs6 won't respond when calling images.requestScreenCapture() .
-//  ! zh-CN: 当调用 images.requestScreenCapture() 方法时, AutoJs6 应用将会无响应.
+//  ! CeenJs6 won't respond when calling images.requestScreenCapture() .
+//  ! zh-CN: 当调用 images.requestScreenCapture() 方法时, CeenJs6 应用将会无响应.
 //  !
 //  # assert(noError(images.requestScreenCapture, images), 'images.requestScreenCapture()');
 //  # assert(noError(() => images.captureScreen()), 'images.captureScreen()');
@@ -64,8 +64,8 @@ assert(typeof engines.myEngine().getSource().getName() === 'string', 'engines.my
 // @Test floaty
 
 // FIXME by SuperMonster003 on May 7, 2022.
-//  ! AutoJs6 won't respond when calling floaty.rawWindow() .
-//  ! zh-CN: 当调用 floaty.rawWindow() 方法时, AutoJs6 应用将会无响应.
+//  ! CeenJs6 won't respond when calling floaty.rawWindow() .
+//  ! zh-CN: 当调用 floaty.rawWindow() 方法时, CeenJs6 应用将会无响应.
 //  !
 //  # assert(noError(() => floaty.rawWindow('<vertical/>')), 'floaty.rawWindow()');
 assert(noError(() => floaty.closeAll()), 'floaty.closeAll()');

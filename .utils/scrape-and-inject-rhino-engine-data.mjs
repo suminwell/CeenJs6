@@ -4,7 +4,8 @@ import * as fs from 'node:fs';
 import * as path from 'node:path';
 import { getLatestCommitDate } from './utils/fetch.mjs';
 
-const URL = 'https://raw.githubusercontent.com/SuperMonster003/Rhino-For-AutoJs6/refs/heads/master/gradle.properties';
+const ENGINE_REPOSITORY_ID = 435309133;
+const URL = `https://api.github.com/repositories/${ENGINE_REPOSITORY_ID}/contents/gradle.properties?ref=master`;
 
 /**
  * @param {string} latestVersion
@@ -43,10 +44,10 @@ async function updateCommonJsonWithRhinoData(latestVersion, linenoOfLatestVersio
     const commonRaw = fs.readFileSync(commonJsonPath, 'utf8');
     const commonObj = JSON.parse(commonRaw);
 
-    const addressPrefix = 'http://rhino.autojs6.com/blob/master/gradle.properties';
+    const addressPrefix = URL;
     const addressSuffix = linenoOfLatestVersion > 0 ? `#L${linenoOfLatestVersion}` : '';
     const addressJsonValue = `[v${latestVersion}](${addressPrefix}${addressSuffix})`;
-    const latestCommitValue = await getLatestCommitDate('SuperMonster003', 'Rhino-For-AutoJs6');
+    const latestCommitValue = await getLatestCommitDate(null, null, ENGINE_REPOSITORY_ID);
 
     const toUpdateKeys = {
         address: 'latest_rhino_engine_name_with_github_lineno_address',
@@ -88,7 +89,8 @@ async function updateCommonJsonWithRhinoData(latestVersion, linenoOfLatestVersio
 }
 
 (async function main() {
-    const response = await fetch(URL);
+    const response = await fetch(URL, { headers: { Accept: 'application/vnd.github.raw+json' } });
+    if (!response.ok) throw new Error(`Engine metadata request failed: ${response.status}`);
     const text = await response.text();
     const lines = text.split('\n');
     const latestVersion = lines.find(line => line.startsWith('version=')).split('=')[1];

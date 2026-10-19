@@ -9,7 +9,7 @@
     <string name="legacy_air_label_email">E-mail</string>
     <string name="legacy_air_label_use_email">Send by email</string>
     <string name="legacy_air_title_issue">Issue</string>
-    <string name="legacy_app_name">Auto.js</string>
+    <string name="legacy_app_name">Ceen.js</string>
     <string name="legacy_cancel">Cancel</string>
     <string name="legacy_copyright">Copyright©2016 All right reserves.</string>
     <string name="legacy_crash_feedback">(ಥ _ ಥ)Exit or submit a bug report or copy debugging log to the developer(≧∇≦)ﾉ</string>
@@ -29,9 +29,9 @@
     <string name="legacy_notice_no_running_script"><![CDATA[No running script φ(>ω<*)]]></string>
     <string name="legacy_no_write_settings_permissin">No writing settings permission</string>
     <string name="legacy_ok">OK</string>
-    <string name="legacy_share_app">[UiAutomator]Download：http://www.coolapk.com/apk/org.autojs.autojs </string>
+    <string name="legacy_share_app">[UiAutomator]Download：http://www.coolapk.com/apk/org.ceenjs.ceenjs </string>
     <string name="legacy_summary_enable_accessibility_service_by_root">Enable accessibility service automatically when needed</string>
-    <string name="legacy_summary_guard_mode">Prevent automation of scripts when Auto.js in the front</string>
+    <string name="legacy_summary_guard_mode">Prevent automation of scripts when Ceen.js in the front</string>
     <string name="legacy_summary_pre_execute_script">Executed before the script file is executed</string>
     <string name="legacy_summary_use_volume_control_record">Stop or start recording when volume changes</string>
     <string name="legacy_text_about">About</string>

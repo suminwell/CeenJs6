@@ -81,7 +81,7 @@
         android:visibility="gone"
         tools:visibility="visible" />
 
-    <org.autojs.autojs.ui.widget.PrefSwitch
+    <org.ceenjs.ceenjs.ui.widget.PrefSwitch
         android:id="@+id/sw"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

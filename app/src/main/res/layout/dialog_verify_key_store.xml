@@ -91,7 +91,7 @@
             android:layout_marginVertical="16dp"
             android:orientation="vertical">
 
-            <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+            <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                 android:id="@+id/password_text_input_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -105,9 +105,9 @@
                     android:inputType="textPassword"
                     android:textColor="@color/text_color_primary" />
 
-            </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+            </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
-            <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+            <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                 android:id="@+id/alias_text_input_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -120,9 +120,9 @@
                     android:text="@string/text_default_alias"
                     android:textColor="@color/text_color_primary" />
 
-            </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+            </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
-            <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+            <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
                 android:id="@+id/alias_password_text_input_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -136,7 +136,7 @@
                     android:inputType="textPassword"
                     android:textColor="@color/text_color_primary" />
 
-            </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+            </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
         </LinearLayout>
 

@@ -1,9 +1,9 @@
 'ui';
 
-const themeColor = Color(autojs.themeColor);
+const themeColor = Color(ceenjs.themeColor);
 
 ui.layout(
-    <org.autojs.autojs.core.ui.widget.JsTextClock
+    <org.ceenjs.ceenjs.core.ui.widget.JsTextClock
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/text_clock"
         android:layout_width="wrap_content"

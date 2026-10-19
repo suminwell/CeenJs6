@@ -18,7 +18,7 @@
         android:textColor="@color/day_night"
         android:textSize="16sp" />
 
-    <org.autojs.autojs.theme.widget.ThemeColorSeekBar
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorSeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

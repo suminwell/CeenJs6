@@ -1,12 +1,12 @@
 plugins {
-    id("org.autojs.build.versions")
-    id("org.autojs.build.jvm-convention")
+    id("org.ceenjs.build.versions")
+    id("org.ceenjs.build.jvm-convention")
     id("com.android.library")
     kotlin("plugin.parcelize")
 }
 
 android {
-    namespace = "org.autojs.plugin.paddle.ocr.api"
+    namespace = "org.ceenjs.plugin.paddle.ocr.api"
 
     compileSdk = versions.sdkVersionCompile
 

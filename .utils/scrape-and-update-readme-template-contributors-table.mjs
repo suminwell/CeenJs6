@@ -2,7 +2,7 @@
 
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import { fetchStatistics } from './fetch-and-parse-autojs6-merged-pr-commits-statistics.mjs';
+import { fetchStatistics } from './fetch-and-parse-ceenjs6-merged-pr-commits-statistics.mjs';
 import { objectToLines } from './utils/format.mjs';
 import { printLinesDiffs } from './utils/print.mjs';
 import { toYYYYMMDD } from './utils/date.mjs';

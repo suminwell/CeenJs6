@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>数据类型 (Data Types) | AutoJs6 文档 - 6.6.4</title>
+    <title>数据类型 (Data Types) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="dataTypes" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -879,7 +879,7 @@ console.log(arrList.length); // 0
 <p><a href="https://developer.android.com/reference/android/app/Activity">android.app.Activity</a> 的子类.</p>
 <p>ScriptExecuteActivity 是 UI 模式下, 全局对象 activity 的类型:</p>
 <pre><code class="lang-js">&#39;ui&#39;;
-activity instanceof org.autojs.autojs.execution.ScriptExecuteActivity; // true
+activity instanceof org.ceenjs.ceenjs.execution.ScriptExecuteActivity; // true
 </code></pre>
 <p>一些 activity 相关的示例:</p>
 <pre><code class="lang-js">/* 结束当前 activity. */
@@ -891,7 +891,7 @@ activity.setContentView(web.newInjectableWebView(&#39;www.github.com&#39;));
 /* 获取顶层窗口的高度. */
 activity.getWindow().getDecorView().getRootView().getHeight();
 </code></pre>
-<p>因 ScriptExecuteActivity 继承了 android.app.Activity 等非常多的 Java 类, 因此 activity 获得了非常丰富的属性和方法, 详情参阅 <a href="https://developer.android.com/reference/android/app/Activity">Android Docs</a> 及 <a href="http://project.autojs6.com/blob/10960ddbee71f75ef80907ad5b6ab42f3e1bf31e/app/src/main/java/org/autojs/autojs/execution/ScriptExecuteActivity.java#L30">AutoJs6 源码</a>.</p>
+<p>因 ScriptExecuteActivity 继承了 android.app.Activity 等非常多的 Java 类, 因此 activity 获得了非常丰富的属性和方法, 详情参阅 <a href="https://developer.android.com/reference/android/app/Activity">Android Docs</a> 及 <a href="https://github.com/suminwell/CeenJs6/blob/10960ddbee71f75ef80907ad5b6ab42f3e1bf31e/app/src/main/java/org/ceenjs/ceenjs/execution/ScriptExecuteActivity.java#L30">CeenJs6 源码</a>.</p>
 <h2>DetectCompass<span><a class="mark" href="#datatypes_detectcompass" id="datatypes_detectcompass">#</a></span></h2>
 <p>用于传递给 <a href="uiObjectType.html#uiobjecttype_m_compass">控件罗盘</a> 的参数类型, 又称 <code>罗盘参数</code>.</p>
 <p>罗盘参数是 <a href="dataTypes.html#datatypes_string">字符串</a> 类型, 支持单独或组合使用.</p>
@@ -1085,20 +1085,20 @@ detect(w, [ &#39;setSelection&#39;, 2, 3 ]); /* i.e. w.setSelection(2, 3) */
 </tbody>
 </table>
 <p>检测 Root 模式:</p>
-<pre><code class="lang-js">console.log(autojs.getRootMode() === RootMode.AUTO_DETECT);
-console.log(autojs.getRootMode() === RootMode.FORCE_ROOT);
-console.log(autojs.getRootMode() === RootMode.FORCE_NON_ROOT);
+<pre><code class="lang-js">console.log(ceenjs.getRootMode() === RootMode.AUTO_DETECT);
+console.log(ceenjs.getRootMode() === RootMode.FORCE_ROOT);
+console.log(ceenjs.getRootMode() === RootMode.FORCE_NON_ROOT);
 </code></pre>
 <p>设置 Root 模式, 以设置 &#39;强制 Root 模式&#39; 为例:</p>
-<pre><code class="lang-js">autojs.setRootMode(RootMode.FORCE_ROOT);
-autojs.setRootMode(&#39;root&#39;); /* 同上. */
-autojs.setRootMode(1); /* 同上. */
-autojs.setRootMode(true); /* 同上. */
+<pre><code class="lang-js">ceenjs.setRootMode(RootMode.FORCE_ROOT);
+ceenjs.setRootMode(&#39;root&#39;); /* 同上. */
+ceenjs.setRootMode(1); /* 同上. */
+ceenjs.setRootMode(true); /* 同上. */
 </code></pre>
 <h2>ColorHex<span><a class="mark" href="#datatypes_colorhex" id="datatypes_colorhex">#</a></span></h2>
 <p>颜色代码 (Color Hex Code).</p>
 <p>在网页中经常使用的形如 <code>#FF4500</code> 的字符串表示一个颜色.</p>
-<p>在 AutoJs6 中, 有三种表示方式, 均使用十六进制代码表示:</p>
+<p>在 CeenJs6 中, 有三种表示方式, 均使用十六进制代码表示:</p>
 <h3>#AARRGGBB<span><a class="mark" href="#datatypes_aarrggbb" id="datatypes_aarrggbb">#</a></span></h3>
 <p>使用四个分量表示颜色, 分量顺序固定为 <code>A (alpha)</code>, <code>R (red)</code>, <code>G (green)</code>, <code>B (blue)</code>. 每个分量使用 <code>[0..255]</code> 对应的十六进制数表示, 不足两位时需补零.</p>
 <p>例如一个颜色使用 <code>rgba(120, 14, 224, 255)</code> 表示, 将其转换为 <code>#AARRGGBB</code> 格式:</p>
@@ -1192,8 +1192,8 @@ colors.toInt(&#39;light-grey&#39;);
 <p>例如表示一个值为 <code>128</code> 的 <code>R (red)</code> 分量, 可使用 <code>128</code>, <code>0.5</code> 及 <code>50%</code> 等表示法.</p>
 <h3>分量表示法<span><a class="mark" href="#datatypes_14" id="datatypes_14">#</a></span></h3>
 <p>通常使用整数表示一个颜色分量, 如 <code>colors.rgb(10, 20, 30)</code>.<br>RGB 系列色彩模式范围为 <code>[0..255]</code>, HSX 系列色彩模式范围为 <code>[0..100]</code>.</p>
-<p>除上述整数分量表示法, AutoJs6 还支持百分数等方式表示一个颜色分量 (如 <code>0.2</code>, <code>&quot;20%&quot;</code> 等).</p>
-<p>下表列举了 AutoJs6 支持的分量表示法:</p>
+<p>除上述整数分量表示法, CeenJs6 还支持百分数等方式表示一个颜色分量 (如 <code>0.2</code>, <code>&quot;20%&quot;</code> 等).</p>
+<p>下表列举了 CeenJs6 支持的分量表示法:</p>
 <p><strong>1. 整数</strong></p>
 <table>
 <thead>
@@ -1392,7 +1392,7 @@ colors.toHsla(&#39;blue-grey&#39;)[3]; /* A 分量为 1. */
 <p>颜色检测算法, 用于检测两个颜色之间的差异程度, 即颜色差异.</p>
 <p><a href="https://zh.wikipedia.org/wiki/%E9%A2%9C%E8%89%B2%E5%B7%AE%E5%BC%82">颜色差异</a> (<a href="https://en.wikipedia.org/wiki/Color_difference">Color Difference</a>), 也称为颜色距离, 是色彩学领域的一个参量.<br>颜色差异将一个抽象概念进行了量化, 例如可以通过色彩空间内的 <a href="https://zh.wikipedia.org/wiki/%E6%AC%A7%E6%B0%8F%E8%B7%9D%E7%A6%BB">欧氏距离</a> (<a href="https://en.wikipedia.org/wiki/Euclidean_distance">Euclidean Distance</a>) 计算出一个具体的差异量.</p>
 <p>量化颜色差异时, 存在多种不同的量化方法, 通常使用颜色检测算法计算欧式距离, 由此距离进行颜色差异的量化.</p>
-<p>AutoJs6 内置了几种不同的颜色检测算法, 这些算法通常作为参数传入到某个函数中.</p>
+<p>CeenJs6 内置了几种不同的颜色检测算法, 这些算法通常作为参数传入到某个函数中.</p>
 <h3>RGB 差值检测<span><a class="mark" href="#datatypes_rgb_1" id="datatypes_rgb_1">#</a></span></h3>
 <p>参数名称: <code>diff</code></p>
 <p>计算两个 RGB 颜色各分量的差值:</p>
@@ -1561,13 +1561,13 @@ test(&#39;UTF_8&#39;); /* 字符串大写形式. */
 test(&#39;utf-8&#39;); /* 字符串小写形式. */
 </code></pre>
 <blockquote>
-<p>注: 在 AutoJs6 中, StandardCharsets 支持全局化调用.</p>
+<p>注: 在 CeenJs6 中, StandardCharsets 支持全局化调用.</p>
 </blockquote>
 <blockquote>
 <p>参阅: <a href="https://docs.oracle.com/javase/8/docs/api/java/nio/charset/StandardCharsets.html">Oracle Docs</a></p>
 </blockquote>
 <h2>ExtendModulesNames<span><a class="mark" href="#datatypes_extendmodulesnames" id="datatypes_extendmodulesnames">#</a></span></h2>
-<p>AutoJs6 <a href="plugins.html#plugins_内置扩展插件">内置扩展插件</a> 的插件名称.</p>
+<p>CeenJs6 <a href="plugins.html#plugins_内置扩展插件">内置扩展插件</a> 的插件名称.</p>
 <p>支持的字符串常量:</p>
 <ul>
 <li><code>&#39;Arrayx&#39;</code>&#39; 或 <code>&#39;Array&#39;</code></li>
@@ -1579,13 +1579,13 @@ plugins.extend(&#39;Arrayx&#39;);
 plugins.extend(&#39;Arrayx&#39;); /* 同上. */
 </code></pre>
 <h2>ActivityShortForm<span><a class="mark" href="#datatypes_activityshortform" id="datatypes_activityshortform">#</a></span></h2>
-<p>AutoJs6 跳转内部 Activity 的页面简称.</p>
-<p>这些简称全部对应于 AutoJs6 内置的 Activity 页面, 如 AutoJs6 的日志页面和设置页面等.</p>
-<pre><code class="lang-js">/* 跳转至 AutoJs6 日志页面. */
+<p>CeenJs6 跳转内部 Activity 的页面简称.</p>
+<p>这些简称全部对应于 CeenJs6 内置的 Activity 页面, 如 CeenJs6 的日志页面和设置页面等.</p>
+<pre><code class="lang-js">/* 跳转至 CeenJs6 日志页面. */
 app.startActivity(&#39;console&#39;);
 app.startActivity(&#39;log&#39;); /* 同上. */
 
-/* 跳转至 AutoJs6 主页页面. */
+/* 跳转至 CeenJs6 主页页面. */
 app.startActivity(&#39;homepage&#39;);
 app.startActivity(&#39;home&#39;); /* 同上. */
 </code></pre>
@@ -1599,8 +1599,8 @@ app.startActivity(&#39;home&#39;); /* 同上. */
 <li>文档页面 - <code>documentation</code> / <code>doc</code> / <code>docs</code></li>
 </ul>
 <h2>BroadcastShortForm<span><a class="mark" href="#datatypes_broadcastshortform" id="datatypes_broadcastshortform">#</a></span></h2>
-<p>AutoJs6 可接收的广播行为简称.</p>
-<p>这些简称全部对应于 AutoJs6 可接收的广播行为, 如进行布局范围分析等.</p>
+<p>CeenJs6 可接收的广播行为简称.</p>
+<p>这些简称全部对应于 CeenJs6 可接收的广播行为, 如进行布局范围分析等.</p>
 <pre><code class="lang-js">/* 发送 &quot;布局范围分析&quot; 广播. */
 app.sendBroadcast(&#39;inspect_layout_bounds&#39;);
 app.sendBroadcast(&#39;layout_bounds&#39;); /* 同上. */
@@ -1617,7 +1617,7 @@ app.sendBroadcast(&#39;hierarchy&#39;); /* 同上. */
 <li>布局层次分析 - <code>inspect_layout_hierarchy</code> / <code>layout_hierarchy</code> / <code>hierarchy</code></li>
 </ul>
 <h2>OcrModeName<span><a class="mark" href="#datatypes_ocrmodename" id="datatypes_ocrmodename">#</a></span></h2>
-<p>AutoJs6 的 OCR 模式名称.</p>
+<p>CeenJs6 的 OCR 模式名称.</p>
 <p>当使用不同的模式名称时, <code>ocr</code> 全局方法及其相关方法 (如 <a href="ocr.html#ocr_m_detect">ocr.detect</a>) 将使用不同的引擎, 进而可能获得不同的识别速度和结果.</p>
 <ul>
 <li><code>mlkit</code> - 代表 MLKit 引擎</li>
@@ -1674,15 +1674,15 @@ OcrResult@9fed472{label=Service, confidence=0.88002235, bounds=Rect(30, 76 - 106
 OcrResult@59cab38{label=Tools, confidence=0.8421875, bounds=Rect(30, 324 - 88, 345)}
 </code></pre>
 <h2>ThemeColor<span><a class="mark" href="#datatypes_themecolor" id="datatypes_themecolor">#</a></span></h2>
-<p>AutoJs6 内置类 <code>org.autojs.autojs.theme.ThemeColor</code> 的别名.</p>
+<p>CeenJs6 内置类 <code>org.ceenjs.ceenjs.theme.ThemeColor</code> 的别名.</p>
 <p>ThemeColor 表示一个主题颜色.</p>
 <p>常见相关方法或属性:</p>
 <ul>
-<li><a href="autojs.html#autojs_p_themecolor">autojs.themeColor</a></li>
+<li><a href="ceenjs.html#ceenjs_p_themecolor">ceenjs.themeColor</a></li>
 <li><a href="colorType.html">Color</a>(<strong>themeColor</strong>)</li>
 </ul>
 <p>当 ThemeColor 作为 <a href="omniTypes.html#omnitypes_omnicolor">OmniColor</a> 使用时, 将使用其 &quot;主色&quot; 作为色值:</p>
-<pre><code class="lang-js">let themeColor = autojs.themeColor;
+<pre><code class="lang-js">let themeColor = ceenjs.themeColor;
 Color(themeColor).toInt() === Color(themeColor.getColorPrimary()).toInt(); // true
 </code></pre>
 <h2>JsByteArray<span><a class="mark" href="#datatypes_jsbytearray" id="datatypes_jsbytearray">#</a></span></h2>
@@ -1809,7 +1809,7 @@ console.log(crypto.digest(&#39;&#39;, &#39;MD5&#39;)); // d41d8cd98f00b204e98009
 </tr>
 </tbody>
 </table>
-<p>例如, AutoJs6 的 <a href="crypto.html#crypto_m_generatekeypair">crypto.generateKeyPair</a> 方法可以生成用于非对称加密算法的公私密钥对:</p>
+<p>例如, CeenJs6 的 <a href="crypto.html#crypto_m_generatekeypair">crypto.generateKeyPair</a> 方法可以生成用于非对称加密算法的公私密钥对:</p>
 <pre><code class="lang-js">let kp = crypto.generateKeyPair(&#39;DSA&#39;, 1024);
 console.log(kp.publicKey);
 console.log(kp.privateKey);
@@ -1852,7 +1852,7 @@ console.log(kp.privateKey);
 <h2>CryptoCipherTransformation<span><a class="mark" href="#datatypes_cryptociphertransformation" id="datatypes_cryptociphertransformation">#</a></span></h2>
 <p>密码转换名称, 主要用于 <a href="crypto.html">密文</a> 模块.</p>
 <p>Cipher, 可翻译为 &quot;密码&quot; 或 &quot;密码器&quot;.</p>
-<p>AutoJs6 的 <a href="crypto.html">crypto</a> 模块中, <a href="crypto.html#crypto_m_encrypt">encrypt</a> 和 <a href="crypto.html#crypto_m_decrypt">decrypt</a> 的内部实现均借助了 <code>javax.crypto.Cipher</code> 实例.</p>
+<p>CeenJs6 的 <a href="crypto.html">crypto</a> 模块中, <a href="crypto.html#crypto_m_encrypt">encrypt</a> 和 <a href="crypto.html#crypto_m_decrypt">decrypt</a> 的内部实现均借助了 <code>javax.crypto.Cipher</code> 实例.</p>
 <p><code>javax.crypto.Cipher</code> 类提供加解密功能, 它构成了 <code>JCE (Java Cryptography Extension)</code> 的核心, 是 Java JDK 原生 API.</p>
 <p>Cipher 实例的初始化使用的是 <code>Cipher.getInstance(transformation: String)</code> 方法, 这个 <code>transformation</code> 参数, 即 &quot;转换名称&quot;, 其作用就是获取到不同加解密方式的 Cipher 实例.</p>
 <p>转换名称 <code>transformation</code> 参数的格式有两种:</p>
@@ -1871,7 +1871,7 @@ let cipherB = Cipher.getInstance(&quot;DES/CBC/PKCS5Padding&quot;);
 <li><a href="crypto.html#crypto_m_encrypt">crypto.encrypt</a>(data, key, <strong>transformation</strong>, options?)</li>
 <li><a href="crypto.html#crypto_m_decrypt">crypto.decrypt</a>(data, key, <strong>transformation</strong>, options?)</li>
 </ul>
-<p>下表列出了 AutoJs6 支持的转换名称构成要素, 可组合出多种不同的转换名称:</p>
+<p>下表列出了 CeenJs6 支持的转换名称构成要素, 可组合出多种不同的转换名称:</p>
 <table>
 <thead>
 <tr>

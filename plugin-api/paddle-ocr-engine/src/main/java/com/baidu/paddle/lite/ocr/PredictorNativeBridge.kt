@@ -5,8 +5,8 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.os.Looper
 import android.util.Log
-import org.autojs.plugin.paddle.ocr.api.OcrOptions
-import org.autojs.plugin.paddle.ocr.api.OcrResult
+import org.ceenjs.plugin.paddle.ocr.api.OcrOptions
+import org.ceenjs.plugin.paddle.ocr.api.OcrResult
 import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 

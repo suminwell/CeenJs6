@@ -11,7 +11,7 @@ import androidx.core.content.FileProvider;
 
 import android.os.Build;
 import android.widget.Toast;
-import org.autojs.autojs6.R;
+import org.ceenjs.ceenjs6.R;
 
 import java.io.File;
 

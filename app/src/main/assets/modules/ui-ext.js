@@ -1,12 +1,12 @@
 ( /* @ModuleIIFE */ () => {
 
-    // @Reference to module __ui__.js from Auto.js Pro 9.3.11 on May 24, 2025.
+    // @Reference to module __ui__.js from Ceen.js Pro 9.3.11 on May 24, 2025.
 
     let JsBridge = (function () {
         let ResultAdapter = require('result-adapter');
 
-        let EVENT_REQUEST = '$autojs:internal:request';
-        let EVENT_RESPONSE = '$autojs:internal:response';
+        let EVENT_REQUEST = '$ceenjs:internal:request';
+        let EVENT_RESPONSE = '$ceenjs:internal:response';
 
         function JavaScriptBridgeImpl(webview) {
             let self = this;
@@ -123,7 +123,7 @@
     })();
 
     /**
-     * @param {org.autojs.autojs.core.ui.widget.JsWebView} webview
+     * @param {org.ceenjs.ceenjs.core.ui.widget.JsWebView} webview
      */
     function initWebView(webview) {
         webview.jsBridge = new JsBridge(webview);

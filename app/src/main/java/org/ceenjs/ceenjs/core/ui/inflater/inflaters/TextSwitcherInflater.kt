@@ -1,0 +1,18 @@
+package org.ceenjs.ceenjs.core.ui.inflater.inflaters
+
+import android.content.Context
+import android.view.ViewGroup
+import android.widget.TextSwitcher
+import org.ceenjs.ceenjs.core.ui.inflater.ResourceParser
+import org.ceenjs.ceenjs.core.ui.inflater.ViewCreator
+import org.ceenjs.ceenjs.runtime.ScriptRuntime
+
+open class TextSwitcherInflater<V : TextSwitcher>(scriptRuntime: ScriptRuntime, resourceParser: ResourceParser) : ViewSwitcherInflater<V>(scriptRuntime, resourceParser) {
+
+    override fun getCreator(): ViewCreator<in V> = object : ViewCreator<TextSwitcher> {
+        override fun create(context: Context, attrs: HashMap<String, String>, parent: ViewGroup?): TextSwitcher {
+            return TextSwitcher(context)
+        }
+    }
+
+}

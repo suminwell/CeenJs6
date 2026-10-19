@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>全局对象 (Global) | AutoJs6 文档 - 6.6.4</title>
+    <title>全局对象 (Global) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global active" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="global" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -254,9 +254,9 @@
 <li><span class="stability_undefined"><a href="#global_requiresapi_api">requiresApi(api)</a></span></li>
 </ul>
 </li>
-<li><span class="stability_undefined"><a href="#global_m_requiresautojsversion">[m] requiresAutojsVersion</a></span><ul>
-<li><span class="stability_undefined"><a href="#global_requiresautojsversion_versionname">requiresAutojsVersion(versionName)</a></span></li>
-<li><span class="stability_undefined"><a href="#global_requiresautojsversion_versioncode">requiresAutojsVersion(versionCode)</a></span></li>
+<li><span class="stability_undefined"><a href="#global_m_requiresceenjsversion">[m] requiresCeenjsVersion</a></span><ul>
+<li><span class="stability_undefined"><a href="#global_requiresceenjsversion_versionname">requiresCeenjsVersion(versionName)</a></span></li>
+<li><span class="stability_undefined"><a href="#global_requiresceenjsversion_versioncode">requiresCeenjsVersion(versionCode)</a></span></li>
 </ul>
 </li>
 <li><span class="stability_undefined"><a href="#global_m_importpackage">[m] importPackage</a></span><ul>
@@ -493,11 +493,11 @@
         <div id="apicontent">
             <h1>全局对象 (Global)<span><a class="mark" href="#global_global" id="global_global">#</a></span></h1>
 <p>在 JavaScript 中, <a href="https://stackoverflow.com/questions/9108925/how-is-almost-everything-in-javascript-an-object/">几乎一切都是对象</a>.<br>此处的全局 &quot;对象&quot; 包括 [ 变量 / 方法 / 构造器 ] 等.<br>全局对象随处可用, 包括 ECMA 标准内置对象 (如 [ Number / RegExp / String ] 等).</p>
-<p>AutoJs6 的内置模块均支持全局使用, 如 <code>app</code>, <code>images</code>, <code>device</code> 等.</p>
-<p>为便于使用, 一些 AutoJs6 模块中的方法也被全局化,<br>如 <code>images.captureScreen()</code>, <code>dialogs.alert()</code>, <code>app.launch()</code> 等.<br>全局化方法均以 <code>Global</code> 标签标注.</p>
+<p>CeenJs6 的内置模块均支持全局使用, 如 <code>app</code>, <code>images</code>, <code>device</code> 等.</p>
+<p>为便于使用, 一些 CeenJs6 模块中的方法也被全局化,<br>如 <code>images.captureScreen()</code>, <code>dialogs.alert()</code>, <code>app.launch()</code> 等.<br>全局化方法均以 <code>Global</code> 标签标注.</p>
 <p>脚本文件可直接运行使用, 也可作为模块被导入使用 (<code>require</code> 方法).<br>当作为模块使用时, <code>exports</code> 和 <code>module</code> 可作为全局对象使用.<br>另在 UI 模式下也有一些专属全局对象, 如 <code>activity</code>.</p>
 <h2>覆写保护<span><a class="mark" href="#global" id="global">#</a></span></h2>
-<p>AutoJs6 对部分全局对象及内置模块增加了覆写保护.<br>以下全局声明或赋值将导致异常或非预期结果:</p>
+<p>CeenJs6 对部分全局对象及内置模块增加了覆写保护.<br>以下全局声明或赋值将导致异常或非预期结果:</p>
 <pre><code class="lang-js">/* 以全局对象 selector 为例. */
 
 /* 声明无效. */
@@ -528,7 +528,7 @@ continuation
 
 <hr>
 <h2>[@] global<span><a class="mark" href="#global_global_1" id="global_global_1">#</a></span></h2>
-<p>global 为 AutoJs6 的默认顶级作用域对象, 可作为全局对象使用:</p>
+<p>global 为 CeenJs6 的默认顶级作用域对象, 可作为全局对象使用:</p>
 <pre><code class="lang-js">typeof global; // &quot;object&quot;
 typeof global.sleep; // &quot;function&quot;
 </code></pre>
@@ -1164,32 +1164,32 @@ requiresApi(android.os.Build.VERSION_CODES.R); /* 同上. */
 <li><a href="util.html#util_versioncodes">util.versionCodes</a></li>
 </ul>
 </blockquote>
-<h2>[m] requiresAutojsVersion<span><a class="mark" href="#global_m_requiresautojsversion" id="global_m_requiresautojsversion">#</a></span></h2>
-<h3>requiresAutojsVersion(versionName)<span><a class="mark" href="#global_requiresautojsversion_versionname" id="global_requiresautojsversion_versionname">#</a></span></h3>
+<h2>[m] requiresCeenjsVersion<span><a class="mark" href="#global_m_requiresceenjsversion" id="global_m_requiresceenjsversion">#</a></span></h2>
+<h3>requiresCeenjsVersion(versionName)<span><a class="mark" href="#global_requiresceenjsversion_versionname" id="global_requiresceenjsversion_versionname">#</a></span></h3>
 <p><strong><code>Global</code></strong> <strong><code>Overload 1/2</code></strong></p>
 <ul>
-<li><strong>versionName</strong> { <span class="type"><a href="dataTypes.html#datatypes_string">string</a></span> } - AutoJs6 版本名称</li>
+<li><strong>versionName</strong> { <span class="type"><a href="dataTypes.html#datatypes_string">string</a></span> } - CeenJs6 版本名称</li>
 <li><ins><strong>returns</strong></ins> { <span class="type"><a href="dataTypes.html#datatypes_void">void</a></span> }</li>
 </ul>
-<p>脚本运行的最低 AutoJs6 版本要求 (版本名称).</p>
-<pre><code class="lang-js">requiresAutojsVersion(&quot;6.2.0&quot;);
+<p>脚本运行的最低 CeenJs6 版本要求 (版本名称).</p>
+<pre><code class="lang-js">requiresCeenjsVersion(&quot;6.2.0&quot;);
 </code></pre>
-<p>可通过 <code>autojs.versionName</code> 查看 AutoJs6 版本名称.</p>
+<p>可通过 <code>ceenjs.versionName</code> 查看 CeenJs6 版本名称.</p>
 <blockquote>
-<p>参阅: <a href="autojs.html#autojs_versionname">autojs.versionName</a></p>
+<p>参阅: <a href="ceenjs.html#ceenjs_versionname">ceenjs.versionName</a></p>
 </blockquote>
-<h3>requiresAutojsVersion(versionCode)<span><a class="mark" href="#global_requiresautojsversion_versioncode" id="global_requiresautojsversion_versioncode">#</a></span></h3>
+<h3>requiresCeenjsVersion(versionCode)<span><a class="mark" href="#global_requiresceenjsversion_versioncode" id="global_requiresceenjsversion_versioncode">#</a></span></h3>
 <p><strong><code>Global</code></strong> <strong><code>Overload 2/2</code></strong></p>
 <ul>
-<li><strong>versionCode</strong> { <span class="type"><a href="dataTypes.html#datatypes_number">number</a></span> } - AutoJs6 版本号</li>
+<li><strong>versionCode</strong> { <span class="type"><a href="dataTypes.html#datatypes_number">number</a></span> } - CeenJs6 版本号</li>
 <li><ins><strong>returns</strong></ins> { <span class="type"><a href="dataTypes.html#datatypes_void">void</a></span> }</li>
 </ul>
-<p>脚本运行的最低 AutoJs6 版本要求 (版本号).</p>
-<pre><code class="lang-js">requiresAutojsVersion(1024);
+<p>脚本运行的最低 CeenJs6 版本要求 (版本号).</p>
+<pre><code class="lang-js">requiresCeenjsVersion(1024);
 </code></pre>
-<p>可通过 <code>autojs.versionCode</code> 查看 AutoJs6 版本号.</p>
+<p>可通过 <code>ceenjs.versionCode</code> 查看 CeenJs6 版本号.</p>
 <blockquote>
-<p>参阅: <a href="autojs.html#autojs_versioncode">autojs.versionCode</a></p>
+<p>参阅: <a href="ceenjs.html#ceenjs_versioncode">ceenjs.versionCode</a></p>
 </blockquote>
 <h2>[m] importPackage<span><a class="mark" href="#global_m_importpackage" id="global_m_importpackage">#</a></span></h2>
 <h3>importPackage(...pkg)<span><a class="mark" href="#global_importpackage_pkg" id="global_importpackage_pkg">#</a></span></h3>
@@ -1271,7 +1271,7 @@ importClass(
 <pre><code class="lang-js">setClip(&quot;test&quot;);
 
 /* 安卓 10 以下: 打印 &quot;test&quot;. */
-/* 安卓 10 及以上: 若 AutoJs6 前置, 打印 &quot;test&quot;, 否则打印空字符串. */
+/* 安卓 10 及以上: 若 CeenJs6 前置, 打印 &quot;test&quot;, 否则打印空字符串. */
 console.log(getClip());
 </code></pre>
 <blockquote>
@@ -1698,8 +1698,8 @@ species(new TypeError()); // Error
 species(new Map()); // Map
 species(new Set()); // Set
 species(&lt;text/&gt;); // XML
-species(org.autojs.autojs6); // JavaPackage
-species(org.autojs.autojs6.R); // JavaClass
+species(org.ceenjs.ceenjs6); // JavaPackage
+species(org.ceenjs.ceenjs6.R); // JavaClass
 </code></pre>
 <p>如需判断某个对象是否为特定的 &quot;种类&quot;, 可使用形如 <code>species.isXxx</code> 的扩展方法:</p>
 <pre><code class="lang-js">species.isObject(23); // false
@@ -2085,13 +2085,13 @@ console.log(context.getResources().getQuantityString(
 <p><strong><code>6.2.0</code></strong> <strong><code>Global</code></strong></p>
 <p>字符串资源.</p>
 <p>定义字符串.<br>保存在 <code>res/values/</code> 中, 可通过 <code>R.string</code> 属性访问.</p>
-<pre><code class="lang-js">console.log(context.getString(R.string.app_name)); // AutoJs6
+<pre><code class="lang-js">console.log(context.getString(R.string.app_name)); // CeenJs6
 </code></pre>
 <h3>[p+] strings<span><a class="mark" href="#global_p_strings" id="global_p_strings">#</a></span></h3>
 <p><strong><code>6.2.0</code></strong> <strong><code>Global</code></strong></p>
 <p>字符串资源.</p>
 <p>同 <a href="#global_p_string">R.string</a>.<br>因 <code>TypeScript Declarations (TS 声明文件)</code> 中, <code>string</code> 为保留关键字, 不能作为类名使用, 为了使 <code>IDE</code> 实现智能补全, 特提供 <code>R.strings</code> 别名类.</p>
-<pre><code class="lang-js">console.log(context.getString(R.strings.app_name)); // AutoJs6
+<pre><code class="lang-js">console.log(context.getString(R.strings.app_name)); // CeenJs6
 console.log(context.getString(R.string.app_name)); /* 同上, 但 IDE 无法智能补全. */
 </code></pre>
 <h3>[p+] style<span><a class="mark" href="#global_p_style" id="global_p_style">#</a></span></h3>

@@ -3,8 +3,8 @@ package com.baidu.paddle.lite.ocr
 import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
-import org.autojs.plugin.paddle.ocr.api.OcrOptions
-import org.autojs.plugin.paddle.ocr.api.OcrResult
+import org.ceenjs.plugin.paddle.ocr.api.OcrOptions
+import org.ceenjs.plugin.paddle.ocr.api.OcrResult
 import java.io.FileNotFoundException
 
 /**

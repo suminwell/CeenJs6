@@ -5,10 +5,10 @@ import org.gradle.kotlin.dsl.support.uppercaseFirstChar
 import kotlin.text.RegexOption.IGNORE_CASE
 
 plugins {
-    id("org.autojs.build.utils")
-    id("org.autojs.build.versions")
-    id("org.autojs.build.signs")
-    id("org.autojs.build.jvm-convention")
+    id("org.ceenjs.build.utils")
+    id("org.ceenjs.build.versions")
+    id("org.ceenjs.build.signs")
+    id("org.ceenjs.build.jvm-convention")
     id("com.android.application")
     id("com.google.devtools.ksp")
     id("idea")
@@ -26,7 +26,7 @@ idea {
     }
 }
 
-val globalApplicationId = "org.autojs.autojs6"
+val globalApplicationId = "org.ceenjs.ceenjs6"
 
 val flavorDimension = "channel"
 val flavorNameApp = "app"
@@ -383,7 +383,7 @@ dependencies /* OpenCC */ {
     implementation(libs.opencc)
 }
 
-dependencies /* Auto.js Extensions */ {
+dependencies /* Ceen.js Extensions */ {
     // Settings Compat
     // @Integrated by SuperMonster003 on Mar 30, 2023.
     //  # implementation("com.github.hyb1996:settingscompat:1.1.5")
@@ -396,9 +396,9 @@ dependencies /* Auto.js Extensions */ {
     // @Integrated by SuperMonster003 on Mar 30, 2023.
     //  # implementation("com.github.hyb1996:android-multi-level-listview:1.1")
 
-    // Auto.js APK Builder
+    // Ceen.js APK Builder
     // @Integrated by SuperMonster003 on Mar 30, 2023.
-    //  # implementation(project(":libs:Autojs-ApkBuilder-1_0_3"))
+    //  # implementation(project(":libs:Ceenjs-ApkBuilder-1_0_3"))
 
     // Extracted from com.github.hyb1996:MutableTheme:1.0.0
     implementation(libs.recyclerview)
@@ -439,11 +439,11 @@ dependencies /* Archived */ {
     // implementation("javax.ws.rs:javax.ws.rs-api:2.1.1")
 
     // @Hint by SuperMonster003 on Jan 11, 2026.
-    //  ! The AutoJs6 core project has deprecated the Local Broadcast Manager library,
+    //  ! The CeenJs6 core project has deprecated the Local Broadcast Manager library,
     //  ! replaced by LiveData and SharedFlow.
     //  ! It is only retained for dependencies of certain libraries (such as MQTT).
     //  ! zh-CN:
-    //  ! AutoJs6 核心项目已弃用 Local Broadcast Manager 库,
+    //  ! CeenJs6 核心项目已弃用 Local Broadcast Manager 库,
     //  ! 由 LiveData 及 SharedFlow 替代.
     //  ! 仅用于某些库 (如 MQTT) 的依赖而保留.
     // Local Broadcast Manager
@@ -502,7 +502,7 @@ android {
                     "appName" to "@string/app_name",
                     "intentCategory" to "android.intent.category.LAUNCHER",
                     "intentCategoryInrt" to "android.intent.category.DEFAULT",
-                    "authorities" to "org.autojs.autojs6.fileprovider",
+                    "authorities" to "org.ceenjs.ceenjs6.fileprovider",
                     "icon" to "@mipmap/ic_app_launcher_adaptive",
                 )
             )
@@ -523,10 +523,10 @@ android {
             manifestPlaceholders.putAll(
                 mapOf(
                     "CHANNEL" to flavorNameInrt,
-                    "appName" to "AutoJs6.$flavorNameInrt",
+                    "appName" to "CeenJs6.$flavorNameInrt",
                     "intentCategory" to "android.intent.category.DEFAULT",
                     "intentCategoryInrt" to "android.intent.category.LAUNCHER",
-                    "authorities" to "org.autojs.autojs6.$flavorNameInrt.fileprovider",
+                    "authorities" to "org.ceenjs.ceenjs6.$flavorNameInrt.fileprovider",
                     "icon" to "@mipmap/ic_launcher",
                 )
             )
@@ -544,9 +544,9 @@ android {
             if (isInrtAssembleTaskRequested) {
                 // @Hint by SuperMonster003 on Oct 16, 2023.
                 //  ! Runtime assets will be copied from flavor "app"
-                //  ! while building an apk on org.autojs.autojs.ui.project.BuildActivity.
+                //  ! while building an apk on org.ceenjs.ceenjs.ui.project.BuildActivity.
                 //  ! zh-CN:
-                //  ! 类 org.autojs.autojs.ui.project.BuildActivity 构建 APK 时,
+                //  ! 类 org.ceenjs.ceenjs.ui.project.BuildActivity 构建 APK 时,
                 //  ! 运行时资产文件 (runtime assets) 将由名为 "app" 的 Gradle flavor 作为源地址进行复制.
                 ignoreAssetsPatterns.addAll(emptyList())
             }
@@ -747,7 +747,7 @@ androidComponents {
                         "openccdata/**/*",
                         "project/**/*",
                         "android-devices.db",
-                        "autojs.keystore",
+                        "ceenjs.keystore",
                         "**/prob_emit.txt", // Jieba Analysis
                         "**/dict-chinese-*.db.gzip", // Jieba Analysis
                     )
@@ -780,10 +780,10 @@ androidComponents {
             @Suppress("UNCHECKED_CAST")
             (outputFileNameProperty as? Property<String>)?.set(
                 variant.applicationId.zip(output.versionName) { appId, versionName ->
-                    val autojs = appId.substringAfterLast('.')
+                    val ceenjs = appId.substringAfterLast('.')
                     val version = versionName.replace("\\s".toRegex(), "-")
                     val extension = utils.FILE_EXTENSION_APK
-                    "$autojs-v$version-$architecture.$extension".lowercase()
+                    "$ceenjs-v$version-$architecture.$extension".lowercase()
                 }
             )
         }

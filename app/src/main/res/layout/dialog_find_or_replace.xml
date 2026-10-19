@@ -9,7 +9,7 @@
     android:paddingEnd="16dp"
     android:paddingTop="16dp">
 
-    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/text_find"
@@ -20,16 +20,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
-    <org.autojs.autojs.theme.widget.ThemeColorCheckBox
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorCheckBox
         android:id="@+id/checkbox_regex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:text="@string/text_regex" />
 
-    <org.autojs.autojs.theme.widget.ThemeColorTextInputLayout
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/text_replace"
@@ -40,7 +40,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-    </org.autojs.autojs.theme.widget.ThemeColorTextInputLayout>
+    </org.ceenjs.ceenjs.theme.widget.ThemeColorTextInputLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -48,14 +48,14 @@
         android:orientation="horizontal"
         android:layout_marginBottom="4dp">
 
-        <org.autojs.autojs.theme.widget.ThemeColorCheckBox
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorCheckBox
             android:id="@+id/checkbox_replace"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/text_replace" />
 
-        <org.autojs.autojs.theme.widget.ThemeColorCheckBox
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorCheckBox
             android:id="@+id/checkbox_replace_all"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

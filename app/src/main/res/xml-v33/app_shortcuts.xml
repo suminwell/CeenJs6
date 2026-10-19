@@ -17,8 +17,8 @@
             android:shortcutDisabledMessage="@string/text_app_shortcut_disabled">
         <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="org.autojs.autojs6"
-                android:targetClass="org.autojs.autojs.ui.settings.PreferencesActivity" />
+                android:targetPackage="org.ceenjs.ceenjs6"
+                android:targetClass="org.ceenjs.ceenjs.ui.settings.PreferencesActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
     <shortcut
@@ -30,8 +30,8 @@
             android:shortcutDisabledMessage="@string/text_app_shortcut_disabled">
         <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="org.autojs.autojs6"
-                android:targetClass="org.autojs.autojs.ui.doc.DocumentationActivity" />
+                android:targetPackage="org.ceenjs.ceenjs6"
+                android:targetClass="org.ceenjs.ceenjs.ui.doc.DocumentationActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
     <shortcut
@@ -43,8 +43,8 @@
             android:shortcutDisabledMessage="@string/text_app_shortcut_disabled">
         <intent
                 android:action="android.intent.action.VIEW"
-                android:targetPackage="org.autojs.autojs6"
-                android:targetClass="org.autojs.autojs.ui.log.LogActivity" />
+                android:targetPackage="org.ceenjs.ceenjs6"
+                android:targetClass="org.ceenjs.ceenjs.ui.log.LogActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
     <shortcut
@@ -56,8 +56,8 @@
         android:shortcutDisabledMessage="@string/text_app_shortcut_disabled">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="org.autojs.autojs6"
-            android:targetClass="org.autojs.autojs.core.plugin.center.PluginCenterActivity" />
+            android:targetPackage="org.ceenjs.ceenjs6"
+            android:targetClass="org.ceenjs.ceenjs.core.plugin.center.PluginCenterActivity" />
         <categories android:name="android.shortcut.conversation" />
     </shortcut>
 </shortcuts>

@@ -1,5 +1,5 @@
 /**
- * Tests for AutoJs6 (v6.1.0 and above).
+ * Tests for CeenJs6 (v6.1.0 and above).
  * A toast message should display when all tests passed (or not) within 3 seconds.
  * Created by SuperMonster003 on May 7, 2022.
  */
@@ -95,7 +95,7 @@ assert(isFunc(waitForPackage), 'waitForPackage()');
 assert(isFunc(random), 'random()');
 assert(isFunc(setScreenMetrics), 'setScreenMetrics()');
 assert(isFunc(requiresApi), 'requiresApi()');
-assert(isFunc(requiresAutojsVersion), 'requiresAutojsVersion()');
+assert(isFunc(requiresCeenjsVersion), 'requiresCeenjsVersion()');
 assert(isFunc(isInteger), 'isInteger()');
 assert(isFunc(isNullish), 'isNullish()');
 assert(isFunc(isPrimitive), 'isPrimitive()');
@@ -110,7 +110,7 @@ assert(isJavaPackage(androidx), 'androidx');
 assert(isJavaPackage(Packages.androidx), 'Packages');
 assert(noError(() => sleep(-currentPackage().length)), 'sleep() and currentPackage()');
 assert(noError(() => requiresApi(24)), 'requiresApi()');
-assert(noError(() => requiresAutojsVersion('6.0.0')), 'requiresAutojsVersion()');
+assert(noError(() => requiresCeenjsVersion('6.0.0')), 'requiresCeenjsVersion()');
 assert(isPrimitive(Symbol('test')), 'isPrimitive()');
 assert(isNullish(void 0), 'isNullish()');
 
@@ -302,9 +302,9 @@ assert(new RegExp('-n \'[.\\w]+\\/Test\'' +
     category: 'cat003',
 })), 'app.intentToShell()');
 assert(!isNullish(app.getAppName(context.packageName)), 'app.getAppName()');
-assert(typeof app.autojs.versionName === 'string', 'app.autojs.versionName');
-assert(typeof app.autojs.versionCode === 'number', 'app.autojs.versionCode');
-assert(typeof app.autojs.versionDate === 'string', 'app.autojs.versionDate');
+assert(typeof app.ceenjs.versionName === 'string', 'app.ceenjs.versionName');
+assert(typeof app.ceenjs.versionCode === 'number', 'app.ceenjs.versionCode');
+assert(typeof app.ceenjs.versionDate === 'string', 'app.ceenjs.versionDate');
 
 // @Test selector
 
@@ -492,7 +492,7 @@ assert(isFunc(http.postMultipart), 'http.postMultipart()');
 // @Test RootAutomator
 
 assert(isObjOrFunc(RootAutomator), 'RootAutomator');
-assert(noError(() => autojs.isRootAvailable()), 'autojs.isRootAvailable()');
+assert(noError(() => ceenjs.isRootAvailable()), 'ceenjs.isRootAvailable()');
 
 // @Test continuation
 

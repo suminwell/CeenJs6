@@ -5,6 +5,18 @@ import os
 from pathlib import Path
 import re
 import subprocess
+from urllib.parse import urlsplit
+
+
+def same_build(first_url, second_url):
+    first = urlsplit(first_url)
+    second = urlsplit(second_url)
+    first_run = re.search(r"/actions/runs/(\d+)/?$", first.path)
+    second_run = re.search(r"/actions/runs/(\d+)/?$", second.path)
+    return first_url == second_url or (
+        first.netloc == second.netloc and first_run is not None and second_run is not None
+        and first_run[1] == second_run[1]
+    )
 
 
 def select_version(base, run_number, build_url, releases):
@@ -22,7 +34,8 @@ def select_version(base, run_number, build_url, releases):
             published_runs.append(int(match[1]))
         if match := pattern.fullmatch(tag):
             revisions.append(int(match[1]))
-            if f"- Build: {build_url}" in body.splitlines():
+            if any(same_build(build_url, line.removeprefix("- Build: "))
+                   for line in body.splitlines() if line.startswith("- Build: ")):
                 rerun_versions.add(tag.removeprefix("ceen-v"))
 
     if len(rerun_versions) > 1:

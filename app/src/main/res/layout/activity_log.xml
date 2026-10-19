@@ -11,7 +11,7 @@
         android:fitsSystemWindows="true"
         app:theme="@style/AppTheme.AppBarOverlay">
 
-        <org.autojs.autojs.theme.widget.ThemeColorToolbar
+        <org.ceenjs.ceenjs.theme.widget.ThemeColorToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
@@ -20,7 +20,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <org.autojs.autojs.core.console.ConsoleView
+    <org.ceenjs.ceenjs.core.console.ConsoleView
         android:id="@+id/console"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,14 +29,14 @@
         app:excludeFromNavigationBar="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-    <org.autojs.autojs.theme.widget.ThemeColorFloatingActionButton
+    <org.ceenjs.ceenjs.theme.widget.ThemeColorFloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
         android:tint="@color/toolbar_text"
-        app:layout_behavior="org.autojs.autojs.ui.widget.ScrollAwareFABBehavior"
+        app:layout_behavior="org.ceenjs.ceenjs.ui.widget.ScrollAwareFABBehavior"
         app:srcCompat="@drawable/ic_clear_white_48dp" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -2,7 +2,7 @@
 
 !function() {
 
-    const RtFiles = org.autojs.autojs.runtime.api.Files;
+    const RtFiles = org.ceenjs.ceenjs.runtime.api.Files;
 
     let _ = {
         I18n: (/* @IIFE */ () => {

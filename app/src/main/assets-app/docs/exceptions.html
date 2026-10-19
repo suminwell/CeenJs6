@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>异常 (Exceptions) | AutoJs6 文档 - 6.6.4</title>
+    <title>异常 (Exceptions) | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="exceptions" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -243,7 +243,7 @@
 <p>在 <code>catch {}</code> (即 <code>catch 块</code>) 中, <code>e</code> 对象可用于获取异常相关信息,<br>而 Rhino 引擎重新包装了 <code>e</code> 对象, 通过 <a href="#exceptions_p_javaexception"><code>e.javaException</code></a> 和 <a href="#exceptions_p_rhinoexception"><code>e.rhinoException</code></a> 可获取更多异常信息,<br>详见下述 <a href="#exceptions_catch_块">catch 块</a> 小节.</p>
 <h1>错误类型<span><a class="mark" href="#exceptions" id="exceptions">#</a></span></h1>
 <h2>JavaScript<span><a class="mark" href="#exceptions_javascript" id="exceptions_javascript">#</a></span></h2>
-<p>以下内置错误类型在 Rhino 引擎中均得以实现, 在 AutoJs6 支持全局调用.<br>如需创建自定义错误类型, 参阅下述 <a href="#exceptions_自定义">自定义错误类型</a> 小节.</p>
+<p>以下内置错误类型在 Rhino 引擎中均得以实现, 在 CeenJs6 支持全局调用.<br>如需创建自定义错误类型, 参阅下述 <a href="#exceptions_自定义">自定义错误类型</a> 小节.</p>
 <h3>Error<span><a class="mark" href="#exceptions_error" id="exceptions_error">#</a></span></h3>
 <p>通用 Error 构造器.</p>
 <p>内置错误类型 TypeError, RangeError 等均扩展自 Error 构造器.<br>例如, 如果一个对象是 TypeError 的实例, 则也一定是 Error 的实例.</p>
@@ -329,7 +329,7 @@ try {
 
 // Firefox 103.0 - SyntaxError: expected expression, got &#39;??&#39;.
 // Node.js 17.3.0 - SyntaxError: Unexpected token &#39;??&#39;.
-// AutoJs6 - syntax error.
+// CeenJs6 - syntax error.
 ??
 </code></pre>
 <blockquote>
@@ -633,7 +633,7 @@ throw new TestError(&quot;foo&quot;); /* new 关键字不可省略. */
 classForName(&quot;NonExistingClass&quot;); // Class NonExistingClass not found
 classForName(null); // Class name is null
 </code></pre>
-<p>上述示例代码在 AutoJs6 可正常运行并返回预期结果, 但不符合 ECMAScript 语法, 且暂未发现任何可以解析此语法的 IDE, 使用后会造成 IDE 报错并在格式化代码时出现排版异常.</p>
+<p>上述示例代码在 CeenJs6 可正常运行并返回预期结果, 但不符合 ECMAScript 语法, 且暂未发现任何可以解析此语法的 IDE, 使用后会造成 IDE 报错并在格式化代码时出现排版异常.</p>
 <p>使用传统的单 catch 块语句可能会是更好的选择:</p>
 <pre><code class="lang-js">try {
     return java.lang.Class.forName(name);
@@ -693,7 +693,7 @@ console.log(res); // false
     console.log(e instanceof Error); // true
 }
 </code></pre>
-<p>对于 AutoJs6, catch 块中的引用对象 (通常用 e 或 ex 表示) 还由 Rhino 引擎额外封装了 <a href="#exceptions_p_javaexception">javaException</a> 和 <a href="#exceptions_p_rhinoexception">rhinoException</a> 两个对象.</p>
+<p>对于 CeenJs6, catch 块中的引用对象 (通常用 e 或 ex 表示) 还由 Rhino 引擎额外封装了 <a href="#exceptions_p_javaexception">javaException</a> 和 <a href="#exceptions_p_rhinoexception">rhinoException</a> 两个对象.</p>
 <hr>
 <p style="font: bold 2em sans-serif; color: #FF7043">Error</p>
 

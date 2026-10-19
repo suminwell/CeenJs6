@@ -23,7 +23,7 @@
         android:paddingVertical="9dp"
         android:paddingStart="8dp">
 
-        <org.autojs.autojs.core.ui.widget.JsCheckBox
+        <org.ceenjs.ceenjs.core.ui.widget.JsCheckBox
             android:id="@+id/checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

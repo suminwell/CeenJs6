@@ -19,7 +19,7 @@
             android:layout_width="72dp"
             android:layout_height="72dp"
             android:layout_gravity="center"
-            android:src="@drawable/autojs6_material" />
+            android:src="@drawable/ceenjs6_material" />
 
         <ImageView
             android:layout_width="100dp"
@@ -27,7 +27,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="4dp"
             android:layout_marginStart="2dp"
-            android:src="@drawable/autojs6" />
+            android:src="@drawable/ceenjs6" />
 
     </LinearLayout>
 

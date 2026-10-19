@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>脚本化 Java | AutoJs6 文档 - 6.6.4</title>
+    <title>脚本化 Java | CeenJs6 文档 - 6.6.4</title>
     <link rel="stylesheet" href="assets/fonts.css">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/sh.css">
@@ -17,7 +17,7 @@
     <div id="column2" class="interior">
         <div id="intro" class="interior">
             <a href="/" title="返回首页">
-                AutoJs6
+                CeenJs6
             </a>
         </div>
         <ul>
@@ -29,7 +29,7 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-manual" href="manual.html">Manual - AutoJs6 使用手册</a></li>
+<li><a class="nav-manual" href="manual.html">Manual - CeenJs6 使用手册</a></li>
 <li><a class="nav-qa" href="qa.html">Q &amp; A - 疑难解答</a></li>
 </ul>
 <div class="line"></div>
@@ -37,7 +37,7 @@
 <ul>
 <li><a class="nav-global" href="global.html">Global - 全局对象</a></li>
 <li><a class="nav-automator" href="automator.html">Automator - 自动化</a></li>
-<li><a class="nav-autojs" href="autojs.html">AutoJs6 - 本体应用</a></li>
+<li><a class="nav-ceenjs" href="ceenjs.html">CeenJs6 - 本体应用</a></li>
 <li><a class="nav-app" href="app.html">App - 通用应用</a></li>
 <li><a class="nav-color" href="color.html">Color - 颜色</a></li>
 <li><a class="nav-image" href="image.html">Image - 图像</a></li>
@@ -154,15 +154,15 @@
 <div class="line"></div>
 
 <ul>
-<li><a class="nav-http-project-autojs6-com" href="http://project.autojs6.com">GitHub - 应用项目地址</a></li>
-<li><a class="nav-http-docs-project-autojs6-com" href="http://docs-project.autojs6.com">GitHub - 文档项目地址</a></li>
+<li><a class="nav-http-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6">GitHub - 应用项目地址</a></li>
+<li><a class="nav-http-docs-project-ceenjs6-com" href="https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs">GitHub - 文档项目地址</a></li>
 </ul>
 
     </div>
 
     <div id="column1" data-id="scriptingJava" class="interior">
         <header>
-            <h1>AutoJs6 文档 - 6.6.4</h1>
+            <h1>CeenJs6 文档 - 6.6.4</h1>
             <div id="gtoc">
                 <p class="index">
                     <a href="index.html" name="toc">索引</a> |
@@ -206,7 +206,7 @@
             <h1>脚本化 Java<span><a class="mark" href="#scriptingjava_java" id="scriptingjava_java">#</a></span></h1>
 <p>Rhino 引擎提供了脚本化 Java 的便捷性.</p>
 <blockquote>
-<p>注: 此章节参考并修改自 <a href="https://pro.autojs.org/">Auto.js Pro</a> 及 <a href="http://udn.realityripple.com/docs/Mozilla/Projects/Rhino/Scripting_Java/">Scripting Java</a>.</p>
+<p>注: 此章节参考并修改自 <a href="https://github.com/suminwell/CeenJs6/">Ceen.js Pro</a> 及 <a href="http://udn.realityripple.com/docs/Mozilla/Projects/Rhino/Scripting_Java/">Scripting Java</a>.</p>
 </blockquote>
 <blockquote>
 <p>注: ECMA 标准并未包含与 Java 的交互, 本章节所有功能均作为扩展功能而非语言标准使用.</p>
@@ -220,7 +220,7 @@ typeof Packages.java === &#39;object&#39;; // true
 <pre><code class="lang-js">Packages.java === java; // true
 </code></pre>
 <blockquote>
-<p>注: AutoJs6 顶层化的包名前缀包括 [ android / androidx / java / javax / org / com / net / de / ezy / kotlin / okhttp3 ].</p>
+<p>注: CeenJs6 顶层化的包名前缀包括 [ android / androidx / java / javax / org / com / net / de / ezy / kotlin / okhttp3 ].</p>
 </blockquote>
 <p>顶层方法 <code>importPackage</code> 及 <code>importClass</code> 可以像 <code>import</code> 语句一样导入包或类.</p>
 <pre><code class="lang-js">importPackage(java.io);
@@ -239,7 +239,7 @@ typeof File === &#39;object&#39;; // true
 <p>注: 配合 TypeScript Declarations 的 IDE 可能对解构赋值变量无法进行类型识别和代码智能提示.<br>因此建议使用原始变量声明方式导入需要使用的类.<br>对于 importClass 和 importPackage, 目前还未能实现类型识别和代码智能提示 (截至 2022 年 7 月).</p>
 </blockquote>
 <h2>访问扩展的包及类<span><a class="mark" href="#scriptingjava" id="scriptingjava">#</a></span></h2>
-<p>AutoJs6 的项目扩展库及项目依赖包均可直接访问.</p>
+<p>CeenJs6 的项目扩展库及项目依赖包均可直接访问.</p>
 <pre><code class="lang-js">/* 依赖包: implementation(&quot;joda-time:joda-time:2.10.14&quot;) */
 typeof org.joda.time.LocalDateTime.now; // &quot;function&quot;
 

@@ -3,7 +3,7 @@
 ui.layout(
     <vertical>
         <text textSize="18sp" textColor="#000000" margin="20" textStyle="bold">
-            关于 Auto.js 的用户调查
+            关于 Ceen.js 的用户调查
         </text>
         <ScrollView>
             <vertical>
@@ -16,7 +16,7 @@ ui.layout(
                     <radio text="用过, 感觉不好用"/>
                     <radio text="没有 Root 权限无法使用"/>
                 </radiogroup>
-                <text textSize="16sp" margin="8">3. 您使用 Auto.js 通常用于做什么? (多选)</text>
+                <text textSize="16sp" margin="8">3. 您使用 Ceen.js 通常用于做什么? (多选)</text>
                 <checkbox text="游戏辅助" marginLeft="16"/>
                 <checkbox text="点赞" marginLeft="16"/>
                 <checkbox text="日常生活工作辅助" marginLeft="16"/>
@@ -29,13 +29,13 @@ ui.layout(
                 <text textSize="16sp" margin="8">4. 您更喜欢以下哪个图标?</text>
                 <radiogroup margin="0 16">
                     <radio/>
-                    <img w="100" h="100" margin="0 16" src="http://www.autojs.org/assets/uploads/profile/3-profileavatar.png"/>
+                    <img w="100" h="100" margin="0 16" src="https://github.com/suminwell/CeenJs6/assets/uploads/profile/3-profileavatar.png"/>
                     <radio/>
-                    <img w="100" h="100" margin="0 16" src="http://www.autojs.org/assets/uploads/files/1511945512596-autojs_logo.png"/>
+                    <img w="100" h="100" margin="0 16" src="https://github.com/suminwell/CeenJs6/assets/uploads/files/1511945512596-ceenjs_logo.png"/>
                 </radiogroup>
-                <text textSize="16sp" margin="8">5. 您是什么时候开始使用 Auto.js 的呢?</text>
+                <text textSize="16sp" margin="8">5. 您是什么时候开始使用 Ceen.js 的呢?</text>
                 <datepicker margin="4 16" datePickerMode="spinner"/>
-                <text textSize="16sp" margin="8">6. 您用过下面这个 Auto.js 的论坛吗?</text>
+                <text textSize="16sp" margin="8">6. 您用过下面这个 Ceen.js 的论坛吗?</text>
                 <webview id="webview" h="300" margin="0 16"/>
                 <radiogroup marginLeft="16" marginTop="16">
                     <radio text="没有用过"/>
@@ -51,4 +51,4 @@ ui.layout(
     </vertical>,
 );
 
-ui.webview.loadUrl('http://www.autojs.org');
+ui.webview.loadUrl('https://github.com/suminwell/CeenJs6');

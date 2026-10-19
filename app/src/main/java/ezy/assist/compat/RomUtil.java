@@ -4,7 +4,7 @@ import android.os.Build;
 import android.text.TextUtils;
 import android.util.Log;
 
-import org.autojs.autojs.core.pref.Language;
+import org.ceenjs.ceenjs.core.pref.Language;
 
 import java.io.BufferedReader;
 import java.io.IOException;

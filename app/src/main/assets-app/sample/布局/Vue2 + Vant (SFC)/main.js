@@ -41,7 +41,7 @@ web.jsBridge
     })
     // 处理获取应用版本名称的请求
     .handle('get-app-version-name', (event) => {
-        return app.autojs.versionName;
+        return app.ceenjs.versionName;
     })
     // 处理文件选择的请求
     .handle('select-file', (event, mimeType) => {

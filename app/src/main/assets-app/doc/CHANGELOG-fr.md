@@ -12,67 +12,67 @@
 * `Fonctionnalité` Fonction Historique des versions, prenant en charge l'affichage/la restauration des versions historiques des fichiers modifiables (entree: bouton du tiroir d'accueil/menu du gestionnaire de fichiers/menu de l'editeur de code)
 * `Fonctionnalité` Fonction Corbeille, prenant en charge l'affichage/la restauration des fichiers/dossiers supprimes (entree: bouton du tiroir d'accueil)
 * `Fonctionnalité` Plugin Paddle OCR (PP-OCRv5), pour la reconnaissance optique de caracteres
-* `Fonctionnalité` Module cvt, pour la conversion d'unites de donnees (voir Documentation du projet > [Conversion d'unites](https://docs.autojs6.com/#/cvt))
-* `Fonctionnalité` Module fmt, pour le formatage des donnees (voir Documentation du projet > [Formatage](https://docs.autojs6.com/#/fmt))
-* `Fonctionnalité` Module zip, pour les operations de compression et de decompression de fichiers (Ref to [Auto.js Pro](https://g.pro.autojs.org/)) (voir Documentation du projet > [Zip](https://docs.autojs6.com/#/zip))
-* `Fonctionnalité` Module mediainfo, pour afficher les informations detaillees des fichiers medias (voir Documentation du projet > [Informations media](https://docs.autojs6.com/#/mediainfo))
-* `Fonctionnalité` Methode cvt.bytes, pour la conversion d'unites des donnees d'octets (voir Documentation du projet > [Conversion d'unites](https://docs.autojs6.com/#/cvt))
-* `Fonctionnalité` Methode fmt.bytes, pour le formatage des donnees d'octets (voir Documentation du projet > [Formatage](https://docs.autojs6.com/#/fmt))
-* `Fonctionnalité` Methode s13n.bytes, pour la standardisation des donnees d'octets (voir Documentation du projet > [Standardisation](https://docs.autojs6.com/#/s13n))
-* `Fonctionnalité` Methode app.isDualInstalled, pour detecter si une application duale est installee (necessite les permissions Shizuku ou Root) _[`issue #450`](http://issues.autojs6.com/450)_
-* `Fonctionnalité` Methode device.getSharedDeviceId, pour obtenir un identifiant d'appareil partage unifie entre applications _[`issue #455`](http://issues.autojs6.com/455)_
-* `Fonctionnalité` Methode device.setPointerLocation et autres methodes de la serie Toggleable, pour definir ou obtenir l'option systeme de position du pointeur _[`issue #381`](http://issues.autojs6.com/381)_
+* `Fonctionnalité` Module cvt, pour la conversion d'unites de donnees (voir Documentation du projet > [Conversion d'unites](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/cvt))
+* `Fonctionnalité` Module fmt, pour le formatage des donnees (voir Documentation du projet > [Formatage](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/fmt))
+* `Fonctionnalité` Module zip, pour les operations de compression et de decompression de fichiers (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) (voir Documentation du projet > [Zip](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/zip))
+* `Fonctionnalité` Module mediainfo, pour afficher les informations detaillees des fichiers medias (voir Documentation du projet > [Informations media](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/mediainfo))
+* `Fonctionnalité` Methode cvt.bytes, pour la conversion d'unites des donnees d'octets (voir Documentation du projet > [Conversion d'unites](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/cvt))
+* `Fonctionnalité` Methode fmt.bytes, pour le formatage des donnees d'octets (voir Documentation du projet > [Formatage](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/fmt))
+* `Fonctionnalité` Methode s13n.bytes, pour la standardisation des donnees d'octets (voir Documentation du projet > [Standardisation](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/s13n))
+* `Fonctionnalité` Methode app.isDualInstalled, pour detecter si une application duale est installee (necessite les permissions Shizuku ou Root) _[`issue #450`](https://github.com/suminwell/CeenJs6/issues/450)_
+* `Fonctionnalité` Methode device.getSharedDeviceId, pour obtenir un identifiant d'appareil partage unifie entre applications _[`issue #455`](https://github.com/suminwell/CeenJs6/issues/455)_
+* `Fonctionnalité` Methode device.setPointerLocation et autres methodes de la serie Toggleable, pour definir ou obtenir l'option systeme de position du pointeur _[`issue #381`](https://github.com/suminwell/CeenJs6/issues/381)_
 * `Fonctionnalité` La methode dialogs.build prend en charge les parametres d'option textAllCaps/(positive/negative/neutral)TextAllCaps, pour controler si le texte des boutons est entierement en majuscules
-* `Fonctionnalité` Methode images.loadAsync, pour recuperer de maniere asynchrone des ressources d'image reseau _[`issue #327`](http://issues.autojs6.com/327)_
-* `Fonctionnalité` Methode ui.getNavigationBarHeight/propriete navigationBarHeight (getter), pour obtenir la hauteur de la barre de navigation _[`issue #456`](http://issues.autojs6.com/456)_
-* `Fonctionnalité` Methode ui.getVisible(Status/Navigation)BarHeight/propriete visible(Status/Navigation)BarHeight (getter), pour obtenir rapidement la hauteur visible de la barre d'etat ou de navigation _[`issue #456`](http://issues.autojs6.com/456)_
+* `Fonctionnalité` Methode images.loadAsync, pour recuperer de maniere asynchrone des ressources d'image reseau _[`issue #327`](https://github.com/suminwell/CeenJs6/issues/327)_
+* `Fonctionnalité` Methode ui.getNavigationBarHeight/propriete navigationBarHeight (getter), pour obtenir la hauteur de la barre de navigation _[`issue #456`](https://github.com/suminwell/CeenJs6/issues/456)_
+* `Fonctionnalité` Methode ui.getVisible(Status/Navigation)BarHeight/propriete visible(Status/Navigation)BarHeight (getter), pour obtenir rapidement la hauteur visible de la barre d'etat ou de navigation _[`issue #456`](https://github.com/suminwell/CeenJs6/issues/456)_
 * `Fonctionnalité` Methodes http.put/del(ete)/head, pour envoyer des requetes reseau avec differentes methodes HTTP
-* `Fonctionnalité` Methodes telles que http.getAsync/postAsync/requestAsync, pour envoyer des requetes reseau de maniere asynchrone _[`issue #423`](http://issues.autojs6.com/423)_
-* `Fonctionnalité` L'objet body obtenu via les methodes de requete du module http ajoute des methodes telles que stream/saveToFile/close _[`issue #452`](http://issues.autojs6.com/452)_
+* `Fonctionnalité` Methodes telles que http.getAsync/postAsync/requestAsync, pour envoyer des requetes reseau de maniere asynchrone _[`issue #423`](https://github.com/suminwell/CeenJs6/issues/423)_
+* `Fonctionnalité` L'objet body obtenu via les methodes de requete du module http ajoute des methodes telles que stream/saveToFile/close _[`issue #452`](https://github.com/suminwell/CeenJs6/issues/452)_
 * `Fonctionnalité` Les methodes de requete du module http prennent en charge des parametres d'option de controle du cache (cacheBody/bodyCacheThresholdBytes)
-* `Fonctionnalité` Les methodes de requete du module http prennent en charge des parametres d'option non securises (isInsecure/insecure), pour ignorer les exceptions liees aux certificats _[`issue #417`](http://issues.autojs6.com/417)_
-* `Fonctionnalité` Les methodes de requete du module http prennent en charge l'option options.client, pour configurer OkHttpClient.Builder (comme followRedirects, etc.) _[`issue #454`](http://issues.autojs6.com/454)_
+* `Fonctionnalité` Les methodes de requete du module http prennent en charge des parametres d'option non securises (isInsecure/insecure), pour ignorer les exceptions liees aux certificats _[`issue #417`](https://github.com/suminwell/CeenJs6/issues/417)_
+* `Fonctionnalité` Les methodes de requete du module http prennent en charge l'option options.client, pour configurer OkHttpClient.Builder (comme followRedirects, etc.) _[`issue #454`](https://github.com/suminwell/CeenJs6/issues/454)_
 * `Fonctionnalité` Propriete auto.state (getter) et propriete shizuku.state (getter), pour obtenir l'etat du service d'accessibilite et du service Shizuku
-* `Fonctionnalité` Methodes runtime.(set/is)JavaPrimitiveWrap, pour definir ou obtenir la strategie d'encapsulation des types primitifs Java _[`issue #435`](http://issues.autojs6.com/435)_
-* `Fonctionnalité` Methodes autojs.(restart/exit), pour redemarrer ou quitter l'application AutoJs6, avec prise en charge de l'execution automatique du script specifie lors du redemarrage de l'application _[`issue #460`](http://issues.autojs6.com/460)_
-* `Fonctionnalité` Methode UiObject#isShifted, pour detecter les changements de position des controles _[`issue #469`](http://issues.autojs6.com/469)_
-* `Fonctionnalité` Methode UiObject#snapshot, pour capturer l'etat actuel d'un controle _[`issue #469`](http://issues.autojs6.com/469)_
-* `Fonctionnalité` Methode engines.myEngine().getStartTime(), pour obtenir l'horodatage de demarrage du moteur de script _[`issue #449`](http://issues.autojs6.com/449)_
+* `Fonctionnalité` Methodes runtime.(set/is)JavaPrimitiveWrap, pour definir ou obtenir la strategie d'encapsulation des types primitifs Java _[`issue #435`](https://github.com/suminwell/CeenJs6/issues/435)_
+* `Fonctionnalité` Methodes ceenjs.(restart/exit), pour redemarrer ou quitter l'application CeenJs6, avec prise en charge de l'execution automatique du script specifie lors du redemarrage de l'application _[`issue #460`](https://github.com/suminwell/CeenJs6/issues/460)_
+* `Fonctionnalité` Methode UiObject#isShifted, pour detecter les changements de position des controles _[`issue #469`](https://github.com/suminwell/CeenJs6/issues/469)_
+* `Fonctionnalité` Methode UiObject#snapshot, pour capturer l'etat actuel d'un controle _[`issue #469`](https://github.com/suminwell/CeenJs6/issues/469)_
+* `Fonctionnalité` Methode engines.myEngine().getStartTime(), pour obtenir l'horodatage de demarrage du moteur de script _[`issue #449`](https://github.com/suminwell/CeenJs6/issues/449)_
 * `Fonctionnalité` Methode globale crash, pour tester la page de rapport de plantage
 * `Fonctionnalité` Methode globale structuredClone, pour effectuer une copie profonde d'objets JavaScript (voir [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/structuredClone))
 * `Fonctionnalité` Les selecteurs de la serie equivalente (UiSelector#id/text/...) et de la serie contient (UiSelector#xxxContains) prennent en charge les parametres d'expression reguliere
 * `Fonctionnalité` Les parametres d'expression reguliere des selecteurs prennent en charge les drapeaux (i, m, s, u)
-* `Fonctionnalité` Les expressions regulieres prennent en charge la syntaxe de lookbehind _[`issue #464`](http://issues.autojs6.com/464)_
+* `Fonctionnalité` Les expressions regulieres prennent en charge la syntaxe de lookbehind _[`issue #464`](https://github.com/suminwell/CeenJs6/issues/464)_
 * `Fonctionnalité` Le gestionnaire de fichiers ajoute les elements de menu "Deplacer vers" et "Copier vers", avec prise en charge de l'abandon d'operation et de l'affichage de l'etat de progression
 * `Fonctionnalité` L'editeur de code ajoute l'element de menu "Clavier multifonction" - "Parametres des symboles", avec prise en charge de l'edition des symboles et de la creation/importation/exportation de symboles par niveau de profil
 * `Fonctionnalité` Le tiroir d'accueil ajoute l'outil "Position du pointeur"
 * `Fonctionnalité` Le tiroir d'accueil ajoute l'interrupteur "Acces a tous les fichiers"
 * `Fonctionnalité` Le tiroir d'accueil ajoute l'interrupteur "Afficher l'interface depuis l'arriere-plan" (pour les appareils [Xiaomi/Vivo])
-* `Fonctionnalité` La page Parametres ajoute l'option "Encapsulation des types primitifs Java" _[`issue #435`](http://issues.autojs6.com/435)_
-* `Fonctionnalité` La page Parametres ajoute l'option "Moteur de planification des taches", avec prise en charge de AlarmManager/WorkManager/JobScheduler _[`issue #457`](http://issues.autojs6.com/457)_ _[`issue #434`](http://issues.autojs6.com/434)_ _[`issue #449`](http://issues.autojs6.com/449)_ _[`issue #388`](http://issues.autojs6.com/388)_ _[`issue #378`](http://issues.autojs6.com/378)_ _[`issue #163`](http://issues.autojs6.com/163)_ _[`issue #53`](http://issues.autojs6.com/53)_ _[`issue #21`](http://issues.autojs6.com/21)_
-* `Fonctionnalité` La page Parametres ajoute l'option "Icone du lanceur d'application", avec prise en charge des icones adaptatives/icones a fond transparent _[`issue #405`](http://issues.autojs6.com/405)_
+* `Fonctionnalité` La page Parametres ajoute l'option "Encapsulation des types primitifs Java" _[`issue #435`](https://github.com/suminwell/CeenJs6/issues/435)_
+* `Fonctionnalité` La page Parametres ajoute l'option "Moteur de planification des taches", avec prise en charge de AlarmManager/WorkManager/JobScheduler _[`issue #457`](https://github.com/suminwell/CeenJs6/issues/457)_ _[`issue #434`](https://github.com/suminwell/CeenJs6/issues/434)_ _[`issue #449`](https://github.com/suminwell/CeenJs6/issues/449)_ _[`issue #388`](https://github.com/suminwell/CeenJs6/issues/388)_ _[`issue #378`](https://github.com/suminwell/CeenJs6/issues/378)_ _[`issue #163`](https://github.com/suminwell/CeenJs6/issues/163)_ _[`issue #53`](https://github.com/suminwell/CeenJs6/issues/53)_ _[`issue #21`](https://github.com/suminwell/CeenJs6/issues/21)_
+* `Fonctionnalité` La page Parametres ajoute l'option "Icone du lanceur d'application", avec prise en charge des icones adaptatives/icones a fond transparent _[`issue #405`](https://github.com/suminwell/CeenJs6/issues/405)_
 * `Fonctionnalité` La page Parametres ajoute l'option "Strategie de redemarrage", pour definir si le bouton de redemarrage du tiroir d'accueil utilise la strategie de redemarrage rapide
 * `Fonctionnalité` La page Parametres ajoute l'option "Delai de demande de permission de capture d'ecran", pour eviter que la fenetre de demande de permission masque l'ecran
 * `Fonctionnalité` Les raccourcis du lanceur dans la page Parametres ajoutent l'option "Plugins", pour acceder a la page Centre des plugins via un raccourci
 * `Fonctionnalité` Les applications empaquetees prennent en charge le demarrage automatique au boot et ajoutent un interrupteur sur la page de configuration
 * `Fonctionnalité` Les applications empaquetees prennent en charge les raccourcis d'application (page des journaux/page des parametres)
 * `Fonctionnalité` La page de configuration de l'empaquetage ajoute des boutons annuler/retablir/enregistrer
-* `Fonctionnalité` La page de configuration de l'empaquetage ajoute un mecanisme de profils, prenant en charge la creation/modification/suppression/importation/exportation de profils _[`issue #483`](http://issues.autojs6.com/483)_
+* `Fonctionnalité` La page de configuration de l'empaquetage ajoute un mecanisme de profils, prenant en charge la creation/modification/suppression/importation/exportation de profils _[`issue #483`](https://github.com/suminwell/CeenJs6/issues/483)_
 * `Fonctionnalité` Outil Scrapers (run-scrapers.mjs), pour mettre a jour automatiquement les donnees structurees des scripts de build Gradle/les donnees communes du README/les donnees de modele README, etc.
 * `Fonctionnalité` Outil Gradle Wrapper switcher (gradle-wrapper-switcher), pour changer la version majeure locale de Gradle (comme Gradle 8.x et Gradle 9.x)
-* `Correction` Erreur dans la restriction du nombre et des types de parametres de la methode notice _[`issue #462`](http://issues.autojs6.com/462)_
+* `Correction` Erreur dans la restriction du nombre et des types de parametres de la methode notice _[`issue #462`](https://github.com/suminwell/CeenJs6/issues/462)_
 * `Correction` Probleme ou la propriete ui.R (getter) ne pouvait pas etre utilisee correctement
 * `Correction` Probleme ou les exceptions generees dans les parametres de callback de la methode ui.post pouvaient echouer silencieusement
 * `Correction` Probleme ou des methodes globales telles que isJavaClass/isJavaPackage etaient invalides
 * `Correction` Probleme ou le parametre timeout de la methode timers.keepAlive ne fonctionnait pas
-* `Correction` Probleme ou les methodes floaty.window/rawWindow ne pouvaient pas accepter de parametres de type chaine _[`issue #467`](http://issues.autojs6.com/467)_
+* `Correction` Probleme ou les methodes floaty.window/rawWindow ne pouvaient pas accepter de parametres de type chaine _[`issue #467`](https://github.com/suminwell/CeenJs6/issues/467)_
 * `Correction` Probleme ou floaty.rawWindow affichait certains controles de maniere anormale a cause du passage d'un contexte incorrect
 * `Correction` Probleme ou la methode util.isString etait invalide
 * `Correction` Probleme ou util.class[Name]/getClass[Name] pouvait renvoyer des resultats incorrects
 * `Correction` Probleme ou util.java.array ne pouvait pas utiliser correctement des parametres de type tels que Boolean
-* `Correction` Probleme ou l'objet renvoye par threads.disposable() pouvait etre encapsule de maniere inattendue lors de l'acces aux donnees _[`issue #435`](http://issues.autojs6.com/435)_
+* `Correction` Probleme ou l'objet renvoye par threads.disposable() pouvait etre encapsule de maniere inattendue lors de l'acces aux donnees _[`issue #435`](https://github.com/suminwell/CeenJs6/issues/435)_
 * `Correction` Probleme ou, lors de plusieurs appels a la methode console.build, les options de style de la fenetre flottante de journaux n'etaient pas correctement reinitialisees
-* `Correction` Probleme ou les options (title/content)BackgroundColor de la methode console.build ecrasaient les options de transparence ou de teinte _[`issue #458`](http://issues.autojs6.com/458)_
+* `Correction` Probleme ou les options (title/content)BackgroundColor de la methode console.build ecrasaient les options de transparence ou de teinte _[`issue #458`](https://github.com/suminwell/CeenJs6/issues/458)_
 * `Correction` Probleme ou des methodes comme console/toast pouvaient perdre les zeros finaux lors de l'affichage de valeurs Java Double
 * `Correction` Probleme ou il etait impossible d'utiliser des methodes comme console/toast pour afficher le type de donnees BigInt
 * `Correction` Probleme ou la methode toast pouvait provoquer une fuite memoire en conservant une reference forte a l'instance Toast
@@ -83,32 +83,32 @@
 * `Correction` Calcul incorrect de la frequence d'images interne dans la methode setMaxFps du controle canvas
 * `Correction` Calcul incorrect de la largeur lors de la concatenation verticale avec la methode images.concat
 * `Correction` Probleme ou l'annulation de l'autorisation de la methode images.requestScreenCapture pouvait provoquer un plantage de l'application
-* `Correction` Probleme ou les captures obtenues via la methode images.captureScreen pouvaient avoir une orientation incorrecte ou des bordures noires _[`issue #337`](http://issues.autojs6.com/337)_
+* `Correction` Probleme ou les captures obtenues via la methode images.captureScreen pouvaient avoir une orientation incorrecte ou des bordures noires _[`issue #337`](https://github.com/suminwell/CeenJs6/issues/337)_
 * `Correction` Probleme ou la valeur 1 etait interpretee par erreur comme un pourcentage lors de l'utilisation de parametres de region dans certaines methodes de images
-* `Correction` Probleme ou la fonction du marqueur oneShot echouait lorsqu'une exception survenait dans certaines methodes liees a images _[`issue #372`](http://issues.autojs6.com/372)_
-* `Correction` Probleme ou certaines methodes liees a images pouvaient provoquer des fuites memoire _[`issue #372`](http://issues.autojs6.com/372)_
+* `Correction` Probleme ou la fonction du marqueur oneShot echouait lorsqu'une exception survenait dans certaines methodes liees a images _[`issue #372`](https://github.com/suminwell/CeenJs6/issues/372)_
+* `Correction` Probleme ou certaines methodes liees a images pouvaient provoquer des fuites memoire _[`issue #372`](https://github.com/suminwell/CeenJs6/issues/372)_
 * `Correction` Probleme ou images.save et la methode ImageWrapper#saveTo ne pouvaient pas ecrire correctement les fichiers lorsque le chemin fourni n'existait pas
 * `Correction` Probleme ou la methode ImageWrapper#recycle ne recyclait pas correctement les ressources d'image
 * `Correction` Probleme ou certaines methodes surchargees de ocr pouvaient ne pas fonctionner correctement
-* `Correction` Probleme ou les resultats obtenus via la methode ocr.detect pouvaient ne pas correspondre a ocr.mode _[`issue #468`](http://issues.autojs6.com/468)_
-* `Correction` Probleme ou les evenements du service d'accessibilite enregistres avec auto.registerEvent pouvaient etre supprimes par erreur par d'autres scripts _[`issue #466`](http://issues.autojs6.com/466)_ _[`issue #343`](http://issues.autojs6.com/343#issuecomment-3263953918)_
-* `Correction` Probleme ou la methode UiObject#child pouvait lancer ArrayIndexOutOfBoundsException sur Android 10 _[`issue #416`](http://issues.autojs6.com/416)_
+* `Correction` Probleme ou les resultats obtenus via la methode ocr.detect pouvaient ne pas correspondre a ocr.mode _[`issue #468`](https://github.com/suminwell/CeenJs6/issues/468)_
+* `Correction` Probleme ou les evenements du service d'accessibilite enregistres avec auto.registerEvent pouvaient etre supprimes par erreur par d'autres scripts _[`issue #466`](https://github.com/suminwell/CeenJs6/issues/466)_ _[`issue #343`](https://github.com/suminwell/CeenJs6/issues/343#issuecomment-3263953918)_
+* `Correction` Probleme ou la methode UiObject#child pouvait lancer ArrayIndexOutOfBoundsException sur Android 10 _[`issue #416`](https://github.com/suminwell/CeenJs6/issues/416)_
 * `Correction` Probleme ou l'appel des methodes de modules integres pouvait conduire a une incoherence de contexte Rhino
 * `Correction` Probleme ou, apres la creation d'un grand nombre de fenetres flottantes dans un script, des fenetres residuelles pouvaient rester apres la sortie du script
 * `Correction` Probleme ou les parametres de configuration de project.json n'etaient pas correctement analyses lors de l'execution d'un projet
-* `Correction` Probleme ou le parametre excludedDirs de project.json pouvait provoquer un echec d'analyse du fichier de configuration lors de l'empaquetage d'un projet _[`issue #428`](http://issues.autojs6.com/428)_
+* `Correction` Probleme ou le parametre excludedDirs de project.json pouvait provoquer un echec d'analyse du fichier de configuration lors de l'empaquetage d'un projet _[`issue #428`](https://github.com/suminwell/CeenJs6/issues/428)_
 * `Correction` Probleme ou la fonction d'empaquetage pouvait ne pas fonctionner correctement sur Android 7.x
 * `Correction` Probleme ou les noms de cles d'origine pouvaient etre modifies lors de l'enregistrement du fichier de configuration d'un projet de script
 * `Correction` Probleme ou de grands numeros de version de build ou d'heure de build dans le fichier de configuration d'un projet de script pouvaient provoquer un plantage de l'application
 * `Correction` Probleme ou la recuperation ou la reconstruction frequente de ImageReader pouvait provoquer un plantage de l'application a cause de l'absence temporaire d'image disponible dans le tampon
 * `Correction` Probleme ou l'observateur d'evenements d'entree InputEventObserver pouvait provoquer un ralentissement notable au demarrage de l'application
-* `Correction` Probleme ou le processus de service utilisateur Shizuku ne se terminait pas correctement, provoquant une accumulation de processus _[`issue #474`](http://issues.autojs6.com/474)_
+* `Correction` Probleme ou le processus de service utilisateur Shizuku ne se terminait pas correctement, provoquant une accumulation de processus _[`issue #474`](https://github.com/suminwell/CeenJs6/issues/474)_
 * `Correction` Probleme ou les applications empaquetees ne pouvaient pas utiliser correctement les fonctions Paddle OCR et Rapid OCR
 * `Correction` Probleme ou la valeur de la cle key dans le fichier de configuration project.json des applications empaquetees pouvait etre modifiee de maniere inattendue
 * `Correction` Probleme ou l'icone des cases a cocher pouvait clignoter lors du defilement de la liste "Permissions requises" dans la page de configuration de l'empaquetage
 * `Correction` Probleme ou, dans la page Historique des versions, certains systemes affichaient des donnees statistiques incompletes en raison de differences de police
-* `Correction` Probleme ou MLKit Google OCR ne pouvait pas s'initialiser correctement sur certains appareils (correction tentative) _[`issue #8`](http://issues.autojs6.com/8#issuecomment-3117061768)_
-* `Correction` Probleme ou, sur certains appareils, les boutons fonctionnels du gestionnaire de fichiers ne declenchaient pas correctement les evenements de clic (correction tentative) _[`issue #465`](http://issues.autojs6.com/465)_
+* `Correction` Probleme ou MLKit Google OCR ne pouvait pas s'initialiser correctement sur certains appareils (correction tentative) _[`issue #8`](https://github.com/suminwell/CeenJs6/issues/8#issuecomment-3117061768)_
+* `Correction` Probleme ou, sur certains appareils, les boutons fonctionnels du gestionnaire de fichiers ne declenchaient pas correctement les evenements de clic (correction tentative) _[`issue #465`](https://github.com/suminwell/CeenJs6/issues/465)_
 * `Correction` Probleme ou les lignes vides de l'editeur de code affichaient des caracteres en forme de carre sur certains appareils (correction tentative)
 * `Correction` Probleme ou le clavier virtuel pouvait masquer le contenu texte dans l'editeur de code
 * `Correction` Probleme ou l'editeur de code autorisait encore la modification du contenu en mode lecture seule
@@ -117,8 +117,8 @@
 * `Correction` Initialisation anormale de l'etat des boutons fonctionnels lorsque l'editeur de code ouvrait automatiquement un nouveau fichier
 * `Correction` Probleme ou mettre l'application en arriere-plan pendant l'edition d'un fichier dans l'editeur de code pouvait provoquer un plantage
 * `Correction` Probleme ou, sur Android 15+, le bouton fx de l'editeur de code n'affichait pas le panneau rapide des fonctions de module (correction tentative)
-* `Correction` Probleme ou ErrorDialogActivity pouvait ne pas demarrer correctement ou disparaitre automatiquement apres un court instant _[`issue #479`](http://issues.autojs6.com/479)_ _[`issue #471`](http://issues.autojs6.com/471)_ _[`issue #414`](http://issues.autojs6.com/414)_ _[`issue #340`](http://issues.autojs6.com/340#issuecomment-2973485826)_
-* `Correction` Types de parametres acceptes incorrects dans le constructeur Canvas _[`issue #402`](http://issues.autojs6.com/402)_
+* `Correction` Probleme ou ErrorDialogActivity pouvait ne pas demarrer correctement ou disparaitre automatiquement apres un court instant _[`issue #479`](https://github.com/suminwell/CeenJs6/issues/479)_ _[`issue #471`](https://github.com/suminwell/CeenJs6/issues/471)_ _[`issue #414`](https://github.com/suminwell/CeenJs6/issues/414)_ _[`issue #340`](https://github.com/suminwell/CeenJs6/issues/340#issuecomment-2973485826)_
+* `Correction` Types de parametres acceptes incorrects dans le constructeur Canvas _[`issue #402`](https://github.com/suminwell/CeenJs6/issues/402)_
 * `Correction` Probleme ou la fonction de copie des informations detaillees ne fonctionnait pas dans la page de rapport de plantage
 * `Correction` Probleme ou la logique personnalisee du bouton retour cessait de fonctionner sur Android 16+, provoquant un comportement anormal du retour
 * `Correction` Probleme ou l'application pouvait planter lors de l'appui sur le bouton retour ou du changement d'onglet apres l'affichage des resultats de recherche du gestionnaire de fichiers
@@ -127,20 +127,20 @@
 * `Correction` Probleme ou la couleur du premier plan de la barre de navigation pouvait se comporter anormalement avec le mode nuit lors de l'utilisation de la navigation gestuelle "trois boutons"
 * `Correction` Probleme ou la boite de dialogue d'informations de type de fichier APK pouvait ne pas obtenir le nom de l'application ni les informations SDK
 * `Correction` Probleme ou, en mode client, une deconnexion suivie d'une reconnexion rapide apres une connexion pouvait provoquer un timeout de handshake et rendre la reconnexion difficile
-* `Correction` Probleme ou, en mode client, des operations telles que la rotation de l'ecran ou le changement de langue, recreant l'Activity, faisaient toujours reconstruire la connexion par AutoJs6
-* `Correction` Probleme ou, en mode serveur, des operations telles que la rotation de l'ecran ou le changement de langue, recreant l'Activity, empechaient la console VSCode d'afficher les journaux _[`issue #385`](http://issues.autojs6.com/385)_
+* `Correction` Probleme ou, en mode client, des operations telles que la rotation de l'ecran ou le changement de langue, recreant l'Activity, faisaient toujours reconstruire la connexion par CeenJs6
+* `Correction` Probleme ou, en mode serveur, des operations telles que la rotation de l'ecran ou le changement de langue, recreant l'Activity, empechaient la console VSCode d'afficher les journaux _[`issue #385`](https://github.com/suminwell/CeenJs6/issues/385)_
 * `Correction` Probleme ou, lors de la connexion au plugin VSCode de plusieurs manieres en meme temps, la quantite de journaux affiches pouvait etre multipliee
-* `Correction` Probleme ou la generation de code dans la page d'analyse de disposition pouvait echouer avec les controles de collection (correction tentative) _[`issue #328`](http://issues.autojs6.com/328)_
-* `Correction` Probleme ou l'interrupteur "Utiliser la touche 'Volume bas' pour controler l'enregistrement" ne fonctionnait pas dans la page Parametres _[`issue #480`](http://issues.autojs6.com/480)_
-* `Correction` Probleme ou les valeurs de coordonnees dans les fichiers de code generes par l'enregistrement de scripts pouvaient ne pas correspondre aux pixels reels de l'ecran _[`issue #480`](http://issues.autojs6.com/480)_
+* `Correction` Probleme ou la generation de code dans la page d'analyse de disposition pouvait echouer avec les controles de collection (correction tentative) _[`issue #328`](https://github.com/suminwell/CeenJs6/issues/328)_
+* `Correction` Probleme ou l'interrupteur "Utiliser la touche 'Volume bas' pour controler l'enregistrement" ne fonctionnait pas dans la page Parametres _[`issue #480`](https://github.com/suminwell/CeenJs6/issues/480)_
+* `Correction` Probleme ou les valeurs de coordonnees dans les fichiers de code generes par l'enregistrement de scripts pouvaient ne pas correspondre aux pixels reels de l'ecran _[`issue #480`](https://github.com/suminwell/CeenJs6/issues/480)_
 * `Correction` Probleme ou la premiere action dans les fichiers de code generes par l'enregistrement de scripts (comme toucher ou glisser) etait toujours ignoree
 * `Correction` Probleme ou l'execution d'operations sur des fichiers en arriere-plan depuis la boite de dialogue flottante "Executer le script" pouvait provoquer un plantage de l'application
 * `Correction` Probleme ou l'etat du bouton flottant pouvait etre reinitialise lors du retour a la page d'accueil apres la fin du cycle de vie de l'Activity d'accueil
 * `Correction` Probleme ou l'interrupteur "Afficher par-dessus les autres applications" sur les appareils Xiaomi pouvait ouvrir une mauvaise page de parametres
 * `Correction` Probleme ou, apres l'abandon du telechargement de mise a jour, les paquets reseau continuaient quand meme a etre telecharges en arriere-plan (correction tentative)
 * `Correction` Probleme ou la tache Rebuild Project ne pouvait pas se terminer correctement lorsque l'option isCleanup[Paddle/Rapid]Ocr etait activee dans les outils de build
-* `Amélioration` Fonctionnalites liees a Paddle OCR (PP-OCRv3) pluginise _[`issue #334`](http://issues.autojs6.com/334)_ _[`issue #331`](http://issues.autojs6.com/331)_ _[`issue #325`](http://issues.autojs6.com/325)_
-* `Amélioration` Compatibilite amelioree de la methode runtime.loadJar (by [LYS86](https://github.com/LYS86)) _[`pr #475`](http://pr.autojs6.com/475)_
+* `Amélioration` Fonctionnalites liees a Paddle OCR (PP-OCRv3) pluginise _[`issue #334`](https://github.com/suminwell/CeenJs6/issues/334)_ _[`issue #331`](https://github.com/suminwell/CeenJs6/issues/331)_ _[`issue #325`](https://github.com/suminwell/CeenJs6/issues/325)_
+* `Amélioration` Compatibilite amelioree de la methode runtime.loadJar (by [LYS86](https://github.com/LYS86)) _[`pr #475`](https://github.com/suminwell/CeenJs6/pull/475)_
 * `Amélioration` Compatibilite amelioree dans une certaine mesure de la methode ui.getStatusBarHeight/propriete statusBarHeight (getter)
 * `Amélioration` Les methodes comme console.log prennent en charge l'affichage d'informations detaillees lors de l'impression d'objets globaux (images, app, ocr, etc.)
 * `Amélioration` La methode dialogs.build prend en charge les parametres d'option natifs de MaterialDialog.Builder
@@ -153,7 +153,7 @@
 * `Amélioration` Lors de l'impression de donnees enormes via les methodes liees a la console, une partie du contenu est correctement omise selon des limites superieures afin de reduire le temps d'impression
 * `Amélioration` La valeur initiale du compte a rebours de la fenetre flottante de console passe de 6 a 9 secondes
 * `Amélioration` L'implementation interne de la fenetre flottante de console adopte un traitement sans verrou et en file d'attente afin d'ameliorer l'efficacite et le taux de reussite du parametrage
-* `Amélioration` Les API liees au comportement de la couleur de fond de la fenetre flottante de console (transparence/teinte/couleur de base) sont davantage conformes aux normes de conception Android _[`issue #458`](http://issues.autojs6.com/458)_
+* `Amélioration` Les API liees au comportement de la couleur de fond de la fenetre flottante de console (transparence/teinte/couleur de base) sont davantage conformes aux normes de conception Android _[`issue #458`](https://github.com/suminwell/CeenJs6/issues/458)_
 * `Amélioration` Optimisation du moment de repli du menu lors du toucher des elements apres le deploiement du bouton flottant dans le gestionnaire de fichiers
 * `Amélioration` Le gestionnaire de fichiers/le panneau des taches prennent en charge l'affichage des statistiques du nombre de fichiers/taches
 * `Amélioration` Lorsque l'enregistrement echoue dans l'editeur de code, le fichier est automatiquement enregistre en brouillon et prend en charge Enregistrer sous comme nouveau fichier
@@ -165,15 +165,15 @@
 * `Amélioration` La boite de dialogue du processus d'empaquetage ajoute un bouton "Interrompre"
 * `Amélioration` Le mode d'affichage de la boite de dialogue du processus d'empaquetage est ameliore et des statistiques de duree sont ajoutees
 * `Amélioration` Lors de l'installation d'applications empaquetees avec une nouvelle configuration, les configurations associees de l'ancienne application seront ecrasees
-* `Amélioration` La page de configuration de l'empaquetage coche par defaut les permissions necessaires (WAKE_LOCK/INTERNET/WRITE_EXTERNAL_STORAGE/...) _[`issue #397`](http://issues.autojs6.com/397)_
+* `Amélioration` La page de configuration de l'empaquetage coche par defaut les permissions necessaires (WAKE_LOCK/INTERNET/WRITE_EXTERNAL_STORAGE/...) _[`issue #397`](https://github.com/suminwell/CeenJs6/issues/397)_
 * `Amélioration` La page de configuration de l'empaquetage prend en charge la lecture et la configuration de davantage d'options (afficher les journaux au lancement/afficher l'ecran de demarrage au lancement/texte du slogan de l'ecran de demarrage/...)
-* `Amélioration` La page de parametres des applications empaquetees ajoute un interrupteur de service au premier plan _[`issue #406`](http://issues.autojs6.com/406)_
+* `Amélioration` La page de parametres des applications empaquetees ajoute un interrupteur de service au premier plan _[`issue #406`](https://github.com/suminwell/CeenJs6/issues/406)_
 * `Amélioration` L'enregistrement du fichier de configuration de projet de script ajoute une detection des conflits de noms de cles afin d'eviter toute ambiguite
 * `Amélioration` La page de rapport de plantage prend en charge le pincement a deux doigts pour ajuster la taille de police et ajoute des boutons de fonctions courantes
-* `Amélioration` Les icones du lanceur d'application prennent en charge les fonctionnalites d'icones adaptatives _[`issue #405`](http://issues.autojs6.com/405)_
+* `Amélioration` Les icones du lanceur d'application prennent en charge les fonctionnalites d'icones adaptatives _[`issue #405`](https://github.com/suminwell/CeenJs6/issues/405)_
 * `Amélioration` Lorsque l'analyse des signatures generiques echoue dans le moteur Rhino, un retour aux types de reflection bruts est effectue afin d'ameliorer la disponibilite des methodes reflexives sur les anciennes versions d'Android
 * `Amélioration` Les elements de type interrupteur du tiroir d'accueil ajoutent des separateurs, prennent en charge l'appui sur la zone du titre pour afficher une boite de dialogue detaillee et, selon le besoin, un acces rapide aux parametres systeme
-* `Amélioration` Au lancement ou au redemarrage de AutoJs6, l'appui sur la zone du titre de "Mode client" dans le tiroir d'accueil permet d'abandonner une tentative de connexion en cours
+* `Amélioration` Au lancement ou au redemarrage de CeenJs6, l'appui sur la zone du titre de "Mode client" dans le tiroir d'accueil permet d'abandonner une tentative de connexion en cours
 * `Amélioration` Le mode client prend en charge l'etablissement de connexions via des adresses IPv6 et des noms de domaine
 * `Amélioration` Le mode client prend en charge des invites de detection pour les adresses IPv4 a usage special (loopback/broadcast/multicast/reservee/...)
 * `Amélioration` Le mode client prend en charge l'affichage et la gestion de l'etat de connexion (corriger l'adresse/interrompre la connexion)
@@ -183,7 +183,7 @@
 * `Amélioration` La boite de dialogue "Plus" du bouton flottant utilise un chargement asynchrone des donnees pour un affichage plus fluide
 * `Amélioration` La boite de dialogue "Executer le script" du bouton flottant ajoute l'element de menu "Accueil"
 * `Amélioration` La boite de dialogue "Executer le script" du bouton flottant prend en charge la minimisation et la restauration d'etat, et fait de son mieux pour maintenir la fenetre residente ou la restaurer automatiquement
-* `Amélioration` La permission Shizuku est prise en charge pour l'enregistrement et la lecture de scripts (la fluidite de lecture peut etre quelque peu affectee) _[`issue #320`](http://issues.autojs6.com/320)_
+* `Amélioration` La permission Shizuku est prise en charge pour l'enregistrement et la lecture de scripts (la fluidite de lecture peut etre quelque peu affectee) _[`issue #320`](https://github.com/suminwell/CeenJs6/issues/320)_
 * `Amélioration` La page des parametres de couleur du theme utilise une methode de positionnement rapide pour localiser les couleurs du theme et ameliorer l'efficacite
 * `Amélioration` Remplacement du [LocalBroadcastManager](https://developer.android.com/jetpack/androidx/releases/localbroadcastmanager) obsolete par [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) et [SharedFlow](https://developer.android.com/kotlin/flow/stateflow-and-sharedflow)
 * `Amélioration` Les scripts de build Gradle ameliorent l'efficacite d'extraction des fichiers au format 7z
@@ -235,10 +235,10 @@
 * `Fonctionnalité` Méthodes util.dpToPx/spToPx/pxToDp/pxToSp pour la conversion d'unités en pixels
 * `Correction` Les sous-titres peuvent s'afficher de manière incomplète lors du passage en mode paysage
 * `Correction` Le contenu de certaines pages peut être masqué par la barre de navigation latérale en mode paysage
-* `Correction` Zone de coloration de fond de la barre d'état incomplète sur certaines pages sous Android 15 _[`issue #398`](http://issues.autojs6.com/398)_
+* `Correction` Zone de coloration de fond de la barre d'état incomplète sur certaines pages sous Android 15 _[`issue #398`](https://github.com/suminwell/CeenJs6/issues/398)_
 * `Correction` L'éditeur de code pouvait écrire des fichiers avec un encodage peu fiable, entraînant des erreurs de décodage (tentative de correction)
 * `Amélioration` Adaptabilité de la mise en page améliorée pour les pages Application et Développeur et suppression des catégories de mise en page inutiles
-* `Amélioration` Dans README.md, section Build, ajout de plusieurs méthodes pour faciliter la localisation de la page de configuration de la cible _[`issue #404`](http://issues.autojs6.com/404)_
+* `Amélioration` Dans README.md, section Build, ajout de plusieurs méthodes pour faciliter la localisation de la page de configuration de la cible _[`issue #404`](https://github.com/suminwell/CeenJs6/issues/404)_
 * `Dépendance` Ajout de AndroidX ConstraintLayout version 2.2.1
 
 # v6.6.3
@@ -248,14 +248,14 @@
 * `Fonctionnalité` Fonction d'historique des versions : consulter le journal des changements multilingue et les statistiques
 * `Fonctionnalité` Méthode timers.keepAlive (désormais globale) pour maintenir le script actif
 * `Fonctionnalité` Méthodes d'écoute d'événements telles que engines.on('start/stop/error', callback) pour les événements globaux du moteur
-* `Fonctionnalité` Méthode images.detectMultiColors pour la vérification de couleurs multipoints _[`issue #374`](http://issues.autojs6.com/374)_
-* `Fonctionnalité` Méthodes images.matchFeatures/detectAndComputeFeatures : recherche d'image en pleine résolution (Réf. [Auto.js Pro](https://g.pro.autojs.org/)) _[`issue #366`](http://issues.autojs6.com/366)_
+* `Fonctionnalité` Méthode images.detectMultiColors pour la vérification de couleurs multipoints _[`issue #374`](https://github.com/suminwell/CeenJs6/issues/374)_
+* `Fonctionnalité` Méthodes images.matchFeatures/detectAndComputeFeatures : recherche d'image en pleine résolution (Réf. [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) _[`issue #366`](https://github.com/suminwell/CeenJs6/issues/366)_
 * `Fonctionnalité` Méthode images.compressToBytes pour compresser une image et générer un tableau d'octets
 * `Fonctionnalité` Méthode images.downsample pour l'échantillonnage de pixels et la création d'un nouveau ImageWrapper
 * `Fonctionnalité` Méthode ui.keepScreenOn pour garder l'écran allumé lorsque la page UI a le focus
 * `Fonctionnalité` Propriété ui.root (getter) pour obtenir le nœud « conteneur racine du contenu de fenêtre » du layout UI
-* `Fonctionnalité` L'élément webview prend en charge les layouts de pages Web basés sur JsBridge (Réf. [Auto.js Pro](https://g.pro.autojs.org/)) [voir Code d'exemple > Layout > HTML interactif / Vue2 + Vant (SFC)] _[`issue #281`](http://issues.autojs6.com/281)_
-* `Fonctionnalité` L'inspecteur de layout permet de masquer des contrôles (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #371`](http://pr.autojs6.com/371)_ _[`issue #355`](http://issues.autojs6.com/355)_
+* `Fonctionnalité` L'élément webview prend en charge les layouts de pages Web basés sur JsBridge (Réf. [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) [voir Code d'exemple > Layout > HTML interactif / Vue2 + Vant (SFC)] _[`issue #281`](https://github.com/suminwell/CeenJs6/issues/281)_
+* `Fonctionnalité` L'inspecteur de layout permet de masquer des contrôles (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #371`](https://github.com/suminwell/CeenJs6/pull/371)_ _[`issue #355`](https://github.com/suminwell/CeenJs6/issues/355)_
 * `Correction` Le contenu de la documentation en ligne dans l'onglet Docs et l'activité Docs pouvait être recouvert par la barre de navigation système
 * `Correction` Sur certaines pages, cliquer sur les boutons de la Toolbar pouvait déclencher par erreur l'événement de clic sur le titre
 * `Correction` Sur certains appareils, les lignes vides de l'editeur de code affichaient des caracteres en forme de carre; correction tentative
@@ -267,19 +267,19 @@
 * `Correction` Le code d'exemple du gestionnaire de fichiers pouvait ne pas charger automatiquement le contenu des sous-dossiers à l'entrée d'un répertoire de projet
 * `Correction` Le contenu supérieur du mode UI sous Android 15 était recouvert par la barre d'état
 * `Correction` La couleur d'arrière-plan de la barre d'état sur certaines pages Android 15 ne suivait pas dynamiquement la couleur du thème
-* `Correction` Le module dialogs ne pouvait pas utiliser la propriété customView _[`issue #364`](http://issues.autojs6.com/364)_
+* `Correction` Le module dialogs ne pouvait pas utiliser la propriété customView _[`issue #364`](https://github.com/suminwell/CeenJs6/issues/364)_
 * `Correction` Le paramètre d'expression de dialogs.input pouvait ne pas retourner le résultat d'exécution
-* `Correction` L'utilisation de JavaAdapter provoquait un débordement de pile ClassLoader _[`issue #376`](http://issues.autojs6.com/376)_
-* `Correction` console.setContentTextColor entraînait la perte de la couleur de texte par défaut _[`issue #346`](http://issues.autojs6.com/346)_
-* `Correction` console.setContentBackgroundColor n'acceptait pas les noms de couleur _[`issue #384`](http://issues.autojs6.com/384)_
+* `Correction` L'utilisation de JavaAdapter provoquait un débordement de pile ClassLoader _[`issue #376`](https://github.com/suminwell/CeenJs6/issues/376)_
+* `Correction` console.setContentTextColor entraînait la perte de la couleur de texte par défaut _[`issue #346`](https://github.com/suminwell/CeenJs6/issues/346)_
+* `Correction` console.setContentBackgroundColor n'acceptait pas les noms de couleur _[`issue #384`](https://github.com/suminwell/CeenJs6/issues/384)_
 * `Correction` images.compress ajuste désormais la qualité d'encodage au lieu de réduire les pixels
 * `Correction` La méthode images.resize ne fonctionnait pas correctement
-* `Correction` engines.all pouvait déclencher ConcurrentModificationException _[`issue #394`](http://issues.autojs6.com/394)_
+* `Correction` engines.all pouvait déclencher ConcurrentModificationException _[`issue #394`](https://github.com/suminwell/CeenJs6/issues/394)_
 * `Correction` Formats de date incorrects dans certaines langues du README.md
-* `Correction` La compilation Gradle pouvait échouer à cause d'une longueur invalide d'archive de bibliothèque _[`issue #389`](http://issues.autojs6.com/389)_
+* `Correction` La compilation Gradle pouvait échouer à cause d'une longueur invalide d'archive de bibliothèque _[`issue #389`](https://github.com/suminwell/CeenJs6/issues/389)_
 * `Amélioration` Ajout de séparateurs dégradés dans le menu de l'inspecteur de layout pour regrouper les fonctions
-* `Amélioration` project.json prend désormais en charge l'option permissions pour les projets de script (par [wirsnow](https://github.com/wirsnow)) _[`pr #391`](http://pr.autojs6.com/391)_ _[`issue #362`](http://issues.autojs6.com/362)_
-* `Amélioration` Lors de l'empaquetage d'un fichier unique, les permissions déclarées par l'application installée sont lues et cochées automatiquement _[`issue #362`](http://issues.autojs6.com/362)_
+* `Amélioration` project.json prend désormais en charge l'option permissions pour les projets de script (par [wirsnow](https://github.com/wirsnow)) _[`pr #391`](https://github.com/suminwell/CeenJs6/pull/391)_ _[`issue #362`](https://github.com/suminwell/CeenJs6/issues/362)_
+* `Amélioration` Lors de l'empaquetage d'un fichier unique, les permissions déclarées par l'application installée sont lues et cochées automatiquement _[`issue #362`](https://github.com/suminwell/CeenJs6/issues/362)_
 * `Amélioration` Portée d'adaptation de la couleur de thème élargie et prise en charge de plus de types de widgets
 * `Amélioration` Largeur du tiroir d'accueil adaptée aux écrans paysage ou ultra-larges
 * `Amélioration` Ajout de layouts horizontaux et petit écran pour les pages À propos de l'application et Développeur
@@ -287,11 +287,11 @@
 * `Amélioration` Le bouton flottant du gestionnaire de fichiers se masque automatiquement lorsqu'on touche en dehors
 * `Amélioration` Le formateur de code prend désormais en charge les opérateurs `??`, `?.`, `??=`
 * `Amélioration` L'éditeur de code prend en charge la lecture et l'écriture de fichiers aux encodages GB18030 / UTF-16 (LE/BE) / Shift_JIS, etc
-* `Amélioration` L'éditeur de code prend en charge l'affichage des informations détaillées du fichier (chemin/encodage/retour à la ligne/nombre total d'octets et de caractères, etc.) _[`issue #395`](http://issues.autojs6.com/395)_
+* `Amélioration` L'éditeur de code prend en charge l'affichage des informations détaillées du fichier (chemin/encodage/retour à la ligne/nombre total d'octets et de caractères, etc.) _[`issue #395`](https://github.com/suminwell/CeenJs6/issues/395)_
 * `Amélioration` Ajout de messages d'erreur pour les actions d'intent (éditer / voir / installer / envoyer / lire, etc.)
 * `Amélioration` L'attribut url de webview prend en charge les chemins relatifs
 * `Amélioration` Le paramètre path de ImageWrapper#saveTo prend en charge les chemins relatifs
-* `Amélioration` images.save permet la compression de fichiers PNG lors de l'utilisation du paramètre quality _[`issue #367`](http://issues.autojs6.com/367)_
+* `Amélioration` images.save permet la compression de fichiers PNG lors de l'utilisation du paramètre quality _[`issue #367`](https://github.com/suminwell/CeenJs6/issues/367)_
 * `Amélioration` Possibilité de vider les enregistrements de mises à jour ignorées et les adresses de connexion en mode client
 * `Amélioration` Les informations de mise à jour de version sont affichées dans la langue de l'interface
 * `Amélioration` Le chargement asynchrone améliore la fluidité de défilement du gestionnaire de fichiers
@@ -299,7 +299,7 @@
 * `Amélioration` Le code d'exemple permet de réinitialiser un dossier à son contenu initial
 * `Amélioration` Efficacité accrue lors de la vérification des informations de signature APK
 * `Amélioration` Optimisation de l'efficacité d'affichage et de présentation des informations pour les fichiers APK/médias
-* `Amélioration` Le script de build Gradle améliore sa capacité d'adaptation aux nouvelles versions _[`discussion #369`](http://discussions.autojs6.com/369)_
+* `Amélioration` Le script de build Gradle améliore sa capacité d'adaptation aux nouvelles versions _[`discussion #369`](https://github.com/suminwell/CeenJs6/discussions/369)_
 * `Dépendance` Inclus Material Dialogs version 0.9.6.0 (modularise)
 * `Dépendance` Inclus Material Date Time Picker version 4.2.3 (modularise)
 * `Dépendance` Inclus libimagequant version 2.17.0 (localisé)
@@ -316,32 +316,32 @@
 ###### 2025/04/16
 
 * `Fonctionnalité` Méthodes telles que ui.statusBarAppearanceLight, statusBarAppearanceLightBy et navigationBarColor, etc
-* `Fonctionnalité` Attribut ui.statusBarHeight (getter) servant à obtenir la hauteur de la barre d'état _[`issue #357`](http://issues.autojs6.com/357)_
-* `Fonctionnalité` Méthode images.flip pour retourner une image _[`issue #349`](http://issues.autojs6.com/349)_
+* `Fonctionnalité` Attribut ui.statusBarHeight (getter) servant à obtenir la hauteur de la barre d'état _[`issue #357`](https://github.com/suminwell/CeenJs6/issues/357)_
+* `Fonctionnalité` Méthode images.flip pour retourner une image _[`issue #349`](https://github.com/suminwell/CeenJs6/issues/349)_
 * `Fonctionnalité` Ajout de l'option « extension de fichier » dans la page des paramètres
 * `Fonctionnalité` La page de configuration du thème prend désormais en charge une nouvelle mise en page (regroupement, positionnement, recherche, historique, amélioration de la palette de couleurs, etc.)
 * `Correction` Problème où la couleur de fond de la barre d'état sur Android 15 ne correspond pas à celle du thème
-* `Correction` Problème où la méthode plugins.load ne charge pas correctement les plugins _[`issue #290`](http://issues.autojs6.com/290)_
-* `Correction` Problème où la bibliothèque dx ne fonctionne pas correctement sur Android 7.x _[`issue #293`](http://issues.autojs6.com/293)_
-* `Correction` Problème où ScriptRuntime peut présenter un état de synchronisation anormal lors de l'utilisation de require pour importer des modules intégrés (solution provisoire) _[`issue #298`](http://issues.autojs6.com/298)_
-* `Correction` Problème où le module notice ne dispose pas des méthodes d'extension telles que getBuilder _[`issue #301`](http://issues.autojs6.com/301)_
-* `Correction` Problème où les méthodes shizuku/shell n'acceptent pas les paramètres de type chaîne _[`issue #310`](http://issues.autojs6.com/310)_
-* `Correction` Problème où la méthode colors.pixel n'accepte pas les paramètres d'images à canal unique _[`issue #350`](http://issues.autojs6.com/350)_
-* `Correction` Problème où les méthodes engines.execScript/execScriptFile utilisent un répertoire de travail par défaut incorrect lors de l'exécution des scripts _[`issue #358`](http://issues.autojs6.com/358)_ _[`issue #340`](http://issues.autojs6.com/340)_ _[`issue #339`](http://issues.autojs6.com/339)_
+* `Correction` Problème où la méthode plugins.load ne charge pas correctement les plugins _[`issue #290`](https://github.com/suminwell/CeenJs6/issues/290)_
+* `Correction` Problème où la bibliothèque dx ne fonctionne pas correctement sur Android 7.x _[`issue #293`](https://github.com/suminwell/CeenJs6/issues/293)_
+* `Correction` Problème où ScriptRuntime peut présenter un état de synchronisation anormal lors de l'utilisation de require pour importer des modules intégrés (solution provisoire) _[`issue #298`](https://github.com/suminwell/CeenJs6/issues/298)_
+* `Correction` Problème où le module notice ne dispose pas des méthodes d'extension telles que getBuilder _[`issue #301`](https://github.com/suminwell/CeenJs6/issues/301)_
+* `Correction` Problème où les méthodes shizuku/shell n'acceptent pas les paramètres de type chaîne _[`issue #310`](https://github.com/suminwell/CeenJs6/issues/310)_
+* `Correction` Problème où la méthode colors.pixel n'accepte pas les paramètres d'images à canal unique _[`issue #350`](https://github.com/suminwell/CeenJs6/issues/350)_
+* `Correction` Problème où les méthodes engines.execScript/execScriptFile utilisent un répertoire de travail par défaut incorrect lors de l'exécution des scripts _[`issue #358`](https://github.com/suminwell/CeenJs6/issues/358)_ _[`issue #340`](https://github.com/suminwell/CeenJs6/issues/340)_ _[`issue #339`](https://github.com/suminwell/CeenJs6/issues/339)_
 * `Correction` Problème où floaty.window/floaty.rawWindow ne peut pas être exécuté dans un thread secondaire
-* `Correction` Problème où floaty.getClip risque de ne pas récupérer correctement le contenu du presse-papiers _[`issue #341`](http://issues.autojs6.com/341)_
+* `Correction` Problème où floaty.getClip risque de ne pas récupérer correctement le contenu du presse-papiers _[`issue #341`](https://github.com/suminwell/CeenJs6/issues/341)_
 * `Correction` Problème où ui.inflate renvoie un résultat auquel il manque les méthodes de prototype telles que attr, on et click
-* `Correction` Problème où le contexte de portée n'est pas correctement lié lors de l'utilisation de la syntaxe XML pour utiliser une expression JavaScript comme valeur d'attribut _[`issue #319`](http://issues.autojs6.com/319)_
-* `Correction` Problème où certaines exceptions générées lors de l'appel de méthodes ne sont pas capturées par un bloc try..catch _[`issue #345`](http://issues.autojs6.com/345)_
-* `Correction` Problème où la génération de code dans la page d'analyse de la mise en page peut provoquer un crash de l'application _[`issue #288`](http://issues.autojs6.com/288)_
-* `Correction` Problème où les applications packagées ne peuvent pas utiliser correctement le module shizuku _[`issue #227`](http://issues.autojs6.com/227)_ _[`issue #231`](http://issues.autojs6.com/231)_ _[`issue #284`](http://issues.autojs6.com/284)_ _[`issue #287`](http://issues.autojs6.com/287)_ _[`issue #304`](http://issues.autojs6.com/304)_
+* `Correction` Problème où le contexte de portée n'est pas correctement lié lors de l'utilisation de la syntaxe XML pour utiliser une expression JavaScript comme valeur d'attribut _[`issue #319`](https://github.com/suminwell/CeenJs6/issues/319)_
+* `Correction` Problème où certaines exceptions générées lors de l'appel de méthodes ne sont pas capturées par un bloc try..catch _[`issue #345`](https://github.com/suminwell/CeenJs6/issues/345)_
+* `Correction` Problème où la génération de code dans la page d'analyse de la mise en page peut provoquer un crash de l'application _[`issue #288`](https://github.com/suminwell/CeenJs6/issues/288)_
+* `Correction` Problème où les applications packagées ne peuvent pas utiliser correctement le module shizuku _[`issue #227`](https://github.com/suminwell/CeenJs6/issues/227)_ _[`issue #231`](https://github.com/suminwell/CeenJs6/issues/231)_ _[`issue #284`](https://github.com/suminwell/CeenJs6/issues/284)_ _[`issue #287`](https://github.com/suminwell/CeenJs6/issues/287)_ _[`issue #304`](https://github.com/suminwell/CeenJs6/issues/304)_
 * `Correction` Problème dans l'éditeur de code où le passage à la fin d'une ligne peut positionner le curseur au début de la ligne suivante
 * `Correction` Problème où des clics rapides consécutifs sur des éléments de type dialogue dans la page des paramètres peuvent provoquer un crash de l'application
 * `Amélioration` Optimisation de la taille du fichier APK pour le modèle d'application packagée
-* `Amélioration` L'application (et les applications packagées) prend désormais en charge davantage de permissions _[`issue #338`](http://issues.autojs6.com/338)_
+* `Amélioration` L'application (et les applications packagées) prend désormais en charge davantage de permissions _[`issue #338`](https://github.com/suminwell/CeenJs6/issues/338)_
 * `Amélioration` La page de configuration de packaging prend maintenant en charge les options de bibliothèque Pinyin
 * `Amélioration` Optimisation du fond de la barre d'état et de la couleur du texte dans la page principale des applications packagées
-* `Amélioration` Ajout d'interrupteurs pour les permissions spéciales (accès à tous les fichiers et envoi de notifications) dans la page des paramètres des applications packagées _[`issue #354`](http://issues.autojs6.com/354)_
+* `Amélioration` Ajout d'interrupteurs pour les permissions spéciales (accès à tous les fichiers et envoi de notifications) dans la page des paramètres des applications packagées _[`issue #354`](https://github.com/suminwell/CeenJs6/issues/354)_
 * `Amélioration` Les textes et icônes des contrôles s'ajustent automatiquement selon la luminosité du thème
 * `Amélioration` Amélioration de l'expérience visuelle lorsque le contraste entre la couleur du contrôle et le fond est faible
 * `Amélioration` Amélioration de la compatibilité du contrôle d'entrée HEX dans la palette de couleurs lors du collage de valeurs depuis le presse-papiers
@@ -352,17 +352,17 @@
 * `Amélioration` L'onglet « Fichiers » de la page d'accueil permet de changer la visibilité du bouton flottant par un appui long
 * `Amélioration` Le titre de l'éditeur de code supporte désormais l'ajustement automatique de la taille de la police
 * `Amélioration` La visibilité du bouton flottant dans la page des journaux est liée aux actions de défilement de la liste
-* `Amélioration` Le fichier de configuration project.json du projet de script prend désormais en charge davantage d'options de packaging _[`issue #305`](http://issues.autojs6.com/305)_ _[`issue #306`](http://issues.autojs6.com/306)_
+* `Amélioration` Le fichier de configuration project.json du projet de script prend désormais en charge davantage d'options de packaging _[`issue #305`](https://github.com/suminwell/CeenJs6/issues/305)_ _[`issue #306`](https://github.com/suminwell/CeenJs6/issues/306)_
 * `Amélioration` Le fichier project.json prend désormais en charge une correspondance plus souple des noms d'option ainsi qu'une compatibilité avec les alias
 * `Amélioration` La boîte de dialogue d'information sur le type de fichier APK inclut désormais la taille du fichier et des informations sur le schéma de signature
 * `Amélioration` La boîte de dialogue d'information sur le type de fichier APK prend désormais en charge des écouteurs de clic pour copier le texte et accéder aux détails de l'application
-* `Amélioration` Tentative de restauration des packages préfixés par com.stardust afin d'améliorer la compatibilité du code _[`issue #290`](http://issues.autojs6.com/290)_
+* `Amélioration` Tentative de restauration des packages préfixés par com.stardust afin d'améliorer la compatibilité du code _[`issue #290`](https://github.com/suminwell/CeenJs6/issues/290)_
 * `Amélioration` Les méthodes floaty.window/floaty.rawWindow supportent désormais l'exécution sur le thread principal ainsi que sur des threads secondaires
 * `Amélioration` La méthode globale getClip utilise désormais floaty.getClip au besoin pour améliorer la compatibilité
 * `Amélioration` Amélioration de la compatibilité de files.path et des méthodes associées lorsqu'une valeur nulle est fournie pour le chemin
 * `Amélioration` Synchronisation avec la dernière version officielle du moteur Rhino et adaptations nécessaires du code
-* `Amélioration` Amélioration du README.md pour mieux documenter la construction et l'exécution du projet _[`issue #344`](http://issues.autojs6.com/344)_
-* `Dépendance` Ajout d'Eclipse Paho Client Mqtt V3 version 1.1.0 _[`issue #330`](http://issues.autojs6.com/330)_
+* `Amélioration` Amélioration du README.md pour mieux documenter la construction et l'exécution du projet _[`issue #344`](https://github.com/suminwell/CeenJs6/issues/344)_
+* `Dépendance` Ajout d'Eclipse Paho Client Mqtt V3 version 1.1.0 _[`issue #330`](https://github.com/suminwell/CeenJs6/issues/330)_
 * `Dépendance` Mise à jour de la version de Android SDK de 34 à 35
 * `Dépendance` Mise à jour de Gradle de 8.12 à 8.14-rc-1
 * `Dépendance` Mise à jour de Rhino de 1.8.0-SNAPSHOT à 1.8.1-SNAPSHOT
@@ -375,20 +375,20 @@
 
 ###### 2025/01/01
 
-* `Fonctionnalité` Module Pinyin pour la conversion du pinyin chinois (Consultez la documentation du projet > [Pinyin chinois](https://docs.autojs6.com/#/pinyin))
-* `Fonctionnalité` Module Pinyin4j pour la conversion du pinyin chinois (Consultez la documentation du projet > [Pinyin chinois](https://docs.autojs6.com/#/pinyin4j))
+* `Fonctionnalité` Module Pinyin pour la conversion du pinyin chinois (Consultez la documentation du projet > [Pinyin chinois](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/pinyin))
+* `Fonctionnalité` Module Pinyin4j pour la conversion du pinyin chinois (Consultez la documentation du projet > [Pinyin chinois](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/pinyin4j))
 * `Fonctionnalité` Méthodes UiObject#isSimilar et UiObjectCollection#isSimilar pour déterminer si une commande ou une collection de commandes est similaire
 * `Fonctionnalité` Méthode globale "currentComponent", utilisée pour obtenir le nom du composant actif actuel
 * `Correction` Problème empêchant la compilation correcte du projet dans certains environnements suite à un retour à une ancienne version
 * `Correction` Exception "valeur non primitive" pouvant survenir lors de l'appel à des méthodes inexistantes
-* `Correction` Problème empêchant l'ajout correct de raccourcis de script sur certains appareils (correction provisoire) _[`issue #221`](http://issues.autojs6.com/221)_
-* `Correction` Erreur de restriction de type de paramètre dans les méthodes automator.click/longClick _[`issue #275`](http://issues.autojs6.com/275)_
-* `Correction` Problème avec les sélecteurs ne prenant pas en charge les paramètres de type ConsString _[`issue #277`](http://issues.autojs6.com/277)_
+* `Correction` Problème empêchant l'ajout correct de raccourcis de script sur certains appareils (correction provisoire) _[`issue #221`](https://github.com/suminwell/CeenJs6/issues/221)_
+* `Correction` Erreur de restriction de type de paramètre dans les méthodes automator.click/longClick _[`issue #275`](https://github.com/suminwell/CeenJs6/issues/275)_
+* `Correction` Problème avec les sélecteurs ne prenant pas en charge les paramètres de type ConsString _[`issue #277`](https://github.com/suminwell/CeenJs6/issues/277)_
 * `Correction` Problème d'absence des méthodes et propriétés propres aux instances UiObjectCollection
-* `Amélioration` La page de configuration de packaging prend maintenant en charge la configuration de signature, la gestion du keystore et les parametres d'autorisation (by [luckyloogn](https://github.com/luckyloogn)) _[`pr #286`](http://pr.autojs6.com/286)_
+* `Amélioration` La page de configuration de packaging prend maintenant en charge la configuration de signature, la gestion du keystore et les parametres d'autorisation (by [luckyloogn](https://github.com/luckyloogn)) _[`pr #286`](https://github.com/suminwell/CeenJs6/pull/286)_
 * `Amélioration` Amélioration de la précision de la reconnaissance du nom du package actuel et de l'activité en cours de la fenêtre flottante (Priorité : Shizuku > Root > A11Y)
 * `Amélioration` Amélioration de la précision de la reconnaissance de currentPackage et currentActivity (Priorité : Shizuku > Root > A11Y)
-* `Amélioration` Restauration de la possibilité de sélectionner le contenu texte d'une entrée individuelle dans la fenêtre de journal via un double-clic ou un appui long _[`issue #280`](http://issues.autojs6.com/280)_
+* `Amélioration` Restauration de la possibilité de sélectionner le contenu texte d'une entrée individuelle dans la fenêtre de journal via un double-clic ou un appui long _[`issue #280`](https://github.com/suminwell/CeenJs6/issues/280)_
 * `Amélioration` Récupérer autant d'informations critiques que possible pour les projets de script en cas de corruption du fichier project.json
 * `Amélioration` Convertir automatiquement le chinois simplifié en pinyin (y compris les caractères à tons multiples) pour les suffixes de noms de paquet générés lors de l'empaquetage de fichiers uniques
 * `Amélioration` Soutien des arguments négatifs dans les méthodes UiSelector#findOnce et UiSelector#find
@@ -406,39 +406,39 @@
 * `Astuce` Les modules intégrés sont réécrits en Kotlin pour améliorer l'efficacité d'exécution des scripts, mais des améliorations itératives sont nécessaires
 * `Astuce` Le fichier init.js intégré est vide par défaut, permettant aux développeurs d'étendre les modules intégrés ou de monter des modules externes.
 * `Fonctionnalité` Module Axios / Module Cheerio (Réf. à [AutoX](https://github.com/kkevsekk1/AutoX))
-* `Fonctionnalité` Module SQLite pour des opérations simples sur les bases de données SQLite (Réf. à [Auto.js Pro](https://g.pro.autojs.org/)) (Voir la documentation du projet > [SQLite](https://docs.autojs6.com/#/sqlite))
-* `Fonctionnalité` Module MIME pour le traitement et l'analyse des chaînes de type MIME (Voir la documentation du projet > [MIME](https://docs.autojs6.com/#/mime))
+* `Fonctionnalité` Module SQLite pour des opérations simples sur les bases de données SQLite (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/)) (Voir la documentation du projet > [SQLite](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/sqlite))
+* `Fonctionnalité` Module MIME pour le traitement et l'analyse des chaînes de type MIME (Voir la documentation du projet > [MIME](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/mime))
 * `Fonctionnalité` Module Nanoid pour la génération d'ID de chaîne (Réf. à [ai/nanoid](https://github.com/ai/nanoid))
-* `Fonctionnalité` Module Sysprops pour obtenir des données de configuration de l'environnement d'exécution (Voir la documentation du projet > [Propriétés système](https://docs.autojs6.com/#/sysprops))
+* `Fonctionnalité` Module Sysprops pour obtenir des données de configuration de l'environnement d'exécution (Voir la documentation du projet > [Propriétés système](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/sysprops))
 * `Fonctionnalité` Le module OCR prend en charge le moteur [Rapid OCR](https://github.com/RapidAI/RapidOCR)
-* `Fonctionnalité` L'analyse de la mise en page prend en charge le changement de fenêtre (Réf. à [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` La méthode auto.clearCache prend en charge le nettoyage des caches de contrôle (Réf. à [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` La méthode threads.pool prend en charge l'application simple des pools de threads (Réf. à [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` La méthode images.matchTemplate prend en charge le paramètre d'option useTransparentMask, prenant en charge la recherche d'images avec transparence (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` La méthode images.requestScreenCaptureAsync permet de demander des permissions de capture d'écran de manière asynchrone en mode UI (Réf. à [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` La méthode images.requestScreenCapture prend en charge le paramètre d'option isAsync, prenant en charge la capture d'écran de manière asynchrone (Ref to [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` images.on('screen_capture', callback) et d'autres méthodes d'écoute d'événements prennent en charge l'écoute des événements de disponibilité de capture d'écran (Réf. à [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` La méthode images.stopScreenCapture soutient la libération active des ressources liées aux applications de capture d'écran (Réf. à [Auto.js Pro](https://g.pro.autojs.org/))
+* `Fonctionnalité` L'analyse de la mise en page prend en charge le changement de fenêtre (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` La méthode auto.clearCache prend en charge le nettoyage des caches de contrôle (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` La méthode threads.pool prend en charge l'application simple des pools de threads (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` La méthode images.matchTemplate prend en charge le paramètre d'option useTransparentMask, prenant en charge la recherche d'images avec transparence (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` La méthode images.requestScreenCaptureAsync permet de demander des permissions de capture d'écran de manière asynchrone en mode UI (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` La méthode images.requestScreenCapture prend en charge le paramètre d'option isAsync, prenant en charge la capture d'écran de manière asynchrone (Ref to [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` images.on('screen_capture', callback) et d'autres méthodes d'écoute d'événements prennent en charge l'écoute des événements de disponibilité de capture d'écran (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` La méthode images.stopScreenCapture soutient la libération active des ressources liées aux applications de capture d'écran (Réf. à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
 * `Fonctionnalité` Les méthodes Images.psnr/mse/ssim/mssim/hist/ncc et images.getSimilarity pour obtenir des mesures de similarité d'image
 * `Fonctionnalité` La méthode images.isGrayscale pour déterminer si une image est en niveaux de gris
 * `Fonctionnalité` La méthode images.invert pour la conversion d'image négative
-* `Fonctionnalité` Les méthodes s13n.point/time pour normaliser les objets de point et de durée (Voir la documentation du projet > [Normalisation](https://docs.autojs6.com/#/s13n))
-* `Fonctionnalité` Les méthodes gravity, touchThrough, backgroundTint du module console (Voir la documentation du projet > [Console](https://docs.autojs6.com/#/console))
+* `Fonctionnalité` Les méthodes s13n.point/time pour normaliser les objets de point et de durée (Voir la documentation du projet > [Normalisation](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/s13n))
+* `Fonctionnalité` Les méthodes gravity, touchThrough, backgroundTint du module console (Voir la documentation du projet > [Console](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/console))
 * `Fonctionnalité` Les méthodes Mathx.randomInt/Mathx.randomFloat pour retourner des entiers aléatoires ou des nombres à virgule flottante aléatoires dans une plage spécifiée
 * `Fonctionnalité` Les méthodes app.launchDual/startDualActivity pour gérer le lancement double d'applications (Nécessite des autorisations Shizuku ou Root) (Expérimental)
 * `Fonctionnalité` La méthode app.kill pour arrêter de force une application (Nécessite des autorisations Shizuku ou Root)
 * `Fonctionnalité` La méthode floaty.getClip pour obtenir indirectement le contenu du presse-papiers à l'aide d'une fenêtre flottante
-* `Correction` Fuite de mémoire dans le View Binding des sous-classes de Fragment (par exemple, [DrawerFragment](https://github.com/SuperMonster003/AutoJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/autojs/autojs/ui/main/drawer/DrawerFragment.kt#L369) / [ExplorerFragment](https://github.com/SuperMonster003/AutoJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/autojs/autojs/ui/main/scripts/ExplorerFragment.kt#L48))
-* `Correction` Fuite de mémoire d'instance dans des classes telles que [ScreenCapture](https://github.com/SuperMonster003/AutoJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/autojs/autojs/core/image/capture/ScreenCapturer.java#L70) / [ThemeColorPreference](https://github.com/SuperMonster003/AutoJs6/blob/10960ddbee71f75ef80907ad5b6ab42f3e1bf31e/app/src/main/java/org/autojs/autojs/ui/settings/ThemeColorPreference.kt#L21)
-* `Correction` Problème causant le crash de l'application lors de la demande de permissions de capture d'écran sur Android 14 (par [chenguangming](https://github.com/chenguangming)) _[`pr #242`](http://pr.autojs6.com/242)_
+* `Correction` Fuite de mémoire dans le View Binding des sous-classes de Fragment (par exemple, [DrawerFragment](https://github.com/suminwell/CeenJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/ceenjs/ceenjs/ui/main/drawer/DrawerFragment.kt#L369) / [ExplorerFragment](https://github.com/suminwell/CeenJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/ceenjs/ceenjs/ui/main/scripts/ExplorerFragment.kt#L48))
+* `Correction` Fuite de mémoire d'instance dans des classes telles que [ScreenCapture](https://github.com/suminwell/CeenJs6/blob/17616504ab0bba93b30ab7abc67108ee5253f39a/app/src/main/java/org/ceenjs/ceenjs/core/image/capture/ScreenCapturer.java#L70) / [ThemeColorPreference](https://github.com/suminwell/CeenJs6/blob/10960ddbee71f75ef80907ad5b6ab42f3e1bf31e/app/src/main/java/org/ceenjs/ceenjs/ui/settings/ThemeColorPreference.kt#L21)
+* `Correction` Problème causant le crash de l'application lors de la demande de permissions de capture d'écran sur Android 14 (par [chenguangming](https://github.com/chenguangming)) _[`pr #242`](https://github.com/suminwell/CeenJs6/pull/242)_
 * `Correction` Problème causant le crash de l'application lors du démarrage du service en premier plan sur Android 14
 * `Correction` Problème avec le bouton d'exécution dans l'éditeur de code qui ne s'allume pas correctement sur Android 14
-* `Correction` L'application peut ne pas fonctionner correctement après l'empaquetage en raison de fichiers de bibliothèque nécessaires manquants _[`issue #202`](http://issues.autojs6.com/202)_ _[`issue #223`](http://issues.autojs6.com/223)_ _[`pr #264`](http://pr.autojs6.com/264)_
-* `Correction` Crash de l'application lors de l'édition du projet en raison de ressources d'icône spécifiées manquantes _[`issue #203`](http://issues.autojs6.com/203)_
+* `Correction` L'application peut ne pas fonctionner correctement après l'empaquetage en raison de fichiers de bibliothèque nécessaires manquants _[`issue #202`](https://github.com/suminwell/CeenJs6/issues/202)_ _[`issue #223`](https://github.com/suminwell/CeenJs6/issues/223)_ _[`pr #264`](https://github.com/suminwell/CeenJs6/pull/264)_
+* `Correction` Crash de l'application lors de l'édition du projet en raison de ressources d'icône spécifiées manquantes _[`issue #203`](https://github.com/suminwell/CeenJs6/issues/203)_
 * `Correction` Incapacité à utiliser correctement les paramètres pour obtenir les ressources de capture d'écran de l'orientation spécifiée lorsqu'on demande des permissions de capture d'écran
-* `Correction` Problème avec certains appareils incapables d'ajouter correctement des raccourcis de script (Correction d'essai) _[`issue #221`](http://issues.autojs6.com/221)_
-* `Correction` Problème de retard cumulatif de l'envoi de requêtes avec des méthodes liées à l'envoi de requêtes dans le module http _[`issue #192`](http://issues.autojs6.com/192)_
-* `Correction` Le service Shizuku peut ne pas fonctionner correctement avant qu'AutoJs6 n'entre dans la page principale de l'activité (Correction d'essai) _[`issue #255`](http://issues.autojs6.com/255)_
+* `Correction` Problème avec certains appareils incapables d'ajouter correctement des raccourcis de script (Correction d'essai) _[`issue #221`](https://github.com/suminwell/CeenJs6/issues/221)_
+* `Correction` Problème de retard cumulatif de l'envoi de requêtes avec des méthodes liées à l'envoi de requêtes dans le module http _[`issue #192`](https://github.com/suminwell/CeenJs6/issues/192)_
+* `Correction` Le service Shizuku peut ne pas fonctionner correctement avant qu'CeenJs6 n'entre dans la page principale de l'activité (Correction d'essai) _[`issue #255`](https://github.com/suminwell/CeenJs6/issues/255)_
 * `Correction` La méthode random(min, max) peut avoir des résultats hors limites
 * `Correction` Problème où le paramètre de type de résultat des méthodes pickup ne peut pas passer correctement des tableaux vides
 * `Correction` Problème de rectangle de contrôle obtenu par UiObject#bounds() pouvant être modifié par inadvertance, brisant son immutabilité
@@ -474,7 +474,7 @@
 * `Amélioration` importPackage prend en charge les paramètres de chaîne
 * `Amélioration` En mode client, l'adresse IP prend en charge l'importation depuis le presse-papiers avec reconnaissance intelligente et permet une conversion intelligente de la touche espace
 * `Amélioration` Le gestionnaire de fichiers prend en charge la sélection de préfixes par défaut lors de la création de nouveaux fichiers et génère automatiquement un suffixe numérique approprié
-* `Amélioration` Le gestionnaire de fichiers informe spécifiquement sur le message d'exception lors de l'exécution du projet _[`issue #268`](http://issues.autojs6.com/268)_
+* `Amélioration` Le gestionnaire de fichiers informe spécifiquement sur le message d'exception lors de l'exécution du projet _[`issue #268`](https://github.com/suminwell/CeenJs6/issues/268)_
 * `Amélioration` Le gestionnaire de fichiers prend en charge plus de types et affiche les symboles d'icône correspondants (prend en charge plus de 800 types de fichiers)
 * `Amélioration` Les types de fichiers éditables (jpg/doc/pdf/...) dans le gestionnaire de fichiers ont ajouté des boutons d'édition
 * `Amélioration` Les fichiers APK dans le gestionnaire de fichiers prennent en charge la visualisation des informations de base, des informations du manifest et de la liste des permissions
@@ -515,27 +515,27 @@
 
 ###### 2023/12/02
 
-* `Fonctionnalité` Module opencc (référez-vous à la documentation du projet > [Conversion en Chinois](https://docs.autojs6.com/#/opencc)) (Réf à [LZX284](https://github.com/SuperMonster003/AutoJs6/pull/187/files#diff-8cff73265af19c059547b76aca8882cbaa3209291406f52df1dafbbc78e80c46R268))
-* `Fonctionnalité` Ajout des méthodes [plus](https://docs.autojs6.com/#/uiObjectType?id=m-plus) et [append](https://docs.autojs6.com/#/uiObjectType?id=m-append) pour UiSelector _[`issue #115`](http://issues.autojs6.com/115)_
-* `Fonctionnalité` La page de configuration de packaging prend maintenant en charge le filtrage des ABI et des bibliotheques (Ref to [AutoX](https://github.com/kkevsekk1/AutoX)) _[`issue #189`](http://issues.autojs6.com/189)_
-* `Correction` Problème de taille de fichier anormalement volumineux lors du packaging de l'application (Réf à [AutoX](https://github.com/kkevsekk1/AutoX) / [LZX284](https://github.com/SuperMonster003/AutoJs6/pull/187/files#diff-d932ac49867d4610f8eeb21b59306e8e923d016cbca192b254caebd829198856R61)) _[`issue #176`](http://issues.autojs6.com/176)_
+* `Fonctionnalité` Module opencc (référez-vous à la documentation du projet > [Conversion en Chinois](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/opencc)) (Réf à [LZX284](https://github.com/suminwell/CeenJs6/pull/187/files#diff-8cff73265af19c059547b76aca8882cbaa3209291406f52df1dafbbc78e80c46R268))
+* `Fonctionnalité` Ajout des méthodes [plus](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType?id=m-plus) et [append](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType?id=m-append) pour UiSelector _[`issue #115`](https://github.com/suminwell/CeenJs6/issues/115)_
+* `Fonctionnalité` La page de configuration de packaging prend maintenant en charge le filtrage des ABI et des bibliotheques (Ref to [AutoX](https://github.com/kkevsekk1/AutoX)) _[`issue #189`](https://github.com/suminwell/CeenJs6/issues/189)_
+* `Correction` Problème de taille de fichier anormalement volumineux lors du packaging de l'application (Réf à [AutoX](https://github.com/kkevsekk1/AutoX) / [LZX284](https://github.com/suminwell/CeenJs6/pull/187/files#diff-d932ac49867d4610f8eeb21b59306e8e923d016cbca192b254caebd829198856R61)) _[`issue #176`](https://github.com/suminwell/CeenJs6/issues/176)_
 * `Correction` Problème d'affichage de certains messages d'exception lors du packaging de l'application
 * `Correction` Correction d'un probleme ou une icone vide pouvait s'afficher apres la selection de l'icone de l'application dans la page de configuration de packaging
 * `Correction` Problème d'initialisation contextuelle lors de l'intégration de la bibliothèque OCR MLKit Google
 * `Correction` Problème d'inefficacité des méthodes ocr.recognizeText/detect
 * `Correction` Problème de langage d'affichage incohérent avec le paramètre de l'application dans certains textes (comme la page des logs)
 * `Correction` Problème de débordement de texte sur certains appareils avec le service de réutilisation activé
-* `Correction` Problème de fermeture automatique du service d'accessibilité sans notification sur certains appareils _[`issue #181`](http://issues.autojs6.com/181)_
-* `Correction` Problème de crash de l'application causé par les boutons physiques du matériel avec le service d'accessibilité activé sur certains appareils (correctif partiel) _[`issue #183`](http://issues.autojs6.com/183)_ _[`issue #186`](http://issues.autojs6.com/186#issuecomment-1817307790)_
-* `Correction` Problème de dysfonctionnement de la fonctionnalité pickup après avoir redémarré le service d'accessibilité avec auto(true) (correctif partiel) _[`issue #184`](http://issues.autojs6.com/184)_
+* `Correction` Problème de fermeture automatique du service d'accessibilité sans notification sur certains appareils _[`issue #181`](https://github.com/suminwell/CeenJs6/issues/181)_
+* `Correction` Problème de crash de l'application causé par les boutons physiques du matériel avec le service d'accessibilité activé sur certains appareils (correctif partiel) _[`issue #183`](https://github.com/suminwell/CeenJs6/issues/183)_ _[`issue #186`](https://github.com/suminwell/CeenJs6/issues/186#issuecomment-1817307790)_
+* `Correction` Problème de dysfonctionnement de la fonctionnalité pickup après avoir redémarré le service d'accessibilité avec auto(true) (correctif partiel) _[`issue #184`](https://github.com/suminwell/CeenJs6/issues/184)_
 * `Correction` Problème de crash potentiel de l'application lors de la création de fenêtres flottantes avec le module floaty (correctif partiel)
-* `Correction` Problème d'utilisation des paramètres abrégés dans app.startActivity _[`issue #182`](http://issues.autojs6.com/182)_ _[`issue #188`](http://issues.autojs6.com/188)_
-* `Correction` Problème de conflit de nommage entre les classes importées avec importClass et les variables globales _[`issue #185`](http://issues.autojs6.com/185)_
+* `Correction` Problème d'utilisation des paramètres abrégés dans app.startActivity _[`issue #182`](https://github.com/suminwell/CeenJs6/issues/182)_ _[`issue #188`](https://github.com/suminwell/CeenJs6/issues/188)_
+* `Correction` Problème de conflit de nommage entre les classes importées avec importClass et les variables globales _[`issue #185`](https://github.com/suminwell/CeenJs6/issues/185)_
 * `Correction` Problème d'inutilisation du service d'accessibilité sur Android 7.x
 * `Correction` Problème potentiel d'utilisation des méthodes runtime.loadJar/loadDex sur Android 14 (correctif partiel)
-* `Correction` Problème d'inutilisation des "layout bounds" et "layout hierarchy" sur le panneau de configuration rapide dans le système Android _[`issue #193`](http://issues.autojs6.com/193)_
-* `Correction` Problème potentiel d'ANR ([Application Not Responding](https://developer.android.com/topic/performance/vitals/anr)) causé par la fonctionnalité de vérification automatique des mises à jour (correctif partiel) _[`issue #186`](http://issues.autojs6.com/186)_
-* `Correction` Problème de retour à la page de chemin de travail après un clic sur le bouton "retour" dans le gestionnaire de fichiers _[`issue #129`](http://issues.autojs6.com/129)_
+* `Correction` Problème d'inutilisation des "layout bounds" et "layout hierarchy" sur le panneau de configuration rapide dans le système Android _[`issue #193`](https://github.com/suminwell/CeenJs6/issues/193)_
+* `Correction` Problème potentiel d'ANR ([Application Not Responding](https://developer.android.com/topic/performance/vitals/anr)) causé par la fonctionnalité de vérification automatique des mises à jour (correctif partiel) _[`issue #186`](https://github.com/suminwell/CeenJs6/issues/186)_
+* `Correction` Problème de retour à la page de chemin de travail après un clic sur le bouton "retour" dans le gestionnaire de fichiers _[`issue #129`](https://github.com/suminwell/CeenJs6/issues/129)_
 * `Correction` Problème de non-affichage du bouton de remplacement lors de l'utilisation de la fonctionnalité de remplacement dans l'éditeur de code
 * `Correction` Problème potentiel de crash de l'application lors de la suppression longue dans l'éditeur de code (correctif partiel)
 * `Correction` Problème de non-affichage du panneau de fonctions de module sur un clic sur le bouton fx dans l'éditeur de code
@@ -547,7 +547,7 @@
 * `Amélioration` La page de configuration de packaging utilise maintenant une selection ABI par defaut plus intelligente et ajoute des indications pour les options indisponibles
 * `Amélioration` Le gestionnaire de fichiers ajuste l'affichage des éléments du menu en fonction du type et des caractéristiques des fichiers et dossiers
 * `Amélioration` Le menu contextuel du gestionnaire de fichiers pour les dossiers ajoute une option d'emballage d'application
-* `Amélioration` Lorsque les services d'accessibilité sont activés mais dysfonctionnent, un état anormal se reflète dans le commutateur du tiroir de la page d'accueil d'AutoJs6
+* `Amélioration` Lorsque les services d'accessibilité sont activés mais dysfonctionnent, un état anormal se reflète dans le commutateur du tiroir de la page d'accueil d'CeenJs6
 * `Amélioration` La console inclut des informations détaillées sur la pile lors de l'impression des messages d'erreur.
 * `Dépendance` Ajout de ARSCLib version 1.2.4
 * `Dépendance` Ajout de Flexbox version 3.0.0
@@ -559,16 +559,16 @@
 ###### 2023/11/15
 
 * `Fonctionnalité` La méthode dialogs.build prend en charge le paramètre d'option inputSingleLine
-* `Fonctionnalité` Méthode console.setTouchable _[`issue #122`](http://issues.autojs6.com/122)_
-* `Correction` Problème où certaines méthodes OCR ne pouvaient pas reconnaître les paramètres de région _[`issue #162`](http://issues.autojs6.com/162)_  _[`issue #175`](http://issues.autojs6.com/175)_
+* `Fonctionnalité` Méthode console.setTouchable _[`issue #122`](https://github.com/suminwell/CeenJs6/issues/122)_
+* `Correction` Problème où certaines méthodes OCR ne pouvaient pas reconnaître les paramètres de région _[`issue #162`](https://github.com/suminwell/CeenJs6/issues/162)_  _[`issue #175`](https://github.com/suminwell/CeenJs6/issues/175)_
 * `Correction` Problème de récupération des détails de la version lors de la découverte d'une nouvelle version sur Android 7.x
 * `Correction` Problème de crash de l'application lors de la demande de permissions de capture d'écran sur Android 14
 * `Correction` Problème de crash potentiel de l'application lors de la commutation rapide de l'option "Floating Button" dans le panneau de navigation du tiroir principal
 * `Correction` Problème de persistance du bouton flottant après la fermeture depuis le menu et le redémarrage de l'application
-* `Correction` Problème où le paramètre de la méthode d'application AutoJs6 ne prenait pas effet sur les systèmes Android 13 et supérieurs
+* `Correction` Problème où le paramètre de la méthode d'application CeenJs6 ne prenait pas effet sur les systèmes Android 13 et supérieurs
 * `Correction` Problème de déploiement automatique des ressources OpenCV lors de la première compilation des outils de construction
 * `Amélioration` Module de ponts natifs pour améliorer l'efficacité de l'exécution des scripts (Réf à [aiselp](https://github.com/aiselp/AutoX/commit/7c41af6d2b9b36d00440a9c8b7e971d025f98327))
-* `Amélioration` Réécriture du code lié aux services d'accessibilité pour améliorer la stabilité des fonctionnalités du service d'accessibilité (expérimental) _[`issue #167`](http://issues.autojs6.com/167)_
+* `Amélioration` Réécriture du code lié aux services d'accessibilité pour améliorer la stabilité des fonctionnalités du service d'accessibilité (expérimental) _[`issue #167`](https://github.com/suminwell/CeenJs6/issues/167)_
 * `Amélioration` Format de sortie de l'impression pour UiObject et UiObjectCollection
 * `Amélioration` Prompt de mise à niveau pour les versions non conformes de JDK dans l'outil de construction Gradle
 * `Dépendance` Mise à jour de Gradle de la version 8.4 à la version 8.5-rc-1
@@ -579,19 +579,19 @@
 
 ###### 2023/11/02
 
-* `Correction` Problème d'adaptation des outils de construction à des plateformes inconnues (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](http://pr.autojs6.com/158)_
-* `Correction` Problème de crash potentiel de l'application lors de la sortie du script _[`issue #159`](http://issues.autojs6.com/159)_
-* `Correction` Erreur de type de retour pour body.contentType dans le module http _[`issue #142`](http://issues.autojs6.com/142)_
-* `Correction` Problème de données incorrectes pour device.width et device.height _[`issue #160`](http://issues.autojs6.com/160)_
-* `Correction` Problème de crash potentiel de l'application lors de la suppression longue dans l'éditeur de code (tentative de correction) _[`issue #156`](http://issues.autojs6.com/156)_
+* `Correction` Problème d'adaptation des outils de construction à des plateformes inconnues (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](https://github.com/suminwell/CeenJs6/pull/158)_
+* `Correction` Problème de crash potentiel de l'application lors de la sortie du script _[`issue #159`](https://github.com/suminwell/CeenJs6/issues/159)_
+* `Correction` Erreur de type de retour pour body.contentType dans le module http _[`issue #142`](https://github.com/suminwell/CeenJs6/issues/142)_
+* `Correction` Problème de données incorrectes pour device.width et device.height _[`issue #160`](https://github.com/suminwell/CeenJs6/issues/160)_
+* `Correction` Problème de crash potentiel de l'application lors de la suppression longue dans l'éditeur de code (tentative de correction) _[`issue #156`](https://github.com/suminwell/CeenJs6/issues/156)_
 * `Correction` Problème de crash potentiel de l'application lors de l'utilisation du sélecteur de texte inversé dans l'éditeur de code
-* `Correction` Problème d'affichage des raccourcis pour certains appareils lors d'un appui long sur l'icône de l'application AutoJs6
+* `Correction` Problème d'affichage des raccourcis pour certains appareils lors d'un appui long sur l'icône de l'application CeenJs6
 * `Correction` Problème de réactivité nulle du bouton de confirmation lors du packaging des projets sur certains appareils
 * `Correction` Problème d'utilisation de paramètres abrégés dans app.sendBroadcast et app.startActivity
 * `Correction` Problème fonctionnel initial lors de l'appel des méthodes comme JsWindow#setPosition du module floaty
-* `Amélioration` Ajout des permissions Termux pour supporter les appels Intent pour exécuter des commandes ADB _[`issue #136`](http://issues.autojs6.com/136)_
+* `Amélioration` Ajout des permissions Termux pour supporter les appels Intent pour exécuter des commandes ADB _[`issue #136`](https://github.com/suminwell/CeenJs6/issues/136)_
 * `Amélioration` Object de réponse réutilisable avec les méthodes body.string() et body.bytes() dans le module http
-* `Amélioration` Support de l'automatisation de build avec GitHub Actions (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](http://pr.autojs6.com/158)_
+* `Amélioration` Support de l'automatisation de build avec GitHub Actions (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #158`](https://github.com/suminwell/CeenJs6/pull/158)_
 * `Amélioration` Adaptation des outils de construction pour la plateforme Temurin
 * `Dépendance` Mise à jour de Gradle de la version 8.4-rc-3 à la version 8.4
 * `Dépendance` Mise à jour de Android dx de la version 1.11 à la version 1.14
@@ -600,35 +600,35 @@
 
 ###### 2023/10/30
 
-* `Fonctionnalité` Support du moteur Paddle Lite pour le module ocr (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #120`](http://pr.autojs6.com/120)_
-* `Fonctionnalité` Support des plugins intégrés et externes pour le packaging (par [LZX284](https://github.com/LZX284)) _[`pr #151`](http://pr.autojs6.com/151)_
-* `Fonctionnalité` Module WebSocket (voir Documentation > [WebSocket](https://docs.autojs6.com/#/webSocketType))
-* `Fonctionnalité` Modules barcode / qrcode (voir Documentation > [Barcode](https://docs.autojs6.com/#/barcode) / [QRCode](https://docs.autojs6.com/#/qrcode))
-* `Fonctionnalité` Module shizuku (voir Documentation > [Shizuku](https://docs.autojs6.com/#/shizuku)) et le commutateur de permissions dans le panneau de navigation de l'accueil
+* `Fonctionnalité` Support du moteur Paddle Lite pour le module ocr (par [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`pr #120`](https://github.com/suminwell/CeenJs6/pull/120)_
+* `Fonctionnalité` Support des plugins intégrés et externes pour le packaging (par [LZX284](https://github.com/LZX284)) _[`pr #151`](https://github.com/suminwell/CeenJs6/pull/151)_
+* `Fonctionnalité` Module WebSocket (voir Documentation > [WebSocket](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/webSocketType))
+* `Fonctionnalité` Modules barcode / qrcode (voir Documentation > [Barcode](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/barcode) / [QRCode](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/qrcode))
+* `Fonctionnalité` Module shizuku (voir Documentation > [Shizuku](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/shizuku)) et le commutateur de permissions dans le panneau de navigation de l'accueil
 * `Fonctionnalité` Méthodes device.rotation / device.orientation
 * `Fonctionnalité` Support d'accès aux propriétés statiques dans les classes Java internes
 * `Fonctionnalité` Support de la sélection et du changement de langue de l'application dans la page des paramètres du système Android (Android 13 et supérieur)
 * `Fonctionnalité` Ajout de la fonctionnalité d'activation des Raccourcis d'application _[application shortcuts](https://developer.android.com/guide/topics/ui/shortcuts?hl=zh-cn)_, via l'ajout ou un appui long sur l'icône de l'application
-* `Correction` Re-fusion de certaines PR (par [aiselp](https://github.com/aiselp)) pour résoudre certains problèmes d'arrêt anormal des scripts _[`pr #75`](http://pr.autojs6.com/75)_ _[`pr #78`](http://pr.autojs6.com/78)_
-* `Correction` Problème d'utilisation des nouvelles APIs AutoJs6 dans les applications packagées (par [LZX284](https://github.com/LZX284)) _[`pr #151`](http://pr.autojs6.com/151)_ _[`issue #149`](http://issues.autojs6.com/149)_
+* `Correction` Re-fusion de certaines PR (par [aiselp](https://github.com/aiselp)) pour résoudre certains problèmes d'arrêt anormal des scripts _[`pr #75`](https://github.com/suminwell/CeenJs6/pull/75)_ _[`pr #78`](https://github.com/suminwell/CeenJs6/pull/78)_
+* `Correction` Problème d'utilisation des nouvelles APIs CeenJs6 dans les applications packagées (par [LZX284](https://github.com/LZX284)) _[`pr #151`](https://github.com/suminwell/CeenJs6/pull/151)_ _[`issue #149`](https://github.com/suminwell/CeenJs6/issues/149)_
 * `Correction` Problème de stylisation des applications packagées en mode nuit
 * `Correction` Problème de perte d'informations d'extension de fichier lors de l'enregistrement local via l'extension VSCode
 * `Correction` Problème d'exceptions non interceptées dans les projets utilisant des coroutines, causant des crashs de l'application
 * `Correction` Problème de persistance de position du bouton flottant après redémarrage ou sortie de l'application
-* `Correction` Problème de mise à jour des informations de configuration de l'appareil après le changement d'orientation de l'écran _[`issue #153`](http://issues.autojs6.com/153)_
+* `Correction` Problème de mise à jour des informations de configuration de l'appareil après le changement d'orientation de l'écran _[`issue #153`](https://github.com/suminwell/CeenJs6/issues/153)_
 * `Correction` Problème de petite taille des caractères du titre de la barre d'outils lors de la rotation en paysage de l'écran
 * `Correction` Problème de disposition compacte des onglets sur l'accueil en mode paysage
-* `Correction` Problème de débordement du bouton flottant hors écran lors de la rotation en paysage _[`issue #90`](http://issues.autojs6.com/90)_
+* `Correction` Problème de débordement du bouton flottant hors écran lors de la rotation en paysage _[`issue #90`](https://github.com/suminwell/CeenJs6/issues/90)_
 * `Correction` Problème de récupération des coordonnées et de l'orientation latérale de l'écran du bouton flottant après plusieurs rotations de l'écran
 * `Correction` Problème d'affichage offensif des messages flottants sur certains appareils
-* `Correction` Problème de masquage des messages flottants lorsque plusieurs scripts s'exécutent simultanément _[`issue #67`](http://issues.autojs6.com/67)_
+* `Correction` Problème de masquage des messages flottants lorsque plusieurs scripts s'exécutent simultanément _[`issue #67`](https://github.com/suminwell/CeenJs6/issues/67)_
 * `Correction` Problème de plantage de l'application lorsque l'analyse de la mise en page via la diffusion échoue
 * `Correction` Problème de non détection d'évènements pour les instances créées après la première instance de WebSocket
-* `Correction` Annulation de la redirection globale importPackage pour éviter des erreurs d'importation dans certains scopes _[`issue #88`](http://issues.autojs6.com/88)_
+* `Correction` Annulation de la redirection globale importPackage pour éviter des erreurs d'importation dans certains scopes _[`issue #88`](https://github.com/suminwell/CeenJs6/issues/88)_
 * `Correction` Problème de crash de l'application lors de l'utilisation des fonctions copier ou exporter dans la page d'activité des journaux
 * `Amélioration` Renommage de la fonction d'export des journaux en fonction d'envoi et refonte de la fonction d'export pour plus de pertinence
 * `Amélioration` Fonction d'envoi des journaux compatible avec la coupure automatique d'entrées trop volumineuses
-* `Amélioration` Module ocr compatible avec les moteurs Google MLKit et Paddle Lite (voir Documentation > [OCR](https://docs.autojs6.com/#/ocr?id=p-mode))
+* `Amélioration` Module ocr compatible avec les moteurs Google MLKit et Paddle Lite (voir Documentation > [OCR](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/ocr?id=p-mode))
 * `Amélioration` Augmentation du taux de succès de lancement automatique du service d'accessibilité
 * `Amélioration` Migration du traitement des annotations Kotlin de kapt à KSP
 * `Amélioration` Support des outils de construction pour les versions EAP d'IntelliJ IDEA
@@ -657,55 +657,55 @@
 
 ###### 2023/07/21
 
-* `Fonctionnalité` Fonction de commentaire de code dans l'éditeur de code (par [little-alei](https://github.com/little-alei)) _[`pr #98`](http://pr.autojs6.com/98)_
-* `Fonctionnalité` auto.stateListener pour l'écoute de l'état de connexion du service d'accessibilité (par [little-alei](https://github.com/little-alei)) _[`pr #98`](http://pr.autojs6.com/98)_
-* `Fonctionnalité` Ajout des méthodes nextSibling / lastChild / offset pour le type UiObject (voir Documentation > [Nœud de contrôles](https://docs.autojs6.com/#/uiObjectType))
-* `Correction` Problème de l'extension VSCode lors de l'analyse des scripts avec une longueur de caractères de plus de quatre chiffres décimaux _[`issue #91`](http://issues.autojs6.com/91)_ _[`issue #93`](http://issues.autojs6.com/93)_ _[`issue #100`](http://issues.autojs6.com/100)_ _[`issue #109`](http://issues.autojs6.com/109)_
-* `Correction` Problème de non-sauvegarde des fichiers par l'extension VSCode _[`issue #92`](http://issues.autojs6.com/91)_ _[`issue #94`](http://issues.autojs6.com/93)_
+* `Fonctionnalité` Fonction de commentaire de code dans l'éditeur de code (par [little-alei](https://github.com/little-alei)) _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_
+* `Fonctionnalité` auto.stateListener pour l'écoute de l'état de connexion du service d'accessibilité (par [little-alei](https://github.com/little-alei)) _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_
+* `Fonctionnalité` Ajout des méthodes nextSibling / lastChild / offset pour le type UiObject (voir Documentation > [Nœud de contrôles](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType))
+* `Correction` Problème de l'extension VSCode lors de l'analyse des scripts avec une longueur de caractères de plus de quatre chiffres décimaux _[`issue #91`](https://github.com/suminwell/CeenJs6/issues/91)_ _[`issue #93`](https://github.com/suminwell/CeenJs6/issues/93)_ _[`issue #100`](https://github.com/suminwell/CeenJs6/issues/100)_ _[`issue #109`](https://github.com/suminwell/CeenJs6/issues/109)_
+* `Correction` Problème de non-sauvegarde des fichiers par l'extension VSCode _[`issue #92`](https://github.com/suminwell/CeenJs6/issues/91)_ _[`issue #94`](https://github.com/suminwell/CeenJs6/issues/93)_
 * `Correction` Problème de non-navigation vers la page "Gestion des services d'accessibilité" après clic sur l'élément de menu du bouton flottant
-* `Correction` Problème de perte de la méthode runtime.requestPermissions _[`issue #104`](http://issues.autojs6.com/104)_
-* `Correction` Problème de non-support du paramètre MainThreadProxy pour events.emitter _[`issue #103`](http://issues.autojs6.com/103)_
-* `Correction` Problème lors de l'édition de code dans _[`pr #78`](http://pr.autojs6.com/78)_
-* `Correction` Problème de surcharge de la pile d'appels ClassLoader lors de l'utilisation de JavaAdapter _[`issue #99`](http://issues.autojs6.com/99)_ _[`issue #110`](http://issues.autojs6.com/110)_
-* `Amélioration` Ajustement du scope des modules (par [aiselp](https://github.com/aiselp)) _[`pr #75`](http://pr.autojs6.com/75)_ _[`pr #78`](http://pr.autojs6.com/78)_
-* `Amélioration` Suppression de la vérification de signature au démarrage de l'application en version de distribution (par [LZX284](https://github.com/LZX284)) _[`pr #81`](http://pr.autojs6.com/81)_
-* `Amélioration` Amélioration de la fonctionnalité de commentaire de code dans l'éditeur sur la base de _[`pr #98`](http://pr.autojs6.com/98)_
-* `Amélioration` Ajout d'éléments de menu pour commentaire de code dans l'éditeur sur la base de _[`pr #98`](http://pr.autojs6.com/98)_
+* `Correction` Problème de perte de la méthode runtime.requestPermissions _[`issue #104`](https://github.com/suminwell/CeenJs6/issues/104)_
+* `Correction` Problème de non-support du paramètre MainThreadProxy pour events.emitter _[`issue #103`](https://github.com/suminwell/CeenJs6/issues/103)_
+* `Correction` Problème lors de l'édition de code dans _[`pr #78`](https://github.com/suminwell/CeenJs6/pull/78)_
+* `Correction` Problème de surcharge de la pile d'appels ClassLoader lors de l'utilisation de JavaAdapter _[`issue #99`](https://github.com/suminwell/CeenJs6/issues/99)_ _[`issue #110`](https://github.com/suminwell/CeenJs6/issues/110)_
+* `Amélioration` Ajustement du scope des modules (par [aiselp](https://github.com/aiselp)) _[`pr #75`](https://github.com/suminwell/CeenJs6/pull/75)_ _[`pr #78`](https://github.com/suminwell/CeenJs6/pull/78)_
+* `Amélioration` Suppression de la vérification de signature au démarrage de l'application en version de distribution (par [LZX284](https://github.com/LZX284)) _[`pr #81`](https://github.com/suminwell/CeenJs6/pull/81)_
+* `Amélioration` Amélioration de la fonctionnalité de commentaire de code dans l'éditeur sur la base de _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_
+* `Amélioration` Ajout d'éléments de menu pour commentaire de code dans l'éditeur sur la base de _[`pr #98`](https://github.com/suminwell/CeenJs6/pull/98)_
 * `Amélioration` Adaptation de l'extension VSCode 1.0.6
-* `Amélioration` Support du paramètre de niveau pour la méthode UiObject#parent (voir documentation > [Nœud de contrôles](https://docs.autojs6.com/#/uiObjectType))
+* `Amélioration` Support du paramètre de niveau pour la méthode UiObject#parent (voir documentation > [Nœud de contrôles](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType))
 * `Dépendance` Mise à jour de Gradle de la version 8.2 à la version 8.3-rc-1
 
 # v6.3.2
 
 ###### 2023/07/06
 
-* `Fonctionnalité` module crypto (voir documentation du projet > [Cryptage](https://docs.autojs6.com/#/crypto)) _[`issue #70`](http://issues.autojs6.com/70)_
+* `Fonctionnalité` module crypto (voir documentation du projet > [Cryptage](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/crypto)) _[`issue #70`](https://github.com/suminwell/CeenJs6/issues/70)_
 * `Fonctionnalité` Mode UI ajoute des contrôles tels que textswitcher / viewswitcher / viewflipper / numberpicker / video / search
-* `Fonctionnalité` Ajout des fonctionnalités de copie et d'exportation des journaux sur la page d'activité des journaux _[`issue #76`](http://issues.autojs6.com/76)_
+* `Fonctionnalité` Ajout des fonctionnalités de copie et d'exportation des journaux sur la page d'activité des journaux _[`issue #76`](https://github.com/suminwell/CeenJs6/issues/76)_
 * `Fonctionnalité` Le mode client ajoute une fonction d'historique des adresses IP
 * `Correction` Problème où le mode client ne peut pas afficher l'adresse IP après une connexion automatique ou une activation automatique du mode serveur
 * `Correction` Problème où la connexion se perd et ne peut pas se reconnecter après le changement de langue ou le passage en mode nuit en mode client/serveur
 * `Correction` Problème empêchant l'utilisation d'un port personnalisé lors de la saisie de l'adresse cible en mode client
-* `Correction` Problème où certains caractères peuvent provoquer un crash d'AutoJs6 lors de la saisie de l'adresse cible en mode client
+* `Correction` Problème où certains caractères peuvent provoquer un crash d'CeenJs6 lors de la saisie de l'adresse cible en mode client
 * `Correction` Problème de défaillance de certaines commandes à distance du plugin VSCode (tentative de correction)
 * `Correction` Problème où les détails de la version ne peuvent pas être obtenus lors de la détection d'une nouvelle version sur Android 7.x
-* `Correction` Problème où images.pixel ne peut pas obtenir la valeur des pixels de la capture d'écran du service d'accessibilité _[`issue #73`](http://issues.autojs6.com/73)_
+* `Correction` Problème où images.pixel ne peut pas obtenir la valeur des pixels de la capture d'écran du service d'accessibilité _[`issue #73`](https://github.com/suminwell/CeenJs6/issues/73)_
 * `Correction` Problème où les propriétés prédéfinies des contrôles natifs Android (commençant par une majuscule) ne peuvent pas être utilisées en mode UI
-* `Correction` Problème où lors du chargement de plusieurs fichiers avec runtime.loadDex/loadJar, seul le premier fichier est pris en compte _[`issue #88`](http://issues.autojs6.com/88)_
-* `Correction` Problème où seules les icônes de la documentation s'affichent sur certains appareils après l'installation de l'application (tentative de correction) _[`issue #85`](http://issues.autojs6.com/85)_
+* `Correction` Problème où lors du chargement de plusieurs fichiers avec runtime.loadDex/loadJar, seul le premier fichier est pris en compte _[`issue #88`](https://github.com/suminwell/CeenJs6/issues/88)_
+* `Correction` Problème où seules les icônes de la documentation s'affichent sur certains appareils après l'installation de l'application (tentative de correction) _[`issue #85`](https://github.com/suminwell/CeenJs6/issues/85)_
 * `Amélioration` Adaptation pour le plugin VSCode 1.0.5
-* `Amélioration` Support du module cheerio (Réf. à [aiselp](https://github.com/aiselp/AutoX/commit/7176f5ad52d6904383024fb700bf19af75e22903)) _[`issue #65`](http://issues.autojs6.com/65)_
-* `Amélioration` L'instance JsWebSocket prend en charge l'utilisation de la méthode rebuild pour recréer et établir une connexion _[`issue #69`](http://issues.autojs6.com/69)_
+* `Amélioration` Support du module cheerio (Réf. à [aiselp](https://github.com/aiselp/AutoX/commit/7176f5ad52d6904383024fb700bf19af75e22903)) _[`issue #65`](https://github.com/suminwell/CeenJs6/issues/65)_
+* `Amélioration` L'instance JsWebSocket prend en charge l'utilisation de la méthode rebuild pour recréer et établir une connexion _[`issue #69`](https://github.com/suminwell/CeenJs6/issues/69)_
 * `Amélioration` Le module base64 prend en charge le codage et le décodage des tableaux de nombres et des tableaux d'octets Java
-* `Amélioration` Ajout du support de JavaMail pour Android _[`issue #71`](http://issues.autojs6.com/71)_
+* `Amélioration` Ajout du support de JavaMail pour Android _[`issue #71`](https://github.com/suminwell/CeenJs6/issues/71)_
 * `Amélioration` Utilisation du type de données Blob pour obtenir des informations de mise à jour de version afin d'améliorer la compatibilité avec les réseaux sans proxy
 * `Amélioration` Affichage de l'adresse IP cible dans le sous-titre du tiroir de la page d'accueil lorsqu'une connexion client est en cours
 * `Amélioration` Messages d'erreur pour les entrées non valides lors de la saisie de l'adresse cible en mode client
 * `Amélioration` Support de la connexion via la touche Entrée du clavier virtuel en mode client
-* `Amélioration` Maintien de l'état actif du mode serveur après activation (sauf désactivation manuelle ou arrêt du processus de l'application) _[`issue #64`](http://issues.autojs6.com/64#issuecomment-1596990158)_
-* `Amélioration` Détection bidirectionnelle des versions entre AutoJs6 et le plugin VSCode et affichage des résultats anormaux _[`issue #89`](http://issues.autojs6.com/89)_
+* `Amélioration` Maintien de l'état actif du mode serveur après activation (sauf désactivation manuelle ou arrêt du processus de l'application) _[`issue #64`](https://github.com/suminwell/CeenJs6/issues/64#issuecomment-1596990158)_
+* `Amélioration` Détection bidirectionnelle des versions entre CeenJs6 et le plugin VSCode et affichage des résultats anormaux _[`issue #89`](https://github.com/suminwell/CeenJs6/issues/89)_
 * `Amélioration` Ajout de l'autorisation de lecture des messages SMS (android.permission.READ_SMS) (désactivée par défaut)
-* `Amélioration` Implémentation de la méthode findMultiColors (par [LYS86](https://github.com/LYS86)) _[`pr #72`](http://pr.autojs6.com/72)_
+* `Amélioration` Implémentation de la méthode findMultiColors (par [LYS86](https://github.com/LYS86)) _[`pr #72`](https://github.com/suminwell/CeenJs6/pull/72)_
 * `Amélioration` Support du chargement de plusieurs fichiers ou de tout un répertoire avec runtime.loadDex/loadJar/load
 * `Dépendance` Mise à jour de LeakCanary version 2.11 -> 2.12
 * `Dépendance` Mise à jour de Android Analytics version 14.2.0 -> 14.3.0
@@ -715,7 +715,7 @@
 
 ###### 2023/05/26
 
-* `Fonctionnalité` Autorisation de notification de publication et interrupteur dans le tiroir d'accueil _[`issue #55`](http://issues.autojs6.com/55)_
+* `Fonctionnalité` Autorisation de notification de publication et interrupteur dans le tiroir d'accueil _[`issue #55`](https://github.com/suminwell/CeenJs6/issues/55)_
 * `Fonctionnalité` Support de l'analyse de la mise en page Android simple en mode UI (voir Code d'exemple > Mise en page > Mise en page Android simple)
 * `Fonctionnalité` Ajout de contrôles tels que console / imagebutton / ratingbar / switch / textclock / togglebutton en mode UI
 * `Fonctionnalité` Support du type OmniColor pour les valeurs de couleur des contrôles en mode UI (ex. color="orange")
@@ -723,23 +723,23 @@
 * `Fonctionnalité` Support des valeurs de propriété booléennes sous forme abrégée (ex. clickable="true" peut être abrégé en clickable ou isClickable)
 * `Fonctionnalité` Support des propriétés booléennes isColored et isBorderless pour les contrôles button
 * `Fonctionnalité` La méthode console.resetGlobalLogConfig réinitialise la configuration globale des journaux
-* `Fonctionnalité` La méthode web.newWebSocket crée une instance de WebSocket (voir documentation du projet > [Web](https://docs.autojs6.com/#/web?id=m-newwebsocket))
+* `Fonctionnalité` La méthode web.newWebSocket crée une instance de WebSocket (voir documentation du projet > [Web](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/web?id=m-newwebsocket))
 * `Correction` Problème de tri des dossiers dans le gestionnaire de fichiers
-* `Correction` Problème où la fenêtre flottante du module floaty ne peut pas ajuster le style et la position _[`issue #60`](http://issues.autojs6.com/60)_
+* `Correction` Problème où la fenêtre flottante du module floaty ne peut pas ajuster le style et la position _[`issue #60`](https://github.com/suminwell/CeenJs6/issues/60)_
 * `Correction` Problème de chevauchement de la fenêtre flottante du module floaty avec la barre d'état du système
-* `Correction` Problème de fonctionnement de la méthode http.postMultipart _[`issue #56`](http://issues.autojs6.com/56)_
-* `Correction` Problème où aucun script ne peut s'exécuter sous Android 7.x _[`issue #61`](http://issues.autojs6.com/61)_
+* `Correction` Problème de fonctionnement de la méthode http.postMultipart _[`issue #56`](https://github.com/suminwell/CeenJs6/issues/56)_
+* `Correction` Problème où aucun script ne peut s'exécuter sous Android 7.x _[`issue #61`](https://github.com/suminwell/CeenJs6/issues/61)_
 * `Correction` Problème de construction du projet en l'absence du fichier sign.property
-* `Correction` Problème de crash potentiel d'AutoJs6 en arrière-plan en l'absence d'autorisation de notification de premier plan (API >= 33)
+* `Correction` Problème de crash potentiel d'CeenJs6 en arrière-plan en l'absence d'autorisation de notification de premier plan (API >= 33)
 * `Correction` Problème où après avoir appelé la méthode console.show, le bouton FAB de la fenêtre de journalisation ne peut pas effacer les journaux
 * `Correction` Exception de pointeur nul prototype lors du débogage dans l'éditeur de scripts
 * `Correction` Problème où l'éditeur de scripts exécute des scripts dans un dossier temporaire au lieu de les enregistrer et les exécuter à l'emplacement d'origine
-* `Correction` Problème où les contrôles d'analyse de mise en page ne montrent pas correctement les noms de contrôle en cas de profondeur excessive _[`issue #46`](http://issues.autojs6.com/46)_
-* `Amélioration` Ajout d'un bouton de sortie dans la fenêtre flottante d'analyse de la mise en page _[`issue #63`](http://issues.autojs6.com/63)_
+* `Correction` Problème où les contrôles d'analyse de mise en page ne montrent pas correctement les noms de contrôle en cas de profondeur excessive _[`issue #46`](https://github.com/suminwell/CeenJs6/issues/46)_
+* `Amélioration` Ajout d'un bouton de sortie dans la fenêtre flottante d'analyse de la mise en page _[`issue #63`](https://github.com/suminwell/CeenJs6/issues/63)_
 * `Amélioration` Abrécurité des chemins de scripts absolus pour réduire la longueur du texte et augmenter la lisibilité
 * `Amélioration` Remplacement de Error par Exception pour éviter les crashs d'application en cas d'erreur
-* `Amélioration` Migration de la méthode de liaison de vue (View) avec ButterKnife vers View Binding _[`issue #48`](http://issues.autojs6.com/48)_
-* `Amélioration` Redémarrage automatique du mode serveur à l'ouverture de l'application après une fermeture anormale _[`issue #64`](http://issues.autojs6.com/64)_
+* `Amélioration` Migration de la méthode de liaison de vue (View) avec ButterKnife vers View Binding _[`issue #48`](https://github.com/suminwell/CeenJs6/issues/48)_
+* `Amélioration` Redémarrage automatique du mode serveur à l'ouverture de l'application après une fermeture anormale _[`issue #64`](https://github.com/suminwell/CeenJs6/issues/64)_
 * `Amélioration` Reconnexion automatique en mode client avec la dernière adresse historique après une fermeture anormale à l'ouverture de l'application
 * `Dépendance` Mise à jour de LeakCanary version 2.10 -> 2.11
 * `Dépendance` Mise à jour de Android Material version 1.8.0 -> 1.9.0
@@ -751,11 +751,11 @@
 
 ###### 2023/04/29
 
-* `Fonctionnalité` module ocr (voir documentation du projet > [Reconnaissance Optique de Caractères](https://docs.autojs6.com/#/ocr)) _[`issue #8`](http://issues.autojs6.com/8)_
-* `Fonctionnalité` module notice (voir documentation du projet > [Notifications](https://docs.autojs6.com/#/notice))
-* `Fonctionnalité` module s13n (voir documentation du projet > [Standardisation](https://docs.autojs6.com/#/s13n))
-* `Fonctionnalité` module Color (voir documentation du projet > [Type de Couleur](https://docs.autojs6.com/#/colorType))
-* `Fonctionnalité` colors.setColorPaint méthode, pour définir la couleur du pinceau android.graphics.Paint (voir la documentation du projet > [Color Type](https://docs.autojs6.com/#/colorType?id=m-setpaintcolor))
+* `Fonctionnalité` module ocr (voir documentation du projet > [Reconnaissance Optique de Caractères](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/ocr)) _[`issue #8`](https://github.com/suminwell/CeenJs6/issues/8)_
+* `Fonctionnalité` module notice (voir documentation du projet > [Notifications](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/notice))
+* `Fonctionnalité` module s13n (voir documentation du projet > [Standardisation](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/s13n))
+* `Fonctionnalité` module Color (voir documentation du projet > [Type de Couleur](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/colorType))
+* `Fonctionnalité` colors.setColorPaint méthode, pour définir la couleur du pinceau android.graphics.Paint (voir la documentation du projet > [Color Type](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/colorType?id=m-setpaintcolor))
 * `Fonctionnalité` Support de maintien de l'écran allumé en avant-plan et options de configuration
 * `Fonctionnalité` Ajout d'une application de lecture indépendante de la documentation
 * `Correction` Problème dans la méthode colors.toString
@@ -763,29 +763,29 @@
 * `Correction` Comportement anormal des méthodes app.viewFile/editFile si le fichier correspondant n'existe pas
 * `Correction` Problème avec la fonction de rappel de la méthode pickup
 * `Correction` Problème où l'information bounds des contrôles affichée dans l'analyse de mise en page remplace les signes négatifs par des virgules
-* `Correction` Problème où les sélecteurs bounds/boundsInside/boundsContains ne peuvent pas filtrer correctement les rectangles nuls (par exemple, rectangles inversés) _[`issue #49`](http://issues.autojs6.com/49)_
+* `Correction` Problème où les sélecteurs bounds/boundsInside/boundsContains ne peuvent pas filtrer correctement les rectangles nuls (par exemple, rectangles inversés) _[`issue #49`](https://github.com/suminwell/CeenJs6/issues/49)_
 * `Correction` Problème où l'application crash après changement de thème ou de langue en cliquant ou appuyant longuement sur le tag de document de la page d'accueil
 * `Correction` Problème de tremblement lors de l'ajustement de la taille de la police par zoom à deux doigts dans l'éditeur de texte
-* `Correction` Problème de téléchargement de certains dépôts dans les scripts de construction (tous intégrés) _[`issue #40`](http://issues.autojs6.com/40)_
-* `Correction` Problème de plugin d'action de Tasker ne pouvant pas ajouter d'actions AutoJs6 (tentative de correction) _[`issue #41`](http://issues.autojs6.com/41)_
-* `Correction` Problème de ButterKnife ne pouvant pas résoudre les identifiants de ressources avec les versions récentes de JDK _[`issue #48`](http://issues.autojs6.com/48)_
+* `Correction` Problème de téléchargement de certains dépôts dans les scripts de construction (tous intégrés) _[`issue #40`](https://github.com/suminwell/CeenJs6/issues/40)_
+* `Correction` Problème de plugin d'action de Tasker ne pouvant pas ajouter d'actions CeenJs6 (tentative de correction) _[`issue #41`](https://github.com/suminwell/CeenJs6/issues/41)_
+* `Correction` Problème de ButterKnife ne pouvant pas résoudre les identifiants de ressources avec les versions récentes de JDK _[`issue #48`](https://github.com/suminwell/CeenJs6/issues/48)_
 * `Correction` Problème de service d'accessibilité avec des erreurs de service fréquentes (tentative de correction)
 * `Correction` Problème d'utilisation incorrecte du paramètre de taille dans la méthode images.medianBlur
 * `Correction` Problème d'affichage complet des noms de scripts dans le module engines perdant le point entre le nom et l'extension de fichier
 * `Correction` Problème potentiel de calcul incorrect dans l'algorithme de détection de distance RGB pondéré (tentative de correction)
 * `Correction` Problème où les méthodes liées aux fenêtres flottantes du module console ne peuvent pas être appelées avant la méthode show
-* `Correction` Problème où certaines méthodes, comme console.setSize, peuvent ne pas fonctionner _[`issue #50`](http://issues.autojs6.com/50)_
+* `Correction` Problème où certaines méthodes, comme console.setSize, peuvent ne pas fonctionner _[`issue #50`](https://github.com/suminwell/CeenJs6/issues/50)_
 * `Correction` Problème de valeurs de constantes de couleur erronées dans colors.material
 * `Correction` Problème où les propriétés minDate et maxDate du contrôle de sélection de date en mode UI ne parviennent pas à analyser correctement les dates
 * `Correction` Problème de duplication de tâches en cours d'exécution lors de la commutation rapide vers l'onglet "Tâches" de la page d'accueil après le lancement d'un script
-* `Correction` Problème de réinitialisation de l'état de la page de gestion des fichiers lors du retour d'autres pages _[`issue #52`](http://issues.autojs6.com/52)_
+* `Correction` Problème de réinitialisation de l'état de la page de gestion des fichiers lors du retour d'autres pages _[`issue #52`](https://github.com/suminwell/CeenJs6/issues/52)_
 * `Correction` Problème de tri des fichiers dans la gestion des fichiers ne correspondant pas à l'icône d'affichage
 * `Amélioration` Affichage de la date de modification des fichiers et dossiers dans la page de gestion des fichiers
 * `Amélioration` Support de la mémorisation du type de tri dans la page de gestion des fichiers
-* `Amélioration` Ajout de sections sur la compilation et construction du projet et sur les outils d'aide au développement des scripts dans README.md _[`issue #33`](http://issues.autojs6.com/33)_
-* `Amélioration` Support d'autres formats pour le paramètre d'option de région dans les méthodes du module images (voir documentation du projet > [Types Omnipotents](https://docs.autojs6.com/#/omniTypes?id=omniregion))
+* `Amélioration` Ajout de sections sur la compilation et construction du projet et sur les outils d'aide au développement des scripts dans README.md _[`issue #33`](https://github.com/suminwell/CeenJs6/issues/33)_
+* `Amélioration` Support d'autres formats pour le paramètre d'option de région dans les méthodes du module images (voir documentation du projet > [Types Omnipotents](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/omniTypes?id=omniregion))
 * `Amélioration` Support de pages abrégées additionnelles (comme pref/homepage/docs/about) pour app.startActivity
-* `Amélioration` Ancrage des méthodes globales du module web au module lui-même pour améliorer l'utilisabilité (voir documentation du projet > [Web](https://docs.autojs6.com/#/web))
+* `Amélioration` Ancrage des méthodes globales du module web au module lui-même pour améliorer l'utilisabilité (voir documentation du projet > [Web](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/web))
 * `Amélioration` Support par la méthode web.newInjectableWebView des options de configuration WebView par défaut pour une meilleure fonctionnalité
 * `Amélioration` Ajout de plusieurs méthodes de conversion et utilitaires dans le module colors, ajout de constantes statiques supplémentaires et de noms de couleurs pouvant être directement utilisés comme paramètres
 * `Amélioration` Ajout de plusieurs méthodes de configuration de la fenêtre flottante du module console et support de l'unification des styles de fenêtre via un constructeur build
@@ -795,7 +795,7 @@
 * `Amélioration` Support du paramètre d'option de délai d'attente (timeout) pour les méthodes liées au module http
 * `Amélioration` Support de la réduction proactive de la version JDK dans les scripts de construction Gradle en cas de besoin
 * `Amélioration` Support de la sélection automatique de la version appropriée des outils de construction selon le type et la version de la plateforme dans les scripts de construction Gradle (dans la mesure du possible)
-* `Dépendance` Intégration de la version localisée 1.0.3 de Auto.js APK Builder
+* `Dépendance` Intégration de la version localisée 1.0.3 de Ceen.js APK Builder
 * `Dépendance` Intégration de la version localisée 1.1 de MultiLevelListView
 * `Dépendance` Intégration de la version localisée 1.1.5 de Settings Compat
 * `Dépendance` Intégration de la version localisée 0.31 de Enhanced Floaty
@@ -824,22 +824,22 @@
 * `Fonctionnalité` Le gestionnaire de fichiers permet de définir n'importe quel répertoire comme chemin de travail par raccourci
 * `Fonctionnalité` Gestion d'ignorance des mises à jour et des mises à jour ignorées
 * `Fonctionnalité` L'éditeur de texte prend en charge le zoom à deux doigts pour ajuster la taille de la police
-* `Fonctionnalité` Sélecteur idHex (UiSelector#idHex) (voir documentation du projet > [Sélecteurs](https://docs.autojs6.com/#/uiSelectorType))
-* `Fonctionnalité` Sélecteur action (UiSelector#action) (voir documentation du projet > [Sélecteurs](https://docs.autojs6.com/#/uiSelectorType))
-* `Fonctionnalité` Sélecteurs de la série Match (UiSelector#xxxMatch) (voir documentation du projet > [Sélecteurs](https://docs.autojs6.com/#/uiSelectorType))
-* `Fonctionnalité` Sélecteur de capture (UiSelector#pickup) (voir documentation du projet > [Sélecteurs](https://docs.autojs6.com/#/uiSelectorType)) _[`issue #22`](http://issues.autojs6.com/22)_
-* `Fonctionnalité` Détection de contrôles (UiObject#detect) (voir documentation du projet > [Nœuds de contrôle](https://docs.autojs6.com/#/uiObjectType))
-* `Fonctionnalité` Boussole de contrôle (UiObject#compass) (voir documentation du projet > [Nœuds de contrôle](https://docs.autojs6.com/#/uiObjectType)) _[`issue #23`](http://issues.autojs6.com/23)_
-* `Fonctionnalité` Méthode d'attente globale wait (voir documentation du projet > [Objets globaux](https://docs.autojs6.com/#/global?id=m-wait))
-* `Fonctionnalité` Méthodes de zoom globales cX/cY/cYx (voir documentation du projet > [Objets globaux](https://docs.autojs6.com/#/global?id=m-wait))
-* `Fonctionnalité` Type d'application global (voir documentation du projet > [Types d'application](https://docs.autojs6.com/#/appType))
+* `Fonctionnalité` Sélecteur idHex (UiSelector#idHex) (voir documentation du projet > [Sélecteurs](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType))
+* `Fonctionnalité` Sélecteur action (UiSelector#action) (voir documentation du projet > [Sélecteurs](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType))
+* `Fonctionnalité` Sélecteurs de la série Match (UiSelector#xxxMatch) (voir documentation du projet > [Sélecteurs](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType))
+* `Fonctionnalité` Sélecteur de capture (UiSelector#pickup) (voir documentation du projet > [Sélecteurs](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiSelectorType)) _[`issue #22`](https://github.com/suminwell/CeenJs6/issues/22)_
+* `Fonctionnalité` Détection de contrôles (UiObject#detect) (voir documentation du projet > [Nœuds de contrôle](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType))
+* `Fonctionnalité` Boussole de contrôle (UiObject#compass) (voir documentation du projet > [Nœuds de contrôle](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/uiObjectType)) _[`issue #23`](https://github.com/suminwell/CeenJs6/issues/23)_
+* `Fonctionnalité` Méthode d'attente globale wait (voir documentation du projet > [Objets globaux](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/global?id=m-wait))
+* `Fonctionnalité` Méthodes de zoom globales cX/cY/cYx (voir documentation du projet > [Objets globaux](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/global?id=m-wait))
+* `Fonctionnalité` Type d'application global (voir documentation du projet > [Types d'application](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/appType))
 * `Fonctionnalité` Module i18n (Solution JavaScript multilingue basée sur banana-i18n) (voir documentation du projet > Internationalisation)
 * `Correction` Problèmes d'affichage temporaire du texte et défaillances fonctionnelles de certains boutons après un changement de langue
 * `Correction` Barre d'outils de projet non affichée lors du démarrage de l'application si le chemin de travail est un projet
-* `Correction` Chemin de travail modifié automatiquement après un changement de langue _[`issue #19`](http://issues.autojs6.com/19)_
-* `Correction` Retard significatif lors du démarrage des tâches planifiées (tentative de correction) _[`issue #21`](http://issues.autojs6.com/21)_
-* `Correction` Problèmes d'utilisation des modules internes lorsque le nom de module JavaScript est redéfini _[`issue #29`](http://issues.autojs6.com/29)_
-* `Correction` Impossibilité de réduire automatiquement le panneau de paramètres rapides sur les systèmes Android avancés (tentative de correction) _[`issue #7`](http://issues.autojs6.com/7)_
+* `Correction` Chemin de travail modifié automatiquement après un changement de langue _[`issue #19`](https://github.com/suminwell/CeenJs6/issues/19)_
+* `Correction` Retard significatif lors du démarrage des tâches planifiées (tentative de correction) _[`issue #21`](https://github.com/suminwell/CeenJs6/issues/21)_
+* `Correction` Problèmes d'utilisation des modules internes lorsque le nom de module JavaScript est redéfini _[`issue #29`](https://github.com/suminwell/CeenJs6/issues/29)_
+* `Correction` Impossibilité de réduire automatiquement le panneau de paramètres rapides sur les systèmes Android avancés (tentative de correction) _[`issue #7`](https://github.com/suminwell/CeenJs6/issues/7)_
 * `Correction` Chevauchement de certaines pages avec la zone de la barre de notification sur les systèmes Android avancés
 * `Correction` Exemples de code pour le réglage des couleurs des pinceaux non fonctionnels sur les systèmes Android 10 et plus
 * `Correction` Correction du nom du fichier "Gestion de la musique" en "Gestionnaire de fichiers" et rétablissement de ses fonctions
@@ -867,7 +867,7 @@
 * `Correction` Problèmes de visibilité des boutons de navigation en mode nuit sur les systèmes Android 7.x
 * `Correction` Problèmes de requêtes non fermées pour http.post et autres méthodes similaires
 * `Correction` Problèmes de perte des informations du canal alpha dans les résultats de colors.toString lorsque la valeur alpha est 0
-* `Amélioration` Redirection des classes publiques de la version Auto.js 4.x pour assurer une compatibilité descendante maximale possible (dans une certaine mesure)
+* `Amélioration` Redirection des classes publiques de la version Ceen.js 4.x pour assurer une compatibilité descendante maximale possible (dans une certaine mesure)
 * `Amélioration` Fusionner tous les modules du projet pour éviter d'éventuels problèmes de référence circulaire (supprimer temporairement le module inrt)
 * `Amélioration` Migrer la configuration de construction Gradle de Groovy à KTS
 * `Amélioration` Ajouter un support multilingue pour les messages d'exception de Rhino
@@ -900,17 +900,17 @@
 * `Amélioration` Lors de la sélection de fichiers à l'aide de la fenêtre flottante, appuyer sur la touche de retour ramène au répertoire supérieur au lieu de fermer directement la fenêtre
 * `Amélioration` Prise en charge de la détection de validité numérique et de la conversion automatique des symboles pointillés lors de la saisie d'une adresse en mode client se connectant à l'ordinateur
 * `Amélioration` Afficher l'adresse IP du périphérique correspondant dans le tiroir de la page d'accueil après que le client et le serveur se sont connectés
-* `Amélioration` Ajouter une protection contre la réécriture à certains objets globaux et modules intégrés (consultez la documentation du projet > Objets globaux > [Protection contre la réécriture](https://docs.autojs6.com/#/global?id=%e8%a6%86%e5%86%99%e4%bf%9d%e6%8a%a4))
+* `Amélioration` Ajouter une protection contre la réécriture à certains objets globaux et modules intégrés (consultez la documentation du projet > Objets globaux > [Protection contre la réécriture](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/global?id=%e8%a6%86%e5%86%99%e4%bf%9d%e6%8a%a4))
 * `Amélioration` importClass et importPackage prennent en charge des paramètres de chaîne et des paramètres de longueur variable
 * `Amélioration` ui.run prend en charge l'impression des informations de trace de pile en cas d'exception
-* `Amélioration` ui.R et auto.R peuvent obtenir commodément l'ID de ressources d'AutoJs6
+* `Amélioration` ui.R et auto.R peuvent obtenir commodément l'ID de ressources d'CeenJs6
 * `Amélioration` Les méthodes associées à l'utilisation d'applications dans le module app prennent en charge des paramètres de type App et des paramètres d'alias d'application
 * `Amélioration` Les méthodes associées au rappel asynchrone dans le module dialogs prennent en charge l'omission des paramètres pré-remplis
 * `Amélioration` app.startActivity et autres prennent en charge des paramètres d'option d'URL (voir code d'exemple > Applications > Intention)
 * `Amélioration` Le module device renvoie null au lieu de lancer une exception lorsque l'obtention de l'IMEI ou du numéro de série matériel échoue
 * `Amélioration` Augmenter la luminosité du texte dans le journal de la fenêtre flottante affichée par console.show pour améliorer la lisibilité du contenu
 * `Amélioration` ImageWrapper#saveTo prend en charge la sauvegarde de fichiers image dans des chemins relatifs
-* `Amélioration` Reconcevoir l'objet global colors et inclure la prise en charge des modes de couleur HSV / HSL (consultez la documentation du projet > [Couleurs](https://docs.autojs6.com/#/color)).
+* `Amélioration` Reconcevoir l'objet global colors et inclure la prise en charge des modes de couleur HSV / HSL (consultez la documentation du projet > [Couleurs](https://github.com/suminwell/CeenJs6/tree/ceen/app/src/main/assets-app/docs/#/color)).
 * `Dépendance` Localisation de la version 1.4.3 de Android Job
 * `Dépendance` Localisation de la version 9.0.0 du SDK Client de Plugin Android pour Locale
 * `Dépendance` Localisation de la version 1.306 de l'API GitHub
@@ -943,8 +943,8 @@
 ###### 2022/05/31
 
 * `Fonctionnalité` Fonction de vérification des mises à jour / téléchargement des mises à jour / notification des mises à jour (voir la page des paramètres) (pas encore supporté pour le système Android 7.x)
-* `Correction` Problème de lecture/écriture sur le stockage externe sous Android 10 _[`issue #17`](http://issues.autojs6.com/17)_
-* `Correction` Problème de crash de l'application lors de l'appui long sur la page de l'éditeur _[`issue #18`](http://issues.autojs6.com/18)_
+* `Correction` Problème de lecture/écriture sur le stockage externe sous Android 10 _[`issue #17`](https://github.com/suminwell/CeenJs6/issues/17)_
+* `Correction` Problème de crash de l'application lors de l'appui long sur la page de l'éditeur _[`issue #18`](https://github.com/suminwell/CeenJs6/issues/18)_
 * `Correction` Problème de fonctionnement des fonctions "Supprimer la ligne" et "Copier la ligne" dans le menu contextuel de l'éditeur
 * `Correction` Problème de l'absence de la fonction "Coller" dans le menu des options de l'éditeur
 * `Amélioration` Internationalisation partielle des messages d'erreur (en / zh)
@@ -956,11 +956,11 @@
 
 ###### 2022/05/26 - Changement du nom du package, mise à niveau avec prudence
 
-* `Astuce` Modification du nom du package de l'application vers org.autojs.autojs6 pour éviter le conflit avec le nom du package de l'application open source Auto.js
+* `Astuce` Modification du nom du package de l'application vers org.ceenjs.ceenjs6 pour éviter le conflit avec le nom du package de l'application open source Ceen.js
 * `Fonctionnalité` Ajout du commutateur "Permission de projection média" dans le menu principal (Mode Root / ADB) (détection de l'état du commutateur en expérimental)
 * `Fonctionnalité` Le gestionnaire de fichiers prend en charge l'affichage des fichiers et dossiers cachés (voir la page des paramètres)
 * `Fonctionnalité` Fonction de vérification forcée Root (voir la page des paramètres et les exemples de code)
-* `Fonctionnalité` Module autojs (voir des exemples de code > AutoJs6)
+* `Fonctionnalité` Module ceenjs (voir des exemples de code > CeenJs6)
 * `Fonctionnalité` Module tasks (voir des exemples de code > Tâches)
 * `Fonctionnalité` Méthode console.launch() pour démarrer la page d'activité des journaux
 * `Fonctionnalité` Outil util.morseCode (voir des exemples de code > Outils > Code Morse)
@@ -975,9 +975,9 @@
 * `Fonctionnalité` La méthode dialogs.build prend en charge des paramètres d'option tels que animation, linkify, etc. (voir des exemples de code > Dialogues > Dialogues personnalisés)
 * `Correction` Les paramètres d'option inputHint, itemsSelectedIndex, etc. de dialogs.build ne fonctionnent pas correctement
 * `Correction` Anomalies des paramètres de rappel dans JsDialog#on('multi_choice')
-* `Correction` Problème de retour constant de -1 par UiObject#parent().indexInParent() _[`issue #16`](http://issues.autojs6.com/16)_
+* `Correction` Problème de retour constant de -1 par UiObject#parent().indexInParent() _[`issue #16`](https://github.com/suminwell/CeenJs6/issues/16)_
 * `Correction` Problème de non-exécution des Thenable retournées par Promise.resolve() à la fin du script
-* `Correction` Erreurs potentielles dans les noms des packages ou classes (boardcast -> broadcast / auojs -> autojs)
+* `Correction` Erreurs potentielles dans les noms des packages ou classes (boardcast -> broadcast / auojs -> ceenjs)
 * `Correction` Problème potentiel de crash de l'application lors de l'utilisation de images.requestScreenCapture() sous les versions Android ≥ 31
 * `Correction` Problème potentiel de crash de l'application lors de demandes simultanées d'images.requestScreenCapture() par plusieurs scripts
 * `Correction` Problème de gel potentiel lors de l'appel à new RootAutomator()
@@ -1020,10 +1020,10 @@
 * `Fonctionnalité` Fonction de changement de langue (encore incomplète)
 * `Fonctionnalité` Module enregistreur (voir des exemples de code > Minuteries)
 * `Fonctionnalité` Utilisation de "la permission de modification des paramètres de sécurité" pour activer automatiquement les services d'accessibilité et les commutateurs de réglages
-* `Correction` Problème de non-fermeture automatique du panneau des paramètres rapides après avoir cliqué sur les icônes concernées (tentative de correction) _[`issue #7`](http://issues.autojs6.com/7)_
-* `Correction` Problème potentiel de crash d'AutoJs6 lors de l'utilisation de la fonction toast avec le paramètre de forçage d'affichage
-* `Correction` Problème potentiel de crash d'AutoJs6 lors de l'envoi de paquets de données incomplets via Socket
-* `Amélioration` Activation automatique des services d'accessibilité lors du démarrage ou redémarrage d'AutoJs6 selon les paramètres d'options
+* `Correction` Problème de non-fermeture automatique du panneau des paramètres rapides après avoir cliqué sur les icônes concernées (tentative de correction) _[`issue #7`](https://github.com/suminwell/CeenJs6/issues/7)_
+* `Correction` Problème potentiel de crash d'CeenJs6 lors de l'utilisation de la fonction toast avec le paramètre de forçage d'affichage
+* `Correction` Problème potentiel de crash d'CeenJs6 lors de l'envoi de paquets de données incomplets via Socket
+* `Amélioration` Activation automatique des services d'accessibilité lors du démarrage ou redémarrage d'CeenJs6 selon les paramètres d'options
 * `Amélioration` Tentative d'ouverture automatique des services d'accessibilité lors de l'activation des boutons flottants
 * `Amélioration` Complétion des traductions anglaises de tous les fichiers de ressources
 * `Amélioration` Ajustement mineur de la mise en page du tiroir principal pour réduire l'espacement entre les éléments
@@ -1041,7 +1041,7 @@
 * `Dépendance` Mise à jour de OpenCV de la version 3.4.3 à 4.5.4 puis 4.5.5 (référence à [TonyJiangWJ](https://github.com/TonyJiangWJ))
 * `Dépendance` Mise à jour d'OkHttp3 de la version 3.10.0 à 5.0.0-alpha.4 puis 5.0.0-alpha.6
 * `Dépendance` Mise à jour des outils de construction Gradle de la version 7.2.0-beta01 à 7.3.0-alpha06
-* `Dépendance` Mise à jour d'Auto.js-ApkBuilder de la version 1.0.1 à 1.0.3
+* `Dépendance` Mise à jour d'Ceen.js-ApkBuilder de la version 1.0.1 à 1.0.3
 * `Dépendance` Mise à jour de Glide Compiler de la version 4.12.0 à 4.13.1
 * `Dépendance` Mise à jour de la distribution Gradle de la version 7.4-rc-2 à 7.4.1
 * `Dépendance` Mise à jour de Gson de la version 2.8.9 à 2.9.0
@@ -1055,7 +1055,7 @@
 * `Correction` Problème où toast.dismiss() peut être inefficace
 * `Correction` Problème où le mode client et le mode serveur peuvent ne pas fonctionner correctement
 * `Correction` Problème où l'état des commutateurs de mode client et serveur peut ne pas se rafraîchir correctement
-* `Correction` Anomalie de l'analyse des éléments textuels en mode UI sous Android 7.x (Réf à [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`issue #4`](http://issues.autojs6.com/4)_ _[`issue #9`](http://issues.autojs6.com/9)_
+* `Correction` Anomalie de l'analyse des éléments textuels en mode UI sous Android 7.x (Réf à [TonyJiangWJ](https://github.com/TonyJiangWJ)) _[`issue #4`](https://github.com/suminwell/CeenJs6/issues/4)_ _[`issue #9`](https://github.com/suminwell/CeenJs6/issues/9)_
 * `Amélioration` Ignorer l'exception ScriptInterruptedException de sleep()
 * `Dépendance` Ajout de la version 1.0.2 de AndroidX AppCompat (Legacy)
 * `Dépendance` Mise à niveau de la version de AndroidX AppCompat de 1.4.0 à 1.4.1
@@ -1070,8 +1070,8 @@
 
 ###### 2022/01/01
 
-* `Fonctionnalité` Support de la connexion du plugin VSCode en mode client (LAN) et serveur (LAN/ADB) (Réf à [Auto.js Pro](https://g.pro.autojs.org/))
-* `Fonctionnalité` Module base64 (Réf à [Auto.js Pro](https://g.pro.autojs.org/))
+* `Fonctionnalité` Support de la connexion du plugin VSCode en mode client (LAN) et serveur (LAN/ADB) (Réf à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
+* `Fonctionnalité` Module base64 (Réf à [Ceen.js Pro](https://github.com/suminwell/CeenJs6/))
 * `Fonctionnalité` Ajout des méthodes globales isInteger/isNullish/isObject/isPrimitive/isReference
 * `Fonctionnalité` Ajout de polyfill (Object.getOwnPropertyDescriptors)
 * `Fonctionnalité` Ajout de polyfill (Array.prototype.flat)
