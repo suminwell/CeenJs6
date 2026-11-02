@@ -21,6 +21,7 @@ desktop.ini
 __pycache__/
 .hprof/
 .vscode/
+.test/
 
 !.run
 
